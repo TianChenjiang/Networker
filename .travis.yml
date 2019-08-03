@@ -1,0 +1,2 @@
+language: Go
+go: 1.12.x
