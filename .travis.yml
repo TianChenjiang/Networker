@@ -1,2 +1,5 @@
-language: Go
-go: 1.12.x
+sudo: required
+
+branches:
+  only:
+  - master
