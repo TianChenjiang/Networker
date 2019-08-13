@@ -1,0 +1,21 @@
+version: '3'
+services:
+  citicup-server:
+    image: citicup/server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    environment:
+      - VIRTUAL_HOST=citicup.top
+      - VIRTUAL_PORT=5000
+      - LETSENCRYPT_HOST=citicup.top
+      - LETSENCRYPT_EMAIL=1071956678@qq.com
+    networks:
+      - web
+      - proxy
+# TODO: gin系列的api gateway , eureka支持
+networks:
+  web:
+    external: true
+  proxy:
+    external: true
