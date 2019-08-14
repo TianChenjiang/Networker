@@ -1,9 +1,10 @@
 package main
 
 import (
-	"./router"
+	"citicup-server/router"
 )
 
 func main() {
-	router.InitRouter()
+	router := router.InitRouter()
+	router.Run(":8080")
 }
