@@ -1,4 +1,5 @@
-package models
+package gorm
+
 
 import (
 	"fmt"
@@ -45,6 +46,12 @@ func Setup() {
 	db.DB().SetMaxIdleConns(10)
 	db.DB().SetMaxOpenConns(100)
 }
+
+//得到当前db
+func GetDB() *gorm.DB {
+	return db
+}
+
 
 func CloseDB() {
 	defer db.Close()

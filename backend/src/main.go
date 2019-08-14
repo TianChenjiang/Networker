@@ -5,6 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
+	"networker/backend/src/pkg/gorm"
 	"networker/backend/src/pkg/setting"
 	"networker/backend/src/pkg/util"
 	"networker/backend/src/routers"
@@ -13,8 +14,10 @@ import (
 func init() {
 	setting.Setup()
 	util.Setup()
+	gorm.Setup()
 	//todo
 }
+
 
 func main() {
 	gin.SetMode(setting.ServerSetting.RunMode)
