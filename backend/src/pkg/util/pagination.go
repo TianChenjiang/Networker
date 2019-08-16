@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	//"github.com/go-ini/ini"
 	"github.com/Unknwon/com"
-	"go-web-demo/pkg/setting"
+	"networker/backend/src/pkg/setting"
 )
 
 //分页页码
