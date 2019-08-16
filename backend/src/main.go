@@ -5,10 +5,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
-	"networker/backend/src/pkg/gorm"
-	"networker/backend/src/pkg/setting"
-	"networker/backend/src/pkg/util"
-	"networker/backend/src/routers"
+	"src/pkg/setting"
+	"src/pkg/util"
+	"src/routers"
+	"src/pkg/gorm"
 )
 
 func init() {

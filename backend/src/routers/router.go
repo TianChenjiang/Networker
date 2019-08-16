@@ -2,9 +2,9 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	"networker/backend/src/pkg/setting"
+	"src/pkg/setting"
 
-	"go-web-demo/routers/api"
+	//"go-web-demo/routers/api"
 )
 
 func InitRouter() *gin.Engine {
@@ -17,11 +17,10 @@ func InitRouter() *gin.Engine {
 	gin.SetMode(setting.ServerSetting.RunMode)
 
 	//获取token
-	r.GET("/auth", api.GetAuth)
-
+	//TODO: 这里的不太对
+	//r.GET("/auth", api.GetAuth)
 
 	//apiv1 := r.Group("/api/v1")
-
 
 	return r
 }
