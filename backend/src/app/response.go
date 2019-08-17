@@ -15,10 +15,10 @@ type Response struct {
 	Data   interface{}   `json:"data"`
 }
 
-func (g *Gin) Response(httpcode int, errorcode int, data interface{})  {
-	g.C.JSON(httpcode, Response{
-		Code: httpcode,
-		Msg:  e.GetMsg(errorcode),
+func (g *Gin) Response(httpCode int, errorCode int, data interface{})  {
+	g.C.JSON(httpCode, Response{
+		Code: httpCode,
+		Msg:  e.GetMsg(errorCode),
 		Data: data,
 	})
 	return

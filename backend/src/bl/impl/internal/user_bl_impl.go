@@ -10,8 +10,8 @@ type User struct {
 	UserModel models.IUser
 }
 
-func NewUser(
-	user models.IUser, ) *User {
+func NewUser(user models.IUser,
+	) *User {
 	return &User{
 		UserModel: user,
 	}
