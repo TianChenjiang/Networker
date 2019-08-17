@@ -1,8 +1,8 @@
 package bl
 
 import (
-	"networker/backend/src/schema"
 	"context"
+	"networker/backend/src/schema"
 )
 
 type IUser interface  {

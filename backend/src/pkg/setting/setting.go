@@ -50,7 +50,7 @@ func Setup() {
 		log.Fatalf("Fail to parse 'conf/app.ini': %v", err)
 	}
 
-	err = Cfg.Section("app").MapTo(AppSetting)
+	err = Cfg.Section("src").MapTo(AppSetting)
 	if err != nil {
 		log.Fatalf("Cfg.MapTo AppSetting err: %v", err)
 	}
