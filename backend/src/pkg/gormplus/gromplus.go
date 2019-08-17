@@ -1,10 +1,11 @@
-package gorm
+package gormplus
 
 
 import (
 	"fmt"
 	"log"
-	"src/pkg/setting"
+	"networker/backend/src/model/impl/entity"
+	"networker/backend/src/pkg/setting"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
@@ -15,13 +16,41 @@ import (
 
 var db *gorm.DB
 
-type Model struct {
-	ID int `gorm:"primary_key" json:"id"`
-	CreatedOn int `json:"created_on"`
-	ModifiedOn int `json:"modified_on"`
-	DeletedOn int `json:"deleted_on"`
+//// New 创建DB实例
+//func New(c *Config) (*DB, error) {
+//	db, err := gorm.Open(c.DBType, c.DSN)
+//	if err != nil {
+//		return nil, err
+//	}
+//
+//	if c.Debug {
+//		db = db.Debug()
+//	}
+//
+//	err = db.DB().Ping()
+//	if err != nil {
+//		return nil, err
+//	}
+//
+//	db.DB().SetMaxIdleConns(c.MaxIdleConns)
+//	db.DB().SetMaxOpenConns(c.MaxOpenConns)
+//	db.DB().SetConnMaxLifetime(time.Duration(c.MaxLifetime) * time.Second)
+//	return &DB{db}, nil
+//}
+
+
+// Wrap 包装gorm
+func Wrap(db *gorm.DB) *DB {
+	return &DB{db}
 }
 
+// DB gorm扩展DB
+type DB struct {
+	*gorm.DB
+}
+
+
+//数据库的配置
 func Setup() {
 	var err error
 	db, err = gorm.Open(setting.DatabaseSetting.Type, fmt.Sprintf("%s:%s@tcp(%s)/%s?charset=utf8&parseTime=True&loc=Local",
@@ -38,18 +67,17 @@ func Setup() {
 		return setting.DatabaseSetting.TablePrefix + defaultTableName
 	}
 
+
 	db.SingularTable(true)
 	//回调 自动更新更新，删除时间
-	db.Callback().Create().Replace("gorm:update_time_stamp", UpdateTimeStampForCreateCallback)
-	db.Callback().Update().Replace("gorm:update_time_stamp", UpdateTimeStampForUpdateCallback)
-	db.Callback().Delete().Replace("gorm:delete", deleteCallback)
+	db.Callback().Create().Replace("gormplus:update_time_stamp", UpdateTimeStampForCreateCallback)
+	db.Callback().Update().Replace("gormplus:update_time_stamp", UpdateTimeStampForUpdateCallback)
+	db.Callback().Delete().Replace("gormplus:delete", deleteCallback)
 	db.DB().SetMaxIdleConns(10)
 	db.DB().SetMaxOpenConns(100)
-}
 
-//得到当前db
-func GetDB() *gorm.DB {
-	return db
+	//自动映射
+	db.AutoMigrate(&entity.User{})
 }
 
 
@@ -76,7 +104,7 @@ func UpdateTimeStampForCreateCallback(scope *gorm.Scope) {
 }
 
 func UpdateTimeStampForUpdateCallback(scope *gorm.Scope) {
-	if _, ok := scope.Get("gorm:update_column"); !ok {
+	if _, ok := scope.Get("gormplus:update_column"); !ok {
 		scope.SetColumn("ModifiedOn", time.Now().Unix())
 	}
 }
@@ -85,7 +113,7 @@ func UpdateTimeStampForUpdateCallback(scope *gorm.Scope) {
 func deleteCallback(scope *gorm.Scope) {
 	if !scope.HasError() {
 		var extraOption string
-		if str, ok := scope.Get("gorm:delete_option"); ok {
+		if str, ok := scope.Get("gormplus:delete_option"); ok {
 			extraOption = fmt.Sprint(str)
 		}
 

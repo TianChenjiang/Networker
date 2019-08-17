@@ -5,28 +5,28 @@ import (
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
-	"src/pkg/setting"
-	"src/pkg/util"
-	"src/routers"
-	"src/pkg/gorm"
+	"networker/backend/src/pkg/gormplus"
+	"networker/backend/src/pkg/setting"
+	"networker/backend/src/pkg/util"
+	"networker/backend/src/routers"
 )
 
 func init() {
 	setting.Setup()
 	util.Setup()
-	gorm.Setup()
+	gormplus.Setup()
 	//todo
 }
 
 
 func main() {
 	gin.SetMode(setting.ServerSetting.RunMode)
-
 	routersInit := routers.InitRouter()
 	readTimeout := setting.ServerSetting.ReadTimeout
 	writeTimeout := setting.ServerSetting.WriteTimeout
 	endPoint := fmt.Sprintf(":%d", setting.ServerSetting.HttpPort)
 	maxHeaderBytes := 1 << 20
+
 
 	server := &http.Server{
 		Addr:           endPoint,
