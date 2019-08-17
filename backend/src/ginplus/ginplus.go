@@ -3,6 +3,7 @@ package ginplus
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
+	icontext "networker/backend/src/context"
 	"networker/backend/src/pkg/util"
 	"networker/backend/src/schema"
 	"strings"
@@ -26,12 +27,12 @@ func NewContext(c *gin.Context) context.Context {
 	parent := context.Background()
 
 	if v := GetTraceID(c); v != "" {
-		//parent = icontext.NewTraceID(parent, v)
+		parent = icontext.NewTraceID(parent, v)
 		//parent = logger.NewTraceIDContext(parent, GetTraceID(c))
 	}
 
 	if v := GetUserID(c); v != "" {
-		//parent = icontext.NewUserID(parent, v)
+		parent = icontext.NewUserID(parent, v)
 		//parent = logger.NewUserIDContext(parent, v)
 	}
 

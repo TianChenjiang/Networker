@@ -17,12 +17,7 @@ func AutoMigrate(db *gormplus.DB) error {
 	).Error
 }
 
-// Inject 注入gorm实现
-// 使用方式：
-//   container := dig.New()
-//   Inject(container)
-//   container.Invoke(func(foo IDemo) {
-//   })
+
 func Inject(container *dig.Container) error {
 
 	container.Provide(model.NewUser, dig.As(new(models.IUser)))

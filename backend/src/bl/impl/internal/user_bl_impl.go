@@ -10,6 +10,14 @@ type User struct {
 	UserModel models.IUser
 }
 
+func NewUser(
+	user models.IUser, ) *User {
+	return &User{
+		UserModel: user,
+	}
+}
+
+
 // Create 创建数据
 func (a *User) Create(ctx context.Context, item schema.User) (*schema.User, error) {
 

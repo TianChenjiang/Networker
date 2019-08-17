@@ -4,6 +4,7 @@ package gormplus
 import (
 	"fmt"
 	"log"
+	"networker/backend/src/model/impl/entity"
 	"networker/backend/src/pkg/setting"
 	"time"
 
@@ -65,6 +66,7 @@ func Setup() {
 		return setting.DatabaseSetting.TablePrefix + defaultTableName
 	}
 
+
 	db.SingularTable(true)
 	//回调 自动更新更新，删除时间
 	db.Callback().Create().Replace("gormplus:update_time_stamp", UpdateTimeStampForCreateCallback)
@@ -72,11 +74,9 @@ func Setup() {
 	db.Callback().Delete().Replace("gormplus:delete", deleteCallback)
 	db.DB().SetMaxIdleConns(10)
 	db.DB().SetMaxOpenConns(100)
-}
 
-//得到当前db
-func GetDB() *gorm.DB {
-	return db
+	//自动映射
+	db.AutoMigrate(&entity.User{})
 }
 
 

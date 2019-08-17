@@ -1,6 +1,5 @@
 package schema
 
-
 //type UserRoles struct {
 //	RoleId     string    `json:"role_id"`
 //}
@@ -16,6 +15,14 @@ type User struct {
 	//CreatedAt  time.Time `json:"created_at"`
 }
 
+type CreateUserForm struct {
+	ID       uint   `form:"id" ` //valid:"Required;MaxSize(100)
+	Username string `form:"username"`
+	Password string `form:"password"`
+	Role     string `form:"role"`
+	Phone    string `form:"phone"`
+	Email    string `form:"email"`
+}
 
 
 

@@ -4,12 +4,12 @@ import "networker/backend/src/schema"
 
 //用户实体
 type User struct {
-	ID           uint     `gormplus:"column:id;AUTO_INCREMENT"`
-	UserName     string   `gormplus:"column:username"`  //todo index?
-	Password     string   `gormplus:"column:password"`
-	Role         string   `gormplus:"column:role"` //user admin
-	Email        string   `gormplus:"column:email"`
-	Phone        string   `gormplus:"column:phone"`
+	ID           uint     `gorm:"column:id;AUTO_INCREMENT"`
+	UserName     string   `gorm:"column:username"`  //todo index?
+	Password     string   `gorm:"column:password"`
+	Role         string   `gorm:"column:role"` //user admin
+	Email        string   `gorm:"column:email"`
+	Phone        string   `gorm:"column:phone"`
 }
 
 
