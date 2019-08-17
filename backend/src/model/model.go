@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 	"log"
-	"src/pkg/setting"
+	"networker/backend/src/pkg/setting"
 	"time"
 
 	_ "github.com/go-sql-driver/mysql"
