@@ -7,6 +7,8 @@ const (
 
 	//TODO
 
+	ERROR_CREATE_USER_FAIL       =  10001
+
 
 
 	ERROR_AUTH_CHECK_TOKEN_FAIL    = 20001
