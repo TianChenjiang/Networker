@@ -46,16 +46,17 @@ func (u *User) CreateUser (c *gin.Context)  {
 
 
 	fmt.Println(item)
-	fmt.Println(u)
 
-	_, err = u.UserBl.Create(ginplus.NewContext(c), item)
+	a := NewUser(u.UserBl)
+	nitem, err := a.UserBl.Create(ginplus.NewContext(appG.C), item)
+	fmt.Println(nitem)
 
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.ERROR_CREATE_USER_FAIL, nil)
 		return
 	}
 
-	appG.Response(http.StatusOK, e.SUCCESS, nil)
+	appG.Response(http.StatusOK, e.SUCCESS, nitem)
 }
 
 

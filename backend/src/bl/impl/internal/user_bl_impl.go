@@ -2,7 +2,7 @@ package internal
 
 import (
 	"context"
-	models "networker/backend/src/model"
+	"networker/backend/src/model"
 	"networker/backend/src/schema"
 )
 
@@ -31,7 +31,8 @@ func (a *User) Create(ctx context.Context, item schema.User) (*schema.User, erro
 		return nil, err
 	}
 
-	return nil, err
+
+	return &item, err
 }
 
 

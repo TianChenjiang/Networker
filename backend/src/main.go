@@ -5,6 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
+	"networker/backend/src/pkg/container"
 	"networker/backend/src/pkg/gormplus"
 	"networker/backend/src/pkg/setting"
 	"networker/backend/src/pkg/util"
@@ -12,9 +13,11 @@ import (
 )
 
 func init() {
+	container.BuildContainer()
 	setting.Setup()
 	util.Setup()
 	gormplus.Setup()
+
 	//todo
 }
 
