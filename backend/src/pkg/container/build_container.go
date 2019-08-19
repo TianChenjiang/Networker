@@ -3,8 +3,9 @@ package container
 import (
 	"go.uber.org/dig"
 	"networker/backend/src/bl/impl"
-	ctl "networker/backend/src/routers/api/controller"
+	"networker/backend/src/pkg/data"
 )
+
 func handleError(err error) {
 	if err != nil {
 	panic(err)
@@ -12,7 +13,7 @@ func handleError(err error) {
 }
 
 // BuildContainer 创建依赖注入容器
-func BuildContainer() {
+func BuildContainer() (*dig.Container){
 	// 创建依赖注入容器
 	container := dig.New()
 	var err error
@@ -27,16 +28,15 @@ func BuildContainer() {
 	//	return auther
 	//})
 
-	//// 注入存储模块 todo
-	//storeCall, err := InitStore(container)
-	//handleError(err)
+	// 注入存储模块
+	err = data.InitStore(container)
+	handleError(err)
 
 	// 注入bl
 	err = impl.Inject(container)
 	handleError(err)
 
-	//注入ctl
-	err = ctl.Inject(container)
-	handleError(err)
-
+	return container
 }
+
+

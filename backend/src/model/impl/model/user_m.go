@@ -3,16 +3,16 @@ package model
 import (
 	"context"
 	"networker/backend/src/model/impl/entity"
-	"networker/backend/src/pkg/gormplus"
+	"networker/backend/src/pkg/database"
 	"networker/backend/src/schema"
 )
 
-func NewUser(db *gormplus.DB) *User {
+func NewUser(db *database.DB) *User {
 	return &User{db}
 }
 
 type User struct {
-	db *gormplus.DB
+	db *database.DB
 }
 
 

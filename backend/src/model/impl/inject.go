@@ -4,12 +4,12 @@ import (
 	"go.uber.org/dig"
 	"networker/backend/src/model"
 	"networker/backend/src/model/impl/entity"
-	"networker/backend/src/model/impl/model"
-	"networker/backend/src/pkg/gormplus"
+	imodel "networker/backend/src/model/impl/model"
+	"networker/backend/src/pkg/database"
 )
 
 // AutoMigrate 自动映射数据表
-func AutoMigrate(db *gormplus.DB) error {
+func AutoMigrate(db *database.DB) error {
 	return db.AutoMigrate(
 
 		new(entity.User),
@@ -20,6 +20,6 @@ func AutoMigrate(db *gormplus.DB) error {
 
 func Inject(container *dig.Container) error {
 
-	container.Provide(model.NewUser, dig.As(new(models.IUser)))
+	container.Provide(imodel.NewUser, dig.As(new(models.IUser)))
 	return nil
 }

@@ -6,25 +6,29 @@ import (
 	"log"
 	"net/http"
 	"networker/backend/src/pkg/container"
-	"networker/backend/src/pkg/gormplus"
 	"networker/backend/src/pkg/setting"
 	"networker/backend/src/pkg/util"
 	"networker/backend/src/routers"
 )
 
 func init() {
-	container.BuildContainer()
 	setting.Setup()
 	util.Setup()
-	gormplus.Setup()
-
-	//todo
 }
 
 
 func main() {
+	app := gin.New()
 	gin.SetMode(setting.ServerSetting.RunMode)
-	routersInit := routers.InitRouter()
+
+	container := container.BuildContainer()
+	fmt.Println(container)
+	err := routers.RegisterRouter(app, container)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	routersInit := app
 	readTimeout := setting.ServerSetting.ReadTimeout
 	writeTimeout := setting.ServerSetting.WriteTimeout
 	endPoint := fmt.Sprintf(":%d", setting.ServerSetting.HttpPort)
