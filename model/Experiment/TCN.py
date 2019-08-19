@@ -77,7 +77,7 @@ lookback = 32
 step = 1
 delay = 1
 batch_size = 16
-code_list = [5, 6, 7, 8, 9, 10]
+code_list = ['000001', '000063', '300088', '600129', '600519']
 for code in code_list:
     data = pd.read_csv('data/{}.csv'.format(code), index_col=0)
     data.index = pd.to_datetime(data.index)
