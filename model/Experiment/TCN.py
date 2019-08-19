@@ -4,7 +4,8 @@ import keras
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from keras.models import Sequential
+from keras.models import Sequential, Input, Model
+from tcn import TCN
 from keras import layers
 from keras.optimizers import RMSprop
 from keras.initializers import Orthogonal
@@ -52,40 +53,42 @@ def generator(data, lookback, delay, min_index, max_index, shuffle=False, batch_
         yield samples, targets
 
 
-def get_model():
-    model = Sequential()
-    model.add(
-        layers.Bidirectional(layers.LSTM(32,
-                                         dropout=0.2,
-                                         recurrent_dropout=0.5,
-                                         kernel_initializer=Orthogonal(seed=7)),
-                             input_shape=(None, 9)
-                             )
-    )
-    model.add(layers.Dense(16, activation='relu'))
-    model.add(layers.Dense(1))
+def get_model(batch_size, timesteps, input_dim):
+    i = Input(batch_shape=(batch_size, timesteps, input_dim))
+    x = TCN(nb_filters=64,
+            kernel_size=2,
+            dilations=[1, 2, 4, 8, 16],
+            nb_stacks=1,
+            dropout_rate=0.3,
+            kernel_initializer=Orthogonal(seed=7),
+            use_skip_connections=True,
+            return_sequences=False)(i)
+    x = layers.Dense(16, activation='relu')(x)
+    x = layers.Dropout(0.2)(x)
+    y = layers.Dense(1)(x)
+    model = Model(inputs=[i], outputs=[y])
     return model
 
 
 start_time = time.time()
 print('-----------starting-----------')
 
-lookback = 100
+lookback = 32
 step = 1
 delay = 1
-batch_size = 8
+batch_size = 16
 code_list = [5, 6, 7, 8, 9, 10]
 for code in code_list:
     data = pd.read_csv('data/{}.csv'.format(code), index_col=0)
     data.index = pd.to_datetime(data.index)
     # 划分训练集
-    train_mean = data[:'2019-01-17'].mean()
-    train_std = data[:'2019-01-17'].std()
+    train_mean = data[:'2019-03-17'].mean()
+    train_std = data[:'2019-03-17'].std()
 
     data -= train_mean
     data /= train_std
 
-    train_size = len(data[:'2019-01-17'])
+    train_size = len(data[:'2019-03-17'])
     test_size = len(data) - train_size
     data_values = data.values
     train_gen = generator(data_values,
@@ -105,15 +108,14 @@ for code in code_list:
                          batch_size=batch_size)
 
     test_steps = (len(data_values) - train_size - lookback) // batch_size
-    model = get_model()
+    model = get_model(batch_size, lookback, data_values.shape[-1])
     model.compile(optimizer=RMSprop(), loss='mse')
     history = model.fit_generator(train_gen,
-                                  steps_per_epoch=30,
-                                  epochs=8,
+                                  steps_per_epoch=50,
+                                  epochs=15,
                                   validation_data=test_gen,
-                                  validation_steps=test_steps,
-                                  verbose=2)
-    plot_loss(history, '{}.sz train and validation loss'.format(code))
+                                  validation_steps=test_steps)
+    plot_loss(history, '{}.sz train and validation loss on TCN'.format(code))
 
     test_set = data_values[train_size:]
     real_val = test_set[lookback:, 3]
@@ -130,8 +132,8 @@ for code in code_list:
     plt.figure()
 
     plt.plot(date, real_val, 'b', label='real price')
-    plt.plot(date, pred_val, 'r', label='lstm predict')
-    plt.title('LSTM on {}.sz set'.format(code))
+    plt.plot(date, pred_val, 'r', label='TCN predict')
+    plt.title('TCN on {}.sz set'.format(code))
     plt.legend()
 
     plt.show()
@@ -139,4 +141,4 @@ for code in code_list:
 end_time = time.time()
 used_time = start_time - end_time
 print('----------finished------------')
-print('used time:%s s'% used_time)
+print('used time:%s s' % used_time)
