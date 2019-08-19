@@ -47,8 +47,7 @@ func (u *User) CreateUser (c *gin.Context)  {
 
 	fmt.Println(item)
 
-	a := NewUser(u.UserBl)
-	nitem, err := a.UserBl.Create(ginplus.NewContext(appG.C), item)
+	nitem, err := u.UserBl.Create(ginplus.NewContext(appG.C), item)
 	fmt.Println(nitem)
 
 	if err != nil {

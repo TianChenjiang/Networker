@@ -5,11 +5,11 @@ import (
 	"networker/backend/src/model"
 	"networker/backend/src/model/impl/entity"
 	"networker/backend/src/model/impl/model"
-	"networker/backend/src/pkg/gormplus"
+	"networker/backend/src/pkg/database"
 )
 
 // AutoMigrate 自动映射数据表
-func AutoMigrate(db *gormplus.DB) error {
+func AutoMigrate(db *database.DB) error {
 	return db.AutoMigrate(
 
 		new(entity.User),
