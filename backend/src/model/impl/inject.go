@@ -4,7 +4,7 @@ import (
 	"go.uber.org/dig"
 	"networker/backend/src/model"
 	"networker/backend/src/model/impl/entity"
-	"networker/backend/src/model/impl/model"
+	imodel "networker/backend/src/model/impl/model"
 	"networker/backend/src/pkg/database"
 )
 
@@ -20,6 +20,6 @@ func AutoMigrate(db *database.DB) error {
 
 func Inject(container *dig.Container) error {
 
-	container.Provide(model.NewUser, dig.As(new(models.IUser)))
+	container.Provide(imodel.NewUser, dig.As(new(models.IUser)))
 	return nil
 }
