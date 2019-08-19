@@ -9,6 +9,7 @@ import (
 	"networker/backend/src/pkg/setting"
 	"networker/backend/src/pkg/util"
 	"networker/backend/src/routers"
+	"github.com/google/wire"
 )
 
 func init() {

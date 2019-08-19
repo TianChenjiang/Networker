@@ -1,6 +1,7 @@
 package routers
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/dig"
 	ctl "networker/backend/src/routers/api/controller"
@@ -8,6 +9,7 @@ import (
 
 func RegisterRouter(app *gin.Engine, container *dig.Container) error {
 	err := ctl.Inject(container)
+	fmt.Println(container)
 	if err != nil {
 		return err
 	}
@@ -16,12 +18,11 @@ func RegisterRouter(app *gin.Engine, container *dig.Container) error {
 		user *ctl.User,
 	) error {
 
-		g := app.Group("/api")
+		g := app.Group("/api/v1")
 
-		v1 := g.Group("/v1")
 
 		{
-			v1.POST("/users", user.CreateUser) //TODO
+			g.POST("/users", user.CreateUser) //TODO
 		}
 
 
