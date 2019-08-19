@@ -42,7 +42,7 @@ func provide(container *dig.Container) {
 	container.Provide(NewBlUser)
 	container.Provide(NewMUser)
 	container.Provide(newCUser)
-
+	fmt.Print(container)
 	err := container.Provide(func(user *c_user) error {
 		fmt.Printf(user.BlUser.MUser.name)
 		return nil
