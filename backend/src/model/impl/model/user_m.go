@@ -15,7 +15,6 @@ type User struct {
 	db *database.DB
 }
 
-
 func (a *User) Create(ctx context.Context, item schema.User) error {
 	sitem := entity.SchemaUser(item)
 	user := sitem.ToUser()
@@ -23,14 +22,3 @@ func (a *User) Create(ctx context.Context, item schema.User) error {
 
 	return nil
 }
-
-
-
-
-
-
-
-
-
-
-

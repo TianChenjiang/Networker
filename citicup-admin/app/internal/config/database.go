@@ -1,6 +1,7 @@
 package config
 
 import (
+	"citicup-admin/internal/model"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
@@ -14,6 +15,7 @@ type DBLink struct {
 	*gorm.DB
 }
 
+//建立数据库连接池
 func SetUpDBLink(dbConfig *DataBase) *DBLink {
 	var err error
 	//数据库连接
@@ -28,6 +30,8 @@ func SetUpDBLink(dbConfig *DataBase) *DBLink {
 		log.Fatalf("database err: %v", err)
 	}
 	db.SingularTable(true)
-
+	//自动映射
+	db.AutoMigrate(&model.User{})
+	log.Print("auto complete the databases")
 	return &DBLink{db}
 }

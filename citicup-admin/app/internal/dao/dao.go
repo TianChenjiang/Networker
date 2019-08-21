@@ -29,4 +29,3 @@ func (d *Dao) Ping(ctx context.Context) (err error) {
 func (d *Dao) Close() {
 	d.db.Close()
 }
-
