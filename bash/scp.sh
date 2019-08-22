@@ -9,6 +9,7 @@ esac
 done
 # 复制到base dir
 scp docker/Dockerfile root@"$BASE"/Dockerfile
+scp docker/dockerize root@"$BASE"/dockerize
 scp bash/setup.sh root@"$BASE"/setup.sh
 # 前端
 scp -r citicup-frontend/* root@"$BASE"/citicup-frontend

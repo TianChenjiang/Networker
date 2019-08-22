@@ -8,6 +8,8 @@ import (
 	swaggerFiles "github.com/swaggo/files"
 	"github.com/swaggo/gin-swagger"
 	"net/http"
+	"strconv"
+	"strings"
 )
 
 var (
@@ -21,7 +23,7 @@ func New(c *config.Config, s *service.Service) (httpSrv *http.Server) {
 	routeSetUp(engine)
 
 	httpSrv = &http.Server{
-		Addr:    ":8080",
+		Addr:    strings.Join([]string{":", strconv.Itoa(c.App.Port)}, ""),
 		Handler: engine,
 	}
 	serv = s

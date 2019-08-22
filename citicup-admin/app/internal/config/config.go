@@ -1,8 +1,10 @@
 package config
 
 import (
+	"flag"
 	"fmt"
 	config "github.com/go-ozzo/ozzo-config"
+	"strings"
 )
 
 //配置文件相关
@@ -31,7 +33,7 @@ type DataBase struct {
 //解析配置文件内容
 func initConfig(c *config.Config) *Config {
 	var (
-		appPrefix  = "server"
+		appPrefix = "server"
 		//dataPrefix = "data"
 	)
 
@@ -51,8 +53,16 @@ func initConfig(c *config.Config) *Config {
 }
 
 func InitConfig() *Config {
+	//默认为dev环境
+	var profile = flag.String("profile", "dev", "profile环境,决定运行环境")
+	flag.Parse()
+	fmt.Print(*profile)
 	c := config.New()
-	err := c.Load("configs/application.yml")
+	//根据参数profile动态进行配置文件读取
+	err := c.Load(strings.Join([]string{"configs/application-",
+		*profile,
+		".yml",
+	}, ""))
 	if err != nil {
 		fmt.Print(err)
 		return nil
