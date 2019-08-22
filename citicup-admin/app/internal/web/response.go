@@ -1,41 +1,36 @@
 package web
 
-import "github.com/gin-gonic/gin"
+import (
+	"citicup-admin/internal/web/e"
+	"github.com/gin-gonic/gin"
+	"net/http"
+)
 
 type Gin struct {
 	C *gin.Context
 }
 
-var msgFlags = map[int]string{
-	200: "ok",
-	401: "method forbidden",
-	403: "Unauthentic",
-	404: "resource not found",
-	500: "internal error",
+
+type Response struct {
+	Code int `json:"code"`
+	Msg  string `json:"msg"`
+	Data interface{} `json:"data"`
 }
 
-func getMsg(code int) string {
-	msg, ok := msgFlags[code]
-	if ok {
-		return msg
-	}
-	return msgFlags[500]
+
+func (g *Gin) Response(httpCode, errCode int, data interface{}) {
+	g.C.JSON(httpCode, Response{
+		Code: errCode,
+		Msg:  e.GetMsg(errCode),
+		Data: data,
+	})
 }
 
-func (g *Gin) response(httpCode int, data interface{}) {
-	if httpCode != 200 {
-		g.C.JSON(httpCode, getMsg(httpCode))
-	} else {
-		g.C.JSON(httpCode, data)
-	}
-}
-
-//200
-//http.StatusOK
+//200 http.StatusOK
 func (g *Gin) OK(data interface{}) {
-	g.response(200, data)
+	g.Response(http.StatusOK, e.SUCCESS, data)
 }
 
-func (g *Gin) Fail(httpCode int) {
-	g.response(httpCode, getMsg(httpCode))
-}
+//func (g *Gin) Fail(httpCode int) {
+//	g.Response(httpCode, nil)
+//}
