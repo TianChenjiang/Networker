@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import random
 import tushare as ts
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 def get_stock_price_by_code(code, lookback, delay, pledge_date, close_position_date, code_price_dict):
@@ -13,7 +15,11 @@ def get_stock_price_by_code(code, lookback, delay, pledge_date, close_position_d
     price_df = code_price_dict[code]
     price_df = price_df[pledge_date: close_position_date]
     price_values = price_df.values
-    close_list = [price_values[-lookback - i: -i] for i in range(1, delay + 1)]
+    # 平仓训练集
+    usable_close_len = len(price_df) - lookback
+    usable_close_len = min(usable_close_len, delay + 1)
+    close_list = [price_values[-lookback - i: -i] for i in range(1, usable_close_len + 1)]
+    # 正常训练集
     usable_non_close_len = len(price_df) - delay - lookback
     usable_non_close_len = min(usable_non_close_len, non_close_rate * delay)
     non_close_list = [price_values[-lookback - i: -i] for i in range(delay+1, delay+1+usable_non_close_len)]
@@ -43,7 +49,7 @@ def generator(pledge, lookback, delay, min_index, max_index, code_price_dict):
         pledge_info = np.stack([t[1] for t in all_zip])
         targets = np.stack([t[2] for t in all_zip])
         i += 1
-        return [price_time, pledge_info], targets
+        yield [price_time, pledge_info], targets
 
 
 ts.set_token('53cd3b985c649c978160c6ec04bce24f4fbd2ebcb4673e8f2fba9a43')
@@ -66,4 +72,13 @@ for i in range(len(code_df)):
     price_df.index = pd.to_datetime(price_df.index)
     code_price_dict[code] = price_df
 
-train_gen = generator(pledge, 60, 30, 0, 500, code_price_dict)
+length_list = []
+for i in range(len(pledge)):
+    single_pledge = pledge.loc[i]
+    code = single_pledge['code']
+    price_df = code_price_dict[code]
+    price_df = price_df[single_pledge['pledge_date']: single_pledge['close_position_date']]
+    length_list.append(len(price_df))
+print(min(length_list))
+sns.distplot(length_list)
+plt.show()
