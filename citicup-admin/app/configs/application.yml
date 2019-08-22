@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+data:
+  type: mysql
+  user: root
+  password: mysql
+  host: localhost:33006
+  dbname: citicup

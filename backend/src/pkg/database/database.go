@@ -49,7 +49,7 @@ type DB struct {
 
 
 //数据库的配置
-func Setup() *gorm.DB {
+func Setup() *DB {
 	var err error
 	db, err = gorm.Open(setting.DatabaseSetting.Type, fmt.Sprintf("%s:%s@tcp(%s)/%s?charset=utf8&parseTime=True&loc=Local",
 		setting.DatabaseSetting.User,
@@ -77,7 +77,7 @@ func Setup() *gorm.DB {
 	//自动映射
 	db.AutoMigrate(&entity.User{})
 
-	return db
+	return &DB{db}
 }
 
 

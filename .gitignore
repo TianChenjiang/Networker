@@ -219,7 +219,7 @@ $RECYCLE.BIN/
 *.lnk
 
 */venv/*
+
 # End of https://www.gitignore.io/api/linux,macos,windows,eclipse,intellij+iml
-model/Experiment/data/stock_price/
-model/Experiment/data/stock_price.zip
+/citicup-admin/app/vendor/
 model/Experiment/data/price/

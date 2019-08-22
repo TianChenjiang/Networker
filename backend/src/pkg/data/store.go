@@ -1,7 +1,6 @@
 package data
 
 import (
-	"github.com/jinzhu/gorm"
 	"go.uber.org/dig"
 	inj "networker/backend/src/model/impl"
 	"networker/backend/src/pkg/database"
@@ -9,7 +8,7 @@ import (
 
 func InitStore(container *dig.Container) error {
 	db := database.Setup()
-	container.Provide(func() *gorm.DB{
+	container.Provide(func() *database.DB{
 		return db
 	})
 
