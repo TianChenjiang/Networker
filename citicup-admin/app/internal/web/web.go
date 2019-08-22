@@ -38,13 +38,21 @@ func routeSetUp(e *gin.Engine) {
 	e.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	g := e.Group("/api")
 	{
-		u := g.Group("/users")
+		userRouter := g.Group("/users")
 		{
-			u.GET("", GetUserList)
-			u.GET("/:id", GetUserByID)
-			u.POST("", Register)
-			u.PUT("", EditUser)
-			u.DELETE("/:id", DeleteUser)
+			userRouter.GET("", GetUserList)
+			userRouter.GET("/:id", GetUserByID)
+			userRouter.POST("", Register)
+			userRouter.PUT("", EditUser)
+			userRouter.DELETE("/:id", DeleteUser)
+		}
+
+		companyRouter := g.Group("/companies")
+		{
+			companyRouter.GET("", GetCompanies)
+			companyRouter.GET("/:id", GetCompanyById)
+			companyRouter.POST("", NewCompany)
+			companyRouter.DELETE("/:id", DeleteCompanyById)
 		}
 	}
 }
