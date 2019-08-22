@@ -9,10 +9,7 @@ import (
 	"strconv"
 )
 
-// @Summary 获取用户列表
-// @Produce json
-// @Success 200 {object} render.JSON
-// @Router /api/Users [get]
+
 func GetUserList(c *gin.Context) {
 	var (
 		appG = Gin{C: c}

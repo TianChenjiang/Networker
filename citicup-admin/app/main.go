@@ -53,4 +53,3 @@ func cycle(httpSrv *http.Server) {
 		}
 	}
 }
-

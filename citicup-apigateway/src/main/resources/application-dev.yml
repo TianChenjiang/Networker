@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: spring-cloud-apiGateway
+  cloud:
+    gateway:
+      routes:
+        - id: backend_route
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/api/**
+
+

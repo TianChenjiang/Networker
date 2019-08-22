@@ -16,34 +16,6 @@ definitions:
       id:
         type: integer
     type: object
-  model.User:
-    properties:
-      email:
-        type: string
-      id:
-        type: integer
-      password:
-        type: string
-      phone:
-        type: string
-      userName:
-        type: string
-    type: object
-  model.Users:
-    items:
-      properties:
-        email:
-          type: string
-        id:
-          type: integer
-        password:
-          type: string
-        phone:
-          type: string
-        userName:
-          type: string
-      type: object
-    type: array
 host: localhost:8080
 info:
   contact:
@@ -161,28 +133,4 @@ paths:
       summary: 根据Id获取公司信息
       tags:
       - Company
-  /api/users:
-    get:
-      consumes:
-      - application/json
-      description: Get All Users
-      produces:
-      - application/json
-      responses:
-        "200":
-          description: OK
-          schema:
-            $ref: '#/definitions/model.Users'
-            type: object
-        "404":
-          description: No Users
-          schema:
-            type: string
-        "500":
-          description: Internal Error
-          schema:
-            type: string
-      summary: 获取所有用户
-      tags:
-      - User
 swagger: "2.0"
