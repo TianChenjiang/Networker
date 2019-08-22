@@ -1,3 +1,4 @@
 target
 mvnw
 mvnw.*
+/target/
