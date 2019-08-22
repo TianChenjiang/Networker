@@ -16,7 +16,7 @@ import (
 // @Success 200 {object} model.Companies
 // @Failure 404 {string} string "Resource not found"
 // @Failure 500 {string} string "Internal Error"
-// @Router /api/company [get]
+// @Router /api/companies [get]
 func GetCompanies(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
@@ -33,10 +33,10 @@ func GetCompanies(c *gin.Context) {
 // @Summary 根据Id获取公司信息
 // @Accept  json
 // @Produce  json
-// @Success 200 {object} model.Companies
+// @Success 200 {object} model.Company
 // @Failure 404 {string} string "Resource not found"
 // @Failure 500 {string} string "Internal Error"
-// @Router /api/company/{id} [get]
+// @Router /api/companies/{id} [get]
 func GetCompanyById(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
@@ -51,13 +51,40 @@ func GetCompanyById(c *gin.Context) {
 	appG.OK(company)
 }
 
+// @Tags Company
+// @Summary 更新公司信息
+// @Description Update the company information
+// @Accept  json
+// @Produce  json
+// @Success 200
+// @Failure 404 {string} string "Resource not found"
+// @Failure 500 {string} string "Internal Error"
+// @Router /api/companies [PUT]
 func UpdateCompany(c *gin.Context) {
-	//var(
-	//	appG = Gin{C:c},
-	//
-	//)
+	var (
+		appG   = Gin{C: c}
+		scheme schema.Company
+	)
+	err := c.BindJSON(&scheme)
+	if err != nil {
+		appG.Response(http.StatusBadRequest, e.BAD_REQUEST, nil)
+		return
+	}
+	err_ := serv.UpdateCompany(c, &scheme)
+	if err_ != nil {
+		appG.Response(http.StatusNotFound, e.BAD_REQUEST, nil)
+	}
+	appG.OK(nil)
 }
 
+// @Tags Company
+// @Summary 删除指定公司信息
+// @Description Delete company
+// @Accept  json
+// @Success 200
+// @Failure 404 {string} string "Resource not found"
+// @Failure 500 {string} string "Internal Error"
+// @Router /api/companies/{id} [DELETE]
 func DeleteCompanyById(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
@@ -72,12 +99,21 @@ func DeleteCompanyById(c *gin.Context) {
 	appG.OK(nil)
 }
 
+// @Tags Company
+// @Summary 添加新的公司
+// @Description Delete company
+// @Accept  json
+// @Produce  json
+// @Success 200 {object} model.Company
+// @Failure 404 {string} string "Resource not found"
+// @Failure 500 {string} string "Internal Error"
+// @Router /api/companies [POST]
 func NewCompany(c *gin.Context) {
 	var (
 		appG   = Gin{C: c}
 		scheme schema.Company
 	)
-	err := c.Bind(&scheme)
+	err := c.BindJSON(&scheme)
 	if err != nil {
 		appG.Response(http.StatusBadRequest, e.BAD_REQUEST, nil)
 		return

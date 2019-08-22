@@ -55,7 +55,7 @@ info:
   title: Citicup Api
   version: "1.0"
 paths:
-  /api/company:
+  /api/companies:
     get:
       consumes:
       - application/json
@@ -79,7 +79,66 @@ paths:
       summary: 获取所有公司
       tags:
       - Company
-  /api/company/{id}:
+    post:
+      consumes:
+      - application/json
+      description: Delete company
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Company'
+            type: object
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 添加新的公司
+      tags:
+      - Company
+    put:
+      consumes:
+      - application/json
+      description: Update the company information
+      produces:
+      - application/json
+      responses:
+        "200": {}
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 更新公司信息
+      tags:
+      - Company
+  /api/companies/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete company
+      responses:
+        "200": {}
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 删除指定公司信息
+      tags:
+      - Company
     get:
       consumes:
       - application/json
@@ -89,7 +148,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/model.Companies'
+            $ref: '#/definitions/model.Company'
             type: object
         "404":
           description: Resource not found

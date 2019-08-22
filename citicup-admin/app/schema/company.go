@@ -3,7 +3,7 @@ package schema
 //公司 VO
 type Company struct {
 	ID          uint   `json:"id"`
-	CompanyName string `json:"company_name"`
+	CompanyName string `json:"companyName"`
 }
 
 type Companies []Company
