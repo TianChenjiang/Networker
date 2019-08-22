@@ -37,5 +37,5 @@ func (g *Gin) OK(data interface{}) {
 }
 
 func (g *Gin) Fail(httpCode int) {
-	g.response(httpCode, nil)
+	g.response(httpCode, getMsg(httpCode))
 }

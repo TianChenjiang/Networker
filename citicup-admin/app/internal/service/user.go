@@ -3,18 +3,18 @@ package service
 import (
 	"citicup-admin/schema"
 	"github.com/gin-gonic/gin"
+	"github.com/json-iterator/go"
 )
+
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 func (s *Service) GetAllUser(c gin.Context) (userList []*schema.User, err error) {
 	list, err := s.dao.GetAllUser(c)
 	if err != nil {
 		return
 	}
-	userList = make([]*schema.User, 0)
-	for _, item := range list {
-		u := item.Model2Schema()
-		userList = append(userList, &u)
-	}
+	bts, _ := json.Marshal(&list)
+	json.Unmarshal(bts, &userList)
 	return
 }
 
