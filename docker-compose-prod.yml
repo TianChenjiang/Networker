@@ -1,22 +1,26 @@
 version: '3'
 services:
-  #  # 服务端
-  #  citicup-server:
-  #    image: citicup/server
-  #    build:
-  #      context: ./docker
-  #      dockerfile: Dockerfile
-  #      args:
-  #        - ARTIFACT_NAME=citicup-server
-  #        - EXPOSED_PORT=8080
-  #      environment:
-  #        - VIRTUAL_HOST=citicup.top
-  #        - VIRTUAL_PORT=8080
-  #        - LETSENCRYPT_HOST=citicup.top
-  #        - LETSENCRYPT_EMAIL=1071956678@qq.com
-  #    networks:
-  #      - citicup
-  #      - proxy
+  #网关 spring cloud
+  api-gateway:
+    restart: always
+    image: citicup/citicup-api-gateway
+    container_name: citicup-api-gateway
+    entrypoint: ["java","-jar","/app.jar"]
+    build:
+      context: .
+      dockerfile: Dockerfile-api-gateway
+      args:
+        - ARTIFACT_NAME=citicup-api-gateway-0.0.1-SNAPSHOT
+        - EXPOSED_PORT=8082
+    networks:
+      - citicup
+      - proxy
+    environment:
+      - VIRTUAL_HOST=citicup.top
+      - VIRTUAL_PORT=8082
+      - LETSENCRYPT_HOST=citicup.top
+      - LETSENCRYPT_EMAIL=1071956678@qq.com
+  # 内网mysql
   citicup-mysql:
     image: 'mysql:5.7.21'
     container_name: citicup-mysql
@@ -29,8 +33,10 @@ services:
       - ./mysqldb/backup:/data/backup
     networks:
       - citicup
+  # 前端站点
   citicup-frontend:
     image: citicup/citicup-frontend
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
@@ -38,19 +44,12 @@ services:
         - ARTIFACT_NAME=citicup-frontend
         - EXPOSED_PORT=8000
     entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./app","-profile","prod"]
-    environment:
-      - VIRTUAL_HOST=citicup.top
-      - VIRTUAL_PORT=8000
-      - LETSENCRYPT_HOST=citicup.top
-      - LETSENCRYPT_EMAIL=1071956678@qq.com
     networks:
       - citicup
-      - proxy
-    ports:
-      - "8081:8000"
-
+  # 后端, 暂时一个微服务
   citicup-admin:
     image: citicup/citicup-admin
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
@@ -58,16 +57,8 @@ services:
         - ARTIFACT_NAME=citicup-admin
         - EXPOSED_PORT=8080
     entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./app","-profile","prod"]
-    environment:
-      - VIRTUAL_HOST=106.14.140.93
-      - VIRTUAL_PORT=8080
-      - LETSENCRYPT_HOST=106.14.140.93
-      - LETSENCRYPT_EMAIL=1071956678@qq.com
     networks:
       - citicup
-      - proxy
-
-
 
 
 networks:

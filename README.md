@@ -1,6 +1,14 @@
 # Networker
 
+### 远端环境说明
 
+| 微服务          | URL                                    |
+| --------------- | -------------------------------------- |
+| 后端基路径      | http://citicup.top./                   |
+| 前端 - 用户部分 | http://citicup.top./networker/user/    |
+| 在线swagger文档 | http://citicup.top./swagger/index.html |
+
+由于备案还没完成，可能会出现警示。刷新网页即可
 
 ### 本地环境搭建
 
