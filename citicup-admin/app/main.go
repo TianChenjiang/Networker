@@ -11,7 +11,16 @@ import (
 	"syscall"
 	"time"
 )
+// @title Citicup Api
+// @version 1.0
+// @description The Official Api Document For the Citicup
 
+// @contact.name API Support
+
+// @license.name Apache 2.0
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+
+// @host localhost:8080
 func main() {
 	//初始化配置文件
 	c := config.InitConfig()

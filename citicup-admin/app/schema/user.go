@@ -1,6 +1,5 @@
 package schema
 
-
 type User struct {
 	ID       uint   `json:"id"`
 	Username string `json:"username"`
@@ -8,3 +7,5 @@ type User struct {
 	Phone    string `json:"phone"`
 	Email    string `json:"email"`
 }
+
+type Users []User
