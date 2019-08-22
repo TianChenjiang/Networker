@@ -15,6 +15,77 @@
     "host": "localhost:8080",
     "basePath": "{{.BasePath}}",
     "paths": {
+        "/api/company": {
+            "get": {
+                "description": "Get All Companies.",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Company"
+                ],
+                "summary": "获取所有公司",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/model.Companies"
+                        }
+                    },
+                    "404": {
+                        "description": "Resource not found",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/company/{id}": {
+            "get": {
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Company"
+                ],
+                "summary": "根据Id获取公司信息",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/model.Companies"
+                        }
+                    },
+                    "404": {
+                        "description": "Resource not found",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
         "/api/users": {
             "get": {
                 "description": "Get All Users",
@@ -53,6 +124,31 @@
         }
     },
     "definitions": {
+        "model.Companies": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "companyName": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "integer"
+                    }
+                }
+            }
+        },
+        "model.Company": {
+            "type": "object",
+            "properties": {
+                "companyName": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                }
+            }
+        },
         "model.User": {
             "type": "object",
             "properties": {

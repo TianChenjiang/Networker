@@ -31,7 +31,7 @@ func SetUpDBLink(dbConfig *DataBase) *DBLink {
 	}
 	db.SingularTable(true)
 	//自动映射
-	db.AutoMigrate(&model.User{})
+	db.AutoMigrate(&model.User{}, &model.Company{})
 	log.Print("auto complete the databases")
 	return &DBLink{db}
 }

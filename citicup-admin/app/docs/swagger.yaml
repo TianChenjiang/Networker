@@ -1,5 +1,21 @@
 basePath: '{{.BasePath}}'
 definitions:
+  model.Companies:
+    items:
+      properties:
+        companyName:
+          type: string
+        id:
+          type: integer
+      type: object
+    type: array
+  model.Company:
+    properties:
+      companyName:
+        type: string
+      id:
+        type: integer
+    type: object
   model.User:
     properties:
       email:
@@ -39,6 +55,53 @@ info:
   title: Citicup Api
   version: "1.0"
 paths:
+  /api/company:
+    get:
+      consumes:
+      - application/json
+      description: Get All Companies.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Companies'
+            type: object
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 获取所有公司
+      tags:
+      - Company
+  /api/company/{id}:
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Companies'
+            type: object
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 根据Id获取公司信息
+      tags:
+      - Company
   /api/users:
     get:
       consumes:

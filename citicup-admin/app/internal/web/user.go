@@ -3,7 +3,6 @@ package web
 import (
 	"citicup-admin/internal/web/e"
 	"github.com/gin-gonic/gin"
-	"log"
 	"net/http"
 )
 
@@ -22,27 +21,9 @@ func GetUserList(c *gin.Context) {
 	)
 	list, err := serv.GetAllUser(*c)
 	if err != nil {
-		log.Print("err")
 		appG.Response(http.StatusInternalServerError, e.ERROR_GET_USERLIST, nil)
 		return
 	}
 	appG.OK(list)
 }
-
-
-func GetUserByID(c *gin.Context) {
-	var (
-		appG = Gin{C: c}
-	)
-
-
-
-}
-
-
-
-
-
-
-
 

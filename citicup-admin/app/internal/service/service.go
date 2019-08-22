@@ -4,7 +4,10 @@ import (
 	"citicup-admin/internal/config"
 	"citicup-admin/internal/dao"
 	"context"
+	jsoniter "github.com/json-iterator/go"
 )
+
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 // Service struct
 type Service struct {

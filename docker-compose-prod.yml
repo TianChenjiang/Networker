@@ -36,6 +36,37 @@ services:
     ports:
       - "8081:8000"
 
+  citicup-admin:
+    image: citicup/citicup-admin
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - ARTIFACT_NAME=citicup-admin
+        - EXPOSED_PORT=8080
+    environment:
+      - VIRTUAL_HOST=106.14.140.93
+      - VIRTUAL_PORT=8080
+      - LETSENCRYPT_HOST=106.14.140.93
+      - LETSENCRYPT_EMAIL=1071956678@qq.com
+    networks:
+      - citicup
+      - proxy
+
+  citicup-mysql:
+    image: 'mysql:5.7.21'
+    container_name: citicup-mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=mysql
+      - MYSQL_DATABASE=citicup
+    volumes: # 设置映射目录
+      - ./mysqldb/data:/data/db
+      - ./mysqldb/backup:/data/backup
+    ports:
+      - '33006:3306'
+
+
 networks:
   citicup:
     driver: bridge
