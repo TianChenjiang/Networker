@@ -10,6 +10,5 @@ require (
 	github.com/jinzhu/gorm v1.9.10
 	github.com/json-iterator/go v1.1.6
 	github.com/swaggo/gin-swagger v1.2.0
-	github.com/tidwall/gjson v1.3.2
 	google.golang.org/appengine v1.6.1 // indirect
 )

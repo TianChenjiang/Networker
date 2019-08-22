@@ -41,6 +41,10 @@ func routeSetUp(e *gin.Engine) {
 		u := g.Group("/users")
 		{
 			u.GET("", GetUserList)
+			u.GET("/:id", GetUserByID)
+			u.POST("", Register)
+			u.PUT("", EditUser)
+			u.DELETE("/:id", DeleteUser)
 		}
 	}
 }

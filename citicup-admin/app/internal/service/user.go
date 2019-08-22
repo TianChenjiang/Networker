@@ -1,6 +1,7 @@
 package service
 
 import (
+	model2 "citicup-admin/internal/model"
 	"citicup-admin/schema"
 	"github.com/gin-gonic/gin"
 	"github.com/json-iterator/go"
@@ -9,7 +10,7 @@ import (
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 func (s *Service) GetAllUser(c gin.Context) (userList []*schema.User, err error) {
-	list, err := s.dao.GetAllUser(c)
+	list, err := s.dao.GetAllUser()
 	if err != nil {
 		return
 	}
@@ -19,16 +20,60 @@ func (s *Service) GetAllUser(c gin.Context) (userList []*schema.User, err error)
 }
 
 func (s *Service) GetUserById(c gin.Context, id uint) (user *schema.User, err error) {
-	u, err := s.dao.GetUserById(c, id)
+	u, err := s.dao.GetUserById(id)
 	if err != nil {
 		return
 	}
-	//Get the users
+
 	sche := u.Model2Schema()
 	user = &sche
 	return
 }
 
-func (s *Service) UpdateUser(c gin.Context, schemaEntity *schema.User) (err error) {
+func (s *Service) CreateUser(c gin.Context, userparm *schema.User) (user *schema.User, err error){
+	var model = &model2.User{
+		ID:       userparm.ID,
+		UserName: userparm.Username,
+		Password: userparm.Password,
+		Email:    userparm.Email,
+		Phone:    userparm.Phone,
+	}
+	u, err := s.dao.InsertUser(model)
+	if err != nil {
+		return
+	}
+
+	model_  := u.Model2Schema()
+	user = &model_
+
+	return
+
+}
+
+func (s *Service) UpdateUser(c gin.Context, userparm *schema.User) (err error, error error) {
+	var model = &model2.User{
+		ID:       userparm.ID,
+		UserName: userparm.Username,
+		Password: userparm.Password,
+		Email:    userparm.Email,
+		Phone:    userparm.Phone,
+	}
+
+	err = s.dao.UpdateUser(model)
+
 	return
 }
+
+func (s *Service) DeleteUser(c gin.Context, id uint) (err error, error error) {
+	_, err = s.dao.DeleteUserById(id)
+	return
+}
+
+
+
+
+
+
+
+
+
