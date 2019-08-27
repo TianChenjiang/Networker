@@ -4,6 +4,7 @@ import (
 	"citicup-admin/internal/web/e"
 	"citicup-admin/library/util"
 	"citicup-admin/schema"
+	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
@@ -85,12 +86,12 @@ func DeleteUser(c *gin.Context) {
 		id, _ = strconv.Atoi(c.Param("id"))
 	)
 
-	user, err := serv.DeleteUser(*c, uint(id))
+	err := serv.DeleteUser(*c, uint(id))
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.ERROR_DELETE_USER, nil)
 		return
 	}
-	appG.OK(user)
+	appG.OK(err) //todo
 }
 
 // @Summary user login
@@ -129,4 +130,40 @@ func UserLogin(c *gin.Context) {
 	appG.OK(map[string]string{
 		"token": token,
 	})
+}
+
+func ChangePassword(c *gin.Context)  {
+	//var (
+	//	appG = Gin{C: c}
+	//)
+
+
+	
+}
+
+func GetUserByToken(c *gin.Context)  {
+	var (
+		appG = Gin{C: c}
+		token = c.Param("token")
+		code = e.SUCCESS
+	)
+	claim, err := util.ParseToken(token)
+	if err != nil {
+		switch err.(*jwt.ValidationError).Errors {
+		case jwt.ValidationErrorExpired:
+			code = e.ERROR_AUTH_CHECK_TOKEN_TIMEOUT
+		default:
+			code = e.ERROR_AUTH_CHECK_TOKEN_FAIL
+		}
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+	user, err := serv.GetUserByToken(*c, claim.Email)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+
+	appG.OK(user)
+
 }

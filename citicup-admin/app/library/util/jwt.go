@@ -19,8 +19,8 @@ func GenerateToken(email, password string) (string, error) {
 	expireTime := nowTime.Add(3 * time.Hour)
 
 	claims := Claims{
-		EncodeMD5(email),
-		EncodeMD5(password),
+		email,
+		password,
 		jwt.StandardClaims{
 			ExpiresAt: expireTime.Unix(),
 			Issuer:    "citicup",
@@ -43,8 +43,9 @@ func ParseToken(token string) (*Claims, error) {
 		if claims, ok := tokenClaims.Claims.(*Claims); ok && tokenClaims.Valid {
 			return claims, nil
 		}
+		//claims, _ := tokenClaims.Claims.(*Claims)
+		//return claims, nil
 	}
-
 	return nil, err
 }
 

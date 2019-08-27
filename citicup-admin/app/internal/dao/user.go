@@ -55,3 +55,9 @@ func (d *Dao) CheckAuth(email, password string) (bool, error) {
 
 	return false, nil
 }
+
+func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
+
+	d.db.Where("email = ?", email).First(&user)
+	return
+}

@@ -62,13 +62,18 @@ func (s *Service) UpdateUser(c gin.Context, userparm *schema.User) (err error, e
 	return
 }
 
-func (s *Service) DeleteUser(c gin.Context, id uint) (err error, error error) {
+func (s *Service) DeleteUser(c gin.Context, id uint) (err error) {
 	_, err = s.dao.DeleteUserById(id)
 	return
 }
 
 func (s *Service) Check(c gin.Context, email, password string) (bool, error) {
 	return s.dao.CheckAuth(email, password)
+}
+
+func (s *Service) GetUserByToken(c gin.Context, email string) (user model2.User, err error) { //todo
+	user, err = s.dao.GetUserByToken(email)
+	return
 }
 
 
