@@ -67,6 +67,10 @@ func (s *Service) DeleteUser(c gin.Context, id uint) (err error, error error) {
 	return
 }
 
+func (s *Service) Check(c gin.Context, email, password string) (bool, error) {
+	return s.dao.CheckAuth(email, password)
+}
+
 
 
 

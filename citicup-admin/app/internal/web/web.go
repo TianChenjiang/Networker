@@ -42,12 +42,14 @@ func routeSetUp(e *gin.Engine) {
 	g := e.Group("/api")
 	{
 		userRouter := g.Group("/users")
+		//userRouter.Use(middleware.JWT())
 		{
 			userRouter.GET("", GetUserList)
 			userRouter.GET("/:id", GetUserByID)
 			userRouter.POST("", Register)
 			userRouter.PUT("", EditUser)
 			userRouter.DELETE("/:id", DeleteUser)
+			userRouter.POST("/login", UserLogin)
 		}
 
 		companyRouter := g.Group("/companies")

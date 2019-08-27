@@ -2,6 +2,7 @@ package dao
 
 import (
 	"citicup-admin/internal/model"
+	"github.com/jinzhu/gorm"
 )
 
 var user_e interface{} = &model.User{}
@@ -38,4 +39,19 @@ func (d *Dao) DeleteUserById(id uint) (user model.User, err error) {
 		ID: id,
 	}).Delete(&user)
 	return
+}
+
+//识别Auth
+func (d *Dao) CheckAuth(email, password string) (bool, error) {
+	var user model.User
+	err := d.db.Select("id").Where(&model.User{Email: email, Password: password}).First(&user).Error
+	if err != nil && err != gorm.ErrRecordNotFound {
+		return false, err
+	}
+
+	if user.ID > 0 {
+		return true, nil
+	}
+
+	return false, nil
 }

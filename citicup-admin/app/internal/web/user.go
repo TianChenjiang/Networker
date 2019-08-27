@@ -2,6 +2,7 @@ package web
 
 import (
 	"citicup-admin/internal/web/e"
+	"citicup-admin/library/util"
 	"citicup-admin/schema"
 	"github.com/gin-gonic/gin"
 	"log"
@@ -92,10 +93,40 @@ func DeleteUser(c *gin.Context) {
 	appG.OK(user)
 }
 
+// @Summary user login
+// @Produce  json
+// @Param email query string true "email"
+// @Param password query string true "password"
+// @Success 200 {object} app.Response
+// @Failure 500 {object} app.Response
+// @Router /auth [get]
+func UserLogin(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+		schema schema.Auth
+	)
+
+	err := c.BindJSON(&schema)
 
 
+	isExist, err := serv.Check(*c, schema.Email, schema.Password)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.ERROR_AUTH_CHECK_TOKEN_FAIL, nil)
+		return
+	}
 
+	if !isExist {
+		appG.Response(http.StatusUnauthorized, e.ERROR_AUTH, nil)
+		return
+	}
 
+	token, err := util.GenerateToken(schema.Email, schema.Password)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.ERROR_AUTH_TOKEN, nil)
+		return
+	}
 
-
-
+	appG.OK(map[string]string{
+		"token": token,
+	})
+}
