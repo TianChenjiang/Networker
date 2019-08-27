@@ -4,7 +4,7 @@ import (
 	"citicup-admin/internal/web/e"
 	"citicup-admin/library/util"
 	"citicup-admin/schema"
-	"github.com/dgrijalva/jwt-go"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
@@ -16,6 +16,7 @@ func GetUserList(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
 	)
+	fmt.Println(c.GetHeader("User-Agent"))
 	list, err := serv.GetAllUser(*c)
 	if err != nil {
 		log.Print("err")
@@ -100,7 +101,7 @@ func DeleteUser(c *gin.Context) {
 // @Param password query string true "password"
 // @Success 200 {object} app.Response
 // @Failure 500 {object} app.Response
-// @Router /auth [get]
+// @Router /api/users/token/:token [get]
 func UserLogin(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
@@ -133,37 +134,33 @@ func UserLogin(c *gin.Context) {
 }
 
 func ChangePassword(c *gin.Context)  {
-	//var (
-	//	appG = Gin{C: c}
-	//)
-
-
-	
-}
-
-func GetUserByToken(c *gin.Context)  {
 	var (
 		appG = Gin{C: c}
-		token = c.Param("token")
-		code = e.SUCCESS
+		schema schema.ChangePasswordSchema
 	)
-	claim, err := util.ParseToken(token)
-	if err != nil {
-		switch err.(*jwt.ValidationError).Errors {
-		case jwt.ValidationErrorExpired:
-			code = e.ERROR_AUTH_CHECK_TOKEN_TIMEOUT
-		default:
-			code = e.ERROR_AUTH_CHECK_TOKEN_FAIL
-		}
-		appG.Response(http.StatusInternalServerError, code, nil)
-		return
-	}
-	user, err := serv.GetUserByToken(*c, claim.Email)
+
+	c.BindJSON(&schema)
+
+	user, code, err:= serv.GetUserByToken(*c)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
 
-	appG.OK(user)
+	err = serv.ChangePassword(*c, schema.Password, user)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.ERROR_CHANGE_PASSWORD, nil)
+		return
+	}
+	appG.OK("成功修改密码")
+}
+
+func UploadAvatar(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+	)
+
+	appG.OK(nil)
 
 }
+

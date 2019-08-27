@@ -1,8 +1,12 @@
 package service
 
 import (
-	model2 "citicup-admin/internal/model"
+	"citicup-admin/internal/model"
+	"citicup-admin/internal/web/e"
+	"citicup-admin/library/util"
 	"citicup-admin/schema"
+	"fmt"
+	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 )
 
@@ -29,9 +33,9 @@ func (s *Service) GetUserById(c gin.Context, id uint) (user *schema.User, err er
 }
 
 func (s *Service) CreateUser(c gin.Context, userparm *schema.User) (user *schema.User, err error){
-	var model = &model2.User{
+	var model = &model.User{
 		ID:       userparm.ID,
-		UserName: userparm.Username,
+		Username: userparm.Username,
 		Password: userparm.Password,
 		Email:    userparm.Email,
 		Phone:    userparm.Phone,
@@ -49,9 +53,9 @@ func (s *Service) CreateUser(c gin.Context, userparm *schema.User) (user *schema
 }
 
 func (s *Service) UpdateUser(c gin.Context, userparm *schema.User) (err error, error error) {
-	var model = &model2.User{
+	var model = &model.User{
 		ID:       userparm.ID,
-		UserName: userparm.Username,
+		Username: userparm.Username,
 		Password: userparm.Password,
 		Email:    userparm.Email,
 		Phone:    userparm.Phone,
@@ -71,16 +75,42 @@ func (s *Service) Check(c gin.Context, email, password string) (bool, error) {
 	return s.dao.CheckAuth(email, password)
 }
 
-func (s *Service) GetUserByToken(c gin.Context, email string) (user model2.User, err error) { //todo
-	user, err = s.dao.GetUserByToken(email)
+//func (s *Service) GetUserByToken(c gin.Context, email string) (user model2.User, err error) { //todo
+//	user, err = s.dao.GetUserByToken(email)
+//	return
+//}
+
+func (s *Service) GetUserByToken(c gin.Context) (user model.User, code int, err error) {
+
+	fmt.Println(c.GetHeader("Authorization")[7:])
+	claim, err := util.ParseToken(c.GetHeader("Authorization")[7:])
+	if err != nil {
+		switch err.(*jwt.ValidationError).Errors {
+		case jwt.ValidationErrorExpired:
+			code = e.ERROR_AUTH_CHECK_TOKEN_TIMEOUT
+		default:
+			code = e.ERROR_AUTH_CHECK_TOKEN_FAIL
+		}
+		return
+	}
+	user, err = s.dao.GetUserByToken(claim.Email)
+	if err != nil {
+		code = e.INTERNAL_ERROR
+		return
+	}
 	return
 }
 
-
-
-
-
-
-
+func (s *Service) ChangePassword(c gin.Context, password string, userparm model.User) (err error) {
+	var model = &model.User{
+		ID:       userparm.ID,
+		Username: userparm.Username,
+		Password: password,
+		Email:    userparm.Email,
+		Phone:    userparm.Phone,
+	}
+	err = s.dao.UpdateUser(model)
+	return
+}
 
 

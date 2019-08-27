@@ -50,7 +50,7 @@ func routeSetUp(e *gin.Engine) {
 			userRouter.PUT("", EditUser)
 			userRouter.DELETE("/:id", DeleteUser)
 			userRouter.POST("/login", UserLogin)
-			userRouter.GET("/token/:token", GetUserByToken)
+			userRouter.POST("/change/password", ChangePassword)
 		}
 
 		companyRouter := g.Group("/companies")

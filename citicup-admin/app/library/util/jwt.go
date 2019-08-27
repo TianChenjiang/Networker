@@ -16,7 +16,7 @@ type Claims struct {
 // GenerateToken generate tokens used for auth
 func GenerateToken(email, password string) (string, error) {
 	nowTime := time.Now()
-	expireTime := nowTime.Add(3 * time.Hour)
+	expireTime := nowTime.Add(1 * time.Hour)
 
 	claims := Claims{
 		email,
@@ -43,8 +43,6 @@ func ParseToken(token string) (*Claims, error) {
 		if claims, ok := tokenClaims.Claims.(*Claims); ok && tokenClaims.Valid {
 			return claims, nil
 		}
-		//claims, _ := tokenClaims.Claims.(*Claims)
-		//return claims, nil
 	}
 	return nil, err
 }
