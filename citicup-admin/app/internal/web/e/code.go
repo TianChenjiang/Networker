@@ -17,6 +17,7 @@ const (
 	ERROR_CREATE_USER              = 10003
 	ERROR_EDIT_USER                = 10004
 	ERROR_DELETE_USER              = 10005
+	ERROR_CHANGE_PASSWORD          = 10006
 
 
 	ERROR_AUTH_CHECK_TOKEN_FAIL    = 20001

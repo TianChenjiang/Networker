@@ -7,7 +7,7 @@ import (
 //用户实体
 type User struct {
 	ID       uint   `gorm:"column:id;AUTO_INCREMENT"`
-	UserName string `gorm:"column:username"`
+	Username string `gorm:"column:username"`
 	Password string `gorm:"column:password"`
 	Email    string `gorm:"column:email"`
 	Phone    string `gorm:"column:phone"`
@@ -20,7 +20,7 @@ func (u *User) TableName() string {
 func (u *User) Model2Schema() (result schema.User) {
 	result = schema.User{
 		ID:       u.ID,
-		Username: u.UserName,
+		Username: u.Username,
 		Password: u.Password,
 		Phone:    u.Phone,
 		Email:    u.Email,

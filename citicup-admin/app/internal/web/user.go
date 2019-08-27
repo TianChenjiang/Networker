@@ -2,7 +2,9 @@ package web
 
 import (
 	"citicup-admin/internal/web/e"
+	"citicup-admin/library/util"
 	"citicup-admin/schema"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
@@ -14,6 +16,7 @@ func GetUserList(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
 	)
+	fmt.Println(c.GetHeader("User-Agent"))
 	list, err := serv.GetAllUser(*c)
 	if err != nil {
 		log.Print("err")
@@ -84,18 +87,80 @@ func DeleteUser(c *gin.Context) {
 		id, _ = strconv.Atoi(c.Param("id"))
 	)
 
-	user, err := serv.DeleteUser(*c, uint(id))
+	err := serv.DeleteUser(*c, uint(id))
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.ERROR_DELETE_USER, nil)
 		return
 	}
-	appG.OK(user)
+	appG.OK(err) //todo
 }
 
+// @Summary user login
+// @Produce  json
+// @Param email query string true "email"
+// @Param password query string true "password"
+// @Success 200 {object} app.Response
+// @Failure 500 {object} app.Response
+// @Router /api/users/token/:token [get]
+func UserLogin(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+		schema schema.Auth
+	)
+
+	err := c.BindJSON(&schema)
 
 
+	isExist, err := serv.Check(*c, schema.Email, schema.Password)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.ERROR_AUTH_CHECK_TOKEN_FAIL, nil)
+		return
+	}
 
+	if !isExist {
+		appG.Response(http.StatusUnauthorized, e.ERROR_AUTH, nil)
+		return
+	}
 
+	token, err := util.GenerateToken(schema.Email, schema.Password)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.ERROR_AUTH_TOKEN, nil)
+		return
+	}
 
+	appG.OK(map[string]string{
+		"token": token,
+	})
+}
 
+func ChangePassword(c *gin.Context)  {
+	var (
+		appG = Gin{C: c}
+		schema schema.ChangePasswordSchema
+	)
+
+	c.BindJSON(&schema)
+
+	user, code, err:= serv.GetUserByToken(*c)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+
+	err = serv.ChangePassword(*c, schema.Password, user)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.ERROR_CHANGE_PASSWORD, nil)
+		return
+	}
+	appG.OK("成功修改密码")
+}
+
+func UploadAvatar(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+	)
+
+	appG.OK(nil)
+
+}
 
