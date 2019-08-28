@@ -1,0 +1,11 @@
+# 部署环境
+server:
+  port: 8080
+
+data:
+  type: mysql
+  user: root
+  password: mysql
+  # 内网数据库
+  host: citicup-mysql
+  dbname: citicup

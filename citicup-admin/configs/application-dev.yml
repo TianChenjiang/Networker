@@ -1,0 +1,10 @@
+# 本地开发环境
+server:
+  port: 8080
+
+data:
+  type: mysql
+  user: root
+  password: mysql
+  host: localhost:33006
+  dbname: citicup
