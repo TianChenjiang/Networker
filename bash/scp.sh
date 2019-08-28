@@ -17,7 +17,7 @@ scp citicup-apigateway/target/citicup-api-gateway-0.0.1-SNAPSHOT.jar root@"$BASE
 # 前端
 scp -r citicup-frontend/* root@"$BASE"/citicup-frontend
 # admin 服务器
-scp -r citicup-admin/app/* root@"$BASE"/citicup-admin
+scp -r citicup-admin/* root@"$BASE"/citicup-admin
 
 # docker
 scp docker-compose-prod.yml root@"$BASE"/docker-compose.yml
