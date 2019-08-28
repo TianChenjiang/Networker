@@ -39,6 +39,8 @@ func New(c *config.Config, s *service.Service) (httpSrv *http.Server) {
 func routeSetUp(e *gin.Engine) {
 	//swagger
 	e.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+	e.StaticFS("/upload/image", http.Dir("library/pic/"))
+	
 	g := e.Group("/api")
 	{
 		userRouter := g.Group("/users")
@@ -51,6 +53,7 @@ func routeSetUp(e *gin.Engine) {
 			userRouter.DELETE("/:id", DeleteUser)
 			userRouter.POST("/login", UserLogin)
 			userRouter.POST("/change/password", ChangePassword)
+			userRouter.POST("/upload", UploadAvatar)
 		}
 
 		companyRouter := g.Group("/companies")

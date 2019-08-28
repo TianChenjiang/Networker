@@ -162,11 +162,24 @@ func ChangePassword(c *gin.Context)  {
 func UploadAvatar(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
-		//file, image, err = c.Request.FormFile("image")
 	)
+	_, image, err := c.Request.FormFile("image")
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
+		return
+	}
 
+	if image == nil {
+		appG.Response(http.StatusBadRequest, e.BAD_REQUEST, nil)
+		return
+	}
 
-	appG.OK(nil)
+	if err := c.SaveUploadedFile(image, "library/pic/"+image.Filename); err != nil { //todo 保存路径
+		appG.Response(http.StatusInternalServerError, e.ERROR_UPLOAD_SAVE_IMAGE_FAIL, nil)
+		return
+	}
+	appG.OK(image.Filename)
+	return
 
 }
 

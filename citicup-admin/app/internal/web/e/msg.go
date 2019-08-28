@@ -16,6 +16,7 @@ var msgFlags = map[int]string{
 	ERROR_DELETE_USER:               "删除用户失败",
 	ERROR_CHANGE_PASSWORD_SAME:      "密码与原来一致",
 	ERROR_CHANGE_PASSWORD:           "修改密码错误",
+	ERROR_UPLOAD_SAVE_IMAGE_FAIL:    "保存上传图片失败",
 	ERROR_AUTH_CHECK_TOKEN_FAIL:     "Token鉴权失败",
 	ERROR_AUTH_CHECK_TOKEN_TIMEOUT:  "Token已超时",
 	ERROR_AUTH_TOKEN:                "Token生成失败",
