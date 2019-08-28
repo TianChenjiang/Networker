@@ -147,6 +147,10 @@ func ChangePassword(c *gin.Context)  {
 		return
 	}
 
+	if schema.Password == user.Password {
+		appG.Response(http.StatusInternalServerError, e.ERROR_CHANGE_PASSWORD_SAME, nil)
+		return
+	}
 	err = serv.ChangePassword(*c, schema.Password, user)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.ERROR_CHANGE_PASSWORD, nil)
@@ -158,7 +162,9 @@ func ChangePassword(c *gin.Context)  {
 func UploadAvatar(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
+		//file, image, err = c.Request.FormFile("image")
 	)
+
 
 	appG.OK(nil)
 
