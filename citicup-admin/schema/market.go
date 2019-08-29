@@ -1,8 +1,6 @@
 package schema
 
-//股票详细信息
-type Stock struct {
-}
+//行情数据
 
 //市场行情		TODO:这里的市场行情是一天的？
 type Market struct {
