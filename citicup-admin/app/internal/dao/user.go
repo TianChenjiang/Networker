@@ -6,6 +6,9 @@ import (
 )
 
 var user_e interface{} = &model.User{}
+var companies interface{} = &model.Companies{}
+
+
 
 //查询所有的用户
 func (d *Dao) GetAllUser() (userList []*model.User, err error) {
@@ -59,5 +62,11 @@ func (d *Dao) CheckAuth(email, password string) (bool, error) {
 func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
 
 	d.db.Where("email = ?", email).First(&user)
+	return
+}
+
+func (d *Dao) MarkAsConcerned(companyID, userID int) (err error) {
+	d.db.Model(&user_e).Related(&companies)//todo 是否指定外键
+
 	return
 }
