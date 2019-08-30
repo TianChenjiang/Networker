@@ -185,6 +185,7 @@ func UploadAvatar(c *gin.Context) {
 func MarkAsConcerned(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
+		id, _ = strconv.Atoi(c.Param("symbol"))
 	)
 	user, code, err:= serv.GetUserByToken(*c)
 	if err != nil {
@@ -192,7 +193,7 @@ func MarkAsConcerned(c *gin.Context) {
 		return
 	}
 
-	err = serv.MarkAsConcerned(*c, user.ID, c.Param("id"))
+	err = serv.MarkAsConcerned(*c, user.ID, uint(id))
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}

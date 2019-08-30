@@ -2,11 +2,13 @@ package dao
 
 import (
 	"citicup-admin/internal/model"
+	"fmt"
 	"github.com/jinzhu/gorm"
 )
 
 var user_e interface{} = &model.User{}
-var companies interface{} = &model.Companies{}
+var companies []model.Company
+var user model.User
 
 
 
@@ -65,8 +67,17 @@ func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
 	return
 }
 
-func (d *Dao) MarkAsConcerned(companyID, userID int) (err error) {
-	d.db.Model(&user_e).Related(&companies)//todo 是否指定外键
+func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
+	companies = make([]model.Company, 0)
+	u, _ := d.GetUserById(userID)
+	com, _  := d.GetCompanyById(companyID)
+	companies = []model.Company{
+		com,
+	}
+	fmt.Println(companies)
+	d.db.Model(&u).Related(&companies, "Companies")
+
 
 	return
 }
+
