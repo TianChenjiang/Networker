@@ -1,4 +1,4 @@
-package citicup_admin
+package main
 
 import (
 	"citicup-admin/internal/config"
@@ -10,7 +10,6 @@ import (
 	"os"
 	"syscall"
 	"time"
-
 )
 // @title Citicup Api
 // @version 1.0
@@ -33,7 +32,6 @@ func main() {
 	cycle(httpSrv)
 
 }
-
 func cycle(httpSrv *http.Server) {
 	t := make(chan os.Signal, 1)
 	for {
