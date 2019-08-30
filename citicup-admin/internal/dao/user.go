@@ -2,10 +2,15 @@ package dao
 
 import (
 	"citicup-admin/internal/model"
+	"fmt"
 	"github.com/jinzhu/gorm"
 )
 
 var user_e interface{} = &model.User{}
+var companies []model.Company
+var user model.User
+
+
 
 //查询所有的用户
 func (d *Dao) GetAllUser() (userList []*model.User, err error) {
@@ -61,3 +66,18 @@ func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
 	d.db.Where("email = ?", email).First(&user)
 	return
 }
+
+func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
+	companies = make([]model.Company, 0)
+	u, _ := d.GetUserById(userID)
+	com, _  := d.GetCompanyById(companyID)
+	companies = []model.Company{
+		com,
+	}
+	fmt.Println(companies)
+	d.db.Model(&u).Related(&companies, "Companies")
+
+
+	return
+}
+

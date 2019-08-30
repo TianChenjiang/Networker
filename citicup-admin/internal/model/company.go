@@ -8,6 +8,7 @@ import (
 type Company struct {
 	ID          uint   `gorm:"column:id;AUTO_INCREMENT"`
 	CompanyName string `gorm:"column:company_name"`
+	//Users       []*User `gorm:"many2many:user_company;"`
 }
 
 type Companies []Company
