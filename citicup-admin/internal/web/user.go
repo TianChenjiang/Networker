@@ -178,8 +178,26 @@ func UploadAvatar(c *gin.Context) {
 		appG.Response(http.StatusInternalServerError, e.ERROR_UPLOAD_SAVE_IMAGE_FAIL, nil)
 		return
 	}
-	appG.OK(image.Filename)
+	appG.OK("library/pic/"+image.Filename)
 	return
+}
 
+func MarkAsConcerned(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+	)
+	user, code, err:= serv.GetUserByToken(*c)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+
+	err = serv.MarkAsConcerned(*c, user.ID, c.Param("id"))
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
+	}
+
+	appG.OK("标记成功")
+	
 }
 

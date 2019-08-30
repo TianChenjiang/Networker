@@ -11,7 +11,10 @@ type User struct {
 	Password string `gorm:"column:password"`
 	Email    string `gorm:"column:email"`
 	Phone    string `gorm:"column:phone"`
+	Companies []Company `gorm:"many2many:user_company;ForeignKey:ID;AssociationForeignKey:ID"`
 }
+
+
 
 func (u *User) TableName() string {
 	return "user"

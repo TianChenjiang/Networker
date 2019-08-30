@@ -39,7 +39,7 @@ func New(c *config.Config, s *service.Service) (httpSrv *http.Server) {
 func routeSetUp(e *gin.Engine) {
 	//swagger
 	e.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
-	e.StaticFS("/upload/image", http.Dir("library/pic/"))
+	e.StaticFS("/upload/image", http.Dir("library/pic/")) //前端访问已上传的图片
 	
 	g := e.Group("/api")
 	{
@@ -52,8 +52,10 @@ func routeSetUp(e *gin.Engine) {
 			userRouter.PUT("", EditUser)
 			userRouter.DELETE("/:id", DeleteUser)
 			userRouter.POST("/login", UserLogin)
-			userRouter.POST("/change/password", ChangePassword)
+			userRouter.PUT("/password", ChangePassword)
 			userRouter.POST("/upload", UploadAvatar)
+			userRouter.GET("/mark/:symbol", MarkAsConcerned)
+
 		}
 
 		companyRouter := g.Group("/companies")
