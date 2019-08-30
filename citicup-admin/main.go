@@ -1,4 +1,4 @@
-package citicup_admin
+package main
 
 import (
 	"citicup-admin/internal/config"

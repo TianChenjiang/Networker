@@ -114,9 +114,8 @@ func (s *Service) ChangePassword(c gin.Context, password string, userparm model.
 }
 
 func (s *Service) MarkAsConcerned(c gin.Context, ID uint, symbol string) (err error) {
-	err = s.dao.UpdateUser()
-
-
+	//err = s.dao.UpdateUser()
+	return
 }
 
 
