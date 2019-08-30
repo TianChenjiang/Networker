@@ -1,25 +1,36 @@
-version: '3'
+version: "2"
 services:
   #网关 spring cloud
   api-gateway:
     restart: always
     image: citicup/citicup-api-gateway
     container_name: citicup-api-gateway
-    entrypoint: ["java","-jar","/app.jar"]
+    entrypoint: ["./dockerize","-wait=tcp://discovery-server:8080","-timeout=60s","--","java","-jar","/app.jar"]
     build:
       context: .
       dockerfile: Dockerfile-api-gateway
       args:
         - ARTIFACT_NAME=citicup-api-gateway-0.0.1-SNAPSHOT
-        - EXPOSED_PORT=8082
     networks:
       - citicup
       - proxy
     environment:
-      - VIRTUAL_HOST=106.14.140.93
-      - VIRTUAL_PORT=8082
-      - LETSENCRYPT_HOST=106.14.140.93
+      - VIRTUAL_HOST=citicup.top
+      - VIRTUAL_PORT=8080
+      - LETSENCRYPT_HOST=citicup.top
       - LETSENCRYPT_EMAIL=1071956678@qq.com
+  # eureka
+  discovery-server:
+    restart: always
+    image: citicup/citicup-discovery-server
+    container_name: citicup-server
+    build:
+      context: .
+      dockerfile: Dockerfile-api-gateway
+      args:
+        - ARTIFACT_NAME=citicup-discovery-server-0.0.1-SNAPSHOT
+    networks:
+      - citicup
   # 内网mysql
   citicup-mysql:
     image: 'mysql:5.7.21'
