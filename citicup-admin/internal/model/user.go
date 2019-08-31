@@ -6,7 +6,7 @@ import (
 
 //用户实体
 type User struct {
-	ID       uint   `gorm:"column:id;AUTO_INCREMENT"`
+	ID       uint   `gorm:"column:id;AUTO_INCREMENT;"`
 	Username string `gorm:"column:username"`
 	Password string `gorm:"column:password"`
 	Email    string `gorm:"column:email"`
