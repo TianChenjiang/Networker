@@ -75,9 +75,8 @@ func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
 		com,
 	}
 	fmt.Println(companies)
-	d.db.Model(&u).Related(&companies, "Companies")
-
-
+	u.Companies = companies
+	d.db.Model(&u).Related(&companies, "Companies").Update(u)
 	return
 }
 
