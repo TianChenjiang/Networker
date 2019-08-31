@@ -4,7 +4,8 @@ FROM golang:latest
 # 开启go module
 ENV GO111MODULE on
 # 阿里云代理
-ENV GOPROXY https://mirrors.aliyun.com/goproxy/
+ENV GOPROXY https://goproxy.io
+
 # ARGS
 # 设置端口
 ARG EXPOSED_PORT
