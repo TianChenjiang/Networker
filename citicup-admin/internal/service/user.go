@@ -118,4 +118,10 @@ func (s *Service) MarkAsConcerned(c gin.Context, userID, companyID uint) (err er
 	return
 }
 
+func (s *Service) UnMarkAsConcerned(c gin.Context, userID, companyID uint) (err error) {
+	err = s.dao.UnMarkAsConcerned(userID, companyID)
+	return
+}
+
+
 

@@ -199,6 +199,25 @@ func MarkAsConcerned(c *gin.Context) {
 	}
 
 	appG.OK("标记成功")
-	
 }
+
+func CancelMarkAsConcerned(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+		id, _ = strconv.Atoi(c.Param("symbol"))
+	)
+	user, code, err:= serv.GetUserByToken(*c)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+
+	err = serv.UnMarkAsConcerned(*c, user.ID, uint(id))
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
+	}
+
+	appG.OK("取消标记成功")
+}
+
 

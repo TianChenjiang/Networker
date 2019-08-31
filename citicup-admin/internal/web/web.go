@@ -55,6 +55,7 @@ func routeSetUp(e *gin.Engine) {
 			userRouter.PUT("/password", ChangePassword)
 			userRouter.POST("/upload", UploadAvatar)
 			userRouter.GET("/mark/:symbol", MarkAsConcerned)
+			userRouter.GET("/unmark/:symbol", CancelMarkAsConcerned)
 
 		}
 

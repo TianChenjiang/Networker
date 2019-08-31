@@ -70,13 +70,40 @@ func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
 func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
 	companies = make([]model.Company, 0)
 	u, _ := d.GetUserById(userID)
-	com, _  := d.GetCompanyById(companyID)
-	companies = []model.Company{
-		com,
-	}
-	fmt.Println(companies)
+	d.db.Preload("Companies").First(&u, userID)
+	d.db.Model(&u).Related(&companies, "Companies")
+	fmt.Println(u)
+	com, err  := d.GetCompanyById(companyID)
+	companies = append(u.Companies, com)
+
 	u.Companies = companies
-	d.db.Model(&u).Related(&companies, "Companies").Update(u)
+	d.db.Model(&u).Related(&companies, "Companies").Save(&u)
+	fmt.Println(u)
 	return
 }
 
+func (d *Dao) UnMarkAsConcerned(userID, companyID uint) (err error) {
+	companies = make([]model.Company, 0)
+	res := make([]model.Company, 0)
+	u, _ := d.GetUserById(userID)
+	d.db.Preload("Companies").First(&u, userID)
+	companies = u.Companies
+	fmt.Println(companies)
+
+	for i := 0; i < len(companies); i++ {
+		if companies[i].ID != companyID {
+			res = append(res, companies[i])
+		}
+	}
+
+	companies = res
+	u.Companies = companies
+	//d.db.Model(&u).Association( "Companies").Delete(&u.Companies)
+	fmt.Println(companies)
+	d.db.Model(&u).Related(&companies,"Companies").Save(&u)
+	fmt.Println(companies)
+	d.db.Preload("Companies").First(&u, userID) //todo 中间表 不变动
+	fmt.Println(u)
+
+	return
+}
