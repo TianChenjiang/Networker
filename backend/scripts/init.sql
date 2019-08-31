@@ -1,1 +1,0 @@
-CREATE DATABASE `networker` DEFAULT CHARACTER SET = `utf8mb4`;
