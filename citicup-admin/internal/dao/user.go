@@ -96,13 +96,10 @@ func (d *Dao) UnMarkAsConcerned(userID, companyID uint) (err error) {
 		}
 	}
 
+	d.db.Model(&u).Association( "Companies").Delete(&u.Companies)
 	companies = res
 	u.Companies = companies
-	//d.db.Model(&u).Association( "Companies").Delete(&u.Companies)
-	fmt.Println(companies)
 	d.db.Model(&u).Related(&companies,"Companies").Save(&u)
-	fmt.Println(companies)
-	d.db.Preload("Companies").First(&u, userID) //todo 中间表 不变动
 	fmt.Println(u)
 
 	return
