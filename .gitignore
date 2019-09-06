@@ -223,3 +223,4 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/linux,macos,windows,eclipse,intellij+iml
 /citicup-admin/app/vendor/
 model/Experiment/data/price/
+model/Experiment/data/fund/
