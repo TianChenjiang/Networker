@@ -224,3 +224,4 @@ $RECYCLE.BIN/
 /citicup-admin/app/vendor/
 model/Experiment/data/price/
 model/Experiment/data/fund/
+model/Experiment/data/fund_clean/
