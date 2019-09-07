@@ -67,6 +67,8 @@ func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
 	return
 }
 
+
+
 func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
 	companies = make([]model.Company, 0)
 	u, _ := d.GetUserById(userID)
