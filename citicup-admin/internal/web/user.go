@@ -46,7 +46,7 @@ func Register(c *gin.Context) {
 		appG = Gin{C: c}
 		schema  schema.User
 	)
-	err := c.Bind(&schema)
+	err := c.BindJSON(&schema)
 	if err != nil {
 		appG.Response(http.StatusBadRequest, e.ERROR_CREATE_USER, nil)
 		return

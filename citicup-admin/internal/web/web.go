@@ -66,5 +66,10 @@ func routeSetUp(e *gin.Engine) {
 			companyRouter.POST("", NewCompany)
 			companyRouter.DELETE("/:id", DeleteCompanyById)
 		}
+
+		investorRouter := g.Group("/investor")
+		{
+			investorRouter.POST("/register", InvestorRegister)
+		}
 	}
 }
