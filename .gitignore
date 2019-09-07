@@ -225,3 +225,4 @@ $RECYCLE.BIN/
 model/Experiment/data/price/
 model/Experiment/data/fund/
 model/Experiment/data/fund_clean/
+model/Experiment/predict_model/logs/
