@@ -39,7 +39,7 @@ func New(c *config.Config, s *service.Service) (httpSrv *http.Server) {
 func routeSetUp(e *gin.Engine) {
 	//swagger
 	e.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
-	e.StaticFS("/upload/image", http.Dir("library/pic/")) //前端访问已上传的图片
+	e.StaticFS("/image", http.Dir("library/pic/")) //前端访问已上传的图片
 	
 	g := e.Group("/api")
 	{
@@ -70,6 +70,8 @@ func routeSetUp(e *gin.Engine) {
 		investorRouter := g.Group("/investor")
 		{
 			investorRouter.POST("/register", InvestorRegister)
+			investorRouter.POST("/upload", UploadRegisterInfo)
+			investorRouter.POST("/login", InvestorLogin)
 		}
 	}
 }

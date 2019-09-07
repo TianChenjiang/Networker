@@ -11,6 +11,7 @@ type User struct {
 	Password string `gorm:"column:password"`
 	Email    string `gorm:"column:email"`
 	Phone    string `gorm:"column:phone"`
+	Avatar   string `gorm:"column:avatar"`
 	Companies []Company `gorm:"many2many:user_company;"`
 }
 

@@ -1,26 +1,29 @@
 package util
 
 import (
-	"time"
+	"citicup-admin/internal/publicdata"
 	"github.com/dgrijalva/jwt-go"
+	"time"
 )
 
 var jwtSecret []byte
 
 type Claims struct {
-	Email string `json:"email"`
+	Param    string `json:"param"`
 	Password string `json:"password"`
+	Role     publicdata.Role `json:"role"`
 	jwt.StandardClaims
 }
 
 // GenerateToken generate tokens used for auth
-func GenerateToken(email, password string) (string, error) {
+func GenerateToken(param, password string, role publicdata.Role) (string, error) {
 	nowTime := time.Now()
 	expireTime := nowTime.Add(1 * time.Hour)
 
 	claims := Claims{
-		email,
+		param,
 		password,
+		role,
 		jwt.StandardClaims{
 			ExpiresAt: expireTime.Unix(),
 			Issuer:    "citicup",

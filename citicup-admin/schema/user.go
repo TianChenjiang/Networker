@@ -12,7 +12,7 @@ type User struct {
 type Users []User
 
 
-type Auth struct {
+type UserAuth struct {
 	Email string `json:"email"`
 	Password string `json:"password"`
 }
@@ -20,6 +20,7 @@ type Auth struct {
 type ChangePasswordSchema struct {
 	Password string  `json:"password"`
 }
+
 
 
 

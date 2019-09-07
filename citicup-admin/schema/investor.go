@@ -10,3 +10,8 @@ type Investor struct {
 }
 
 type Investors []Investor
+
+type InvestorAuth struct {
+	SwiftCode string `json:"swift_code"`
+	Password string `json:"password"`
+}

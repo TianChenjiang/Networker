@@ -10,6 +10,7 @@ type Investor struct {
 	BankName string `gorm:"column:bank_name"`
 	SwiftCode string `gorm:"column:swift_code"`
 	BankEmail string `gorm:"column:bank_email"`
+	Avatar   string `gorm:"column:avatar"`
 }
 
 func (i *Investor) TableName() string {
