@@ -44,6 +44,8 @@ services:
       - ./mysqldb/backup:/data/backup
     networks:
       - citicup
+    ports:
+      - "3306:3306"
   # 前端站点
   citicup-frontend:
     image: citicup/citicup-frontend
@@ -55,7 +57,7 @@ services:
       args:
         - ARTIFACT_NAME=citicup-frontend
         - EXPOSED_PORT=8000
-    entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./app","-profile","prod"]
+    entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./citicup-app","-profile","prod"]
     networks:
       - citicup
   # 后端, 暂时一个微服务
@@ -69,7 +71,7 @@ services:
       args:
         - ARTIFACT_NAME=citicup-admin
         - EXPOSED_PORT=8080
-    entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./app","-profile","prod"]
+    entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./citicup-app","-profile","prod"]
     networks:
       - citicup
 
