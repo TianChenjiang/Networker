@@ -9,7 +9,7 @@ import (
 var market_e interface{} = &model.Market{}
 
 func (d *Dao) GetAllMarket(PageNum, PageSize int) (res []model.Market, err error) {
-	d.db.Model(market_e).Find(&res)
+	d.db.Model(market_e).Offset(PageNum).Limit(PageSize).Find(&res)
 	return
 }
 

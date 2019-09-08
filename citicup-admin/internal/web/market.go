@@ -16,7 +16,7 @@ func GetAllMarketCondition(c *gin.Context)  {
 
 	err := c.BindJSON(&PaginationScheme)
 	if err != nil {
-		appG.Response(http.StatusBadRequest, e.ERROR_CREATE_USER, nil)
+		appG.Response(http.StatusBadRequest, e.BAD_REQUEST, nil)
 		return
 	}
 
