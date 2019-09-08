@@ -73,5 +73,10 @@ func routeSetUp(e *gin.Engine) {
 			investorRouter.POST("/upload", UploadRegisterInfo)
 			investorRouter.POST("/login", InvestorLogin)
 		}
+
+		marketRouter := g.Group("/market")
+		{
+			marketRouter.GET("/all", GetAllMarketCondition)
+		}
 	}
 }
