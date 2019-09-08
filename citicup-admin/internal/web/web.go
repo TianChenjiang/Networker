@@ -56,6 +56,8 @@ func routeSetUp(e *gin.Engine) {
 			userRouter.POST("/upload", UploadAvatar)
 			userRouter.GET("/mark/:symbol", MarkAsConcerned)
 			userRouter.GET("/unmark/:symbol", CancelMarkAsConcerned)
+			userRouter.GET("/concerned", GetConcerned)
+			userRouter.GET("/concerned/market", GetConcernedMarketCondition)
 
 		}
 
@@ -77,6 +79,7 @@ func routeSetUp(e *gin.Engine) {
 		marketRouter := g.Group("/market")
 		{
 			marketRouter.GET("/all", GetAllMarketCondition)
+			marketRouter.POST("/insert", InsertMarket)
 		}
 	}
 }

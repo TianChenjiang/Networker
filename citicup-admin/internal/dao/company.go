@@ -40,3 +40,10 @@ func (d *Dao) InsertCompany(entity *model.Company) (newCompany model.Company, er
 	d.db.Model(company_e).Create(entity).Find(&newCompany)
 	return
 }
+
+
+func (d *Dao) GetMarket(companyID uint) (market model.Market, err error) {
+	d.db.Preload("market_id")
+	d.db.Model(company_e).Where("id = ?", companyID).Find(&market)
+	return
+}

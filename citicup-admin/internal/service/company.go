@@ -56,3 +56,8 @@ func (s *Service) NewCompany(c *gin.Context, entity *schema.Company) (newCompany
 	newCompany = &model_t
 	return
 }
+
+func (s *Service) GetMarket(companyID uint) (market model.Market, err error)  {
+	market, err = s.dao.GetMarket(companyID)
+	return
+}

@@ -21,3 +21,8 @@ type Market struct {
 	TurnoverRate float32 `json:"turnover_rate"` //换手率
 	Vol          float32 `json:"vol"`           //成交量
 }
+
+type InsertMarketParam struct {
+	Market       Market  `json:"market"`
+	CompanyID    uint    `json:"company_id"`
+}
