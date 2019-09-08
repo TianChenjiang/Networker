@@ -110,9 +110,10 @@ func (d *Dao) UnMarkAsConcerned(userID, companyID uint) (err error) {
 	return
 }
 
-func (d *Dao) GetConcerned(userID uint) (companyList[]model.Company, err error)  {
+func (d *Dao) GetConcerned(userID uint) (companyList []model.Company, err error)  {
 	u, _ := d.GetUserById(userID)
 	d.db.Preload("Companies").First(&u, userID)
+	d.db.Model(&u).Related(&companies, "Companies")
 	companyList = u.Companies
 
 	return

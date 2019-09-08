@@ -50,7 +50,7 @@ func GetConcernedMarketCondition(c *gin.Context)  {
 	marketList := make([]model.Market, 0)
 
 	for i := 0; i < len(companyList); i++{
-		market, _ := serv.GetMarket(companyList[i].Market.ID)
+		market, _ := serv.GetMarket(companyList[i].ID)
 		marketList = append(marketList, market)
 	}
 
