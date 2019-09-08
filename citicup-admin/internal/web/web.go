@@ -80,6 +80,7 @@ func routeSetUp(e *gin.Engine) {
 		{
 			marketRouter.GET("/all", GetAllMarketCondition)
 			marketRouter.POST("/insert", InsertMarket)
+			marketRouter.GET("/symbol/:symbol", GetMarketConditionBySymbol)
 		}
 	}
 }

@@ -12,3 +12,7 @@ func (s *Service) GetAllMarket(PageNum, PageSize int) (res []model.Market, err e
 func (s *Service) InsertMarket(param schema.InsertMarketParam) (market model.Market, err error) {
 	return s.dao.InsertMarket(param)
 }
+
+func (s *Service) GetMarketConditionBySymbol(symbol string) (market model.Market, err error)  {
+	return s.dao.GetMarketBySymbol(symbol)
+}

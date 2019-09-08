@@ -24,3 +24,8 @@ func (d *Dao) InsertMarket(param schema.InsertMarketParam) (market model.Market,
 
 	return
 }
+
+func (d *Dao) GetMarketBySymbol(symbol string) (market model.Market, err error)  {
+	d.db.Where("symbol = ?", symbol).First(&market)
+	return
+}

@@ -58,6 +58,17 @@ func GetConcernedMarketCondition(c *gin.Context)  {
 }
 
 func GetMarketConditionBySymbol(c *gin.Context)  {
+	var (
+		appG = Gin{C: c}
+		symbol = c.Param("symbol")
+	)
+
+	market, err := serv.GetMarketConditionBySymbol(symbol)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
+	}
+
+	appG.OK(market)
 	
 }
 
