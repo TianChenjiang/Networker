@@ -20,9 +20,9 @@ ADD $ARTIFACT_NAME/. $GOPATH/src/github.com/$ARTIFACT_NAME/app
 ADD dockerize dockerize
 RUN chmod +x dockerize
 # 依赖装载 构建
-RUN go build -o app
-RUN chmod +x app
+RUN go build -o citicup-app
+RUN chmod +x citicup-app
 # 暴露端口
 EXPOSE $EXPOSED_PORT
 # 最终运行docker的命令
-ENTRYPOINT ["./app","-profile","prod"]
+ENTRYPOINT ["./citicup-app","-profile","prod"]

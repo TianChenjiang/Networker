@@ -31,6 +31,12 @@ func (d *Dao) UpdateUser(entity *model.User) (err error) {
 	return
 }
 
+//更新头像url
+func (d *Dao) UpdateUserAvatar(id uint, url string) (err error) {
+	d.db.Model(user_e).Where("id = ?", id).Update("avatar", url)
+	return
+}
+
 //添加新的用户
 func (d *Dao) InsertUser(entity *model.User) (user model.User, err error) {
 	d.db.Create(entity).Find(&user)
@@ -62,10 +68,10 @@ func (d *Dao) CheckAuth(email, password string) (bool, error) {
 }
 
 func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
-
 	d.db.Where("email = ?", email).First(&user)
 	return
 }
+
 
 func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
 	companies = make([]model.Company, 0)
@@ -96,13 +102,10 @@ func (d *Dao) UnMarkAsConcerned(userID, companyID uint) (err error) {
 		}
 	}
 
+	d.db.Model(&u).Association( "Companies").Delete(&u.Companies)
 	companies = res
 	u.Companies = companies
-	//d.db.Model(&u).Association( "Companies").Delete(&u.Companies)
-	fmt.Println(companies)
 	d.db.Model(&u).Related(&companies,"Companies").Save(&u)
-	fmt.Println(companies)
-	d.db.Preload("Companies").First(&u, userID) //todo 中间表 不变动
 	fmt.Println(u)
 
 	return

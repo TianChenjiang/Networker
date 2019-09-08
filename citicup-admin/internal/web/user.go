@@ -1,6 +1,7 @@
 package web
 
 import (
+	"citicup-admin/internal/publicdata"
 	"citicup-admin/internal/web/e"
 	"citicup-admin/library/util"
 	"citicup-admin/schema"
@@ -46,7 +47,7 @@ func Register(c *gin.Context) {
 		appG = Gin{C: c}
 		schema  schema.User
 	)
-	err := c.Bind(&schema)
+	err := c.BindJSON(&schema)
 	if err != nil {
 		appG.Response(http.StatusBadRequest, e.ERROR_CREATE_USER, nil)
 		return
@@ -105,13 +106,13 @@ func DeleteUser(c *gin.Context) {
 func UserLogin(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
-		schema schema.Auth
+		schema schema.UserAuth
 	)
 
 	err := c.BindJSON(&schema)
 
 
-	isExist, err := serv.Check(*c, schema.Email, schema.Password)
+	isExist, err := serv.CheckUser(*c, schema.Email, schema.Password)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.ERROR_AUTH_CHECK_TOKEN_FAIL, nil)
 		return
@@ -122,7 +123,7 @@ func UserLogin(c *gin.Context) {
 		return
 	}
 
-	token, err := util.GenerateToken(schema.Email, schema.Password)
+	token, err := util.GenerateToken(schema.Email, schema.Password, publicdata.Investor)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.ERROR_AUTH_TOKEN, nil)
 		return
@@ -163,6 +164,14 @@ func UploadAvatar(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
 	)
+
+	//获得当前用户token
+	user, code, err:= serv.GetUserByToken(*c)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+
 	_, image, err := c.Request.FormFile("image")
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
@@ -174,11 +183,14 @@ func UploadAvatar(c *gin.Context) {
 		return
 	}
 
-	if err := c.SaveUploadedFile(image, "library/pic/"+image.Filename); err != nil { //todo 保存路径
+	if err := c.SaveUploadedFile(image, "library/pic/user/"+image.Filename); err != nil { //todo 保存路径
 		appG.Response(http.StatusInternalServerError, e.ERROR_UPLOAD_SAVE_IMAGE_FAIL, nil)
 		return
 	}
-	appG.OK("library/pic/"+image.Filename)
+	//更新用户的avatar属性
+	url := "http://citicup.top/image/"+image.Filename  //todo
+	err = serv.UpdateUserAvatar(user.ID, url)
+	appG.OK(url)
 	return
 }
 
@@ -200,6 +212,7 @@ func MarkAsConcerned(c *gin.Context) {
 
 	appG.OK("标记成功")
 }
+
 
 func CancelMarkAsConcerned(c *gin.Context) {
 	var (

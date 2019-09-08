@@ -66,12 +66,17 @@ func (s *Service) UpdateUser(c gin.Context, userparm *schema.User) (err error, e
 	return
 }
 
+func (s *Service) UpdateUserAvatar(id uint, url string) (err error) {
+	err = s.dao.UpdateUserAvatar(id, url)
+	return
+}
+
 func (s *Service) DeleteUser(c gin.Context, id uint) (err error) {
 	_, err = s.dao.DeleteUserById(id)
 	return
 }
 
-func (s *Service) Check(c gin.Context, email, password string) (bool, error) {
+func (s *Service) CheckUser(c gin.Context, email, password string) (bool, error) {
 	return s.dao.CheckAuth(email, password)
 }
 
@@ -93,7 +98,7 @@ func (s *Service) GetUserByToken(c gin.Context) (user model.User, code int, err 
 		}
 		return
 	}
-	user, err = s.dao.GetUserByToken(claim.Email)
+	user, err = s.dao.GetUserByToken(claim.Param)
 	if err != nil {
 		code = e.INTERNAL_ERROR
 		return
