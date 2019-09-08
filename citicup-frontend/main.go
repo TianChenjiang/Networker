@@ -7,6 +7,6 @@ import (
 
 func main() {
 	router := gin.Default()
-	router.StaticFS("/networker/user", http.Dir("static/networker/user"))
+	router.StaticFS("/networker", http.Dir("networker"))
 	router.Run(":8000")
 }
