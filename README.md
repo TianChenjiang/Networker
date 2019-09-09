@@ -31,10 +31,10 @@
 ##### Go服务端开启
 
 ```bash
-cd citicup-admin/app   							# 进入后端目录
+cd citicup-admin/ 							# 进入后端目录
 export GOPROXY=https://goproxy.io 	# 代理配置
-go build -o app 									  # 项目构建
-./app
+go build -o citicup-app 									  # 项目构建
+./citicup-app
 ```
 
 正常开启后端显示如下
