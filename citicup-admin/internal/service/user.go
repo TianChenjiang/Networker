@@ -128,5 +128,10 @@ func (s *Service) UnMarkAsConcerned(c gin.Context, userID, companyID uint) (err 
 	return
 }
 
+func (s *Service) GetConcerned(userID uint) (companyList []model.Company, err error) {
+	companyList, err = s.dao.GetConcerned(userID)
+	return
+}
+
 
 

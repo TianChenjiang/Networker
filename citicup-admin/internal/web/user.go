@@ -233,4 +233,26 @@ func CancelMarkAsConcerned(c *gin.Context) {
 	appG.OK("取消标记成功")
 }
 
+func GetConcerned(c *gin.Context)  {
+	var (
+		appG = Gin{C: c}
+	)
+
+	//获得当前用户token
+	user, code, err:= serv.GetUserByToken(*c)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+
+	//获得关注的所有公司
+	companyList, err := serv.GetConcerned(user.ID)
+	data := make(map[string]interface{})
+	data["concern"] = companyList
+	data["totalNum"] = len(companyList)
+
+	appG.OK(data)
+
+}
+
 
