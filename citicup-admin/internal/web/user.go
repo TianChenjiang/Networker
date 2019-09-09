@@ -238,6 +238,9 @@ func GetConcerned(c *gin.Context)  {
 		appG = Gin{C: c}
 	)
 
+	//PageSize, _ := strconv.Atoi(c.Query("pageSize"))
+	//PageNum, _  := strconv.Atoi(c.Query("pageNum"))
+
 	//获得当前用户token
 	user, code, err:= serv.GetUserByToken(*c)
 	if err != nil {
@@ -255,4 +258,7 @@ func GetConcerned(c *gin.Context)  {
 
 }
 
+func GetHistory(c *gin.Context)  {
+
+}
 
