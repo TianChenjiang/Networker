@@ -1,9 +1,9 @@
 version: '2'
 # 开发环境下的docker-compose
 services:
-  mysql:
+  citicup-mysql:
     image: 'mysql:5.7.21'
-    container_name: mysql
+    container_name: citicup-mysql
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=mysql

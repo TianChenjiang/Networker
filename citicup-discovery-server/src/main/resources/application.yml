@@ -1,0 +1,7 @@
+server:
+  port: 8761
+
+
+spring:
+  profiles:
+    active: '@spring.profiles.active@'
