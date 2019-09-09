@@ -118,18 +118,18 @@ func (s *Service) ChangePassword(c gin.Context, password string, userparm model.
 	return
 }
 
-func (s *Service) MarkAsConcerned(c gin.Context, userID, companyID uint) (err error) {
-	err = s.dao.MarkAsConcerned(userID, companyID)
+func (s *Service) MarkAsConcerned(c gin.Context, userID uint, symbol string ) (err error) {
+	err = s.dao.MarkAsConcerned(userID, symbol)
 	return
 }
 
-func (s *Service) UnMarkAsConcerned(c gin.Context, userID, companyID uint) (err error) {
-	err = s.dao.UnMarkAsConcerned(userID, companyID)
+func (s *Service) UnMarkAsConcerned(c gin.Context, userID uint, symbol string) (err error) {
+	err = s.dao.UnMarkAsConcerned(userID, symbol)
 	return
 }
 
-func (s *Service) GetConcerned(userID uint) (companyList []model.Company, err error) {
-	companyList, err = s.dao.GetConcerned(userID)
+func (s *Service) GetConcerned(pageNum, pageSize int, userID uint) (companyList []model.Company, err error) {
+	companyList, err = s.dao.GetConcerned(pageNum, pageSize, userID)
 	return
 }
 

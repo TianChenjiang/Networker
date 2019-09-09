@@ -48,3 +48,11 @@ func (d *Dao) GetMarket(companyID uint) (market model.Market, err error) {
 	d.db.Model(market_e).Where("id = ?", company.MarketID).Find(&market)
 	return
 }
+
+
+func (d *Dao) GetCompanyBySymbol(symbol string) (company model.Company, err error) {
+	d.db.Model(company_e).Where(&model.Company{
+		Symbol: symbol,
+	}).Find(&company)
+	return
+}
