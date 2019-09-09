@@ -227,7 +227,6 @@ model/Experiment/data/fund/
 model/Experiment/data/fund_clean/
 model/Experiment/predict_model/logs/
 
-model/production/model/data/
 
 */__pycache__/*
 model/production/resources/__pycache__

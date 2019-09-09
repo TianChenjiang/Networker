@@ -2,7 +2,6 @@ flask
 flask-restplus
 gunicorn
 werkzeug
-flask-pymongo
 pandas
 numpy
 keras
@@ -13,3 +12,4 @@ tushare
 lxml
 requests
 bs4
+gevent

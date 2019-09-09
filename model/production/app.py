@@ -3,17 +3,20 @@ from flask_restplus import Api
 from werkzeug.middleware.proxy_fix import ProxyFix
 from config import config
 from os import getenv
-from db import mongo
+import tensorflow as tf
+import os
 
 
 from resources.predict_risk import api as ns_predict
+
 
 APP_ENV = getenv('APP_ENV', 'dev')
 app = Flask(__name__)
 app.config.from_object(config[APP_ENV])
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
-mongo.init_app(app)
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.WARN)
+
 api = Api(app, version='1.0', title='Predict Risk', prefix='/api')
 
 
