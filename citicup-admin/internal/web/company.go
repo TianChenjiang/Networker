@@ -44,6 +44,10 @@ func GetCompanyById(c *gin.Context) {
 	)
 	i, _ := strconv.Atoi(id)
 	company, err := serv.GetCompanyById(c, uint(i))
+	if company.ID <= 0 {
+		appG.Response(http.StatusNotFound, e.RESOURCE_NOT_FOUND, nil)
+		return
+	}
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 		return

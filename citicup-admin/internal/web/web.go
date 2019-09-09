@@ -40,7 +40,7 @@ func routeSetUp(e *gin.Engine) {
 	//swagger
 	e.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	e.StaticFS("/image", http.Dir("library/pic/")) //前端访问已上传的图片
-	
+
 	g := e.Group("/api")
 	{
 		userRouter := g.Group("/users")
@@ -66,6 +66,7 @@ func routeSetUp(e *gin.Engine) {
 			companyRouter.GET("", GetCompanies)
 			companyRouter.GET("/:id", GetCompanyById)
 			companyRouter.POST("", NewCompany)
+			companyRouter.PUT("", UpdateCompany)
 			companyRouter.DELETE("/:id", DeleteCompanyById)
 		}
 

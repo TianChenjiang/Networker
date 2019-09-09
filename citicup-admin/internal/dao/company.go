@@ -16,7 +16,7 @@ func (d *Dao) GetAllCompanies() (companies []*model.Company, err error) {
 func (d *Dao) GetCompanyById(id uint) (company model.Company, err error) {
 	d.db.Model(company_e).Where(&model.Company{
 		ID: id,
-	}).Find(&company)
+	}).First(&company)
 	return
 }
 
@@ -41,14 +41,12 @@ func (d *Dao) InsertCompany(entity *model.Company) (newCompany model.Company, er
 	return
 }
 
-
 func (d *Dao) GetMarket(companyID uint) (market model.Market, err error) {
 	company, _ := d.GetCompanyById(companyID)
 	d.db.Preload("Market")
 	d.db.Model(market_e).Where("id = ?", company.MarketID).Find(&market)
 	return
 }
-
 
 func (d *Dao) GetCompanyBySymbol(symbol string) (company model.Company, err error) {
 	d.db.Model(company_e).Where(&model.Company{

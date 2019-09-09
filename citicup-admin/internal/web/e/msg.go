@@ -5,7 +5,7 @@ var msgFlags = map[int]string{
 	BAD_REQUEST:                     "请求参数错误",
 	METHOD_FORBIDDEN:                "服务器拒绝请求",
 	UNAUTHENTIC:                     "未授权",
-	//RESOURCE_NOT_FOUND:              "请求的URL不存在",
+	RESOURCE_NOT_FOUND:              "资源不存在",
 	INTERNAL_ERROR:                  "内部错误",
 	//BAD_GATEWAY:                     "网关错误",
 	//SERVICE_UNAVAILABLE:             "服务不可用",

@@ -1,6 +1,5 @@
 package schema
 
-
 //公司基本面信息
 
 //公司 VO
@@ -21,10 +20,11 @@ type Company struct {
 	Employees     uint   `json:"employees"`      //员工人数
 	MainBusiness  string `json:"main_business"`  //主要业务及产品
 	BusinessScope string `json:"business_scope"` //经营范围
+	Market        Market `json:"market"`
+	MarketID      uint   `json:"market_id"` //市场行情与公司一对一
 }
 
 type Companies []Company
-
 
 //预测结果
 type PredictionResult struct {

@@ -12,8 +12,11 @@ func (s *Service) GetAllCompanies(c *gin.Context) (companies []*schema.Company, 
 	if err != nil {
 		return
 	}
-	bts, _ := json.Marshal(&list)
-	json.Unmarshal(bts, &companies)
+	companies = make([]*schema.Company, len(list))
+	for i, item := range list {
+		c := item.Model2Schema()
+		companies[i] = &c
+	}
 	return
 }
 
@@ -31,13 +34,28 @@ func (s *Service) GetCompanyById(c *gin.Context, id uint) (company *schema.Compa
 //更新公司信息
 func (s *Service) UpdateCompany(c *gin.Context, entity *schema.Company) (err error) {
 	var model_ = &model.Company{
-		ID:          entity.ID,
-		CompanyName: entity.CompanyName,
+		ID:            entity.ID,
+		CompanyName:   entity.CompanyName,
+		Chairman:      entity.Chairman,
+		Manager:       entity.Manager,
+		Secretary:     entity.Secretary,
+		RegCapital:    entity.RegCapital,
+		SetupDate:     entity.SetupDate,
+		Province:      entity.Province,
+		City:          entity.City,
+		Introduction:  entity.Introduction,
+		Website:       entity.Website,
+		Email:         entity.Email,
+		Office:        entity.Office,
+		Employees:     entity.Employees,
+		MainBusiness:  entity.MainBusiness,
+		BusinessScope: entity.BusinessScope,
 	}
 	_, err = s.dao.UpdateCompany(model_)
 	return
 }
 
+//删除公司信息
 func (s *Service) DeleteCompany(c *gin.Context, id uint) (err error) {
 	_, err = s.dao.DeleteCompany(id)
 	return
@@ -45,8 +63,22 @@ func (s *Service) DeleteCompany(c *gin.Context, id uint) (err error) {
 
 func (s *Service) NewCompany(c *gin.Context, entity *schema.Company) (newCompany *schema.Company, err error) {
 	var model_ = &model.Company{
-		ID:          entity.ID,
-		CompanyName: entity.CompanyName,
+		ID:            entity.ID,
+		CompanyName:   entity.CompanyName,
+		Chairman:      entity.Chairman,
+		Manager:       entity.Manager,
+		Secretary:     entity.Secretary,
+		RegCapital:    entity.RegCapital,
+		SetupDate:     entity.SetupDate,
+		Province:      entity.Province,
+		City:          entity.City,
+		Introduction:  entity.Introduction,
+		Website:       entity.Website,
+		Email:         entity.Email,
+		Office:        entity.Office,
+		Employees:     entity.Employees,
+		MainBusiness:  entity.MainBusiness,
+		BusinessScope: entity.BusinessScope,
 	}
 	com, err := s.dao.InsertCompany(model_)
 	if err != nil {
@@ -57,7 +89,7 @@ func (s *Service) NewCompany(c *gin.Context, entity *schema.Company) (newCompany
 	return
 }
 
-func (s *Service) GetMarket(companyID uint) (market model.Market, err error)  {
+func (s *Service) GetMarket(companyID uint) (market model.Market, err error) {
 	market, err = s.dao.GetMarket(companyID)
 	return
 }
