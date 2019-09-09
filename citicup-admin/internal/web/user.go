@@ -197,7 +197,7 @@ func UploadAvatar(c *gin.Context) {
 func MarkAsConcerned(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
-		id, _ = strconv.Atoi(c.Param("symbol"))
+		symbol = c.Query("symbol")
 	)
 	user, code, err:= serv.GetUserByToken(*c)
 	if err != nil {
@@ -205,7 +205,7 @@ func MarkAsConcerned(c *gin.Context) {
 		return
 	}
 
-	err = serv.MarkAsConcerned(*c, user.ID, uint(id))
+	err = serv.MarkAsConcerned(*c, user.ID, symbol)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
@@ -217,7 +217,7 @@ func MarkAsConcerned(c *gin.Context) {
 func CancelMarkAsConcerned(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
-		id, _ = strconv.Atoi(c.Param("symbol"))
+		symbol = c.Query("symbol")
 	)
 	user, code, err:= serv.GetUserByToken(*c)
 	if err != nil {
@@ -225,7 +225,7 @@ func CancelMarkAsConcerned(c *gin.Context) {
 		return
 	}
 
-	err = serv.UnMarkAsConcerned(*c, user.ID, uint(id))
+	err = serv.UnMarkAsConcerned(*c, user.ID, symbol)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
@@ -238,8 +238,8 @@ func GetConcerned(c *gin.Context)  {
 		appG = Gin{C: c}
 	)
 
-	//PageSize, _ := strconv.Atoi(c.Query("pageSize"))
-	//PageNum, _  := strconv.Atoi(c.Query("pageNum"))
+	pageSize, _ := strconv.Atoi(c.Query("pageSize"))
+	pageNum, _  := strconv.Atoi(c.Query("pageNum"))
 
 	//获得当前用户token
 	user, code, err:= serv.GetUserByToken(*c)
@@ -249,7 +249,7 @@ func GetConcerned(c *gin.Context)  {
 	}
 
 	//获得关注的所有公司
-	companyList, err := serv.GetConcerned(user.ID)
+	companyList, err := serv.GetConcerned(pageNum, pageSize, user.ID)
 	data := make(map[string]interface{})
 	data["concern"] = companyList
 	data["totalNum"] = len(companyList)

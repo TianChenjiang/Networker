@@ -40,7 +40,7 @@ func GetConcernedMarketCondition(c *gin.Context)  {
 	}
 
 	//获得该用户所有关注公司
-	companyList,err := serv.GetConcerned(user.ID)
+	companyList,err := serv.GetConcerned(0, 10000, user.ID)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
@@ -58,7 +58,7 @@ func GetConcernedMarketCondition(c *gin.Context)  {
 func GetMarketConditionBySymbol(c *gin.Context)  {
 	var (
 		appG = Gin{C: c}
-		symbol = c.Param("symbol")
+		symbol = c.Query("symbol")
 	)
 
 	market, err := serv.GetMarketConditionBySymbol(symbol)
