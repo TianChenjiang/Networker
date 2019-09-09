@@ -29,6 +29,8 @@ class PredictRisk(Resource):
         """
         args = _predict_risk_parser.parse_args()
         risk_prob = predict(**args)
+        if risk_prob is None:
+            raise NotFound('code {} not found'.format(args['code']))
         return {
             'risk': risk_prob
         }

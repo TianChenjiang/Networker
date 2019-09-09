@@ -230,3 +230,5 @@ model/Experiment/predict_model/logs/
 
 */__pycache__/*
 model/production/resources/__pycache__
+model/production/__pycache__/
+model/production/model/__pycache__/

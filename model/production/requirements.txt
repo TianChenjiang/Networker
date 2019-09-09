@@ -13,3 +13,4 @@ lxml
 requests
 bs4
 gevent
+lightgbm
