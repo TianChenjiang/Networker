@@ -73,13 +73,13 @@ func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
 }
 
 
-func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
+func (d *Dao) MarkAsConcerned(userID uint, symbol string) (err error) {
 	companies = make([]model.Company, 0)
 	u, _ := d.GetUserById(userID)
 	d.db.Preload("Companies").First(&u, userID)
 	d.db.Model(&u).Related(&companies, "Companies")
 	fmt.Println(u)
-	com, err  := d.GetCompanyById(companyID)
+	com, err  := d.GetCompanyBySymbol(symbol)
 	companies = append(u.Companies, com)
 
 	u.Companies = companies
@@ -88,14 +88,15 @@ func (d *Dao) MarkAsConcerned(userID, companyID uint) (err error) {
 	return
 }
 
-func (d *Dao) UnMarkAsConcerned(userID, companyID uint) (err error) {
+func (d *Dao) UnMarkAsConcerned(userID uint, symbol string) (err error) {
 
 	res := make([]model.Company, 0)
 	u, _ := d.GetUserById(userID)
-	companies, err := d.GetConcerned(userID)
+	companies, err := d.GetConcerned(0, 1000, userID) //todo
 
 	for i := 0; i < len(companies); i++ {
-		if companies[i].ID != companyID {
+		com, _  := d.GetCompanyBySymbol(symbol)
+		if companies[i].ID != com.ID {
 			res = append(res, companies[i])
 		}
 	}
@@ -110,10 +111,10 @@ func (d *Dao) UnMarkAsConcerned(userID, companyID uint) (err error) {
 	return
 }
 
-func (d *Dao) GetConcerned(userID uint) (companyList []model.Company, err error)  {
+func (d *Dao) GetConcerned(pageNum, pageSize int, userID uint) (companyList []model.Company, err error)  {
 	u, _ := d.GetUserById(userID)
 	d.db.Preload("Companies").First(&u, userID)
-	d.db.Model(&u).Related(&companies, "Companies")
+	d.db.Model(&u).Related(&companies, "Companies").Offset(pageNum).Limit(pageSize)
 	companyList = u.Companies
 
 	return
