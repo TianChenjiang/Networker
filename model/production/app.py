@@ -6,9 +6,7 @@ from os import getenv
 from db import mongo
 
 
-from resources.allocation import api as ns_allocation
-from resources.fund import api as ns_fund
-from resources.info import api as ns_info
+from resources.predict_risk import api as ns_predict
 
 APP_ENV = getenv('APP_ENV', 'dev')
 app = Flask(__name__)
@@ -16,7 +14,7 @@ app.config.from_object(config[APP_ENV])
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 mongo.init_app(app)
-api = Api(app, version='1.0', title='Investment Advisor Api', prefix='/api')
+api = Api(app, version='1.0', title='Predict Risk', prefix='/api')
 
 
 # @app.after_request
@@ -27,9 +25,8 @@ api = Api(app, version='1.0', title='Investment Advisor Api', prefix='/api')
 #     return response
 
 
-api.add_namespace(ns_allocation)
-api.add_namespace(ns_fund)
-api.add_namespace(ns_info)
+api.add_namespace(ns_predict)
+
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

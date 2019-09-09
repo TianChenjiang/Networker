@@ -8,3 +8,8 @@ numpy
 keras
 keras-tcn
 sklearn
+tensorflow
+tushare
+lxml
+requests
+bs4
