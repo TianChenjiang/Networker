@@ -172,6 +172,13 @@ func UploadAvatar(c *gin.Context) {
 		return
 	}
 
+	//claim, err := util.ParseToken(c.GetHeader("Authorization")[7:])
+	//role := claim.Role
+	//if role != publicdata.User {
+	//	return
+	//}
+
+
 	_, image, err := c.Request.FormFile("image")
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
