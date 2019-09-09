@@ -56,6 +56,8 @@ func routeSetUp(e *gin.Engine) {
 			userRouter.POST("/upload", UploadAvatar)
 			userRouter.GET("/mark/:symbol", MarkAsConcerned)
 			userRouter.GET("/unmark/:symbol", CancelMarkAsConcerned)
+			userRouter.GET("/concerned", GetConcerned)
+			userRouter.GET("/concerned/market", GetConcernedMarketCondition)
 
 		}
 
@@ -72,6 +74,13 @@ func routeSetUp(e *gin.Engine) {
 			investorRouter.POST("/register", InvestorRegister)
 			investorRouter.POST("/upload", UploadRegisterInfo)
 			investorRouter.POST("/login", InvestorLogin)
+		}
+
+		marketRouter := g.Group("/market")
+		{
+			marketRouter.GET("/all", GetAllMarketCondition)
+			marketRouter.POST("/insert", InsertMarket)
+			marketRouter.GET("/symbol/:symbol", GetMarketConditionBySymbol)
 		}
 	}
 }

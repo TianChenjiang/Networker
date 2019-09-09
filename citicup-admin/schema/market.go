@@ -17,7 +17,12 @@ type Market struct {
 	Pb           float32 `json:"pb"`            //市净率
 	Pe           float32 `json:"pe"`            //市盈率
 	PreClose     float32 `json:"pre_close"`     //昨日收盘价
-	Symbol       string  `json:"symbol"`        //股票代码 (TODO: 可以整体替换为股票的schema)
+	Symbol       string  `json:"symbol"`        //股票代码
 	TurnoverRate float32 `json:"turnover_rate"` //换手率
 	Vol          float32 `json:"vol"`           //成交量
+}
+
+type InsertMarketParam struct {
+	Market       Market  `json:"market"`
+	CompanyID    uint    `json:"company_id"`
 }
