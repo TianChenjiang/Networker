@@ -1,5 +1,6 @@
 package schema
 
+
 //公司基本面信息
 
 //公司 VO
@@ -24,6 +25,7 @@ type Company struct {
 
 type Companies []Company
 
+
 //预测结果
 type PredictionResult struct {
 	BurstRate float64 `json:"burst_rate"` //爆仓概率
@@ -47,5 +49,3 @@ type Stock struct {
 	ListDate   string `json:"list_date"`   //上市日期
 	DelistDate string `json:"delist_date"` //退市日期
 }
-
-

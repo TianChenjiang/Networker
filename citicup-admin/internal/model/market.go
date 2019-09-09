@@ -15,7 +15,6 @@ type Market struct {
 	Pb           float32 `gorm:"column:pb"`            //市净率
 	Pe           float32 `gorm:"column:pe"`            //市盈率
 	PreClose     float32 `gorm:"column:pre_close"`     //昨日收盘价
-	Symbol       string  `gorm:"column:symbol"`        //股票代码 (TODO: 可以整体替换为股票的schema)
 	TurnoverRate float32 `gorm:"column:turnover_rate"` //换手率
 	Vol          float32 `gorm:"column:vol"`           //成交量
 }
