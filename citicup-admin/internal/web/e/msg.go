@@ -21,6 +21,7 @@ var msgFlags = map[int]string{
 	ERROR_AUTH_CHECK_TOKEN_TIMEOUT:  "Token已超时",
 	ERROR_AUTH_TOKEN:                "Token生成失败",
 	ERROR_AUTH:                      "密码错误或者token错误",
+	ERROR_TOKEN_NEED:                "需要先进行登陆！",
 
 }
 
