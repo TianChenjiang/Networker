@@ -1,7 +1,6 @@
 package web
 
 import (
-	"citicup-admin/internal/model"
 	"citicup-admin/internal/web/e"
 	"citicup-admin/schema"
 	"github.com/gin-gonic/gin"
@@ -34,7 +33,7 @@ func GetConcernedMarketCondition(c *gin.Context)  {
 
 	//获得当前用户token
 	user, code, err:= serv.GetUserByToken(*c)
-	if err != nil {
+	if err != nil || code != e.SUCCESS{
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
@@ -45,11 +44,11 @@ func GetConcernedMarketCondition(c *gin.Context)  {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
 
-	marketList := make([]model.Market, 0)
+	marketList := make([]schema.Market, 0)
 
 	for i := 0; i < len(companyList); i++{
 		market, _ := serv.GetMarket(companyList[i].ID)
-		marketList = append(marketList, market)
+		marketList = append(marketList, market.Model2Schema())
 	}
 
 	appG.OK(marketList)
@@ -61,12 +60,23 @@ func GetMarketConditionBySymbol(c *gin.Context)  {
 		symbol = c.Query("symbol")
 	)
 
-	market, err := serv.GetMarketConditionBySymbol(symbol)
+	//获得当前用户token
+	user, code, err:= serv.GetUserByToken(*c)
+	if err != nil || code != e.SUCCESS {
+		appG.Response(http.StatusInternalServerError, code, nil)
+		return
+	}
+
+	market, isConcerned, err := serv.GetMarketConditionBySymbol(user.ID, symbol)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
 
-	appG.OK(market)
+	data := make(map[string]interface{})
+	data["isConcerned"] = isConcerned
+	data["market"] = market.Model2Schema()
+
+	appG.OK(data)
 	
 }
 
@@ -86,7 +96,9 @@ func InsertMarket(c *gin.Context)  {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
 
-	appG.OK(market)
+
+
+	appG.OK(market.Model2Schema())
 
 }
 

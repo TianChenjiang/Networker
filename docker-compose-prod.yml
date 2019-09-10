@@ -75,6 +75,16 @@ services:
     networks:
       - citicup
 
+  citicup-model:
+    image: citicup/citicup-model
+    container_name: citicup-model
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile-model
+    networks:
+      - citicup
+
 
 networks:
   citicup:

@@ -222,13 +222,12 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/linux,macos,windows,eclipse,intellij+iml
 /citicup-admin/app/vendor/
-model/Experiment/data/price/
-model/Experiment/data/fund/
-model/Experiment/data/fund_clean/
-model/Experiment/predict_model/logs/
+
 
 
 */__pycache__/*
+production/resources/__pycache__
+production/__pycache__/
+production/model/__pycache__/
+model/Experiment/data/price
 model/production/resources/__pycache__
-model/production/__pycache__/
-model/production/model/__pycache__/
