@@ -12,6 +12,12 @@ func (d *Dao) GetAllCompanies() (companies []*model.Company, err error) {
 	return
 }
 
+//获取所有公司,进行分页查询
+func (d *Dao) GetAllCompaniesPaging(pageNum, pageSize int) (companies []*model.Company, err error) {
+	d.db.Model(company_e).Offset(pageNum).Limit(pageSize).Find(&companies)
+	return
+}
+
 //根据公司Id查询
 func (d *Dao) GetCompanyById(id uint) (company model.Company, err error) {
 	d.db.Model(company_e).Where(&model.Company{

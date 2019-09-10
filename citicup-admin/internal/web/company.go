@@ -13,6 +13,8 @@ import (
 // @Description Get All Companies.
 // @Accept  json
 // @Produce  json
+// @Param pageSize query string true "页大小"
+// @Param pageNum query string true "页号"
 // @Success 200 {object} model.Companies
 // @Failure 404 {string} string "Resource not found"
 // @Failure 500 {string} string "Internal Error"
@@ -21,7 +23,10 @@ func GetCompanies(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
 	)
-	list, err := serv.GetAllCompanies(c)
+
+	pageSize, _ := strconv.Atoi(c.Query("pageSize"))
+	pageNum, _ := strconv.Atoi(c.Query("pageNum"))
+	list, err := serv.GetAllCompaniesPaging(c, pageNum, pageSize)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 		return

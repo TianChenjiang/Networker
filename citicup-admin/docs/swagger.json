@@ -28,6 +28,22 @@
                     "Company"
                 ],
                 "summary": "获取所有公司",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "页大小",
+                        "name": "pageSize",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "页号",
+                        "name": "pageNum",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",

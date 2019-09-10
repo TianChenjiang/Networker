@@ -184,6 +184,17 @@ paths:
       consumes:
       - application/json
       description: Get All Companies.
+      parameters:
+      - description: 页大小
+        in: query
+        name: pageSize
+        required: true
+        type: string
+      - description: 页号
+        in: query
+        name: pageNum
+        required: true
+        type: string
       produces:
       - application/json
       responses:
