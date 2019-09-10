@@ -1,0 +1,16 @@
+flask
+flask-restplus
+gunicorn
+werkzeug
+pandas
+numpy
+keras
+keras-tcn
+sklearn
+tensorflow
+tushare
+lxml
+requests
+bs4
+gevent
+lightgbm

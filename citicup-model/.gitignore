@@ -1,0 +1,8 @@
+Experiment
+production/resources/__pycache__
+production/__pycache__/
+production/model/__pycache__/
+Experiment/data/price/
+Experiment/data/fund/
+Experiment/data/fund_clean/
+Experiment/predict_model/logs/

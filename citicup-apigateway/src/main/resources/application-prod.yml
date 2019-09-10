@@ -8,6 +8,7 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:8080/eureka/
 frontend: citicup-frontend
 backend: citicup-admin
+model: citicup-model
 
 spring:
   application:
@@ -15,6 +16,11 @@ spring:
   cloud:
     gateway:  # 注意: 定义顺序必须是从严格到宽松. 当匹配到后便进行路由分配
       routes:
+        - id: citicup-model
+          uri: http://${model}:5000/
+          predicates:
+            - Path=/api/predict/**
+
         - id: citicup-backend
           uri: http://${backend}:8080/
           predicates:
@@ -29,4 +35,3 @@ spring:
           uri: http://${frontend}:8000/
           predicates:
             - Path=/**
-

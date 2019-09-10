@@ -10,6 +10,7 @@ done
 # 复制到base dir
 scp docker/Dockerfile root@"$BASE"/Dockerfile
 scp docker/apigateway/Dockerfile root@"$BASE"/Dockerfile-api-gateway
+scp docker/model/Dockerfile root@"$BASE"/Dockerfile-model
 scp docker/dockerize root@"$BASE"/dockerize
 scp bash/setup.sh root@"$BASE"/setup.sh
 # api gateway
@@ -19,6 +20,8 @@ scp citicup-discovery-server/target/citicup-discovery-server-0.0.1-SNAPSHOT.jar 
 scp -r citicup-frontend/* root@"$BASE"/citicup-frontend
 # admin 服务器
 scp -r citicup-admin/* root@"$BASE"/citicup-admin
+# model
+scp -r citicup-model/production/* root@"$BASE"/citicup-model/production
 
 # docker
 scp docker-compose-prod.yml root@"$BASE"/docker-compose.yml
