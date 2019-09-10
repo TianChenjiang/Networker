@@ -231,3 +231,4 @@ production/__pycache__/
 production/model/__pycache__/
 model/Experiment/data/price
 model/production/resources/__pycache__
+citicup-model/production/venv

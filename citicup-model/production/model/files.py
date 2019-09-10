@@ -8,6 +8,8 @@ PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("data").resolve()
 INFO_SCALER_PATH = PATH.joinpath('info_scaler.pkl')
 PRICE_SCALER_PATH = PATH.joinpath('price_scaler.pkl')
+LGB_INFO_SCALER_PATH = PATH.joinpath('info_scaler_new.pkl')
+LGB_PRICE_SCALER_PATH = PATH.joinpath('price_scaler_new.pkl')
 CODE_SET_PATH = DATA_PATH.joinpath('code_set.pkl')
 FAM_PATH = DATA_PATH.joinpath('family_firm_clean.csv')
 COM_PATH = DATA_PATH.joinpath('company_fund_latest.csv')
@@ -23,6 +25,12 @@ with open(INFO_SCALER_PATH, 'rb') as f:
 
 with open(PRICE_SCALER_PATH, 'rb') as f:
     price_scaler = pickle.load(f)
+
+with open(LGB_INFO_SCALER_PATH, 'rb') as f:
+    lgb_info_scaler = pickle.load(f)
+
+with open(LGB_PRICE_SCALER_PATH, 'rb') as f:
+    lgb_price_scaler = pickle.load(f)
 
 # 加载所支持的公司代码
 with open(CODE_SET_PATH, 'rb') as f:
@@ -42,7 +50,7 @@ com = pd.read_csv(COM_PATH)
 com = com.drop(['ann_date', 'end_date'], axis=1)
 
 
-def get_info(code, forecast_close_line, pledge_price):
+def get_info(code, forecast_close_line, pledge_price, scaler):
 
     data = pd.Series(np.array([code, pledge_price, forecast_close_line]),
                      index=['ts_code', 'pledge_price', 'forecast_close_line'])
@@ -56,6 +64,6 @@ def get_info(code, forecast_close_line, pledge_price):
     data = data.fillna(0)
 
     # 归一化数据面板
-    data_values = info_scaler.transform(data)
+    data_values = scaler.transform(data)
     data_values = data_values.reshape((1, -1))
     return data_values

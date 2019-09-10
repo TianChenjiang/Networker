@@ -13,8 +13,8 @@ def predict(code, forecast_close_line):
     deep_prob = deep_predict(code, forecast_close_line, price_df)
     lgb_prob = lgb_predict(code, forecast_close_line, price_df)
 
-    return 0.8 * deep_prob + 0.2 * lgb_prob
+    return 0.5 * deep_prob + 0.5 * lgb_prob
 
 
 if __name__ == '__main__':
-    print(predict('000001.SZ', 12))
+    print(predict('000001.SZ', 10))
