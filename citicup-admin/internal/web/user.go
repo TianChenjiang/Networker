@@ -96,13 +96,7 @@ func DeleteUser(c *gin.Context) {
 	appG.OK(err) //todo
 }
 
-// @Summary user login
-// @Produce  json
-// @Param email query string true "email"
-// @Param password query string true "password"
-// @Success 200 {object} app.Response
-// @Failure 500 {object} app.Response
-// @Router /api/users/token/:token [get]
+
 func UserLogin(c *gin.Context) {
 	var (
 		appG = Gin{C: c}

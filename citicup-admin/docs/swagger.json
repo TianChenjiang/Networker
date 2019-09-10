@@ -180,11 +180,79 @@
             "items": {
                 "type": "object",
                 "properties": {
+                    "businessScope": {
+                        "description": "经营范围",
+                        "type": "string"
+                    },
+                    "chairman": {
+                        "description": "法人代表",
+                        "type": "string"
+                    },
+                    "city": {
+                        "description": "所在城市",
+                        "type": "string"
+                    },
                     "companyName": {
                         "type": "string"
                     },
+                    "email": {
+                        "description": "电子邮件",
+                        "type": "string"
+                    },
+                    "employees": {
+                        "description": "员工人数",
+                        "type": "integer"
+                    },
                     "id": {
                         "type": "integer"
+                    },
+                    "introduction": {
+                        "description": "公司介绍",
+                        "type": "string"
+                    },
+                    "mainBusiness": {
+                        "description": "主要业务及产品",
+                        "type": "string"
+                    },
+                    "manager": {
+                        "description": "总经理",
+                        "type": "string"
+                    },
+                    "market": {
+                        "type": "object",
+                        "$ref": "#/definitions/model.Market"
+                    },
+                    "marketID": {
+                        "description": "市场行情与公司一对一",
+                        "type": "integer"
+                    },
+                    "office": {
+                        "description": "办公室",
+                        "type": "string"
+                    },
+                    "province": {
+                        "description": "所在省份",
+                        "type": "string"
+                    },
+                    "regCapital": {
+                        "description": "注册资本",
+                        "type": "string"
+                    },
+                    "secretary": {
+                        "description": "董秘",
+                        "type": "string"
+                    },
+                    "setupDate": {
+                        "description": "创立日期",
+                        "type": "string"
+                    },
+                    "symbol": {
+                        "description": "股票代码",
+                        "type": "string"
+                    },
+                    "website": {
+                        "description": "公司主页URL",
+                        "type": "string"
                     }
                 }
             }
@@ -192,11 +260,147 @@
         "model.Company": {
             "type": "object",
             "properties": {
+                "businessScope": {
+                    "description": "经营范围",
+                    "type": "string"
+                },
+                "chairman": {
+                    "description": "法人代表",
+                    "type": "string"
+                },
+                "city": {
+                    "description": "所在城市",
+                    "type": "string"
+                },
                 "companyName": {
                     "type": "string"
                 },
+                "email": {
+                    "description": "电子邮件",
+                    "type": "string"
+                },
+                "employees": {
+                    "description": "员工人数",
+                    "type": "integer"
+                },
                 "id": {
                     "type": "integer"
+                },
+                "introduction": {
+                    "description": "公司介绍",
+                    "type": "string"
+                },
+                "mainBusiness": {
+                    "description": "主要业务及产品",
+                    "type": "string"
+                },
+                "manager": {
+                    "description": "总经理",
+                    "type": "string"
+                },
+                "market": {
+                    "type": "object",
+                    "$ref": "#/definitions/model.Market"
+                },
+                "marketID": {
+                    "description": "市场行情与公司一对一",
+                    "type": "integer"
+                },
+                "office": {
+                    "description": "办公室",
+                    "type": "string"
+                },
+                "province": {
+                    "description": "所在省份",
+                    "type": "string"
+                },
+                "regCapital": {
+                    "description": "注册资本",
+                    "type": "string"
+                },
+                "secretary": {
+                    "description": "董秘",
+                    "type": "string"
+                },
+                "setupDate": {
+                    "description": "创立日期",
+                    "type": "string"
+                },
+                "symbol": {
+                    "description": "股票代码",
+                    "type": "string"
+                },
+                "website": {
+                    "description": "公司主页URL",
+                    "type": "string"
+                }
+            }
+        },
+        "model.Market": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "description": "成交额（亿）",
+                    "type": "number"
+                },
+                "amplitude": {
+                    "description": "振幅 公式：(| highest - lowest | / pre_close) * 100% TODO: 这个可以根据已有数据得到的啊？",
+                    "type": "number"
+                },
+                "change": {
+                    "description": "涨跌额",
+                    "type": "number"
+                },
+                "close": {
+                    "description": "收盘价",
+                    "type": "number"
+                },
+                "highest": {
+                    "description": "最高价",
+                    "type": "number"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "listAge": {
+                    "description": "市龄",
+                    "type": "number"
+                },
+                "lowest": {
+                    "description": "最低价",
+                    "type": "number"
+                },
+                "name": {
+                    "description": "股票名称",
+                    "type": "string"
+                },
+                "open": {
+                    "description": "开盘价",
+                    "type": "number"
+                },
+                "pb": {
+                    "description": "市净率",
+                    "type": "number"
+                },
+                "pctChg": {
+                    "description": "涨跌幅",
+                    "type": "number"
+                },
+                "pe": {
+                    "description": "市盈率",
+                    "type": "number"
+                },
+                "preClose": {
+                    "description": "昨日收盘价",
+                    "type": "number"
+                },
+                "turnoverRate": {
+                    "description": "换手率",
+                    "type": "number"
+                },
+                "vol": {
+                    "description": "成交量",
+                    "type": "number"
                 }
             }
         }
