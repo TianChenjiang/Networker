@@ -2,12 +2,10 @@ import tushare as ts
 import pandas as pd
 import pickle
 import pathlib
-import lightgbm as lgb
 import numpy as np
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("data").resolve()
-LGB_MODEL_PATH = PATH.joinpath('lgb_model.h5')
 INFO_SCALER_PATH = PATH.joinpath('info_scaler.pkl')
 PRICE_SCALER_PATH = PATH.joinpath('price_scaler.pkl')
 CODE_SET_PATH = DATA_PATH.joinpath('code_set.pkl')
@@ -18,10 +16,6 @@ ts.set_token('53cd3b985c649c978160c6ec04bce24f4fbd2ebcb4673e8f2fba9a43')
 
 pro = ts.pro_api()
 
-
-
-# 加载lightgbm模型
-# lgb_model = lgb.Booster(model_file=LGB_MODEL_PATH)
 
 # 加载info_scaler
 with open(INFO_SCALER_PATH, 'rb') as f:
