@@ -1,8 +1,18 @@
 from datetime import datetime
-from model.files import info_scaler, price_scaler, code_set, pro, com, fam, deep_model, get_info
-
+from model.files import price_scaler, code_set, pro, get_info
+import pathlib
+import tensorflow as tf
+from keras.models import load_model
 
 lookback = 48
+PATH = pathlib.Path(__file__).parent
+DEEP_MODEL_PATH = PATH.joinpath('pledge_company_model.h5')
+
+
+# 加载深度学习模型
+deep_model = load_model(DEEP_MODEL_PATH)
+deep_model._make_predict_function()
+graph = tf.get_default_graph()
 
 
 def transform_price(price_df, forecast_close_line):

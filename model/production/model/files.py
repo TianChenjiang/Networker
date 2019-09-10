@@ -2,14 +2,11 @@ import tushare as ts
 import pandas as pd
 import pickle
 import pathlib
-import tensorflow as tf
-from keras.models import load_model
 import lightgbm as lgb
 import numpy as np
 
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("data").resolve()
-DEEP_MODEL_PATH = PATH.joinpath('pledge_company_model.h5')
 LGB_MODEL_PATH = PATH.joinpath('lgb_model.h5')
 INFO_SCALER_PATH = PATH.joinpath('info_scaler.pkl')
 PRICE_SCALER_PATH = PATH.joinpath('price_scaler.pkl')
@@ -21,13 +18,10 @@ ts.set_token('53cd3b985c649c978160c6ec04bce24f4fbd2ebcb4673e8f2fba9a43')
 
 pro = ts.pro_api()
 
-# 加载深度学习模型
-deep_model = load_model(DEEP_MODEL_PATH)
-deep_model._make_predict_function()
-graph = tf.get_default_graph()
+
 
 # 加载lightgbm模型
-lgb_model = lgb.Booster(model_file=LGB_MODEL_PATH)
+# lgb_model = lgb.Booster(model_file=LGB_MODEL_PATH)
 
 # 加载info_scaler
 with open(INFO_SCALER_PATH, 'rb') as f:
