@@ -232,3 +232,8 @@ production/model/__pycache__/
 model/Experiment/data/price
 model/production/resources/__pycache__
 citicup-model/production/venv
+model/Experiment/data/fund/
+model/Experiment/data/fund_clean/000036.SZ.csv
+model/Experiment/data/fund_clean/
+/__pycache__/
+*.pyc
