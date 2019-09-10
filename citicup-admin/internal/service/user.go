@@ -5,7 +5,6 @@ import (
 	"citicup-admin/internal/web/e"
 	"citicup-admin/library/util"
 	"citicup-admin/schema"
-	"fmt"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 )
@@ -87,7 +86,13 @@ func (s *Service) CheckUser(c gin.Context, email, password string) (bool, error)
 
 func (s *Service) GetUserByToken(c gin.Context) (user model.User, code int, err error) {
 
-	fmt.Println(c.GetHeader("Authorization")[7:])
+	//fmt.Println(c.GetHeader("Authorization")[7:])
+	code = e.SUCCESS
+	if len(c.GetHeader("Authorization")) == 0 {
+		code = e.ERROR_TOKEN_NEED
+		return
+	}
+
 	claim, err := util.ParseToken(c.GetHeader("Authorization")[7:])
 	if err != nil {
 		switch err.(*jwt.ValidationError).Errors {

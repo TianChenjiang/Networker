@@ -143,7 +143,7 @@ func ChangePassword(c *gin.Context)  {
 	c.BindJSON(&schema)
 
 	user, code, err:= serv.GetUserByToken(*c)
-	if err != nil {
+	if err != nil || code != e.SUCCESS {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
@@ -167,7 +167,7 @@ func UploadAvatar(c *gin.Context) {
 
 	//获得当前用户token
 	user, code, err:= serv.GetUserByToken(*c)
-	if err != nil {
+	if err != nil || code != e.SUCCESS {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
@@ -207,7 +207,7 @@ func MarkAsConcerned(c *gin.Context) {
 		symbol = c.Query("symbol")
 	)
 	user, code, err:= serv.GetUserByToken(*c)
-	if err != nil {
+	if err != nil || code != e.SUCCESS {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
@@ -227,7 +227,7 @@ func CancelMarkAsConcerned(c *gin.Context) {
 		symbol = c.Query("symbol")
 	)
 	user, code, err:= serv.GetUserByToken(*c)
-	if err != nil {
+	if err != nil || code != e.SUCCESS {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
@@ -250,7 +250,7 @@ func GetConcerned(c *gin.Context)  {
 
 	//获得当前用户token
 	user, code, err:= serv.GetUserByToken(*c)
-	if err != nil {
+	if err != nil || code != e.SUCCESS {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
@@ -258,7 +258,12 @@ func GetConcerned(c *gin.Context)  {
 	//获得关注的所有公司
 	companyList, err := serv.GetConcerned(pageNum, pageSize, user.ID)
 	data := make(map[string]interface{})
-	data["concern"] = companyList
+
+	comSchemaList := make([]schema.Company, 0)
+	for i := 0; i < len(companyList); i++ {
+		comSchemaList = append(comSchemaList, companyList[i].Model2Schema())
+	}
+	data["concern"] = comSchemaList
 	data["totalNum"] = len(companyList)
 
 	appG.OK(data)
