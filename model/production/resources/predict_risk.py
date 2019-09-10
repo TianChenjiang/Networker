@@ -1,7 +1,7 @@
 from flask_restplus import Resource, Namespace, reqparse, fields
 from werkzeug.exceptions import NotFound
 
-from model.deeplearning_model import predict
+from model.average_model import predict
 
 api = Namespace('PredictRisk', description='预测爆仓风险')
 

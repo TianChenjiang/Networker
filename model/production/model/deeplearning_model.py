@@ -1,5 +1,4 @@
-from datetime import datetime
-from model.files import price_scaler, code_set, pro, get_info
+from model.files import price_scaler, get_info
 import pathlib
 import tensorflow as tf
 from keras.models import load_model
@@ -24,14 +23,8 @@ def transform_price(price_df, forecast_close_line):
     return price_values.reshape((1, lookback, -1))
 
 
-def predict(code, forecast_close_line):
+def deep_predict(code, forecast_close_line, price_df):
 
-    if code not in code_set:
-        return None
-
-    # 获得股价信息
-    # price_df = pd.read_csv('data/price/{}.csv'.format(code))
-    price_df = pro.daily(ts_code=code, start_date='20190101', end_date=datetime.now().strftime('%Y%m%d'))
     price_values = transform_price(price_df, forecast_close_line)
     pledge_price = price_df.loc[0]['close']
 
@@ -44,5 +37,5 @@ def predict(code, forecast_close_line):
 
 
 if __name__ == '__main__':
-    prob = predict('000001.SZ', 10)
+    prob = predict('601519.SH', 7)
     print(prob)
