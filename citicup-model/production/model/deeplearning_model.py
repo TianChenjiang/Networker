@@ -1,4 +1,4 @@
-from model.files import price_scaler, get_info
+from model.files import price_scaler, get_info, info_scaler
 import pathlib
 import tensorflow as tf
 from keras.models import load_model
@@ -28,7 +28,7 @@ def deep_predict(code, forecast_close_line, price_df):
     price_values = transform_price(price_df, forecast_close_line)
     pledge_price = price_df.loc[0]['close']
 
-    info_values = get_info(code, forecast_close_line, pledge_price)
+    info_values = get_info(code, forecast_close_line, pledge_price, info_scaler)
 
     global graph
     with graph.as_default():

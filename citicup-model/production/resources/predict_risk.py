@@ -1,5 +1,6 @@
 from flask_restplus import Resource, Namespace, reqparse, fields
 from werkzeug.exceptions import NotFound
+from flask_cors import cross_origin
 
 from model.average_model import predict
 
@@ -17,6 +18,7 @@ risk_model = api.model(
 )
 
 
+@cross_origin()
 @api.route('/predict')
 class PredictRisk(Resource):
 
