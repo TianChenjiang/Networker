@@ -5,10 +5,10 @@ from datetime import datetime
 import pathlib
 
 PATH = pathlib.Path(__file__).parent
-LGB_MODEL_PATH = PATH.joinpath('lgb_model.h5')
+LGB_MODEL_PATH = PATH.joinpath('lgb_model_new.h5')
 
 # 加载lightgbm模型
-lgb_model = lgb.Booster(model_file=LGB_MODEL_PATH)
+lgb_model = lgb.Booster(model_file=str(LGB_MODEL_PATH))
 
 lookback = 48
 
@@ -34,7 +34,7 @@ def lgb_predict(code, forecast_close_line):
 
     data = np.append(price_values, info_values)
 
-    return lgb_model.predict(data)
+    return lgb_model.predict(data.reshape((1, -1)))
 
 
 if __name__ == '__main__':
