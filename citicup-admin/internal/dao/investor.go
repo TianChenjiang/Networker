@@ -72,3 +72,17 @@ func (d *Dao) DeleteInvestorById(id uint) (investor model.Investor, err error) {
 	err = d.db.Model(&investor_e).Where(&model.Investor{ID: id}).Delete(&investor).Error
 	return
 }
+
+//获取investor列表
+func (d *Dao) FindAllInvestors(pageNum, pageSize int) (investors []*model.Investor, err error) {
+	err = d.db.Model(&investor_e).Offset(pageNum).Limit(pageSize).Find(&investors).Error
+	return
+}
+
+//获取investor 根据状态查询
+func (d *Dao) FindAllInvestorsByStatus(status int, pageNum, pageSize int) (investors []*model.Investor, err error) {
+	err = d.db.Model(&investor_e).Where(&model.Investor{
+		AccountStatus: status,
+	}).Offset(pageNum).Limit(pageSize).Find(&investors).Error
+	return
+}

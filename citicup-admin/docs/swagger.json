@@ -357,6 +357,64 @@
                     }
                 }
             }
+        },
+        "/api/users/investor": {
+            "post": {
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "User"
+                ],
+                "summary": "获取质押方列表,可以根据是否注册成功进行筛选",
+                "parameters": [
+                    {
+                        "type": "boolean",
+                        "description": "true 已审批通过; false待审批",
+                        "name": "status",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "页号",
+                        "name": "pageNum",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "页大小",
+                        "name": "pageSize",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/model.Investors"
+                        }
+                    },
+                    "400": {
+                        "description": "错误的query",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
         }
     },
     "definitions": {
@@ -518,6 +576,69 @@
                 "website": {
                     "description": "公司主页URL",
                     "type": "string"
+                }
+            }
+        },
+        "model.Investor": {
+            "type": "object",
+            "properties": {
+                "accountStatus": {
+                    "description": "账户状态,0 : 待审核, 1: 审核通过. 如果审核失败就删除账户",
+                    "type": "integer"
+                },
+                "avatar": {
+                    "type": "string"
+                },
+                "bankEmail": {
+                    "type": "string"
+                },
+                "bankName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "swiftCode": {
+                    "type": "string"
+                }
+            }
+        },
+        "model.Investors": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "accountStatus": {
+                        "description": "账户状态,0 : 待审核, 1: 审核通过. 如果审核失败就删除账户",
+                        "type": "integer"
+                    },
+                    "avatar": {
+                        "type": "string"
+                    },
+                    "bankEmail": {
+                        "type": "string"
+                    },
+                    "bankName": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "integer"
+                    },
+                    "password": {
+                        "type": "string"
+                    },
+                    "swiftCode": {
+                        "type": "string"
+                    }
                 }
             }
         },

@@ -53,3 +53,30 @@ func CheckInvestorReq(c *gin.Context) {
 	serv.CheckInvestorReq(c, uint(i), s)
 	appG.OK(nil)
 }
+
+// @Tags User
+// @Summary 获取质押方列表,可以根据是否注册成功进行筛选
+// @Accept  json
+// @Produce  json
+// @Param status query bool true "true 已审批通过; false待审批"
+// @Param pageNum query int true "页号"
+// @Param pageSize query int true "页大小"
+// @Success 200 {object} model.Investors
+// @Failure 400 {string} string "错误的query"
+// @Failure 500 {string} string "Internal Error"
+// @Router /api/users/investor [POST]
+func FindAllInvestorsByStatus(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+		stat = c.Query("status")
+	)
+	pageNum, _ := strconv.Atoi(c.Query("pageNum"))
+	pageSize, _ := strconv.Atoi(c.Query("pageSize"))
+	s, _ := strconv.ParseBool(stat)
+	list, err := serv.FetchInvestorListByStatus(c, s, pageNum, pageSize)
+	if err != nil {
+		appG.Response(http.StatusBadRequest, e.BAD_REQUEST, nil)
+		return
+	}
+	appG.OK(list)
+}

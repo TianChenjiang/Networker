@@ -118,6 +118,48 @@ definitions:
         description: 公司主页URL
         type: string
     type: object
+  model.Investor:
+    properties:
+      accountStatus:
+        description: '账户状态,0 : 待审核, 1: 审核通过. 如果审核失败就删除账户'
+        type: integer
+      avatar:
+        type: string
+      bankEmail:
+        type: string
+      bankName:
+        type: string
+      email:
+        type: string
+      id:
+        type: integer
+      password:
+        type: string
+      swiftCode:
+        type: string
+    type: object
+  model.Investors:
+    items:
+      properties:
+        accountStatus:
+          description: '账户状态,0 : 待审核, 1: 审核通过. 如果审核失败就删除账户'
+          type: integer
+        avatar:
+          type: string
+        bankEmail:
+          type: string
+        bankName:
+          type: string
+        email:
+          type: string
+        id:
+          type: integer
+        password:
+          type: string
+        swiftCode:
+          type: string
+      type: object
+    type: array
   model.Market:
     properties:
       amount:
@@ -406,6 +448,45 @@ paths:
           schema:
             type: string
       summary: 查询用户数量
+      tags:
+      - User
+  /api/users/investor:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: true 已审批通过; false待审批
+        in: query
+        name: status
+        required: true
+        type: boolean
+      - description: 页号
+        in: query
+        name: pageNum
+        required: true
+        type: integer
+      - description: 页大小
+        in: query
+        name: pageSize
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Investors'
+            type: object
+        "400":
+          description: 错误的query
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 获取质押方列表,可以根据是否注册成功进行筛选
       tags:
       - User
 swagger: "2.0"

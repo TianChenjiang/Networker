@@ -1,6 +1,9 @@
 package service
 
-import "github.com/gin-gonic/gin"
+import (
+	"citicup-admin/schema"
+	"github.com/gin-gonic/gin"
+)
 
 //账户管理
 
@@ -25,5 +28,22 @@ func (s *Service) CheckInvestorReq(c *gin.Context, id uint, stat bool) (err erro
 	}
 	//update
 	_, err = s.dao.UpdateInvestor(&entity)
+	return
+}
+
+//查询所有的申请,分页要求
+func (s *Service) FetchInvestorListByStatus(c *gin.Context, stat bool, pageNum, pageSize int) (investors []*schema.Investor, err error) {
+	var status int
+	if stat {
+		status = 1
+	} else {
+		status = 0
+	}
+	list, err := s.dao.FindAllInvestorsByStatus(status, pageNum, pageSize)
+	investors = make([]*schema.Investor, len(list))
+	for i, item := range list {
+		inv := item.Model2Schema()
+		investors[i] = &inv
+	}
 	return
 }
