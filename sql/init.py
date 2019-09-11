@@ -1,10 +1,9 @@
 from sqlalchemy import create_engine
-
+import pandas as pd
 import tushare as ts
-
-df = ts.get_gdp_for()
-print(df)
-
+pro = ts.pro_api('53cd3b985c649c978160c6ec04bce24f4fbd2ebcb4673e8f2fba9a43')
+df = pro.new_share(start_date='20180901', end_date='20181018')
 engine = create_engine('mysql+pymysql://root:mysql@127.0.0.1:33006/citicup?charset=utf8')
-df.to_sql(name='name', con=engine, if_exists='append', index=False, index_label=False)
+df.to_sql(name='company', con=engine, if_exists='append',index=True, index_label='id')
+
 

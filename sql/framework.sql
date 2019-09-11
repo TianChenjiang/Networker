@@ -16,31 +16,38 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `name`
+-- Table structure for table `company`
 --
 
-DROP TABLE IF EXISTS `name`;
+DROP TABLE IF EXISTS `company`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `name` (
-  `year` bigint(20) DEFAULT NULL,
-  `end_for` double DEFAULT NULL,
-  `for_rate` double DEFAULT NULL,
-  `asset_for` double DEFAULT NULL,
-  `asset_rate` double DEFAULT NULL,
-  `goods_for` double DEFAULT NULL,
-  `goods_rate` double DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `company` (
+  `id` bigint(20) DEFAULT NULL,
+  `ts_code` text COLLATE utf8mb4_unicode_ci,
+  `sub_code` text COLLATE utf8mb4_unicode_ci,
+  `name` text COLLATE utf8mb4_unicode_ci,
+  `ipo_date` text COLLATE utf8mb4_unicode_ci,
+  `issue_date` text COLLATE utf8mb4_unicode_ci,
+  `amount` double DEFAULT NULL,
+  `market_amount` double DEFAULT NULL,
+  `price` double DEFAULT NULL,
+  `pe` double DEFAULT NULL,
+  `limit_amount` double DEFAULT NULL,
+  `funds` double DEFAULT NULL,
+  `ballot` double DEFAULT NULL,
+  KEY `ix_company_id` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `name`
+-- Dumping data for table `company`
 --
 
-LOCK TABLES `name` WRITE;
-/*!40000 ALTER TABLE `name` DISABLE KEYS */;
-INSERT INTO `name` VALUES (2018,76.2,5,32.4,2.2,-8.6,-0.6),(2017,57.6,3.9,33.8,2.3,8.6,0.6),(2016,66.5,4.5,43.1,2.9,-9.6,-0.7),(2015,59.7,4.1,41.6,2.9,-1.3,-0.1),(2014,48.8,3.6,46.9,3.4,4.3,0.3),(2013,48.2,3.6,54.2,4.3,-2.3,-0.1),(2012,56.7,4.3,42,3.4,1.7,0.2),(2011,61.9,5.9,46.2,4.4,-8.1,-0.8),(2010,46.9,4.8,66,7.1,-11.2,-1.3),(2009,56.1,5.3,86.5,8.1,-42.6,-4),(2008,44.2,4.3,53.2,5.1,2.6,0.3),(2007,45.3,6.4,44.1,6.3,10.6,1.5),(2006,42,5.3,42.9,5.5,15.1,1.9),(2005,54.4,6.2,33.1,3.8,12.5,1.4),(2004,42.6,4.3,61.6,6.2,-4.2,-0.4),(2003,35.4,3.6,70,7,-5.4,-0.6),(2002,43.9,5.1,48.5,3.6,4.6,0.4),(2001,49,4.1,64,5.3,-13,-1.1),(2000,78.1,6.6,22.4,1.9,-0.5,NULL),(1999,74.7,5.7,23.7,1.8,1.6,0.1),(1998,57.1,4.4,26.4,2.1,16.5,1.3),(1997,37,3.4,18.6,1.7,44.4,4.2),(1996,60.1,6,34.3,3.4,5.6,0.6),(1995,44.7,4.9,55,6,0.3,NULL),(1994,30.2,4,43.8,5.7,26,3.4),(1993,59.5,8.3,78.6,11,-38.1,-5.3),(1992,72.5,10.3,34.2,4.9,-6.8,-1),(1991,65.1,6,24.3,2.2,10.6,1),(1990,47.8,1.8,1.8,0.1,50.4,1.9),(1989,39.6,1.6,16.4,0.7,44,1.8),(1988,49.6,5.6,39.4,4.5,11,1.2),(1987,50.3,5.8,23.5,2.7,26.2,3.1),(1986,45,4,23.2,2,31.8,2.8),(1985,85.5,11.5,80.9,10.9,-66.4,-8.9),(1984,69.3,10.5,40.5,6.2,-9.8,-1.5),(1983,74.1,8.1,40.4,4.4,-14.5,-1.6),(1982,64.7,5.9,23.8,2.2,11.5,1),(1981,93.4,4.9,-4.3,-0.2,10.9,0.5),(1980,71.8,5.6,26.4,2.1,1.8,0.1),(1979,87.3,6.6,15.4,1.2,-2.7,-0.2),(1978,39.4,4.6,66,7.7,-5.4,-0.6);
-/*!40000 ALTER TABLE `name` ENABLE KEYS */;
+LOCK TABLES `company` WRITE;
+/*!40000 ALTER TABLE `company` DISABLE KEYS */;
+INSERT INTO `company` VALUES (0,'002939.SZ','002939','长城证券','20181017','20181026',31034,27931,6.31,22.98,9.3,19.582,0.16),(1,'002940.SZ','002940','昂利康','20181011','20181023',2250,2025,23.07,22.99,0.9,5.191,0.03),(2,'601162.SH','780162','天风证券','20181009','20181019',51800,46620,1.79,22.86,15.5,0,0.25),(3,'300760.SZ','300760','迈瑞医疗','20180927','20181016',12160,10944,48.8,22.99,3.6,59.341,0.08),(4,'300694.SZ','300694','蠡湖股份','20180927','20181015',5383,4845,9.89,22.98,2.15,5.324,0.04),(5,'300749.SZ','300749','顶固集创','20180913','20180925',2850,2565,12.22,22.99,1.1,3.483,0.03),(6,'002937.SZ','002937','兴瑞科技','20180912','20180926',4600,4140,9.94,22.99,1.8,4.572,0.04),(7,'601577.SH','780577','长沙银行','20180912','20180926',34216,30794,7.99,6.97,10.2,27.338,0.17),(8,'603583.SH','732583','捷昌驱动','20180911','20180921',3020,2718,29.17,22.99,1.2,8.809,0.03),(9,'002936.SZ','002936','郑州银行','20180907','20180919',60000,54000,4.59,6.5,18,27.54,0.25),(10,'603810.SH','732810','丰山集团','20180906','20180917',2000,2000,25.43,20.39,2,5.086,0.02),(11,'300748.SZ','300748','金力永磁','20180906','20180921',4160,3744,5.39,22.98,1.2,2.242,0.05),(12,'002938.SZ','002938','鹏鼎控股','20180905','20180918',23114,20803,16.07,22.99,6.9,37.145,0.12);
+/*!40000 ALTER TABLE `company` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -52,4 +59,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-09-11 10:58:55
+-- Dump completed on 2019-09-11 12:22:14

@@ -46,6 +46,8 @@ services:
       - citicup
     ports:
       - "3306:3306"
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
   # 前端站点
   citicup-frontend:
     image: citicup/citicup-frontend
