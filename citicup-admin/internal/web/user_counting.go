@@ -21,7 +21,8 @@ func FetchUser(c *gin.Context) {
 		role = c.Query("role")
 	)
 	if role == "USER" || role == "INVESTOR" {
-		//TODO: 完成不同角色的用户数量查询
+		result, _ := serv.FetchUserCounting(c, role)
+		appG.OK(&result)
 	} else {
 		//bad request
 		appG.Response(http.StatusBadRequest, e.BAD_REQUEST, nil)
@@ -30,4 +31,3 @@ func FetchUser(c *gin.Context) {
 	appG.OK(nil)
 
 }
-
