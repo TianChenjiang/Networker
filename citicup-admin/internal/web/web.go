@@ -59,6 +59,7 @@ func routeSetUp(e *gin.Engine) {
 		//userRouter.Use(middleware.CorsMiddleware())
 		{
 			userRouter.GET("", GetUserList)
+			userRouter.GET("/count",FetchUser)
 			userRouter.GET("/id/:id", GetUserByID)
 			userRouter.POST("/register", Register)
 			userRouter.PUT("", EditUser)
