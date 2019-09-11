@@ -1,4 +1,5 @@
 # Networker
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e9752e002248491b80dcecb25d85cac4)](https://www.codacy.com/manual/TianChenjiang/Networker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TianChenjiang/Networker&amp;utm_campaign=Badge_Grade)
 
 ### 远端环境说明
 
