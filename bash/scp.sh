@@ -25,3 +25,5 @@ scp -r citicup-model/production/* root@"$BASE"/citicup-model/production
 
 # docker
 scp docker-compose-prod.yml root@"$BASE"/docker-compose.yml
+# 数据
+scp -r sql/* root@"$BASE"/sql
