@@ -180,19 +180,36 @@ info:
   version: "1.0"
 paths:
   /api/companies:
+    delete:
+      consumes:
+      - application/json
+      description: Delete company
+      parameters:
+      - description: 公司id
+        in: query
+        name: id
+        required: true
+        type: string
+      responses:
+        "200": {}
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 删除指定公司信息
+      tags:
+      - Company
     get:
       consumes:
       - application/json
-      description: Get All Companies.
       parameters:
-      - description: 页大小
+      - description: 公司id
         in: query
-        name: pageSize
-        required: true
-        type: string
-      - description: 页号
-        in: query
-        name: pageNum
+        name: id
         required: true
         type: string
       produces:
@@ -201,7 +218,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/model.Companies'
+            $ref: '#/definitions/model.Company'
             type: object
         "404":
           description: Resource not found
@@ -211,7 +228,7 @@ paths:
           description: Internal Error
           schema:
             type: string
-      summary: 获取所有公司
+      summary: 根据Id获取公司信息
       tags:
       - Company
     post:
@@ -256,19 +273,30 @@ paths:
       summary: 更新公司信息
       tags:
       - Company
-  /api/companies/{id}:
-    delete:
+  /api/companies/list:
+    get:
       consumes:
       - application/json
-      description: Delete company
+      description: Get All Companies.
       parameters:
-      - description: 公司id
-        in: path
-        name: id
+      - description: 页大小
+        in: query
+        name: pageSize
         required: true
-        type: string
+        type: integer
+      - description: 页号
+        in: query
+        name: pageNum
+        required: true
+        type: integer
+      produces:
+      - application/json
       responses:
-        "200": {}
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Companies'
+            type: object
         "404":
           description: Resource not found
           schema:
@@ -277,18 +305,29 @@ paths:
           description: Internal Error
           schema:
             type: string
-      summary: 删除指定公司信息
+      summary: 获取所有公司
       tags:
       - Company
+  /api/companies/query:
     get:
       consumes:
       - application/json
       parameters:
-      - description: 公司id
-        in: path
-        name: id
+      - description: 关键字，按照关键字搜索名称
+        in: query
+        name: key
         required: true
         type: string
+      - description: 页大小
+        in: query
+        name: pageSize
+        required: true
+        type: integer
+      - description: 页号
+        in: query
+        name: pageNum
+        required: true
+        type: integer
       produces:
       - application/json
       responses:
@@ -305,7 +344,7 @@ paths:
           description: Internal Error
           schema:
             type: string
-      summary: 根据Id获取公司信息
+      summary: 模糊搜索公司
       tags:
       - Company
 swagger: "2.0"

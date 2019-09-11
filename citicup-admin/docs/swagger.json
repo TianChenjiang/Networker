@@ -17,7 +17,6 @@
     "paths": {
         "/api/companies": {
             "get": {
-                "description": "Get All Companies.",
                 "consumes": [
                     "application/json"
                 ],
@@ -27,19 +26,12 @@
                 "tags": [
                     "Company"
                 ],
-                "summary": "获取所有公司",
+                "summary": "根据Id获取公司信息",
                 "parameters": [
                     {
                         "type": "string",
-                        "description": "页大小",
-                        "name": "pageSize",
-                        "in": "query",
-                        "required": true
-                    },
-                    {
-                        "type": "string",
-                        "description": "页号",
-                        "name": "pageNum",
+                        "description": "公司id",
+                        "name": "id",
                         "in": "query",
                         "required": true
                     }
@@ -49,7 +41,7 @@
                         "description": "OK",
                         "schema": {
                             "type": "object",
-                            "$ref": "#/definitions/model.Companies"
+                            "$ref": "#/definitions/model.Company"
                         }
                     },
                     "404": {
@@ -127,50 +119,6 @@
                         }
                     }
                 }
-            }
-        },
-        "/api/companies/{id}": {
-            "get": {
-                "consumes": [
-                    "application/json"
-                ],
-                "produces": [
-                    "application/json"
-                ],
-                "tags": [
-                    "Company"
-                ],
-                "summary": "根据Id获取公司信息",
-                "parameters": [
-                    {
-                        "type": "string",
-                        "description": "公司id",
-                        "name": "id",
-                        "in": "path",
-                        "required": true
-                    }
-                ],
-                "responses": {
-                    "200": {
-                        "description": "OK",
-                        "schema": {
-                            "type": "object",
-                            "$ref": "#/definitions/model.Company"
-                        }
-                    },
-                    "404": {
-                        "description": "Resource not found",
-                        "schema": {
-                            "type": "string"
-                        }
-                    },
-                    "500": {
-                        "description": "Internal Error",
-                        "schema": {
-                            "type": "string"
-                        }
-                    }
-                }
             },
             "delete": {
                 "description": "Delete company",
@@ -186,12 +134,122 @@
                         "type": "string",
                         "description": "公司id",
                         "name": "id",
-                        "in": "path",
+                        "in": "query",
                         "required": true
                     }
                 ],
                 "responses": {
                     "200": {},
+                    "404": {
+                        "description": "Resource not found",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/companies/list": {
+            "get": {
+                "description": "Get All Companies.",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Company"
+                ],
+                "summary": "获取所有公司",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "页大小",
+                        "name": "pageSize",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "页号",
+                        "name": "pageNum",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/model.Companies"
+                        }
+                    },
+                    "404": {
+                        "description": "Resource not found",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/companies/query": {
+            "get": {
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Company"
+                ],
+                "summary": "模糊搜索公司",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "关键字，按照关键字搜索名称",
+                        "name": "key",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "页大小",
+                        "name": "pageSize",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "页号",
+                        "name": "pageNum",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/model.Company"
+                        }
+                    },
                     "404": {
                         "description": "Resource not found",
                         "schema": {

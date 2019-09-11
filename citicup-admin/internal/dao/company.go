@@ -18,8 +18,12 @@ func (d *Dao) GetAllCompaniesPaging(pageNum, pageSize int) (companies []*model.C
 	return
 }
 
-func (d *Dao) QueryCompanies()  {
-
+//模糊搜索
+func (d *Dao) QueryCompanies(key string, pageNum, pageSize int) (companies []*model.Company, err error) {
+	companies = make([]*model.Company, 0)
+	//err = d.db.Model(company_e).Where("company_name = ?", key).Find(&companies).Error
+	d.db.Model(company_e).Where("company_name LIKE ?", "%"+key+"%").Offset(pageNum).Limit(pageSize).Find(&companies)
+	return
 }
 
 //根据公司Id查询
