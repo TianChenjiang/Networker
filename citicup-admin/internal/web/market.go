@@ -17,12 +17,16 @@ func GetAllMarketCondition(c *gin.Context)  {
 	PageNum, _  := strconv.Atoi(c.Query("pageNum"))
 
 
-	res, err := serv.GetAllMarket(PageNum, PageSize)
+	res, totalNum, err := serv.GetAllMarket(PageNum, PageSize)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
 
-	appG.OK(res)
+	data := make(map[string]interface{})
+	data["totalNum"] = totalNum
+	data["marketIDList"] = res
+
+	appG.OK(data)
 	return
 }
 

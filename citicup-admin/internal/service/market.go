@@ -5,11 +5,12 @@ import (
 	"citicup-admin/schema"
 )
 
-func (s *Service) GetAllMarket(PageNum, PageSize int) (res []uint, err error){
+func (s *Service) GetAllMarket(PageNum, PageSize int) (res []uint, totalNum int, err error){
 	markets, err := s.dao.GetAllMarket(PageNum, PageSize)
 	for i := 0; i < len(markets); i++ {
 		res = append(res, markets[i].ID)
 	}
+	totalNum = len(res)
 	return
 }
 
