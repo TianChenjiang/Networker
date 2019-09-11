@@ -18,7 +18,7 @@ risk_model = api.model(
 )
 
 
-@cross_origin()
+# @cross_origin()
 @api.route('/predict')
 class PredictRisk(Resource):
 
