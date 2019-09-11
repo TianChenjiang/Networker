@@ -34,6 +34,20 @@ func (s *Service) GetAllCompaniesPaging(c *gin.Context, pageNum, pageSize int) (
 	return
 }
 
+//模糊搜索公司
+func (s *Service) QueryCompanies(c *gin.Context, key string, pageNum, pageSize int) (companies []*schema.Company, err error) {
+	list, err := s.dao.QueryCompanies(key, pageNum, pageSize)
+	if err != nil {
+		return
+	}
+	companies = make([]*schema.Company, len(list))
+	for i, item := range list {
+		c := item.Model2Schema()
+		companies[i] = &c
+	}
+	return
+}
+
 //根据Id获取公司
 func (s *Service) GetCompanyById(c *gin.Context, id uint) (company *schema.Company, err error) {
 	entity, err := s.dao.GetCompanyById(id)

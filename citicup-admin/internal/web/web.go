@@ -50,7 +50,6 @@ func routeSetUp(e *gin.Engine) {
 	e.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	e.StaticFS("/image", http.Dir("library/pic/")) //前端访问已上传的图片
 
-
 	g := e.Group("/api")
 	{
 		userRouter := g.Group("/users")
@@ -74,11 +73,12 @@ func routeSetUp(e *gin.Engine) {
 
 		companyRouter := g.Group("/companies")
 		{
-			companyRouter.GET("", GetCompanies)
-			companyRouter.GET("/:id", GetCompanyById)
+			companyRouter.GET("/list", GetCompanies)
+			companyRouter.GET("/query", QueryCompanies)
+			companyRouter.GET("", GetCompanyById)
 			companyRouter.POST("", NewCompany)
 			companyRouter.PUT("", UpdateCompany)
-			companyRouter.DELETE("/:id", DeleteCompanyById)
+			companyRouter.DELETE("", DeleteCompanyById)
 		}
 
 		investorRouter := g.Group("/investor")
