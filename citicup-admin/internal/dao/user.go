@@ -10,8 +10,6 @@ var user_e interface{} = &model.User{}
 var companies []model.Company
 var user model.User
 
-
-
 //查询所有的用户
 func (d *Dao) GetAllUser() (userList []*model.User, err error) {
 	//查询
@@ -72,14 +70,13 @@ func (d *Dao) GetUserByToken(email string) (user model.User, err error) {
 	return
 }
 
-
 func (d *Dao) MarkAsConcerned(userID uint, symbol string) (err error) {
 	companies = make([]model.Company, 0)
 	u, _ := d.GetUserById(userID)
 	d.db.Preload("Companies").First(&u, userID)
 	d.db.Model(&u).Related(&companies, "Companies")
 	fmt.Println(u)
-	com, err  := d.GetCompanyBySymbol(symbol)
+	com, err := d.GetCompanyBySymbol(symbol)
 	companies = append(u.Companies, com)
 
 	u.Companies = companies
@@ -95,27 +92,32 @@ func (d *Dao) UnMarkAsConcerned(userID uint, symbol string) (err error) {
 	companies, err := d.GetConcerned(0, 1000, userID) //todo
 
 	for i := 0; i < len(companies); i++ {
-		com, _  := d.GetCompanyBySymbol(symbol)
+		com, _ := d.GetCompanyBySymbol(symbol)
 		if companies[i].ID != com.ID {
 			res = append(res, companies[i])
 		}
 	}
 
 	d.db.Preload("Companies").First(&u, userID)
-	d.db.Model(&u).Association( "Companies").Delete(&u.Companies)
+	d.db.Model(&u).Association("Companies").Delete(&u.Companies)
 	companies = res
 	u.Companies = companies
-	d.db.Model(&u).Related(&companies,"Companies").Save(&u)
+	d.db.Model(&u).Related(&companies, "Companies").Save(&u)
 	fmt.Println(u)
 
 	return
 }
 
-func (d *Dao) GetConcerned(pageNum, pageSize int, userID uint) (companyList []model.Company, err error)  {
+func (d *Dao) GetConcerned(pageNum, pageSize int, userID uint) (companyList []model.Company, err error) {
 	u, _ := d.GetUserById(userID)
 	d.db.Preload("Companies").First(&u, userID)
 	d.db.Model(&u).Related(&companies, "Companies").Offset(pageNum).Limit(pageSize)
 	companyList = u.Companies
 
+	return
+}
+//查询用户数量
+func (d *Dao) CountUsers() (sum int, err error) {
+	d.db.Model(&user_e).Count(&sum)
 	return
 }

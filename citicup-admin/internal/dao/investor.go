@@ -38,3 +38,8 @@ func (d *Dao) UpdateInvestorAvatar(id uint, url string) (err error) {
 	d.db.Model(investor_e).Where("id = ?", id).Update("avatar", url)
 	return
 }
+
+func (d *Dao) CountInvestor() (sum int, err error) {
+	d.db.Model(investor_e).Count(&sum)
+	return
+}
