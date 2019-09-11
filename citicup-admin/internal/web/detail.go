@@ -8,6 +8,7 @@ func GetFinanceBySymbol(c *gin.Context)  {
 		symbol = c.Query("symbol")
 	)
 
+
 	appG.OK(symbol)
 
 }
