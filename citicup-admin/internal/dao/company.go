@@ -18,6 +18,10 @@ func (d *Dao) GetAllCompaniesPaging(pageNum, pageSize int) (companies []*model.C
 	return
 }
 
+func (d *Dao) QueryCompanies()  {
+
+}
+
 //根据公司Id查询
 func (d *Dao) GetCompanyById(id uint) (company model.Company, err error) {
 	d.db.Model(company_e).Where(&model.Company{

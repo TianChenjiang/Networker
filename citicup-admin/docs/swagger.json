@@ -141,6 +141,15 @@
                     "Company"
                 ],
                 "summary": "根据Id获取公司信息",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "公司id",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",
@@ -172,6 +181,15 @@
                     "Company"
                 ],
                 "summary": "删除指定公司信息",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "公司id",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
                 "responses": {
                     "200": {},
                     "404": {

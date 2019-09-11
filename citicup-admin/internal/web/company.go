@@ -38,6 +38,7 @@ func GetCompanies(c *gin.Context) {
 // @Summary 根据Id获取公司信息
 // @Accept  json
 // @Produce  json
+// @Param id path string true "公司id"
 // @Success 200 {object} model.Company
 // @Failure 404 {string} string "Resource not found"
 // @Failure 500 {string} string "Internal Error"
@@ -89,6 +90,7 @@ func UpdateCompany(c *gin.Context) {
 // @Tags Company
 // @Summary 删除指定公司信息
 // @Description Delete company
+// @Param id path string true "公司id"
 // @Accept  json
 // @Success 200
 // @Failure 404 {string} string "Resource not found"

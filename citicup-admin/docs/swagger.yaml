@@ -261,6 +261,12 @@ paths:
       consumes:
       - application/json
       description: Delete company
+      parameters:
+      - description: 公司id
+        in: path
+        name: id
+        required: true
+        type: string
       responses:
         "200": {}
         "404":
@@ -277,6 +283,12 @@ paths:
     get:
       consumes:
       - application/json
+      parameters:
+      - description: 公司id
+        in: path
+        name: id
+        required: true
+        type: string
       produces:
       - application/json
       responses:
