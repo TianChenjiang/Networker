@@ -23,8 +23,10 @@ func New(c *config.Config, s *service.Service) (httpSrv *http.Server) {
 	engine := gin.New()
 
 	//todo 加入跨域中间件
+	allowedHeaders := []string{"Accept", "Content-Type", "Content-Length", "Accept-Encoding", "Authorization", "X-CSRF-Token"}
 	config := cors.DefaultConfig()
 	config.AllowAllOrigins = true
+	config.AllowHeaders = allowedHeaders
 	engine.Use(cors.New(config))
 	engine.Use(cors.Default())
 
