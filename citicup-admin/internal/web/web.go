@@ -58,6 +58,7 @@ func routeSetUp(e *gin.Engine) {
 		{
 			userRouter.GET("", GetUserList)
 			userRouter.GET("/count",FetchUser)
+			userRouter.POST("/check",CheckInvestorReq)
 			userRouter.GET("/id/:id", GetUserByID)
 			userRouter.POST("/register", Register)
 			userRouter.PUT("", EditUser)

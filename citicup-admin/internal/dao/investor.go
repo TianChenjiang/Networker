@@ -39,7 +39,36 @@ func (d *Dao) UpdateInvestorAvatar(id uint, url string) (err error) {
 	return
 }
 
+//计数质押方的用户数量
 func (d *Dao) CountInvestor() (sum int, err error) {
 	d.db.Model(investor_e).Count(&sum)
+	return
+}
+
+//更新质押方数据
+func (d *Dao) UpdateInvestor(entity *model.Investor) (investor model.Investor, err error) {
+	d.db.Model(&investor_e).Where(&model.Investor{
+		ID: entity.ID,
+	}).Update(entity).Find(&investor)
+	return
+}
+
+//根据status查询质押方
+func (d *Dao) FetchInvestorByStatus(stat int) (investors []*model.Investor, err error) {
+	d.db.Model(&investor_e).Where(&model.Investor{
+		AccountStatus: stat,
+	}).Find(&investors)
+	return
+}
+
+//根据id获取用户
+func (d *Dao) FetchInvestorById(id uint) (investor model.Investor, err error) {
+	err = d.db.Model(&investor_e).Where(&model.Investor{ID: id}).Find(&investor).Error
+	return
+}
+
+//删除investor
+func (d *Dao) DeleteInvestorById(id uint) (investor model.Investor, err error) {
+	err = d.db.Model(&investor_e).Where(&model.Investor{ID: id}).Delete(&investor).Error
 	return
 }

@@ -347,6 +347,39 @@ paths:
       summary: 模糊搜索公司
       tags:
       - Company
+  /api/users/check:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 'true 同意; false: 不同意，那么该用户将被删除'
+        in: query
+        name: checkResult
+        required: true
+        type: boolean
+      - description: 用户id
+        in: query
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "400":
+          description: 错误的query
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 确认质押方的注册申请结果
+      tags:
+      - User
   /api/users/count:
     get:
       consumes:
