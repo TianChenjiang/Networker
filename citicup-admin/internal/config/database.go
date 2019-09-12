@@ -35,7 +35,9 @@ func SetUpDBLink(dbConfig *DataBase) *DBLink {
 		&model.Company{},
 		&model.Investor{},
 		&model.Market{},
-		&model.Request{})
+		&model.Request{},
+		&model.Stock{},
+		)
 	db.LogMode(true)
 	log.Print("auto complete the databases")
 	return &DBLink{db}

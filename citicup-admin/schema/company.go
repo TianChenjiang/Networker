@@ -36,6 +36,7 @@ type PredictionResult struct {
 
 //股票详细信息
 type Stock struct {
+	TsCode     string `json:"ts_code"`     //TScode
 	Symbol     string `json:"symbol"`      //股票代码
 	Name       string `json:"name"`        //股票名称
 	Area       string `json:"area"`        //所在地域
