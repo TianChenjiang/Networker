@@ -64,7 +64,7 @@ func (d *Dao) GetMarket(companyID uint) (market model.Market, err error) {
 
 func (d *Dao) GetCompanyBySymbol(symbol string) (company model.Company, err error) {
 	d.db.Model(company_e).Where(&model.Company{
-		Symbol: symbol,
+		TsCode:symbol,
 	}).Find(&company)
 	return
 }

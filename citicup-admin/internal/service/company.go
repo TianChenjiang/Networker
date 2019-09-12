@@ -63,7 +63,7 @@ func (s *Service) GetCompanyById(c *gin.Context, id uint) (company *schema.Compa
 func (s *Service) UpdateCompany(c *gin.Context, entity *schema.Company) (err error) {
 	var model_ = &model.Company{
 		ID:            entity.ID,
-		CompanyName:   entity.CompanyName,
+		TsCode:        entity.TsCode,
 		Chairman:      entity.Chairman,
 		Manager:       entity.Manager,
 		Secretary:     entity.Secretary,
@@ -92,7 +92,7 @@ func (s *Service) DeleteCompany(c *gin.Context, id uint) (err error) {
 func (s *Service) NewCompany(c *gin.Context, entity *schema.Company) (newCompany *schema.Company, err error) {
 	var model_ = &model.Company{
 		ID:            entity.ID,
-		CompanyName:   entity.CompanyName,
+		TsCode:        entity.TsCode,
 		Chairman:      entity.Chairman,
 		Manager:       entity.Manager,
 		Secretary:     entity.Secretary,

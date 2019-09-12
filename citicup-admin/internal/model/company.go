@@ -7,10 +7,10 @@ import (
 //model 公司实体
 type Company struct {
 	ID            uint   `gorm:"column:id;AUTO_INCREMENT"`
-	CompanyName   string `gorm:"column:company_name"`
-	Symbol        string `gorm:"column:symbol"` //股票代码
+	TsCode        string `gorm:"column:ts_code"` //股票代码
 	Market        Market
 	MarketID      uint                                  //市场行情与公司一对一
+	Exchange      string `gorm:"column:exchange"`       //交易所代码 ，SSE上交所 SZSE深交所
 	Chairman      string `gorm:"column:chairman"`       //法人代表
 	Manager       string `gorm:"column:manager"`        //总经理
 	Secretary     string `gorm:"column:secretary"`      //董秘
@@ -37,7 +37,7 @@ func (c *Company) TableName() string {
 func (c *Company) Model2Schema() (result schema.Company) {
 	result = schema.Company{
 		ID:            c.ID,
-		CompanyName:   c.CompanyName,
+		TsCode:        c.TsCode,
 		Chairman:      c.Chairman,
 		Manager:       c.Manager,
 		Secretary:     c.Secretary,
@@ -53,6 +53,7 @@ func (c *Company) Model2Schema() (result schema.Company) {
 		MainBusiness:  c.MainBusiness,
 		BusinessScope: c.BusinessScope,
 	}
+
 	return
 }
 

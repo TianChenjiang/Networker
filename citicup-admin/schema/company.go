@@ -5,7 +5,7 @@ package schema
 //公司 VO
 type Company struct {
 	ID            uint   `json:"id"`
-	CompanyName   string `json:"companyName"`
+	TsCode        string `json:"ts_code"`        //股票代码
 	Chairman      string `json:"chairman"`       //法人代表
 	Manager       string `json:"manager"`        //总经理
 	Secretary     string `json:"secretary"`      //董秘
