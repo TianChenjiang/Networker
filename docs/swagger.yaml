@@ -1,0 +1,491 @@
+basePath: '{{.BasePath}}'
+definitions:
+  model.Companies:
+    items:
+      properties:
+        businessScope:
+          description: 经营范围
+          type: string
+        chairman:
+          description: 法人代表
+          type: string
+        city:
+          description: 所在城市
+          type: string
+        email:
+          description: 电子邮件
+          type: string
+        employees:
+          description: 员工人数
+          type: integer
+        exchange:
+          description: 交易所代码 ，SSE上交所 SZSE深交所
+          type: string
+        id:
+          type: integer
+        introduction:
+          description: 公司介绍
+          type: string
+        mainBusiness:
+          description: 主要业务及产品
+          type: string
+        manager:
+          description: 总经理
+          type: string
+        market:
+          $ref: '#/definitions/model.Market'
+          type: object
+        marketID:
+          description: 市场行情与公司一对一
+          type: integer
+        office:
+          description: 办公室
+          type: string
+        province:
+          description: 所在省份
+          type: string
+        regCapital:
+          description: 注册资本
+          type: string
+        secretary:
+          description: 董秘
+          type: string
+        setupDate:
+          description: 创立日期
+          type: string
+        tsCode:
+          description: 股票代码
+          type: string
+        website:
+          description: 公司主页URL
+          type: string
+      type: object
+    type: array
+  model.Company:
+    properties:
+      businessScope:
+        description: 经营范围
+        type: string
+      chairman:
+        description: 法人代表
+        type: string
+      city:
+        description: 所在城市
+        type: string
+      email:
+        description: 电子邮件
+        type: string
+      employees:
+        description: 员工人数
+        type: integer
+      exchange:
+        description: 交易所代码 ，SSE上交所 SZSE深交所
+        type: string
+      id:
+        type: integer
+      introduction:
+        description: 公司介绍
+        type: string
+      mainBusiness:
+        description: 主要业务及产品
+        type: string
+      manager:
+        description: 总经理
+        type: string
+      market:
+        $ref: '#/definitions/model.Market'
+        type: object
+      marketID:
+        description: 市场行情与公司一对一
+        type: integer
+      office:
+        description: 办公室
+        type: string
+      province:
+        description: 所在省份
+        type: string
+      regCapital:
+        description: 注册资本
+        type: string
+      secretary:
+        description: 董秘
+        type: string
+      setupDate:
+        description: 创立日期
+        type: string
+      tsCode:
+        description: 股票代码
+        type: string
+      website:
+        description: 公司主页URL
+        type: string
+    type: object
+  model.Investor:
+    properties:
+      accountStatus:
+        description: '账户状态,0 : 待审核, 1: 审核通过. 如果审核失败就删除账户'
+        type: integer
+      avatar:
+        type: string
+      bankEmail:
+        type: string
+      bankName:
+        type: string
+      email:
+        type: string
+      id:
+        type: integer
+      password:
+        type: string
+      swiftCode:
+        type: string
+    type: object
+  model.Investors:
+    items:
+      properties:
+        accountStatus:
+          description: '账户状态,0 : 待审核, 1: 审核通过. 如果审核失败就删除账户'
+          type: integer
+        avatar:
+          type: string
+        bankEmail:
+          type: string
+        bankName:
+          type: string
+        email:
+          type: string
+        id:
+          type: integer
+        password:
+          type: string
+        swiftCode:
+          type: string
+      type: object
+    type: array
+  model.Market:
+    properties:
+      amount:
+        description: 成交额（亿）
+        type: number
+      amplitude:
+        description: '振幅 公式：(| highest - lowest | / pre_close) * 100% TODO: 这个可以根据已有数据得到的啊？'
+        type: number
+      change:
+        description: 涨跌额
+        type: number
+      close:
+        description: 收盘价
+        type: number
+      highest:
+        description: 最高价
+        type: number
+      id:
+        type: integer
+      listAge:
+        description: 市龄
+        type: number
+      lowest:
+        description: 最低价
+        type: number
+      name:
+        description: 股票名称
+        type: string
+      open:
+        description: 开盘价
+        type: number
+      pb:
+        description: 市净率
+        type: number
+      pctChg:
+        description: 涨跌幅
+        type: number
+      pe:
+        description: 市盈率
+        type: number
+      preClose:
+        description: 昨日收盘价
+        type: number
+      turnoverRate:
+        description: 换手率
+        type: number
+      vol:
+        description: 成交量
+        type: number
+    type: object
+host: '{{.Host}}'
+info:
+  contact: {}
+  description: '{{.Description}}'
+  license: {}
+  title: '{{.Title}}'
+  version: '{{.Version}}'
+paths:
+  /api/companies:
+    delete:
+      consumes:
+      - application/json
+      description: Delete company
+      parameters:
+      - description: 公司id
+        in: query
+        name: id
+        required: true
+        type: string
+      responses:
+        "200": {}
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 删除指定公司信息
+      tags:
+      - Company
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: 公司id
+        in: query
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Company'
+            type: object
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 根据Id获取公司信息
+      tags:
+      - Company
+    post:
+      consumes:
+      - application/json
+      description: Delete company
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Company'
+            type: object
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 添加新的公司
+      tags:
+      - Company
+    put:
+      consumes:
+      - application/json
+      description: Update the company information
+      produces:
+      - application/json
+      responses:
+        "200": {}
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 更新公司信息
+      tags:
+      - Company
+  /api/companies/list:
+    get:
+      consumes:
+      - application/json
+      description: Get All Companies.
+      parameters:
+      - description: 页大小
+        in: query
+        name: pageSize
+        required: true
+        type: integer
+      - description: 页号
+        in: query
+        name: pageNum
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Companies'
+            type: object
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 获取所有公司
+      tags:
+      - Company
+  /api/companies/query:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: 关键字，按照关键字搜索名称
+        in: query
+        name: key
+        required: true
+        type: string
+      - description: 页大小
+        in: query
+        name: pageSize
+        required: true
+        type: integer
+      - description: 页号
+        in: query
+        name: pageNum
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Company'
+            type: object
+        "404":
+          description: Resource not found
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 模糊搜索公司
+      tags:
+      - Company
+  /api/users/check:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 'true 同意; false: 不同意，那么该用户将被删除'
+        in: query
+        name: checkResult
+        required: true
+        type: boolean
+      - description: 用户id
+        in: query
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "400":
+          description: 错误的query
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 确认质押方的注册申请结果
+      tags:
+      - User
+  /api/users/count:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: 根据该query分辨普通用户和质押方.用USER表示普通用户,用INVESTOR表示质押方.其他输入无效
+        in: query
+        name: role
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 用户数量
+          schema:
+            type: int
+        "400":
+          description: 错误的query
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 查询用户数量
+      tags:
+      - User
+  /api/users/investor:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: true 已审批通过; false待审批
+        in: query
+        name: status
+        required: true
+        type: boolean
+      - description: 页号
+        in: query
+        name: pageNum
+        required: true
+        type: integer
+      - description: 页大小
+        in: query
+        name: pageSize
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Investors'
+            type: object
+        "400":
+          description: 错误的query
+          schema:
+            type: string
+        "500":
+          description: Internal Error
+          schema:
+            type: string
+      summary: 获取质押方列表,可以根据是否注册成功进行筛选
+      tags:
+      - User
+swagger: "2.0"
