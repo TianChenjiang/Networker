@@ -22,7 +22,8 @@ func (d *Dao) GetAllCompaniesPaging(pageNum, pageSize int) (companies []*model.C
 func (d *Dao) QueryCompanies(key string, pageNum, pageSize int) (companies []*model.Company, err error) {
 	companies = make([]*model.Company, 0)
 	//err = d.db.Model(company_e).Where("company_name = ?", key).Find(&companies).Error
-	d.db.Model(company_e).Where("company_name LIKE ?", "%"+key+"%").Offset(pageNum).Limit(pageSize).Find(&companies)
+	//d.db.Model(company_e).Where("company_name LIKE ?", "%"+key+"%").Offset(pageNum).Limit(pageSize).Find(&companies)
+	d.db.Raw("select * from citicup.company where ts_code in (select ts_code from stock where stock.name like ?)","%"+key+"%").Offset(pageNum).Limit(pageSize).Find(&companies)
 	return
 }
 
