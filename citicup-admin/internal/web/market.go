@@ -8,14 +8,24 @@ import (
 	"strconv"
 )
 
-func GetAllMarketCondition(c *gin.Context)  {
+// @Tags Market
+// @Summary 获取所有行情
+// @Description Get All Market.
+// @Accept  json
+// @Produce  json
+// @Param pageSize query int true "页大小"
+// @Param pageNum query int true "页号"
+// @Success 200 {object} model.Markets
+// @Failure 404 {string} string "Resource not found"
+// @Failure 500 {string} string "Internal Error"
+// @Router /api/market/all [get]
+func GetAllMarketCondition(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
 	)
 
 	PageSize, _ := strconv.Atoi(c.Query("pageSize"))
-	PageNum, _  := strconv.Atoi(c.Query("pageNum"))
-
+	PageNum, _ := strconv.Atoi(c.Query("pageNum"))
 
 	res, totalNum, err := serv.GetAllMarket(PageNum, PageSize)
 	if err != nil {
@@ -30,27 +40,28 @@ func GetAllMarketCondition(c *gin.Context)  {
 	return
 }
 
-func GetConcernedMarketCondition(c *gin.Context)  {
+
+func GetConcernedMarketCondition(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
 	)
 
 	//获得当前用户token
-	user, code, err:= serv.GetUserByToken(*c)
-	if err != nil || code != e.SUCCESS{
+	user, code, err := serv.GetUserByToken(*c)
+	if err != nil || code != e.SUCCESS {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
 	}
 
 	//获得该用户所有关注公司
-	companyList,err := serv.GetConcerned(0, 10000, user.ID)
+	companyList, err := serv.GetConcerned(0, 10000, user.ID)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
 
 	marketList := make([]schema.Market, 0)
 
-	for i := 0; i < len(companyList); i++{
+	for i := 0; i < len(companyList); i++ {
 		market, _ := serv.GetMarket(companyList[i].ID)
 		marketList = append(marketList, market.Model2Schema())
 	}
@@ -58,14 +69,24 @@ func GetConcernedMarketCondition(c *gin.Context)  {
 	appG.OK(marketList)
 }
 
-func GetMarketConditionBySymbol(c *gin.Context)  {
+// @Tags Market
+// @Summary 根据股票代码获取Market
+// @Description Get All Market.
+// @Accept  json
+// @Produce  json
+// @Param symbol query string true "股票代码"
+// @Success 200 {object} model.Market
+// @Failure 404 {string} string "Resource not found"
+// @Failure 500 {string} string "Internal Error"
+// @Router /api/market/symbol [get]
+func GetMarketConditionBySymbol(c *gin.Context) {
 	var (
-		appG = Gin{C: c}
+		appG   = Gin{C: c}
 		symbol = c.Query("symbol")
 	)
 
 	//获得当前用户token
-	user, code, err:= serv.GetUserByToken(*c)
+	user, code, err := serv.GetUserByToken(*c)
 	if err != nil || code != e.SUCCESS {
 		appG.Response(http.StatusInternalServerError, code, nil)
 		return
@@ -81,13 +102,13 @@ func GetMarketConditionBySymbol(c *gin.Context)  {
 	data["market"] = market.Model2Schema()
 
 	appG.OK(data)
-	
+
 }
 
-func InsertMarket(c *gin.Context)  {
+func InsertMarket(c *gin.Context) {
 	var (
-		appG = Gin{C: c}
-		schema  schema.InsertMarketParam
+		appG   = Gin{C: c}
+		schema schema.InsertMarketParam
 	)
 
 	err := c.BindJSON(&schema)
@@ -100,9 +121,6 @@ func InsertMarket(c *gin.Context)  {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
 
-
-
 	appG.OK(market.Model2Schema())
 
 }
-
