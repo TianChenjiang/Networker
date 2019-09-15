@@ -10,6 +10,58 @@
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
+        "/api//market/all": {
+            "get": {
+                "description": "Get All Market.",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Market"
+                ],
+                "summary": "获取所有行情",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "页大小",
+                        "name": "pageSize",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "页号",
+                        "name": "pageNum",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/model.Markets"
+                        }
+                    },
+                    "404": {
+                        "description": "Resource not found",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Error",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
         "/api/companies": {
             "get": {
                 "consumes": [
@@ -646,10 +698,6 @@
                     "description": "成交额（亿）",
                     "type": "number"
                 },
-                "amplitude": {
-                    "description": "振幅 公式：(| highest - lowest | / pre_close) * 100% TODO: 这个可以根据已有数据得到的啊？",
-                    "type": "number"
-                },
                 "change": {
                     "description": "涨跌额",
                     "type": "number"
@@ -665,45 +713,86 @@
                 "id": {
                     "type": "integer"
                 },
-                "listAge": {
-                    "description": "市龄",
-                    "type": "number"
-                },
                 "lowest": {
                     "description": "最低价",
                     "type": "number"
                 },
-                "name": {
-                    "description": "股票名称",
-                    "type": "string"
-                },
                 "open": {
                     "description": "开盘价",
-                    "type": "number"
-                },
-                "pb": {
-                    "description": "市净率",
                     "type": "number"
                 },
                 "pctChg": {
                     "description": "涨跌幅",
                     "type": "number"
                 },
-                "pe": {
-                    "description": "市盈率",
-                    "type": "number"
-                },
                 "preClose": {
                     "description": "昨日收盘价",
                     "type": "number"
                 },
-                "turnoverRate": {
-                    "description": "换手率",
-                    "type": "number"
+                "tradeDate": {
+                    "description": "交易日期",
+                    "type": "string"
+                },
+                "tscode": {
+                    "type": "string"
                 },
                 "vol": {
                     "description": "成交量",
                     "type": "number"
+                }
+            }
+        },
+        "model.Markets": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "amount": {
+                        "description": "成交额（亿）",
+                        "type": "number"
+                    },
+                    "change": {
+                        "description": "涨跌额",
+                        "type": "number"
+                    },
+                    "close": {
+                        "description": "收盘价",
+                        "type": "number"
+                    },
+                    "highest": {
+                        "description": "最高价",
+                        "type": "number"
+                    },
+                    "id": {
+                        "type": "integer"
+                    },
+                    "lowest": {
+                        "description": "最低价",
+                        "type": "number"
+                    },
+                    "open": {
+                        "description": "开盘价",
+                        "type": "number"
+                    },
+                    "pctChg": {
+                        "description": "涨跌幅",
+                        "type": "number"
+                    },
+                    "preClose": {
+                        "description": "昨日收盘价",
+                        "type": "number"
+                    },
+                    "tradeDate": {
+                        "description": "交易日期",
+                        "type": "string"
+                    },
+                    "tscode": {
+                        "type": "string"
+                    },
+                    "vol": {
+                        "description": "成交量",
+                        "type": "number"
+                    }
                 }
             }
         }

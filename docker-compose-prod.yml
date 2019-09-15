@@ -62,7 +62,7 @@ services:
     entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./citicup-app","-profile","prod"]
     networks:
       - citicup
-  # 后端, 暂时一个微服务
+
   citicup-admin:
     image: citicup/citicup-admin
     container_name: citicup-admin
@@ -76,6 +76,20 @@ services:
     entrypoint: ["./dockerize","-wait=tcp://citicup-mysql:3306","-timeout=60s","--","./citicup-app","-profile","prod"]
     networks:
       - citicup
+
+  citicup-plus:
+    image: citicup/citicup-plus
+    container_name: citicup-plus
+    restart: always
+    entrypoint: ["./dockerize","-wait=tcp://discovery-server:8080","-timeout=60s","--","java","-jar","/app.jar"]
+    build:
+        context: .
+        dockerfile: Dockerfile-api-gateway
+        args:
+          - ARTIFACT_NAME=citicup-plus-0.0.1-SNAPSHOT
+    networks:
+      - citicup
+
 
   citicup-model:
     image: citicup/citicup-model

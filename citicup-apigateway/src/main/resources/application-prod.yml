@@ -9,6 +9,7 @@ eureka:
 frontend: citicup-frontend
 backend: citicup-admin
 model: citicup-model
+plus: citicup-plus
 
 spring:
   application:
@@ -20,6 +21,11 @@ spring:
           uri: http://${model}:5000/
           predicates:
             - Path=/api/PredictRisk/predict/**
+
+        - id: citicup-plus
+          uri: http://${plus}:8080/
+          predicates:
+            - Path=/api/plus/**
 
         - id: citicup-backend
           uri: http://${backend}:8080/

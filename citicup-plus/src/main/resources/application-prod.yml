@@ -1,0 +1,17 @@
+server:
+  port: 8080
+eureka:
+  instance:
+    hostname: discovery-server
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8080/eureka/
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://citicup-mysql/citicup?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver

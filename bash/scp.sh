@@ -14,8 +14,9 @@ scp docker/model/Dockerfile root@"$BASE"/Dockerfile-model
 scp docker/dockerize root@"$BASE"/dockerize
 scp bash/setup.sh root@"$BASE"/setup.sh
 # api gateway
-scp citicup-apigateway/target/citicup-api-gateway-0.0.1-SNAPSHOT.jar root@"$BASE"/citicup-api-gateway-0.0.1-SNAPSHOT.jar
-scp citicup-discovery-server/target/citicup-discovery-server-0.0.1-SNAPSHOT.jar root@"$BASE"/citicup-discovery-server-0.0.1-SNAPSHOT.jar
+scp citicup-apigateway/target/*.jar root@"$BASE"/citicup-api-gateway-0.0.1-SNAPSHOT.jar
+scp citicup-discovery-server/target/*.jar root@"$BASE"/citicup-discovery-server-0.0.1-SNAPSHOT.jar
+scp citicup-plus/target/*.jar root@"$BASE"/citicup-plus-0.0.1-SNAPSHOT.jar
 # 前端
 scp -r citicup-frontend/* root@"$BASE"/citicup-frontend
 # admin 服务器

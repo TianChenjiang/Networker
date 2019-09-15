@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:33006/citicup?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver

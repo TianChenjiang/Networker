@@ -8,17 +8,7 @@ import (
 	"strconv"
 )
 
-// @Tags Market
-// @Summary 获取所有行情
-// @Description Get All Market.
-// @Accept  json
-// @Produce  json
-// @Param pageSize query int true "页大小"
-// @Param pageNum query int true "页号"
-// @Success 200 {object} model.Markets
-// @Failure 404 {string} string "Resource not found"
-// @Failure 500 {string} string "Internal Error"
-// @Router /api/market/all [get]
+
 func GetAllMarketCondition(c *gin.Context) {
 	var (
 		appG = Gin{C: c}
@@ -69,16 +59,6 @@ func GetConcernedMarketCondition(c *gin.Context) {
 	appG.OK(marketList)
 }
 
-// @Tags Market
-// @Summary 根据股票代码获取Market
-// @Description Get All Market.
-// @Accept  json
-// @Produce  json
-// @Param symbol query string true "股票代码"
-// @Success 200 {object} model.Market
-// @Failure 404 {string} string "Resource not found"
-// @Failure 500 {string} string "Internal Error"
-// @Router /api/market/symbol [get]
 func GetMarketConditionBySymbol(c *gin.Context) {
 	var (
 		appG   = Gin{C: c}
