@@ -1,6 +1,7 @@
 package com.example.demo.model;
 
 import javax.persistence.Entity;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 //日线行情
@@ -18,6 +19,8 @@ public class Market extends BaseEntity {
     private double low;
     private double preClose;
     private double vol;
+
+
 
     public String getTsCode() {
         return tsCode;
@@ -106,4 +109,5 @@ public class Market extends BaseEntity {
     public void setVol(double vol) {
         this.vol = vol;
     }
+
 }

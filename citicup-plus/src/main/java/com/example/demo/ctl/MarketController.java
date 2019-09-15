@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.ctl;
 
 import com.example.demo.model.Market;
 import com.example.demo.repo.MarketRepo;
