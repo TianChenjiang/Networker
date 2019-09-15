@@ -2,6 +2,7 @@ package com.example.demo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Transient;
+import java.util.List;
 
 @Entity
 public class Company extends BaseEntity {
@@ -24,6 +25,9 @@ public class Company extends BaseEntity {
 
     @Transient
     private Market market;
+    @Transient
+    private List<Stock> stockList;
+
 
     public String getExchange() {
         return exchange;
@@ -160,5 +164,13 @@ public class Company extends BaseEntity {
 
     public void setMarket(Market market) {
         this.market = market;
+    }
+
+    public List<Stock> getStockList() {
+        return stockList;
+    }
+
+    public void setStockList(List<Stock> stockList) {
+        this.stockList = stockList;
     }
 }

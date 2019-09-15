@@ -4,6 +4,7 @@ import com.example.demo.model.Company;
 import com.example.demo.model.Market;
 import com.example.demo.repo.CompanyRepo;
 import com.example.demo.repo.MarketRepo;
+import com.example.demo.repo.StockRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +22,8 @@ public class CompanyController {
     private CompanyRepo companyRepo;
     @Autowired
     private MarketRepo marketRepo;
-
+    @Autowired
+    private StockRepo stockRepo;
     @GetMapping
     public List<Company> getAllCompanies(@RequestParam(name = "pageSize") int size,
                                          @RequestParam(name = "pageNum") int pageNum) {
@@ -34,6 +36,7 @@ public class CompanyController {
                             if (markets.size() != 0) {
                                 company.setMarket(markets.get(0));
                             }
+                            company.setStockList(stockRepo.findAllByTsCode(company.getTsCode()));
                         }
                 )
                 .collect(Collectors.toList());
