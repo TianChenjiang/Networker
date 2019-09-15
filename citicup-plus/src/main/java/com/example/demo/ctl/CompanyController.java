@@ -42,4 +42,18 @@ public class CompanyController {
                 .collect(Collectors.toList());
     }
 
+    @GetMapping("/query")
+    public List<Company> getAllCompaniesByKey(@RequestParam(name = "pageSize") int size,
+                                              @RequestParam(name = "pageNum") int pageNum,
+                                              @RequestParam(name = "key") String key) {
+        return companyRepo.getCompaniesByKey(key, PageRequest.of(pageNum, size))
+                .stream()
+                .peek(company -> {
+                    List<Market> markets = marketRepo.findMarketsByTsCode(company.getTsCode());
+                    if (markets.size() != 0) {
+                        company.setMarket(markets.get(0));
+                    }
+                    company.setStockList(stockRepo.findAllByTsCode(company.getTsCode()));
+                }).collect(Collectors.toList());
+    }
 }
