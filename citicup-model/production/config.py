@@ -4,6 +4,18 @@ from os import getenv
 class BaseConfig:
     RESTPLUS_MASK_SWAGGER = False
     ERROR_404_HELP = False
+    SCHEDULER_API_ENABLED = True
+    JOBS = [
+        {
+            'id': 'job1',
+            'func': 'model.average_model:predict_all_init',
+            'trigger': {
+                'type': 'cron',
+                'hour': 0,
+                'minute': 0
+            }
+        }
+    ]
 
 
 class DevelopmentConfig(BaseConfig):

@@ -2,7 +2,7 @@ from flask_restplus import Resource, Namespace, reqparse, fields
 from werkzeug.exceptions import NotFound
 from flask_cors import cross_origin
 
-from model.average_model import predict
+from model.average_model import predict, predict_all
 
 api = Namespace('PredictRisk', description='预测爆仓风险')
 
@@ -36,3 +36,14 @@ class PredictRisk(Resource):
         return {
             'risk': risk_prob
         }
+
+    def get(self):
+        """
+        获得当日所有股票的爆仓概率
+        :return:
+        """
+        prob_dict = predict_all()
+        if prob_dict is None:
+            return 'No prob file exists!!!', 404
+        most_prob_list = sorted(prob_dict.items(), key=lambda x: x[1], reverse=True)[:10]
+        return dict(most_prob_list)

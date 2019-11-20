@@ -40,7 +40,3 @@ def deep_predict(code, forecast_close_line, price_df):
         prob = deep_model.predict([price_values, info_values]).ravel()
     return prob[0]
 
-
-if __name__ == '__main__':
-    prob = predict('601519.SH', 7)
-    print(prob)

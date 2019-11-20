@@ -5,6 +5,7 @@ import pathlib
 import numpy as np
 
 PATH = pathlib.Path(__file__).parent
+JSPATH = PATH.joinpath('prob.json')
 DATA_PATH = PATH.joinpath("data").resolve()
 INFO_SCALER_PATH = PATH.joinpath('info_scaler.pkl')
 PRICE_SCALER_PATH = PATH.joinpath('price_scaler.pkl')
