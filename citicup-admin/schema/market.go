@@ -5,7 +5,7 @@ package schema
 //市场行情		TODO:这里的市场行情是一天的？
 type Market struct {
 	ID       uint    `json:"id"`
-	Tscode   string  `json:"column:ts_code"` //股票代码
+	Tscode   string  `json:"ts_code"` //股票代码
 	TradeDate string  `json:"trade_date"` //交易日期
 	Open     float32 `json:"open"`           //开盘价
 	Amount   float32 `json:"amount"`         //成交额（亿）

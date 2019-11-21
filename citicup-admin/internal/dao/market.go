@@ -26,7 +26,7 @@ func (d *Dao) InsertMarket(param schema.InsertMarketParam) (market model.Market,
 }
 
 func (d *Dao) GetMarketBySymbol(userID uint, symbol string) (market model.Market, isConcerned bool, err error)  {
-	d.db.Where("symbol = ?", symbol).First(&market)
+	d.db.Where("ts_code = ?", symbol).First(&market)
 	companyList, err := d.GetConcerned(0, 1000, userID)
 	company, err := d.GetCompanyBySymbol(symbol)
 
