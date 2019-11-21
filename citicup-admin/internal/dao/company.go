@@ -5,6 +5,7 @@ import (
 )
 
 var company_e interface{} = &model.Company{}
+var stock_e interface{} = &model.Stock{}
 
 //查询所有的公司
 func (d *Dao) GetAllCompanies() (companies []*model.Company, err error) {
@@ -26,6 +27,15 @@ func (d *Dao) QueryCompanies(key string, pageNum, pageSize int) (companies []*mo
 	d.db.Raw("select * from citicup.company where ts_code in (select ts_code from stock where stock.name like ?)","%"+key+"%").Offset(pageNum).Limit(pageSize).Find(&companies)
 	return
 }
+
+func (d *Dao) BriefQueryCompanies(key string, pageNum, pageSize int) (stocks []*model.Stock, err error) {
+	stocks = make([]*model.Stock, 0)
+	//err = d.db.Model(company_e).Where("company_name = ?", key).Find(&companies).Error
+	//d.db.Model(company_e).Where("company_name LIKE ?", "%"+key+"%").Offset(pageNum).Limit(pageSize).Find(&companies)
+	d.db.Raw("select * from stock where stock.name like ?","%"+key+"%").Offset(pageNum).Limit(pageSize).Find(&stocks)
+	return
+}
+
 
 //根据公司Id查询
 func (d *Dao) GetCompanyById(id uint) (company model.Company, err error) {

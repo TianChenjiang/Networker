@@ -61,6 +61,33 @@ func QueryCompanies(c *gin.Context) {
 	appG.OK(list)
 }
 
+func BriefQueryCompanies(c *gin.Context) {
+	var (
+		appG = Gin{C: c}
+	)
+
+	pageSize, _ := strconv.Atoi(c.Query("pageSize"))
+	pageNum, _ := strconv.Atoi(c.Query("pageNum"))
+	key := c.Query("key")
+	list, err := serv.BriefQueryCompanies(c, key, pageNum, pageSize)
+	if err != nil {
+		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
+		return
+	}
+
+	res := make([]schema.BriefSearchRes, 0)
+	for i := 0; i < len(list); i++ {
+		res = append(res,  schema.BriefSearchRes{
+			TsCode: list[i].TsCode,
+			Name:   list[i].Name,
+		})
+	}
+
+	appG.OK(res)
+}
+
+
+
 // @Tags Company
 // @Summary 根据Id获取公司信息
 // @Accept  json

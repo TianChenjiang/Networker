@@ -48,6 +48,20 @@ func (s *Service) QueryCompanies(c *gin.Context, key string, pageNum, pageSize i
 	return
 }
 
+//简略模糊搜索
+func (s *Service) BriefQueryCompanies(c *gin.Context, key string, pageNum, pageSize int) (stocks []*schema.Stock, err error) {
+	list, err := s.dao.BriefQueryCompanies(key, pageNum, pageSize)
+	if err != nil {
+		return
+	}
+	stocks = make([]*schema.Stock, len(list))
+	for i, item := range list {
+		c := item.Model2Schema()
+		stocks[i] = &c
+	}
+	return
+}
+
 //根据Id获取公司
 func (s *Service) GetCompanyById(c *gin.Context, id uint) (company *schema.Company, err error) {
 	entity, err := s.dao.GetCompanyById(id)

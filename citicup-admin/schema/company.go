@@ -50,3 +50,9 @@ type Stock struct {
 	ListDate   string `json:"list_date"`   //上市日期
 	DelistDate string `json:"delist_date"` //退市日期
 }
+
+
+type BriefSearchRes struct {
+	TsCode     string `json:"ts_code"`     //TScode
+	Name       string `json:"name"`        //股票名称
+}

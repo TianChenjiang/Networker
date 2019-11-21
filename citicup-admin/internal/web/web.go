@@ -80,10 +80,12 @@ func routeSetUp(e *gin.Engine) {
 		{
 			companyRouter.GET("/list", GetCompanies)
 			companyRouter.GET("/query", QueryCompanies)
+			companyRouter.GET("/query/brief", BriefQueryCompanies)
 			companyRouter.GET("", GetCompanyById)
 			companyRouter.POST("", NewCompany)
 			companyRouter.PUT("", UpdateCompany)
 			companyRouter.DELETE("", DeleteCompanyById)
+
 		}
 
 		investorRouter := g.Group("/investor")
