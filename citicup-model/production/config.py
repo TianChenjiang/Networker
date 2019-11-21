@@ -11,8 +11,7 @@ class BaseConfig:
             'func': 'model.average_model:predict_all_init',
             'trigger': {
                 'type': 'cron',
-                'hour': 0,
-                'minute': 0
+                'hour': 0
             }
         }
     ]

@@ -1,19 +1,19 @@
 from flask_restplus import Resource, Namespace, reqparse, fields
 from werkzeug.exceptions import NotFound
-from flask_cors import cross_origin
 
-from model.average_model import predict, predict_all
+from model.average_model import predict
 
 api = Namespace('PredictRisk', description='预测爆仓风险')
 
 _predict_risk_parser = reqparse.RequestParser()
 _predict_risk_parser.add_argument('code', type=str, help='股票代码', required=True)
-_predict_risk_parser.add_argument('forecast_close_line', type=float, help='预期平仓线', required=True)
 
 risk_model = api.model(
     'risk_model',
     {
-        'risk': fields.Float
+        'risk': fields.Float,
+        'rank': fields.Integer,
+        'total': fields.Integer
     }
 )
 
@@ -30,20 +30,9 @@ class PredictRisk(Resource):
         :return:
         """
         args = _predict_risk_parser.parse_args()
-        risk_prob = predict(**args)
-        if risk_prob is None:
-            raise NotFound('code {} not found'.format(args['code']))
+        risk_prob, rank, total = predict(**args)
         return {
-            'risk': risk_prob
+            'risk': risk_prob,
+            'rank': rank,
+            'total': total
         }
-
-    def get(self):
-        """
-        获得当日所有股票的爆仓概率
-        :return:
-        """
-        prob_dict = predict_all()
-        if prob_dict is None:
-            return 'No prob file exists!!!', 404
-        most_prob_list = sorted(prob_dict.items(), key=lambda x: x[1], reverse=True)[:10]
-        return dict(most_prob_list)

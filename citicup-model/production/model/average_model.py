@@ -4,6 +4,8 @@ from model.deeplearning_model import deep_predict
 from model.lightgbm_model import lgb_predict
 import json
 import pandas as pd
+from werkzeug.exceptions import NotFound
+import bisect
 
 
 def get_result(code, forecast_close_line, price_df):
@@ -13,20 +15,21 @@ def get_result(code, forecast_close_line, price_df):
     return 0.5 * deep_prob + 0.5 * lgb_prob
 
 
-def predict(code, forecast_close_line):
-    if code not in code_set:
-        return None
-
-    price_df = pro.daily(ts_code=code, start_date='20190101', end_date=datetime.datetime.now().strftime('%Y%m%d'))
-    return get_result(code, forecast_close_line, price_df)
-
-
-def predict_all():
+def predict(code):
     if not JSPATH.is_file():
-        return None
+        predict_all_init()
+        raise NotFound('Risk probability file not exists! Please wait 5min and try again!')
+
     with open(JSPATH, 'r') as fp:
-        js = json.load(fp)
-    return js
+        prob_dict = json.load(fp)
+        if code not in prob_dict:
+            raise NotFound('Company ts_code not in our system!')
+
+        prob_list = sorted(prob_dict.items(), key=lambda x: x[1], reverse=True)
+        rank, prob = [(i, prob) for i, (curr_code, prob) in enumerate(prob_list) if curr_code == code][0]
+        total = len(prob_list)
+
+    return prob, rank, total
 
 
 # Schedule task
