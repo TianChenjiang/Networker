@@ -19,6 +19,6 @@ func (s *Service) InsertMarket(param schema.InsertMarketParam) (market model.Mar
 	return s.dao.InsertMarket(param)
 }
 
-func (s *Service) GetMarketConditionBySymbol(userID uint, symbol string) (market model.Market, isConcerned bool, err error) {
+func (s *Service) GetMarketConditionBySymbol(userID uint, symbol string) (market model.Market, isConcerned bool, name string, err error) {
 	return s.dao.GetMarketBySymbol(userID, symbol)
 }

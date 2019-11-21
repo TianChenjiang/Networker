@@ -72,7 +72,7 @@ func GetMarketConditionBySymbol(c *gin.Context) {
 		return
 	}
 
-	market, isConcerned, err := serv.GetMarketConditionBySymbol(user.ID, symbol)
+	market, isConcerned, name, err := serv.GetMarketConditionBySymbol(user.ID, symbol)
 	if err != nil {
 		appG.Response(http.StatusInternalServerError, e.INTERNAL_ERROR, nil)
 	}
@@ -80,6 +80,7 @@ func GetMarketConditionBySymbol(c *gin.Context) {
 	data := make(map[string]interface{})
 	data["isConcerned"] = isConcerned
 	data["market"] = market.Model2Schema()
+	data["name"] = name
 
 	appG.OK(data)
 

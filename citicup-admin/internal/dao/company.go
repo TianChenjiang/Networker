@@ -5,7 +5,7 @@ import (
 )
 
 var company_e interface{} = &model.Company{}
-var stock_e interface{} = &model.Stock{}
+//var stock_e interface{} = &model.Stock{}
 
 //查询所有的公司
 func (d *Dao) GetAllCompanies() (companies []*model.Company, err error) {
