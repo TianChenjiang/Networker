@@ -32,6 +32,14 @@ def predict(code):
     return prob, rank, total
 
 
+def predict_given_forecast_close_line(code, forecast_close_line):
+    if code not in code_set:
+        raise NotFound('Company not in our dataset')
+
+    price_df = pro.daily(ts_code=code, start_date='20190101', end_date=datetime.datetime.now().strftime('%Y%m%d'))
+    return get_result(code, forecast_close_line, price_df)
+
+
 # Schedule task
 def predict_all_init():
     today = datetime.datetime.now()
@@ -56,4 +64,8 @@ def predict_all_init():
 
     with open(JSPATH, 'w') as fp:
         json.dump(prob_dict, fp)
+
+
+if __name__ == '__main__':
+    predict_all_init()
 
