@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天津经纬辉开光电股份有限公司\n300120.SZ", "value": 2859395000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市宇顺电子股份有限公司", "value": 4435.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天津经纬辉开光电股份有限公司", "value": 4435.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天津经纬辉开光电股份有限公司", "target": "深圳市宇顺电子股份有限公司", "value": 1.5512512262209314e-06}, {"source": "深圳市宇顺电子股份有限公司", "target": "天津经纬辉开光电股份有限公司", "value": 1.5512512262209314e-06}]}

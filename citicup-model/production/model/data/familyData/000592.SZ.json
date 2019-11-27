@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中福海峡(平潭)发展股份有限公司\n000592.SZ", "value": 4303768800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建省建新花卉市场有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建严复纪念医院", "value": 22.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建华闽进出口有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "刘鸣", "value": 3.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中福海峡(平潭)发展股份有限公司", "target": "福建省建新花卉市场有限公司", "value": 0.0}, {"source": "中福海峡(平潭)发展股份有限公司", "target": "福建严复纪念医院", "value": 5.3209177965136045e-09}, {"source": "中福海峡(平潭)发展股份有限公司", "target": "福建华闽进出口有限公司", "value": 6.970634667921753e-07}, {"source": "中福海峡(平潭)发展股份有限公司", "target": "刘鸣", "value": 6.970634667921753e-10}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "武汉精测电子集团股份有限公司", "value": 2617722500.0, "category": 1397}, {"name": "IT&T Co.,LTD", "value": 0.0, "category": 1397}, {"name": "武汉克莱美特环境设备有限公司", "value": 328.98, "category": 1397}, {"name": "彭骞", "value": 0, "category": 1397}, {"name": "韩国IT&T", "value": 10.0, "category": 1397}],
+"links":
+[{"source": "武汉精测电子集团股份有限公司", "target": "IT&T Co.,LTD", "value": 0.0}, {"source": "武汉精测电子集团股份有限公司", "target": "武汉克莱美特环境设备有限公司", "value": 1.2567413085229624e-07}, {"source": "武汉精测电子集团股份有限公司", "target": "彭骞", "value": 0.0}, {"source": "武汉精测电子集团股份有限公司", "target": "韩国IT&T", "value": 3.8201146225392495e-09}]}

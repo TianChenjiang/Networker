@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "常州天晟新材料股份有限公司\n300169.SZ", "value": 2156821700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中铁轨道交通装备有限公司", "value": 20700.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "常州天晟新材料股份有限公司", "target": "中铁轨道交通装备有限公司", "value": 9.597455366848358e-06}]}

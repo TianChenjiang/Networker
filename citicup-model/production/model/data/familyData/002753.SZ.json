@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山西永东化工股份有限公司\n002753.SZ", "value": 1994486483.94, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山西稷山农村商业银行股份有限公司", "value": 5567.87, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山西永东化工股份有限公司", "target": "山西稷山农村商业银行股份有限公司", "value": 2.791630850764641e-06}]}

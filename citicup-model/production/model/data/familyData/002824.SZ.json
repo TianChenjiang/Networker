@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东和胜工业铝材股份有限公司\n002824.SZ", "value": 1168423044.08, "itemStyle": {"color": "red"}, "category": 0}, {"name": "李建湘,金炯", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "李建湘,李江", "value": 644.973, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "李建湘", "value": 47500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东和胜工业铝材股份有限公司", "target": "李建湘,金炯", "value": 2.567563191431369e-06}, {"source": "广东和胜工业铝材股份有限公司", "target": "李建湘,李江", "value": 5.520029780890214e-07}, {"source": "广东和胜工业铝材股份有限公司", "target": "李建湘", "value": 4.065308386433001e-05}]}

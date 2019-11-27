@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "拓尔思信息技术股份有限公司", "value": 2654003048.89, "category": 686}, {"name": "李渝勤", "value": 0, "category": 686}],
+"links":
+[{"source": "拓尔思信息技术股份有限公司", "target": "李渝勤", "value": 0.0}]}

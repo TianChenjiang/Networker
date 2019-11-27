@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "无锡宝通科技股份有限公司\n300031.SZ", "value": 3248000568.41, "itemStyle": {"color": "red"}, "category": 0}, {"name": "谭柏民", "value": 2326.97, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "黄石博帆机械安装有限公司", "value": 340.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江阴博帆机械制造有限公司", "value": 20.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江阴市特种运输机械制造有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "包志方", "value": 30000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "无锡宝通科技股份有限公司", "target": "谭柏民", "value": 7.164315248685828e-07}, {"source": "无锡宝通科技股份有限公司", "target": "黄石博帆机械安装有限公司", "value": 1.0467978463638042e-07}, {"source": "无锡宝通科技股份有限公司", "target": "江阴博帆机械制造有限公司", "value": 6.157634390375319e-09}, {"source": "无锡宝通科技股份有限公司", "target": "江阴市特种运输机械制造有限公司", "value": 0.0}, {"source": "无锡宝通科技股份有限公司", "target": "包志方", "value": 9.236451585562978e-06}]}

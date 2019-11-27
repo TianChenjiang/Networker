@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "吉峰三农科技服务股份有限公司\n300022.SZ", "value": 1914405327.94, "itemStyle": {"color": "red"}, "category": 0}, {"name": "南充吉峰车辆工程机械有限责任公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西藏山南神宇创业投资管理合伙企业(有限合伙)", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宿迁昊昇农业发展有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "王新明", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "吉峰三农科技服务股份有限公司", "target": "南充吉峰车辆工程机械有限责任公司", "value": 0.0}, {"source": "吉峰三农科技服务股份有限公司", "target": "西藏山南神宇创业投资管理合伙企业(有限合伙)", "value": 0.0}, {"source": "吉峰三农科技服务股份有限公司", "target": "宿迁昊昇农业发展有限公司", "value": 0.0}, {"source": "吉峰三农科技服务股份有限公司", "target": "王新明", "value": 0.0}]}

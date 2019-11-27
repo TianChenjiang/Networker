@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天津广宇发展股份有限公司\n000537.SZ", "value": 74487848444.13, "itemStyle": {"color": "red"}, "category": 0}, {"name": "鲁能集团有限公司", "value": 383505.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "鲁能集团有限公司,都城伟业集团有限公司", "value": 1200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "都城伟业集团有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天津广宇发展股份有限公司", "target": "鲁能集团有限公司", "value": 5.148557892468191e-06}, {"source": "天津广宇发展股份有限公司", "target": "鲁能集团有限公司,都城伟业集团有限公司", "value": 1.6110010224017493e-08}, {"source": "天津广宇发展股份有限公司", "target": "都城伟业集团有限公司", "value": 0.0}]}

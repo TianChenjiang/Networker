@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江长盛滑动轴承股份有限公司\n300718.SZ", "value": 1253965400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吉林省长盛滑动轴承有限公司", "value": 100.28, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江长盛滑动轴承股份有限公司", "target": "吉林省长盛滑动轴承有限公司", "value": 7.99703085906517e-08}]}

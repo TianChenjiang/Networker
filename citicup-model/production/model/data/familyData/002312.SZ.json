@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都三泰控股集团股份有限公司\n002312.SZ", "value": 3493128749.02, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都三泰电子有限公司", "value": 2085.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "四川金投科技股份有限公司", "value": 1311.88, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都铁三角共创科技有限公司", "value": 7.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "补建", "value": 79964.76, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都三泰控股集团股份有限公司", "target": "成都三泰电子有限公司", "value": 5.970750435652088e-07}, {"source": "成都三泰控股集团股份有限公司", "target": "四川金投科技股份有限公司", "value": 3.7556016232383336e-07}, {"source": "成都三泰控股集团股份有限公司", "target": "成都铁三角共创科技有限公司", "value": 2.003934152717347e-09}, {"source": "成都三泰控股集团股份有限公司", "target": "补建", "value": 2.289201622540657e-05}]}

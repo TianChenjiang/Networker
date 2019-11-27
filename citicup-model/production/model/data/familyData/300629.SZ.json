@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东新劲刚新材料科技股份有限公司\n300629.SZ", "value": 482789251.7, "itemStyle": {"color": "red"}, "category": 0}, {"name": "王刚,BING XIU LEI", "value": 3500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "王刚", "value": 2500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东新劲刚新材料科技股份有限公司", "target": "王刚,BING XIU LEI", "value": 7.249540017048396e-06}, {"source": "广东新劲刚新材料科技股份有限公司", "target": "王刚", "value": 5.178242869320283e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州高澜节能技术股份有限公司\n002123.SZ", "value": 1264619926.31, "itemStyle": {"color": "red"}, "category": 0}, {"name": "梦网荣信科技集团股份有限公司", "value": 4941.55, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州高澜节能技术股份有限公司", "target": "梦网荣信科技集团股份有限公司", "value": 3.907537669771514e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新疆国际实业股份有限公司\n000159.SZ", "value": 2740064973.53, "itemStyle": {"color": "red"}, "category": 0}, {"name": "乾泰中晟股权投资有限公司", "value": 4000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新疆国际实业股份有限公司", "target": "乾泰中晟股权投资有限公司", "value": 1.4598193979491067e-06}]}

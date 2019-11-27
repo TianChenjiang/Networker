@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州达意隆包装机械股份有限公司\n002209.SZ", "value": 1463142672.25, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张颂明", "value": 23800.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州达意隆包装机械股份有限公司", "target": "张颂明", "value": 1.6266356283219256e-05}]}

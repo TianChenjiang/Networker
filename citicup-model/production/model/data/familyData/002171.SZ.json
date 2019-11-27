@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "安徽楚江科技新材料股份有限公司\n002171.SZ", "value": 6635872339.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "安徽楚江新材料产业研究院有限公司", "value": 787.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "安徽楚江再生资源有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "安徽楚江投资集团有限公司", "value": 5150.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏鑫海高导新材料有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "缪云良,曹文玉,曹全中,伍静益,曹国中,曹红梅", "value": 106200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "安徽楚江科技新材料股份有限公司", "target": "安徽楚江新材料产业研究院有限公司", "value": 1.1863549504413547e-07}, {"source": "安徽楚江科技新材料股份有限公司", "target": "安徽楚江再生资源有限公司", "value": 0.0}, {"source": "安徽楚江科技新材料股份有限公司", "target": "安徽楚江投资集团有限公司", "value": 7.760848516701145e-07}, {"source": "安徽楚江科技新材料股份有限公司", "target": "江苏鑫海高导新材料有限公司", "value": 0.0}, {"source": "安徽楚江科技新材料股份有限公司", "target": "缪云良,曹文玉,曹全中,伍静益,曹国中,曹红梅", "value": 1.600392451405168e-05}]}

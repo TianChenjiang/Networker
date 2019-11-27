@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厦门安妮股份有限公司\n002235.SZ", "value": 2603528522.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "庆云剧派网络科技有限公司", "value": 450.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门市虹约产品设计有限公司", "value": 50.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京永信嘉创网络科技有限公司", "value": 330.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厦门安妮股份有限公司", "target": "庆云剧派网络科技有限公司", "value": 1.7284235459587563e-07}, {"source": "厦门安妮股份有限公司", "target": "厦门市虹约产品设计有限公司", "value": 1.9204706066208404e-08}, {"source": "厦门安妮股份有限公司", "target": "北京永信嘉创网络科技有限公司", "value": 1.2675106003697548e-07}]}

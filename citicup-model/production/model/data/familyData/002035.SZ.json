@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华帝股份有限公司\n002035.SZ", "value": 5310471432.42, "itemStyle": {"color": "red"}, "category": 0}, {"name": "潘浩标", "value": 480.0001, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华帝股份有限公司", "target": "潘浩标", "value": 9.03874742776391e-08}]}

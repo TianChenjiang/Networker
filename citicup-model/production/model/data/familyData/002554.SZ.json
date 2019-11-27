@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华油惠博普科技股份有限公司\n002554.SZ", "value": 3898119720.65, "itemStyle": {"color": "red"}, "category": 0}, {"name": "长沙水业集团有限公司", "value": 80000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华油惠博普科技股份有限公司", "target": "长沙水业集团有限公司", "value": 2.0522714983894912e-05}]}

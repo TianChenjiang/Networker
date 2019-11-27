@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "赛摩电气股份有限公司\n300466.SZ", "value": 1641768758.07, "itemStyle": {"color": "red"}, "category": 0}, {"name": "Epistolio S.r.l.", "value": 140.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "赛摩电气股份有限公司", "target": "Epistolio S.r.l.", "value": 8.58708020280095e-08}]}

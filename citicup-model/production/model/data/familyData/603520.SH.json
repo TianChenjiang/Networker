@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江司太立制药股份有限公司\n603520.SH", "value": 3069587031.91, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江台州海神制药有限公司", "value": 80500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "香港西南国际集团有限公司,宁波天堂硅谷资产管理有限公司,西藏硅谷天堂琨御投资管理有限公司", "value": 80471.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江司太立制药股份有限公司", "target": "浙江台州海神制药有限公司", "value": 2.622502609085829e-05}, {"source": "浙江司太立制药股份有限公司", "target": "香港西南国际集团有限公司,宁波天堂硅谷资产管理有限公司,西藏硅谷天堂琨御投资管理有限公司", "value": 2.621583918730845e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天津九安医疗电子股份有限公司", "value": 1897813422.95, "category": 113}, {"name": "石河子三和股权投资合伙企业(有限合伙)", "value": 15000.0, "category": 113}, {"name": "Care Innovations LLC", "value": 103.47, "category": 113}, {"name": "华来科技股份有限公司", "value": 552.14, "category": 113}, {"name": "iSmart Alarm, Inc.", "value": 605.46, "category": 113}, {"name": "天津华来科技有限公司", "value": 10710.0, "category": 113}, {"name": "ISmart Alarm,Inc.", "value": 418.7, "category": 113}],
+"links":
+[{"source": "天津九安医疗电子股份有限公司", "target": "石河子三和股权投资合伙企业(有限合伙)", "value": 7.903832810226252e-06}, {"source": "天津九安医疗电子股份有限公司", "target": "Care Innovations LLC", "value": 5.452063872494068e-08}, {"source": "天津九安医疗电子股份有限公司", "target": "华来科技股份有限公司", "value": 2.909348165225548e-07}, {"source": "天津九安医疗电子股份有限公司", "target": "iSmart Alarm, Inc.", "value": 3.1903030755197243e-07}, {"source": "天津九安医疗电子股份有限公司", "target": "天津华来科技有限公司", "value": 5.643336626501544e-06}, {"source": "天津九安医疗电子股份有限公司", "target": "ISmart Alarm,Inc.", "value": 2.2062231984278208e-07}]}

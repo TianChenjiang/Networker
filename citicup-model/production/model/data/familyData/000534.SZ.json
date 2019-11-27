@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "万泽实业股份有限公司\n000534.SZ", "value": 2595677118.55, "itemStyle": {"color": "red"}, "category": 0}, {"name": "万泽集团有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市万泽医药投资有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "万泽实业股份有限公司", "target": "万泽集团有限公司", "value": 0.0}, {"source": "万泽实业股份有限公司", "target": "深圳市万泽医药投资有限公司", "value": 0.0}]}

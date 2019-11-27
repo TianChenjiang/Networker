@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南中科电气股份有限公司\n300035.SZ", "value": 1960216341.6, "itemStyle": {"color": "red"}, "category": 0}, {"name": "陶振友,宁波科泓产业投资中心(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳前海凯博资本管理有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南中科电气股份有限公司", "target": "陶振友,宁波科泓产业投资中心(有限合伙)", "value": 0.0}, {"source": "湖南中科电气股份有限公司", "target": "深圳前海凯博资本管理有限公司", "value": 0.0}]}

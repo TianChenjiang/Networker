@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "无锡智能自控工程股份有限公司\n002877.SZ", "value": 994655383.35, "itemStyle": {"color": "red"}, "category": 0}, {"name": "沈剑标,蒋群慧", "value": 1960.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "无锡智能自控工程股份有限公司", "target": "沈剑标,蒋群慧", "value": 1.970531736729478e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "西藏高争民爆股份有限公司\n002827.SZ", "value": 984620290.96, "itemStyle": {"color": "red"}, "category": 0}, {"name": "西藏高争建材集团有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西藏昌都高争建材股份有限公司", "value": 96.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西藏高争民爆股份有限公司", "value": 61.2, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "西藏高争民爆股份有限公司", "target": "西藏高争建材集团有限公司", "value": 0.0}, {"source": "西藏高争民爆股份有限公司", "target": "西藏昌都高争建材股份有限公司", "value": 9.849482169968788e-08}, {"source": "湖北凯龙化工集团股份有限公司", "target": "西藏高争民爆股份有限公司", "value": 6.215594027656113e-08}]}

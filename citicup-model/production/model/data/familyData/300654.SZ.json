@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "世纪天鸿教育科技股份有限公司\n300654.SZ", "value": 639429824.44, "itemStyle": {"color": "red"}, "category": 0}, {"name": "淄博华鸿物流有限公司", "value": 400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "世纪天鸿教育科技股份有限公司", "target": "淄博华鸿物流有限公司", "value": 6.255573085761398e-07}]}

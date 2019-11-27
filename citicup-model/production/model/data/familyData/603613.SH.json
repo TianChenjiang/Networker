@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京国联视讯信息技术股份有限公司\n603613.SH", "value": 840246668.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "刘泉,钱晓钧", "value": 12400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "刘泉,钱晓钧,王飞,李映芝", "value": 4400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京国联视讯信息技术股份有限公司", "target": "刘泉,钱晓钧", "value": 1.4757571161779583e-05}, {"source": "北京国联视讯信息技术股份有限公司", "target": "刘泉,钱晓钧,王飞,李映芝", "value": 5.236557509018562e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "光一科技股份有限公司\n300356.SZ", "value": 1900885200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏其厚智能电气设备有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东今程光一电力科技有限责任公司", "value": 104.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "光一科技股份有限公司", "target": "江苏其厚智能电气设备有限公司", "value": 0.0}, {"source": "光一科技股份有限公司", "target": "广东今程光一电力科技有限责任公司", "value": 5.475343802981895e-08}]}

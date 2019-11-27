@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州中来光伏新材股份有限公司\n300393.SZ", "value": 5975727588.37, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州瞩日能源科技有限公司", "value": 993.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "林建伟", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "ENERGY GAP CORPOR ATION", "value": 757.91, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州中来光伏新材股份有限公司", "target": "杭州瞩日能源科技有限公司", "value": 1.6618896783929336e-07}, {"source": "苏州中来光伏新材股份有限公司", "target": "林建伟", "value": 1.673436389480348e-06}, {"source": "苏州中来光伏新材股份有限公司", "target": "ENERGY GAP CORPOR ATION", "value": 1.2683141739510504e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市爱施德股份有限公司\n002416.SZ", "value": 10275262500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市神州通在线科技有限公司", "value": 5.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海酷武供应链管理股份有限公司", "value": 2.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市神州通油茶营销有限公司", "value": 4.99, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市神州通投资集团有限公司及其下属其他子公司", "value": 4.62, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "张振新及其控制的公司", "value": 398.48, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市爱施德股份有限公司", "target": "深圳市神州通在线科技有限公司", "value": 5.002305293903683e-10}, {"source": "深圳市爱施德股份有限公司", "target": "上海酷武供应链管理股份有限公司", "value": 2.3065104176170684e-10}, {"source": "深圳市爱施德股份有限公司", "target": "深圳市神州通油茶营销有限公司", "value": 4.856323621902604e-10}, {"source": "深圳市爱施德股份有限公司", "target": "深圳市神州通投资集团有限公司及其下属其他子公司", "value": 4.4962354976332723e-10}, {"source": "深圳市爱施德股份有限公司", "target": "张振新及其控制的公司", "value": 3.878051777266031e-08}]}

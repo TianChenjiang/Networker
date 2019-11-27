@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川迅游网络科技股份有限公司\n300467.SZ", "value": 2782920500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都雨墨科技有限公司", "value": 25.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京奇虎科技有限公司", "value": 22.4, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川迅游网络科技股份有限公司", "target": "成都雨墨科技有限公司", "value": 9.163035738893727e-09}, {"source": "四川迅游网络科技股份有限公司", "target": "北京奇虎科技有限公司", "value": 8.049098060832136e-09}]}

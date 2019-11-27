@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都旭光电子股份有限公司", "value": 1698979000.0, "category": 1103}, {"name": "张纯,王勇", "value": 0, "category": 1103}],
+"links":
+[{"source": "成都旭光电子股份有限公司", "target": "张纯,王勇", "value": 0.0}]}

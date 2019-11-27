@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中国光大银行股份有限公司\n600138.SH", "value": 4357743000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中青旅控股股份有限公司", "value": 60000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国光大银行股份有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中国光大银行股份有限公司", "target": "中青旅控股股份有限公司", "value": 1.3768595348555433e-08}, {"source": "中青旅控股股份有限公司", "target": "中国光大银行股份有限公司", "value": 2.2947658914259055e-09}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "盈康生命科技股份有限公司\n300143.SZ", "value": 2624802862.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "青岛盈康医疗投资有限公司及公司第一期员工", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "青岛盈康医疗投资有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "盈康生命科技股份有限公司", "target": "青岛盈康医疗投资有限公司及公司第一期员工", "value": 0.0}, {"source": "盈康生命科技股份有限公司", "target": "青岛盈康医疗投资有限公司", "value": 1.904904963298811e-06}]}

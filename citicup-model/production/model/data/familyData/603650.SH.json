@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "彤程新材料集团股份有限公司\n603650.SH", "value": 3166132600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海彤中企业管理有限公司", "value": 66630.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "彤程新材料集团股份有限公司", "target": "上海彤中企业管理有限公司", "value": 2.104460185906301e-05}]}

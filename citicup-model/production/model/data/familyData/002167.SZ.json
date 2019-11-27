@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东东方锆业科技股份有限公司\n002167.SZ", "value": 2439154731.52, "itemStyle": {"color": "red"}, "category": 0}, {"name": "西部新锆核材料科技有限公司", "value": 13.78, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中核二七二铀业责任有限公司", "value": 132.41, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陈潮钿", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东东方锆业科技股份有限公司", "target": "西部新锆核材料科技有限公司", "value": 5.649498091255884e-09}, {"source": "广东东方锆业科技股份有限公司", "target": "中核二七二铀业责任有限公司", "value": 5.428519900313437e-08}, {"source": "广东东方锆业科技股份有限公司", "target": "陈潮钿", "value": 0.0}]}

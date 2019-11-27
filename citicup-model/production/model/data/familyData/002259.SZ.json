@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川升达林业产业股份有限公司\n002259.SZ", "value": 2747146352.76, "itemStyle": {"color": "red"}, "category": 0}, {"name": "陕西绿源石化运输有限公司", "value": 212.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川升达林业产业股份有限公司", "target": "陕西绿源石化运输有限公司", "value": 7.719646963363919e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京中长石基信息技术股份有限公司", "value": 10119397700.0, "category": 1460}, {"name": "淘宝(中国)软件有限公司", "value": 1412.82, "category": 1460}, {"name": "浙江未来酒店网络技术有限公司", "value": 0.0, "category": 1460}, {"name": "Alibaba Investment Limited", "value": 305774.75, "category": 1460}, {"name": "青岛海信智能商用系统股份有限公司", "value": 1364.0, "category": 1460}],
+"links":
+[{"source": "北京中长石基信息技术股份有限公司", "target": "淘宝(中国)软件有限公司", "value": 1.3961502866914697e-07}, {"source": "北京中长石基信息技术股份有限公司", "target": "浙江未来酒店网络技术有限公司", "value": 0.0}, {"source": "北京中长石基信息技术股份有限公司", "target": "Alibaba Investment Limited", "value": 3.021669461612325e-05}, {"source": "北京中长石基信息技术股份有限公司", "target": "青岛海信智能商用系统股份有限公司", "value": 1.3479063086926607e-07}]}

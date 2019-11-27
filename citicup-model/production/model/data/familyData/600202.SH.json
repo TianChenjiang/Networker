@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "哈尔滨空调股份有限公司\n600202.SH", "value": 1676981589.56, "itemStyle": {"color": "red"}, "category": 0}, {"name": "哈尔滨东北水电设备制造有限公司", "value": 514.5579, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "哈尔滨空调股份有限公司", "target": "哈尔滨东北水电设备制造有限公司", "value": 3.0683574775260814e-07}]}

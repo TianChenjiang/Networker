@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海新文化传媒集团股份有限公司\n300336.SZ", "value": 4803952200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海渠丰国际贸易有限公司", "value": 25000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "PREMIUM DATA ASSOCIATES LIMITED", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海新文化传媒集团股份有限公司", "target": "上海渠丰国际贸易有限公司", "value": 5.204048449940863e-06}, {"source": "上海新文化传媒集团股份有限公司", "target": "PREMIUM DATA ASSOCIATES LIMITED", "value": 0.0}]}

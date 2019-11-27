@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "三维通信股份有限公司\n002115.SZ", "value": 4598724981.53, "itemStyle": {"color": "red"}, "category": 0}, {"name": "STAR SOLUTIONS INTERNATIONAL INC", "value": 400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "星展测控科技股份有限公司", "value": 1149.26, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "三维通信股份有限公司", "target": "STAR SOLUTIONS INTERNATIONAL INC", "value": 8.698063085018831e-08}, {"source": "三维通信股份有限公司", "target": "星展测控科技股份有限公司", "value": 2.4990839952721857e-07}]}

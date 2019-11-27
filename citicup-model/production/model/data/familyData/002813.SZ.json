@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市路畅科技股份有限公司\n002813.SZ", "value": 1636284693.43, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市晟丰达科技有限公司", "value": 1366.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南龙成集团有限公司", "value": 41544.73, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郭秀梅", "value": 2200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郑州市路畅电子科技有限公司", "value": 181.39, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南龙成集团有限公司及其下属企业", "value": 4.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市路畅科技股份有限公司", "target": "深圳市晟丰达科技有限公司", "value": 8.348608316664181e-07}, {"source": "深圳市路畅科技股份有限公司", "target": "河南龙成集团有限公司", "value": 2.5389670982568095e-05}, {"source": "深圳市路畅科技股份有限公司", "target": "郭秀梅", "value": 1.3445093074777427e-06}, {"source": "深圳市路畅科技股份有限公司", "target": "郑州市路畅电子科技有限公司", "value": 1.1085479240153988e-07}, {"source": "深圳市路畅科技股份有限公司", "target": "河南龙成集团有限公司及其下属企业", "value": 2.933474852678711e-09}]}

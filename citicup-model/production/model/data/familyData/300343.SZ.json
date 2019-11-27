@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东联创产业发展集团股份有限公司\n300343.SZ", "value": 4172453300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东联创精细化学品有限公司", "value": 36.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "济南天晟通贸易有限公司", "value": 1646.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海伽蓝美妆销售有限公司", "value": 23009.24, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "高胜宁,晦毅(上海)创业投资中心(有限合伙),晦宽(上海)创业投资中心(有限合伙)", "value": 68363.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东联创产业发展集团股份有限公司", "target": "山东联创精细化学品有限公司", "value": 8.843717915308962e-09}, {"source": "山东联创产业发展集团股份有限公司", "target": "济南天晟通贸易有限公司", "value": 3.944921324823456e-07}, {"source": "山东联创产业发展集团股份有限公司", "target": "上海伽蓝美妆销售有限公司", "value": 5.514559024543187e-06}, {"source": "山东联创产业发展集团股份有限公司", "target": "高胜宁,晦毅(上海)创业投资中心(有限合伙),晦宽(上海)创业投资中心(有限合伙)", "value": 1.6384365524234867e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "启迪古汉集团股份有限公司\n000590.SZ", "value": 816598767.73, "itemStyle": {"color": "red"}, "category": 0}, {"name": "启迪古汉集团湖南医药有限公司", "value": 1405.35, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "启迪古汉集团股份有限公司", "target": "启迪古汉集团湖南医药有限公司", "value": 1.720979819632381e-06}]}

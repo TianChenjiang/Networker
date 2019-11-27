@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "鹭燕医药股份有限公司\n002788.SZ", "value": 6100520446.16, "itemStyle": {"color": "red"}, "category": 0}, {"name": "鹭燕(福建)集团有限公司", "value": 163.0363, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门鹭燕生物科技有限公司", "value": 13.1375, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "鹭燕医药股份有限公司", "target": "鹭燕(福建)集团有限公司", "value": 2.6724982145191228e-08}, {"source": "鹭燕医药股份有限公司", "target": "厦门鹭燕生物科技有限公司", "value": 2.1535047896232293e-09}]}

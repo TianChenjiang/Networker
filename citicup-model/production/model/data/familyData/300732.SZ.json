@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "河南省交通规划设计研究院股份有限公司\n300732.SZ", "value": 4057601054.3, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河南汇新工程科技有限公司", "value": 1.97, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "河南省交通规划设计研究院股份有限公司", "target": "河南汇新工程科技有限公司", "value": 4.855085489275278e-10}]}

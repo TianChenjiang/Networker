@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "银邦金属复合材料股份有限公司\n300337.SZ", "value": 2890417191.37, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏汇联铝业有限公司", "value": 95.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "飞而康快速制造科技有限责任公司", "value": 17.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海裕江源贸易有限公司", "value": 3851.41, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "无锡新区瞻桥农业专业合作社", "value": 22.22, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "飞而康快速制造科技有限责任公司,无锡飞而康新材料科技有限公司", "value": 64.88, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "银邦金属复合材料股份有限公司", "target": "江苏汇联铝业有限公司", "value": 3.312670582152759e-08}, {"source": "银邦金属复合材料股份有限公司", "target": "飞而康快速制造科技有限责任公司", "value": 6.0890863964374475e-09}, {"source": "银邦金属复合材料股份有限公司", "target": "上海裕江源贸易有限公司", "value": 1.3324754680740424e-06}, {"source": "银邦金属复合材料股份有限公司", "target": "无锡新区瞻桥农业专业合作社", "value": 7.687471575502276e-09}, {"source": "银邦金属复合材料股份有限公司", "target": "飞而康快速制造科技有限责任公司,无锡飞而康新材料科技有限公司", "value": 2.24465866705035e-08}]}

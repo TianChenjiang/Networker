@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江美力科技股份有限公司\n300611.SZ", "value": 1018745416.28, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州玖华资产管理有限公司", "value": 30.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "章碧鸿", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江美力科技股份有限公司", "target": "杭州玖华资产管理有限公司", "value": 2.9447985257736428e-08}, {"source": "浙江美力科技股份有限公司", "target": "章碧鸿", "value": 9.815995085912143e-06}]}

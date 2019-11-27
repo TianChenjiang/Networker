@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京先进数通信息技术股份公司\n300541.SZ", "value": 1318219591.32, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都加华科技股份有限公司", "value": 2000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京海同科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京先进数通信息技术股份公司", "target": "成都加华科技股份有限公司", "value": 1.5171979032698937e-06}, {"source": "北京先进数通信息技术股份公司", "target": "北京海同科技有限公司", "value": 0.0}]}

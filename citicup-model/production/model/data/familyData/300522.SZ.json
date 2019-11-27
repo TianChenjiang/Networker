@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州世名科技股份有限公司\n300522.SZ", "value": 707717302.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东顺德奥思宝化工有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中山市红点化工有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州世名科技股份有限公司", "target": "广东顺德奥思宝化工有限公司", "value": 0.0}, {"source": "苏州世名科技股份有限公司", "target": "中山市红点化工有限公司", "value": 0.0}]}

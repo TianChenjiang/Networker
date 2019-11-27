@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "洽洽食品股份有限公司\n002557.SZ", "value": 5149707710.09, "itemStyle": {"color": "red"}, "category": 0}, {"name": "合肥华泰集团股份有限公司", "value": 3110.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "坚果派农业有限公司", "value": 974.89, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广西坚果派农业有限公司,池州坚果派农业有限公司", "value": 9000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "合肥华泰集团股份有限公司,安徽省黄海商贸有限公司", "value": 9000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "洽洽食品股份有限公司", "target": "合肥华泰集团股份有限公司", "value": 6.039177706933677e-07}, {"source": "洽洽食品股份有限公司", "target": "坚果派农业有限公司", "value": 1.8930977346342675e-07}, {"source": "洽洽食品股份有限公司", "target": "广西坚果派农业有限公司,池州坚果派农业有限公司", "value": 1.7476720052219641e-06}, {"source": "洽洽食品股份有限公司", "target": "合肥华泰集团股份有限公司,安徽省黄海商贸有限公司", "value": 1.7476720052219641e-06}]}

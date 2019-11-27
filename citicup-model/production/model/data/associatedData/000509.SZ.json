@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华塑控股股份有限公司", "value": 206943839.63, "category": 59}, {"name": "张子若", "value": 0, "category": 59}, {"name": "李雪峰", "value": 0.0, "category": 59}],
+"links":
+[{"source": "华塑控股股份有限公司", "target": "张子若", "value": 0.0}, {"source": "华塑控股股份有限公司", "target": "李雪峰", "value": 0.0}]}

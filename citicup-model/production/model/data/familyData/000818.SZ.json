@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "航锦科技股份有限公司\n000818.SZ", "value": 4190930000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "新余环亚诺金企业管理有限公司", "value": 112703.12, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "建水县铨钧企业管理中心(有限合伙),张亚", "value": 91000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "航锦科技股份有限公司", "target": "新余环亚诺金企业管理有限公司", "value": 2.6892150429618245e-05}, {"source": "航锦科技股份有限公司", "target": "建水县铨钧企业管理中心(有限合伙),张亚", "value": 2.1713557611317773e-05}]}

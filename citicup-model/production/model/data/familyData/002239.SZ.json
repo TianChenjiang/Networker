@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "奥特佳新能源科技股份有限公司\n002239.SZ", "value": 8307210180.83, "itemStyle": {"color": "red"}, "category": 0}, {"name": "南通市通州泽成服装辅料有限公司", "value": 18797.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京天佑投资有限公司,江苏帝奥控股集团股份有限公司,王进飞", "value": 18797.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "任曌华,任韶清,新余国电赛思投资管理中心(有限合伙)", "value": 72800.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "奥特佳新能源科技股份有限公司", "target": "南通市通州泽成服装辅料有限公司", "value": 2.2627560385286787e-06}, {"source": "奥特佳新能源科技股份有限公司", "target": "北京天佑投资有限公司,江苏帝奥控股集团股份有限公司,王进飞", "value": 2.2627560385286787e-06}, {"source": "奥特佳新能源科技股份有限公司", "target": "任曌华,任韶清,新余国电赛思投资管理中心(有限合伙)", "value": 8.763471540421085e-06}]}

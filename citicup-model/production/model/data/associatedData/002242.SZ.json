@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "九阳股份有限公司", "value": 6714520080.17, "category": 1418}, {"name": "SharkNinja (Hong Kong) Company", "value": 26215.32, "category": 1418}, {"name": "SharkNinja (Hong Kong) Company Limited", "value": 18845.0, "category": 1418}, {"name": "深圳尚科宁家科技有限公司", "value": 1098.63, "category": 1418}],
+"links":
+[{"source": "九阳股份有限公司", "target": "SharkNinja (Hong Kong) Company", "value": 3.904273080874646e-06}, {"source": "九阳股份有限公司", "target": "SharkNinja (Hong Kong) Company Limited", "value": 2.8066041615773793e-06}, {"source": "九阳股份有限公司", "target": "深圳尚科宁家科技有限公司", "value": 1.6362003343240947e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天音通信控股股份有限公司\n000829.SZ", "value": 12760256700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳欧瑞特供应链管理有限公司", "value": 1404.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天音通信控股股份有限公司", "target": "深圳欧瑞特供应链管理有限公司", "value": 1.1004167337793449e-07}]}

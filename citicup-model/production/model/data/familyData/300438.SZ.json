@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州鹏辉能源科技股份有限公司\n300438.SZ", "value": 4980337500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东幸福叮咚出行科技有限公司", "value": 11.92, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "力佳电源科技(深圳)股份有限公司及其控股子公司", "value": 0.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州市骥鑫汽车有限公司", "value": 6300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "邝达辉,邝达辉,黄炳基,黄炳基,李强,黄宇红,佛山市华飞达企业管理合伙企业(有限合伙)", "value": 6000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州鹏辉能源科技股份有限公司", "target": "广东幸福叮咚出行科技有限公司", "value": 2.3934120930559426e-09}, {"source": "广州鹏辉能源科技股份有限公司", "target": "力佳电源科技(深圳)股份有限公司及其控股子公司", "value": 6.826846574152857e-11}, {"source": "广州鹏辉能源科技股份有限公司", "target": "广州市骥鑫汽车有限公司", "value": 1.2649745122694999e-06}, {"source": "广州鹏辉能源科技股份有限公司", "target": "邝达辉,邝达辉,黄炳基,黄炳基,李强,黄宇红,佛山市华飞达企业管理合伙企业(有限合伙)", "value": 1.204737630732857e-06}]}

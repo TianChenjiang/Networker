@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海国际机场股份有限公司\n600009.SH", "value": 30928308800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海机场德高动量广告有限公司", "value": 80.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海民航华东凯亚系统集成有限公司", "value": 239.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海机场贵宾服务有限公司", "value": 4298.79, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海浦东国际机场进出口有限公司", "value": 163.89, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海市国际机场保安服务有限公司", "value": 6918.72, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海国际机场股份有限公司", "target": "上海机场德高动量广告有限公司", "value": 2.5927702842904878e-09}, {"source": "上海国际机场股份有限公司", "target": "上海民航华东凯亚系统集成有限公司", "value": 7.733691536344204e-09}, {"source": "上海国际机场股份有限公司", "target": "上海机场贵宾服务有限公司", "value": 1.3899208093783647e-07}, {"source": "上海国际机场股份有限公司", "target": "上海浦东国际机场进出口有限公司", "value": 5.299028830182916e-09}, {"source": "上海国际机场股份有限公司", "target": "上海市国际机场保安服务有限公司", "value": 2.2370185336483707e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州市昊志机电股份有限公司\n300780.SZ", "value": 1468157307.29, "itemStyle": {"color": "red"}, "category": 0}, {"name": "四川德恩精工科技股份有限公司", "value": 61.05, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州市昊志机电股份有限公司", "target": "四川德恩精工科技股份有限公司", "value": 4.1582737556024714e-08}]}

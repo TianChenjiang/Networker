@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "鹏鹞环保股份有限公司", "value": 5708057000.0, "category": 1473}, {"name": "喜也纳企业有限公司", "value": 2125.0, "category": 1473}, {"name": "Ciena Enterprises Limited", "value": 2465.9875, "category": 1473}],
+"links":
+[{"source": "鹏鹞环保股份有限公司", "target": "喜也纳企业有限公司", "value": 3.722807953739775e-07}, {"source": "鹏鹞环保股份有限公司", "target": "Ciena Enterprises Limited", "value": 4.3201872370931127e-07}]}

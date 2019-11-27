@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川达威科技股份有限公司\n300535.SZ", "value": 780053267.37, "itemStyle": {"color": "red"}, "category": 0}, {"name": "威远达威木业有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都展翔科技实业有限公司", "value": 40.89, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都克莱莎酒业有限公司", "value": 70.74, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川达威科技股份有限公司", "target": "威远达威木业有限公司", "value": 0.0}, {"source": "四川达威科技股份有限公司", "target": "成都展翔科技实业有限公司", "value": 5.241949711698956e-08}, {"source": "四川达威科技股份有限公司", "target": "成都克莱莎酒业有限公司", "value": 9.068611460151237e-08}]}

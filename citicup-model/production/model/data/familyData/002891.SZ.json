@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "烟台中宠食品股份有限公司\n002891.SZ", "value": 1356254471.5, "itemStyle": {"color": "red"}, "category": 0}, {"name": "日本伊藤株式会社", "value": 1379.32, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "烟台中宠食品股份有限公司", "target": "日本伊藤株式会社", "value": 1.017006785219657e-06}]}

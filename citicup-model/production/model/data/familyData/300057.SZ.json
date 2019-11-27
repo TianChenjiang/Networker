@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "汕头万顺新材集团股份有限公司\n300057.SZ", "value": 6270736497.73, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京众智同辉科技股份有限公司", "value": 797.21, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京众智同辉科技股份有限公司及其控股子公司", "value": 359.24, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "汕头万顺新材集团股份有限公司", "target": "北京众智同辉科技股份有限公司", "value": 1.2713179708453533e-07}, {"source": "汕头万顺新材集团股份有限公司", "target": "北京众智同辉科技股份有限公司及其控股子公司", "value": 5.728832651954751e-08}]}

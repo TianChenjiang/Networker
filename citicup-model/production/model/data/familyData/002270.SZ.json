@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华明电力装备股份有限公司\n002270.SZ", "value": 4089016682.07, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海华明工业电器科技有限公司", "value": 1478.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "肖日明", "value": 27.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华明电力装备股份有限公司", "target": "上海华明工业电器科技有限公司", "value": 3.616639683776872e-07}, {"source": "华明电力装备股份有限公司", "target": "肖日明", "value": 6.749789043665123e-09}]}

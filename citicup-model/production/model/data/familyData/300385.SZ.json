@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "无锡雪浪环境科技股份有限公司\n300385.SZ", "value": 2648755158.42, "itemStyle": {"color": "red"}, "category": 0}, {"name": "西藏金缘投资管理有限公司,南京市栖霞区科技创业投资有限公司,鑫沅资产管理有限公司", "value": 50000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "无锡雪浪环境科技股份有限公司", "target": "西藏金缘投资管理有限公司,南京市栖霞区科技创业投资有限公司,鑫沅资产管理有限公司", "value": 1.8876791930374315e-05}]}

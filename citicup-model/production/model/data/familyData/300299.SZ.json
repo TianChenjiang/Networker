@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "富春科技股份有限公司\n300299.SZ", "value": 2030117684.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建富春投资有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "富春科技股份有限公司", "target": "福建富春投资有限公司", "value": 9.851645623441818e-06}]}

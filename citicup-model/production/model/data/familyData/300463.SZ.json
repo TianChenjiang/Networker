@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "迈克生物股份有限公司\n300463.SZ", "value": 4564357300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "大龙兴创实验仪器(北京)有限公司", "value": 6.09, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郭雷", "value": 51.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "迈克生物股份有限公司", "target": "大龙兴创实验仪器(北京)有限公司", "value": 1.3342513742296205e-09}, {"source": "迈克生物股份有限公司", "target": "郭雷", "value": 1.1173533675814556e-08}]}

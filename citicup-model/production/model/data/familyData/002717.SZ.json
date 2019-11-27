@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "岭南生态文旅股份有限公司\n002717.SZ", "value": 16203321704.9, "itemStyle": {"color": "red"}, "category": 0}, {"name": "重庆黍园生态农业发展有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "岭南生态文旅股份有限公司", "target": "重庆黍园生态农业发展有限公司", "value": 0.0}]}

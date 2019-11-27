@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳丹邦科技股份有限公司\n002618.SZ", "value": 2426386136.5, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳丹邦投资集团有限公司,刘萍", "value": 16000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "刘萍", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳丹邦投资集团有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "刘萍,深圳丹邦投资集团有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳丹邦科技股份有限公司", "target": "深圳丹邦投资集团有限公司,刘萍", "value": 6.59416889971173e-06}, {"source": "深圳丹邦科技股份有限公司", "target": "刘萍", "value": 2.0606777811599154e-06}, {"source": "深圳丹邦科技股份有限公司", "target": "深圳丹邦投资集团有限公司", "value": 4.121355562319831e-06}, {"source": "深圳丹邦科技股份有限公司", "target": "刘萍,深圳丹邦投资集团有限公司", "value": 4.121355562319831e-06}]}

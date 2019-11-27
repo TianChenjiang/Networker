@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏雷利电机股份有限公司\n300660.SZ", "value": 3062452200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "常州欣盛半导体有限公司", "value": 2000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "常州市湖东机电设备有限公司", "value": 1102.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "常州鑫和利精密机械有限公司", "value": 259.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏雷利电机股份有限公司", "target": "常州欣盛半导体有限公司", "value": 6.530714177351078e-07}, {"source": "江苏雷利电机股份有限公司", "target": "常州市湖东机电设备有限公司", "value": 3.5995337331305935e-07}, {"source": "江苏雷利电机股份有限公司", "target": "常州鑫和利精密机械有限公司", "value": 8.473275109404157e-08}]}

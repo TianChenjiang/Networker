@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "健帆生物科技集团股份有限公司\n300529.SZ", "value": 2049426968.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "珠海市美瑞华医用科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "苏州护航医疗科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "珠海众焱科技合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "健帆生物科技集团股份有限公司", "target": "珠海市美瑞华医用科技有限公司", "value": 0.0}, {"source": "健帆生物科技集团股份有限公司", "target": "苏州护航医疗科技有限公司", "value": 0.0}, {"source": "健帆生物科技集团股份有限公司", "target": "珠海众焱科技合伙企业(有限合伙)", "value": 0.0}]}

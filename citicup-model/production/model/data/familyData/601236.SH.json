@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "香溢融通控股集团股份有限公司\n601236.SH", "value": 2967517287.81, "itemStyle": {"color": "red"}, "category": 0}, {"name": "红塔证券股份有限公司", "value": 18.8679, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "香溢融通控股集团股份有限公司", "target": "红塔证券股份有限公司", "value": 6.358143245704335e-09}]}

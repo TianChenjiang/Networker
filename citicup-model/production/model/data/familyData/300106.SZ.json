@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新疆西部牧业股份有限公司\n300106.SZ", "value": 1153126600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "新疆天山军垦牧业有限责任公司", "value": 13781.68, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新疆军垦天晟食品有限责任公司", "value": 1835.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新疆天山军垦牧业有限责任公司及其下属分,子公司", "value": 7679.39, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新疆西部牧业股份有限公司", "target": "新疆天山军垦牧业有限责任公司", "value": 1.1951575828707793e-05}, {"source": "新疆西部牧业股份有限公司", "target": "新疆军垦天晟食品有限责任公司", "value": 1.5914644584558193e-06}, {"source": "新疆西部牧业股份有限公司", "target": "新疆天山军垦牧业有限责任公司及其下属分,子公司", "value": 6.659624363881642e-06}]}

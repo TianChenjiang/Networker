@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市证通电子股份有限公司\n002197.SZ", "value": 5225348700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳盛灿科技股份有限公司", "value": 352.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京市觅鑫蜂网络科技有限公司", "value": 117.01, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市证通电子股份有限公司", "target": "深圳盛灿科技股份有限公司", "value": 6.737923538002353e-08}, {"source": "深圳市证通电子股份有限公司", "target": "南京市觅鑫蜂网络科技有限公司", "value": 2.2392763950853654e-08}]}

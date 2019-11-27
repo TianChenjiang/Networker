@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东众生药业股份有限公司\n002317.SZ", "value": 5257813422.53, "itemStyle": {"color": "red"}, "category": 0}, {"name": "东莞睿创医药研究开发中心,周雪莉", "value": 11562.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东众生药业股份有限公司", "target": "东莞睿创医药研究开发中心,周雪莉", "value": 2.19910808368629e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南博云新材料股份有限公司\n002297.SZ", "value": 2192710316.82, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南湘投高科技创业投资有限公司", "value": 2180.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中南大学粉末冶金工程研究中心有限公司", "value": 2399.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南兴湘投资控股集团有限公司", "value": 8235.39, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南博云新材料股份有限公司", "target": "湖南湘投高科技创业投资有限公司", "value": 9.94203376194976e-07}, {"source": "湖南博云新材料股份有限公司", "target": "中南大学粉末冶金工程研究中心有限公司", "value": 1.0940797704090586e-06}, {"source": "湖南博云新材料股份有限公司", "target": "湖南兴湘投资控股集团有限公司", "value": 3.7558039184781396e-06}]}

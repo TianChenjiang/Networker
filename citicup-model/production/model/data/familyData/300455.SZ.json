@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京康拓红外技术股份有限公司\n300455.SZ", "value": 862504549.88, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京控制工程研究所", "value": 97038.26, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "航天新商务信息科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京神舟天辰物业服务有限公司", "value": 125.92, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京宏宇航天技术有限公司", "value": 2.79, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京控制工程研究所,航天投资控股有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京康拓红外技术股份有限公司", "target": "北京控制工程研究所", "value": 0.00011250753403387947}, {"source": "北京康拓红外技术股份有限公司", "target": "航天新商务信息科技有限公司", "value": 0.0}, {"source": "北京康拓红外技术股份有限公司", "target": "北京神舟天辰物业服务有限公司", "value": 1.4599343275060892e-07}, {"source": "北京康拓红外技术股份有限公司", "target": "北京宏宇航天技术有限公司", "value": 3.234765544585442e-09}, {"source": "北京康拓红外技术股份有限公司", "target": "北京控制工程研究所,航天投资控股有限公司", "value": 0.0}]}

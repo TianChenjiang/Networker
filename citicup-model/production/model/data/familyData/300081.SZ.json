@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "恒信东方文化股份有限公司\n300081.SZ", "value": 3257460639.25, "itemStyle": {"color": "red"}, "category": 0}, {"name": "视加天辰科技有限公司", "value": 311.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "易视腾科技股份有限公司", "value": 619.47, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "紫水鸟影像有限合伙企业", "value": 964.73, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "TheVirtua lRealityC ompan", "value": 155.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "恒信东方文化股份有限公司", "target": "视加天辰科技有限公司", "value": 9.574943016711694e-08}, {"source": "恒信东方文化股份有限公司", "target": "易视腾科技股份有限公司", "value": 1.9016960405778756e-07}, {"source": "恒信东方文化股份有限公司", "target": "紫水鸟影像有限合伙企业", "value": 2.961601403178029e-07}, {"source": "恒信东方文化股份有限公司", "target": "TheVirtua lRealityC ompan", "value": 4.785936570392283e-08}]}

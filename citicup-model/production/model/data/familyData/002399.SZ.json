@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市海普瑞药业集团股份有限公司\n002399.SZ", "value": 13592840217.09, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市多普乐实业发展有限公司", "value": 240000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市天道医药有限公司", "value": 29723.71, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市海普瑞药业集团股份有限公司", "target": "深圳市多普乐实业发展有限公司", "value": 1.7656354092815194e-05}, {"source": "深圳市海普瑞药业集团股份有限公司", "target": "深圳市天道医药有限公司", "value": 2.1867181196339664e-06}]}

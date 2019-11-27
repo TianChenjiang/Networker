@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江永强集团股份有限公司\n002489.SZ", "value": 6780844688.32, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江伊丽特工艺品有限公司", "value": 935.31, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市得宝实业发展有限公司", "value": 355.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山水假日(北京)国际旅行社股份有限公司及其子公司", "value": 136.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江东都节能技术股份有限公司及其子公司", "value": 1225.79, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江永强集团股份有限公司", "target": "浙江伊丽特工艺品有限公司", "value": 1.3793414286734377e-07}, {"source": "浙江永强集团股份有限公司", "target": "深圳市得宝实业发展有限公司", "value": 5.242562193060273e-08}, {"source": "浙江永强集团股份有限公司", "target": "山水假日(北京)国际旅行社股份有限公司及其子公司", "value": 2.0150881826767437e-08}, {"source": "浙江永强集团股份有限公司", "target": "浙江东都节能技术股份有限公司及其子公司", "value": 1.80772463659494e-07}]}

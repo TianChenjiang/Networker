@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中国长江电力股份有限公司\n600900.SH", "value": 295459000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中国三峡集团及相关子公司", "value": 44504.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国长江电力股份有限公司", "value": 283000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南桃花江核电有限公司", "value": 26346.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中国长江电力股份有限公司", "target": "中国三峡集团及相关子公司", "value": 1.5062665209047617e-07}, {"source": "长江证券股份有限公司", "target": "中国长江电力股份有限公司", "value": 9.57831712691101e-07}, {"source": "中国长江电力股份有限公司", "target": "湖南桃花江核电有限公司", "value": 8.91724401693636e-08}]}

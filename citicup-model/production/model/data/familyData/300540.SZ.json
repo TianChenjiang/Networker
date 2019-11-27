@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都深冷液化设备股份有限公司\n300540.SZ", "value": 1039000431.04, "itemStyle": {"color": "red"}, "category": 0}, {"name": "榆神工业园区长天天然气有限公司", "value": 15000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都深冷液化设备股份有限公司", "target": "榆神工业园区长天天然气有限公司", "value": 1.4436952624731416e-05}]}

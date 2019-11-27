@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "奥士康科技股份有限公司\n002913.SZ", "value": 3164904225.82, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深南电路股份有限公司", "value": 7305.7854, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "奥士康科技股份有限公司", "target": "深南电路股份有限公司", "value": 2.3083748760539925e-06}]}

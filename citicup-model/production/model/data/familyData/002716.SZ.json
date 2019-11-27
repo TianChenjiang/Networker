@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "郴州市金贵银业股份有限公司\n002716.SZ", "value": 11390888339.55, "itemStyle": {"color": "red"}, "category": 0}, {"name": "郴州市金江房地产开发有限公司", "value": 70.6194, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郴州市金皇酒店管理有限公司", "value": 139.7524, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "郴州市金贵银业股份有限公司", "target": "郴州市金江房地产开发有限公司", "value": 6.199639386754786e-09}, {"source": "郴州市金贵银业股份有限公司", "target": "郴州市金皇酒店管理有限公司", "value": 1.2268788511846738e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华数传媒控股股份有限公司\n000909.SZ", "value": 15467794300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "数源科技股份有限公司", "value": 477.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西湖电子集团有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "三菱数源移动通信设备有限公司", "value": 251.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西湖电子集团有限公司及其下属控股子公司", "value": 340.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西湖电子集团有限公司联营企业", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华数传媒控股股份有限公司", "target": "数源科技股份有限公司", "value": 3.2332030159039036e-08}, {"source": "数源科技股份有限公司", "target": "西湖电子集团有限公司", "value": 0.0}, {"source": "数源科技股份有限公司", "target": "三菱数源移动通信设备有限公司", "value": 1.7011863931575544e-08}, {"source": "数源科技股份有限公司", "target": "西湖电子集团有限公司及其下属控股子公司", "value": 2.304395911050074e-08}, {"source": "数源科技股份有限公司", "target": "西湖电子集团有限公司联营企业", "value": 0.0}]}

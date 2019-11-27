@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江步森服饰股份有限公司\n002569.SZ", "value": 663723347.19, "itemStyle": {"color": "red"}, "category": 0}, {"name": "步森集团有限公司", "value": 9584.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "步森集团有限公司及其子公司", "value": 558.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "步森集团全资子公司诸暨市步森投资有限公司", "value": 400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江步森服饰股份有限公司", "target": "步森集团有限公司", "value": 1.4439751201424057e-05}, {"source": "浙江步森服饰股份有限公司", "target": "步森集团有限公司及其子公司", "value": 8.414650507090292e-07}, {"source": "浙江步森服饰股份有限公司", "target": "步森集团全资子公司诸暨市步森投资有限公司", "value": 6.026607346170307e-07}]}

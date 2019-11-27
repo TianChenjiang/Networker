@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "永辉超市股份有限公司\n300094.SZ", "value": 43050588500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湛江国联水产开发股份有限公司", "value": 5627.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "永辉超市股份有限公司", "value": 5137.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湛江南方水产市场经营管理有限公司", "value": 1731.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "永辉超市股份有限公司", "target": "湛江国联水产开发股份有限公司", "value": 1.3072666823126005e-07}, {"source": "湛江国联水产开发股份有限公司", "target": "永辉超市股份有限公司", "value": 1.193263594991274e-07}, {"source": "湛江国联水产开发股份有限公司", "target": "湛江南方水产市场经营管理有限公司", "value": 4.021292298942673e-08}]}

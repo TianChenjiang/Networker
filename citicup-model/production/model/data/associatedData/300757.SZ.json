@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "罗博特科智能科技股份有限公司", "value": 892289450.1, "category": 91}, {"name": "南京维思凯软件科技有限责任公司", "value": 820.51, "category": 91}, {"name": "Degotec GmbH", "value": 1275.83, "category": 91}],
+"links":
+[{"source": "罗博特科智能科技股份有限公司", "target": "南京维思凯软件科技有限责任公司", "value": 9.195558682309248e-07}, {"source": "罗博特科智能科技股份有限公司", "target": "Degotec GmbH", "value": 1.4298387141717477e-06}]}

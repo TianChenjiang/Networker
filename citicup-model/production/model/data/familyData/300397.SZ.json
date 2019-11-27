@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "西安天和防务技术股份有限公司\n300397.SZ", "value": 1412435721.12, "itemStyle": {"color": "red"}, "category": 0}, {"name": "西安长城数字软件有限公司", "value": 500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西安天和国荣投资有限公司", "value": 11.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西安天和通讯科技有限公司", "value": 0.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "西安天和防务技术股份有限公司", "target": "西安长城数字软件有限公司", "value": 3.539984103513906e-07}, {"source": "西安天和防务技术股份有限公司", "target": "西安天和国荣投资有限公司", "value": 7.964964232906288e-09}, {"source": "西安天和防务技术股份有限公司", "target": "西安天和通讯科技有限公司", "value": 3.681583467654462e-10}]}

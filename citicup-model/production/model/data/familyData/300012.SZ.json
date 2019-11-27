@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华测检测认证集团股份有限公司\n300012.SZ", "value": 4058321253.91, "itemStyle": {"color": "red"}, "category": 0}, {"name": "曾啸虎", "value": 351.15, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华测检测认证集团股份有限公司", "target": "曾啸虎", "value": 8.652592489115632e-08}]}

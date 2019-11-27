@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江西赣锋锂业股份有限公司", "value": 13333598779.04, "category": 1328}, {"name": "Reed Industrial Minerals Pty Ltd", "value": 191321.63, "category": 1328}, {"name": "大连伊科能源科技有限公司", "value": 90.58, "category": 1328}],
+"links":
+[{"source": "江西赣锋锂业股份有限公司", "target": "Reed Industrial Minerals Pty Ltd", "value": 1.4348836587219918e-05}, {"source": "江西赣锋锂业股份有限公司", "target": "大连伊科能源科技有限公司", "value": 6.793364754786901e-09}]}

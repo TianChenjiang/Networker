@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "创新医疗管理股份有限公司\n002173.SZ", "value": 4313516104.69, "itemStyle": {"color": "red"}, "category": 0}, {"name": "陈夏英,陈海军", "value": 37905.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "创新医疗管理股份有限公司", "target": "陈夏英,陈海军", "value": 8.787538768844853e-06}]}

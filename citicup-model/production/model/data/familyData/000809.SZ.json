@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "铁岭新城投资控股(集团)股份有限公司\n000809.SZ", "value": 5805724600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "铁岭银行股份有限公司", "value": 54500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "铁岭财政资产经营有限公司", "value": 25000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "铁岭新城投资控股(集团)股份有限公司", "target": "铁岭银行股份有限公司", "value": 9.387286472389683e-06}, {"source": "铁岭新城投资控股(集团)股份有限公司", "target": "铁岭财政资产经营有限公司", "value": 4.306094712105359e-06}]}

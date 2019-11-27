@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南京海辰药业股份有限公司", "value": 794078500.0, "category": 1229}, {"name": "意大利Nerviano Medical Sciences S.r.l.", "value": 2250.0, "category": 1229}, {"name": "合肥聚辰投资管理合伙企业(有限合伙)", "value": 0, "category": 1229}, {"name": "曹于平", "value": 0, "category": 1229}],
+"links":
+[{"source": "南京海辰药业股份有限公司", "target": "意大利Nerviano Medical Sciences S.r.l.", "value": 2.833473013058533e-06}, {"source": "南京海辰药业股份有限公司", "target": "合肥聚辰投资管理合伙企业(有限合伙)", "value": 0.0}, {"source": "南京海辰药业股份有限公司", "target": "曹于平", "value": 0.0}]}

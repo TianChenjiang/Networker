@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海永利带业股份有限公司\n300230.SZ", "value": 4578543980.36, "itemStyle": {"color": "red"}, "category": 0}, {"name": "Broadway Manufacturing Company Limited", "value": 355.3031, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海欣巴自动化科技有限公司及其下属子公司", "value": 46.3929, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": " Broadway Manufacturing Company Limited", "value": 683.93, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "史佩浩,黄晓东,李勇", "value": 98.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海永利带业股份有限公司", "target": "Broadway Manufacturing Company Limited", "value": 7.760176630913642e-08}, {"source": "上海永利带业股份有限公司", "target": "上海欣巴自动化科技有限公司及其下属子公司", "value": 1.0132675409257997e-08}, {"source": "上海永利带业股份有限公司", "target": " Broadway Manufacturing Company Limited", "value": 1.4937718255711157e-07}, {"source": "上海永利带业股份有限公司", "target": "史佩浩,黄晓东,李勇", "value": 2.1404184478816452e-08}]}

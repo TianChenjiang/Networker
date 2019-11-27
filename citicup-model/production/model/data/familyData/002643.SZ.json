@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中节能万润股份有限公司\n002643.SZ", "value": 5118099325.05, "itemStyle": {"color": "red"}, "category": 0}, {"name": "烟台万海舟化工有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中节能财务有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中节能万润股份有限公司", "target": "烟台万海舟化工有限公司", "value": 0.0}, {"source": "中节能万润股份有限公司", "target": "中节能财务有限公司", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南极电商股份有限公司\n002127.SZ", "value": 4559414541.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张玉祥", "value": 7.2, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海强祥机械设备有限公司", "value": 23.78, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州市喜恩恩文化传播有限责任公司", "value": 10.39, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "慕米企业管理(上海)有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南极电商股份有限公司", "target": "张玉祥", "value": 1.5791501156914108e-09}, {"source": "南极电商股份有限公司", "target": "上海强祥机械设备有限公司", "value": 5.215581909880798e-09}, {"source": "南极电商股份有限公司", "target": "广州市喜恩恩文化传播有限责任公司", "value": 2.2788013475046885e-09}, {"source": "南极电商股份有限公司", "target": "慕米企业管理(上海)有限公司", "value": 0.0}]}

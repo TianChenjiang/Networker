@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建浔兴拉链科技股份有限公司\n002098.SZ", "value": 2142044125.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "晋江市浔兴思博箱包配件有限公司", "value": 26.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建浔兴拉链科技股份有限公司", "target": "晋江市浔兴思博箱包配件有限公司", "value": 1.2366692025433104e-08}]}

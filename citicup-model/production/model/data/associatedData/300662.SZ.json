@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京科锐国际人力资源股份有限公司", "value": 1415933295.42, "category": 1062}, {"name": "CAREER INTERNATIONAL AP (HONG KONG) LIMITED", "value": 3080.0, "category": 1062}, {"name": "杭州长堤股权投资合伙企业(有限合伙)", "value": 4818.0, "category": 1062}],
+"links":
+[{"source": "北京科锐国际人力资源股份有限公司", "target": "CAREER INTERNATIONAL AP (HONG KONG) LIMITED", "value": 2.175243713784128e-06}, {"source": "北京科锐国际人力资源股份有限公司", "target": "杭州长堤股权投资合伙企业(有限合伙)", "value": 3.402702666562315e-06}]}

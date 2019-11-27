@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厦门金牌厨柜股份有限公司\n603180.SH", "value": 1881918200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "厦门市五百米电子商务有限公司", "value": 347.2097, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门市建潘集团有限公司", "value": 10.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门美乐居商贸有限公司", "value": 7.6696, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门智腾机械设备有限公司", "value": 130.4674, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福人木业(福州)有限公司", "value": 727.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厦门金牌厨柜股份有限公司", "target": "厦门市五百米电子商务有限公司", "value": 1.844977640367153e-07}, {"source": "厦门金牌厨柜股份有限公司", "target": "厦门市建潘集团有限公司", "value": 5.313727238516531e-09}, {"source": "厦门金牌厨柜股份有限公司", "target": "厦门美乐居商贸有限公司", "value": 4.075416242852638e-09}, {"source": "厦门金牌厨柜股份有限公司", "target": "厦门智腾机械设备有限公司", "value": 6.932681771184316e-08}, {"source": "厦门金牌厨柜股份有限公司", "target": "福人木业(福州)有限公司", "value": 3.868287155095264e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海华峰超纤材料股份有限公司\n300180.SZ", "value": 7360405300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "重庆华峰化工有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海华峰超纤材料股份有限公司", "target": "重庆华峰化工有限公司", "value": 1.3586208357303367e-06}]}

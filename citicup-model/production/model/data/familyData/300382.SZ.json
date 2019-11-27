@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州斯莱克精密设备股份有限公司\n300382.SZ", "value": 1643741692.94, "itemStyle": {"color": "red"}, "category": 0}, {"name": "科莱思有限公司", "value": 861.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州斯莱克精密设备股份有限公司", "target": "科莱思有限公司", "value": 5.24352459818917e-07}]}

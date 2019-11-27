@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京东方雨虹防水技术股份有限公司\n002271.SZ", "value": 18794437854.5, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京高能时代环境技术股份有限公司", "value": 742.56, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京东方雨虹防水技术股份有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京东方雨虹防水技术股份有限公司", "target": "北京高能时代环境技术股份有限公司", "value": 3.950956159203277e-08}, {"source": "北京高能时代环境技术股份有限公司", "target": "北京东方雨虹防水技术股份有限公司", "value": 0.0}]}

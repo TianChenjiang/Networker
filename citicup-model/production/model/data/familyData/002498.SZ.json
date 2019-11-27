@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "青岛汉缆股份有限公司\n002498.SZ", "value": 6712160842.85, "itemStyle": {"color": "red"}, "category": 0}, {"name": "青岛汉河集团股份有限公司", "value": 33426.82, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "青岛汉缆股份有限公司", "target": "青岛汉河集团股份有限公司", "value": 4.980038587068019e-06}]}

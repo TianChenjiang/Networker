@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏飞力达国际物流股份有限公司\n300240.SZ", "value": 2390823500.73, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏万事得供应链管理有限公司", "value": 3.59, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "昆山华东国际物流服务有限公司", "value": 549.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "苏浙沪集装箱(上海)股份有限公司", "value": 1.13, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏飞力达国际物流股份有限公司", "target": "江苏万事得供应链管理有限公司", "value": 1.5015746661783484e-09}, {"source": "江苏飞力达国际物流股份有限公司", "target": "昆山华东国际物流服务有限公司", "value": 2.2973255860681276e-07}, {"source": "江苏飞力达国际物流股份有限公司", "target": "苏浙沪集装箱(上海)股份有限公司", "value": 4.726404938110121e-10}]}

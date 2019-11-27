@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "博士眼镜连锁股份有限公司\n300622.SZ", "value": 587663091.39, "itemStyle": {"color": "red"}, "category": 0}, {"name": "ALEXANDER LIU", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "博士眼镜连锁股份有限公司", "target": "ALEXANDER LIU", "value": 0.0}]}

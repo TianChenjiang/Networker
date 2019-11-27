@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市雄韬电源科技股份有限公司\n002733.SZ", "value": 4199197900.4, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳韬略众志成城一号企业管理合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳韬略众志成城贰号企业管理合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市恒润禾实业有限公司", "value": 1790.92, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江山宝源国际融资租赁有限公司", "value": 10500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳韬略新能源股权投资基金合伙企业(有限合伙)", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市雄韬电源科技股份有限公司", "target": "深圳韬略众志成城一号企业管理合伙企业(有限合伙)", "value": 0.0}, {"source": "深圳市雄韬电源科技股份有限公司", "target": "深圳韬略众志成城贰号企业管理合伙企业(有限合伙)", "value": 0.0}, {"source": "深圳市雄韬电源科技股份有限公司", "target": "深圳市恒润禾实业有限公司", "value": 4.264909733902762e-07}, {"source": "深圳市雄韬电源科技股份有限公司", "target": "江山宝源国际融资租赁有限公司", "value": 2.500477531435184e-06}, {"source": "深圳市雄韬电源科技股份有限公司", "target": "深圳韬略新能源股权投资基金合伙企业(有限合伙)", "value": 7.14422151838624e-07}]}

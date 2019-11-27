@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京数码视讯科技股份有限公司\n300079.SZ", "value": 4553945800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京市博汇科技股份有限公司", "value": 29.8709, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京数码视讯科技股份有限公司", "target": "北京市博汇科技股份有限公司", "value": 6.559344645691655e-09}]}

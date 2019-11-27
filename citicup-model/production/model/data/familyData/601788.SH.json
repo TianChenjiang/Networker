@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中国光大银行股份有限公司\n601788.SH", "value": 4357743000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "光大证券股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中国光大银行股份有限公司", "target": "光大证券股份有限公司", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏永鼎股份有限公司\n600105.SH", "value": 5470475751.12, "itemStyle": {"color": "red"}, "category": 0}, {"name": "永鼎集团有限公司", "value": 23324.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海东裕物资有限公司", "value": 1595.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏永鼎通信有限公司", "value": 1626.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏永鼎股份有限公司", "value": 131257.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏永鼎股份有限公司", "target": "永鼎集团有限公司", "value": 4.26376078812242e-06}, {"source": "江苏永鼎股份有限公司", "target": "上海东裕物资有限公司", "value": 2.915797587940008e-07}, {"source": "江苏永鼎股份有限公司", "target": "江苏永鼎通信有限公司", "value": 2.973690176155057e-07}, {"source": "江苏永鼎股份有限公司", "target": "江苏永鼎股份有限公司", "value": 2.3993754103219816e-05}]}

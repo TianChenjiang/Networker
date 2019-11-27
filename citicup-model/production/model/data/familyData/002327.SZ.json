@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市富安娜家居用品股份有限公司\n002327.SZ", "value": 4570301336.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市振雄印刷有限公司", "value": 1813.5165, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市富安娜家居用品股份有限公司", "target": "深圳市振雄印刷有限公司", "value": 3.968045795159933e-07}]}

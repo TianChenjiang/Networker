@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州胜利精密制造科技股份有限公司\n002426.SZ", "value": 18482483900.65, "itemStyle": {"color": "red"}, "category": 0}, {"name": "南京德乐商业管理有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州胜利精密制造科技股份有限公司", "target": "南京德乐商业管理有限公司", "value": 0.0}]}

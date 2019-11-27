@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南梦洁家纺股份有限公司\n002277.SZ", "value": 3469375867.57, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南友谊阿波罗商业股份有限公司", "value": 4803.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南梦洁家纺股份有限公司及其子公司", "value": 4803.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "长沙银行股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南岳阳友阿国际商业广场有限公司", "value": 40000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南梦洁家纺股份有限公司", "target": "湖南友谊阿波罗商业股份有限公司", "value": 1.3844536260535591e-06}, {"source": "湖南友谊阿波罗商业股份有限公司", "target": "湖南梦洁家纺股份有限公司及其子公司", "value": 1.3844536260535591e-06}, {"source": "湖南友谊阿波罗商业股份有限公司", "target": "长沙银行股份有限公司", "value": 0.0}, {"source": "湖南友谊阿波罗商业股份有限公司", "target": "湖南岳阳友阿国际商业广场有限公司", "value": 1.1529451269290278e-05}]}

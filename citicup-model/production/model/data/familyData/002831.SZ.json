@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市裕同包装科技股份有限公司\n002831.SZ", "value": 11141138000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "易威艾包装技术(烟台)有限公司", "value": 492.57, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市华智信息科技有限公司", "value": 81.3, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "东莞市华研新材料科技有限公司", "value": 99.58, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市君同商贸有限公司", "value": 1964.69, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市裕同包装科技股份有限公司", "target": "易威艾包装技术(烟台)有限公司", "value": 4.421182109044875e-08}, {"source": "深圳市裕同包装科技股份有限公司", "target": "深圳市华智信息科技有限公司", "value": 7.297279685432493e-09}, {"source": "深圳市裕同包装科技股份有限公司", "target": "东莞市华研新材料科技有限公司", "value": 8.93804564668349e-09}, {"source": "深圳市裕同包装科技股份有限公司", "target": "深圳市君同商贸有限公司", "value": 1.7634554028502294e-07}]}

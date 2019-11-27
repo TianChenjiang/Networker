@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳明阳电路科技股份有限公司", "value": 1756370047.21, "category": 873}, {"name": "张佩珂", "value": 0, "category": 873}],
+"links":
+[{"source": "深圳明阳电路科技股份有限公司", "target": "张佩珂", "value": 0.0}]}

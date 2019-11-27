@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "金发拉比妇婴童用品股份有限公司\n002762.SZ", "value": 1067081239.03, "itemStyle": {"color": "red"}, "category": 0}, {"name": "林燕菁", "value": 106.2, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "金发拉比妇婴童用品股份有限公司", "target": "林燕菁", "value": 9.91696955524941e-08}]}

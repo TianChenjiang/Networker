@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "陕西坚瑞沃能股份有限公司\n300116.SZ", "value": 17563990925.77, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳新沃运力汽车有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "陕西坚瑞沃能股份有限公司", "target": "深圳新沃运力汽车有限公司", "value": 0.0}]}

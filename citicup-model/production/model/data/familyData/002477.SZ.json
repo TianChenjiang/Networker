@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "雏鹰农牧集团股份有限公司\n002477.SZ", "value": 22374066390.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河南新郑农村商业银行股份有限公司", "value": 408053.23, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市聚成企业管理顾问股份有限公司", "value": 757.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南凯联万亨商业管理有限公司", "value": 4736.15, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郑粮雏鹰粮油食品有限公司", "value": 2.11, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市聚成企业管理顾问股份有限公司及其子公司", "value": 301.36, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "雏鹰农牧集团股份有限公司", "target": "河南新郑农村商业银行股份有限公司", "value": 1.8237776847695874e-05}, {"source": "雏鹰农牧集团股份有限公司", "target": "深圳市聚成企业管理顾问股份有限公司", "value": 3.387403911217344e-08}, {"source": "雏鹰农牧集团股份有限公司", "target": "河南凯联万亨商业管理有限公司", "value": 2.1168034086438872e-07}, {"source": "雏鹰农牧集团股份有限公司", "target": "郑粮雏鹰粮油食品有限公司", "value": 9.430561093374581e-11}, {"source": "雏鹰农牧集团股份有限公司", "target": "深圳市聚成企业管理顾问股份有限公司及其子公司", "value": 1.3469165360660494e-08}]}

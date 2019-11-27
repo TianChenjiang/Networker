@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "红相股份有限公司\n300427.SZ", "value": 3614775400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "卧龙电气烟台东源变压器有限公司", "value": 653965.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江白云浙变电气设备有限公司", "value": 1076225.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "红相股份有限公司", "target": "卧龙电气烟台东源变压器有限公司", "value": 0.00018091456525901997}, {"source": "红相股份有限公司", "target": "浙江白云浙变电气设备有限公司", "value": 0.000297729574014474}]}

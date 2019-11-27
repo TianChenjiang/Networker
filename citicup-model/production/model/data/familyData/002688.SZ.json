@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "金河生物科技股份有限公司\n002688.SZ", "value": 3364658560.53, "itemStyle": {"color": "red"}, "category": 0}, {"name": "内蒙古金河环保科技股份有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "内蒙古金河建筑安装有限责任公司", "value": 937.73, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "王春苗", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "金河生物科技股份有限公司", "target": "内蒙古金河环保科技股份有限公司", "value": 1.4860348858733533e-06}, {"source": "金河生物科技股份有限公司", "target": "内蒙古金河建筑安装有限责任公司", "value": 2.786998987060039e-07}, {"source": "金河生物科技股份有限公司", "target": "王春苗", "value": 0.0}]}

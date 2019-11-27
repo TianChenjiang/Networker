@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市隆利科技股份有限公司\n300752.SZ", "value": 1521902500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吕小霞,吴新理", "value": 6000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吕小霞,吴新理,惠州市隆利科技发展有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市隆利科技股份有限公司", "target": "吕小霞,吴新理", "value": 3.942433894418335e-06}, {"source": "深圳市隆利科技股份有限公司", "target": "吕小霞,吴新理,惠州市隆利科技发展有限公司", "value": 6.570723157363892e-06}]}

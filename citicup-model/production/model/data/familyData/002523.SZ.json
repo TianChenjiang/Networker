@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "株洲天桥起重机股份有限公司\n002523.SZ", "value": 3658848598.01, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州国电机械设计研究院有限公司", "value": 56.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京奥悦冰雪旅游投资集团有限公司,株洲科聚创业投资企业(有限合伙)", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "株洲天桥起重机股份有限公司", "target": "杭州国电机械设计研究院有限公司", "value": 1.5524009392160356e-08}, {"source": "株洲天桥起重机股份有限公司", "target": "北京奥悦冰雪旅游投资集团有限公司,株洲科聚创业投资企业(有限合伙)", "value": 1.3665501225493272e-06}]}

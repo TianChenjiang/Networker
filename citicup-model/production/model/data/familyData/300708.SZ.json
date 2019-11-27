@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "聚灿光电科技股份有限公司\n300708.SZ", "value": 2741857320.32, "itemStyle": {"color": "red"}, "category": 0}, {"name": "潘华荣", "value": 21000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "潘华荣夫妇", "value": 15000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "聚灿光电科技股份有限公司", "target": "潘华荣", "value": 7.659041863472716e-06}, {"source": "聚灿光电科技股份有限公司", "target": "潘华荣夫妇", "value": 5.470744188194797e-06}]}

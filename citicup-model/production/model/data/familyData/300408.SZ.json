@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "潮州三环(集团)股份有限公司\n300408.SZ", "value": 8486823761.78, "itemStyle": {"color": "red"}, "category": 0}, {"name": "潮州民营投资股份有限公司", "value": 9000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "潮州三环(集团)股份有限公司", "target": "潮州民营投资股份有限公司", "value": 1.0604674083761542e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川大通燃气开发股份有限公司\n000593.SZ", "value": 1633547300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京顶信瑞通科技发展有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川大通燃气开发股份有限公司", "target": "北京顶信瑞通科技发展有限公司", "value": 6.121647043829095e-06}]}

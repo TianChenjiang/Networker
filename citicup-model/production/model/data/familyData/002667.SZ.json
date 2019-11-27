@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "鞍山重型矿山机器股份有限公司\n002667.SZ", "value": 932135191.96, "itemStyle": {"color": "red"}, "category": 0}, {"name": "京山鞍顺建材有限公司", "value": 354.35, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "京山华夏工贸科技有限公司", "value": 118.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "武汉晋祥路桥建设有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "鞍山重型矿山机器股份有限公司", "target": "京山鞍顺建材有限公司", "value": 3.801487199028593e-07}, {"source": "鞍山重型矿山机器股份有限公司", "target": "京山华夏工贸科技有限公司", "value": 1.2734204332572144e-07}, {"source": "鞍山重型矿山机器股份有限公司", "target": "武汉晋祥路桥建设有限公司", "value": 0.0}]}

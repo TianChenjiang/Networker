@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海嘉麟杰纺织品股份有限公司", "value": 1111253086.76, "category": 85}, {"name": "上海永普机械制造有限公司,深圳和普企业策划管理合伙企业(有限合伙)", "value": 0, "category": 85}, {"name": "普澜特复合面料(上海)有限公司", "value": 555.78, "category": 85}, {"name": "湖北嘉麟杰纺织品有限公司", "value": 1315.67, "category": 85}, {"name": "湖北嘉麟杰服饰有限公司", "value": 374.79, "category": 85}, {"name": "Challenge Apparels Limited", "value": 1257.66, "category": 85}, {"name": "上海骅怡科技有限公司", "value": 0.0, "category": 85}],
+"links":
+[{"source": "上海嘉麟杰纺织品股份有限公司", "target": "上海永普机械制造有限公司,深圳和普企业策划管理合伙企业(有限合伙)", "value": 0.0}, {"source": "上海嘉麟杰纺织品股份有限公司", "target": "普澜特复合面料(上海)有限公司", "value": 5.001380933127011e-07}, {"source": "上海嘉麟杰纺织品股份有限公司", "target": "湖北嘉麟杰纺织品有限公司", "value": 1.1839517169180638e-06}, {"source": "上海嘉麟杰纺织品股份有限公司", "target": "湖北嘉麟杰服饰有限公司", "value": 3.372679045533615e-07}, {"source": "上海嘉麟杰纺织品股份有限公司", "target": "Challenge Apparels Limited", "value": 1.1317493872317315e-06}, {"source": "上海嘉麟杰纺织品股份有限公司", "target": "上海骅怡科技有限公司", "value": 0.0}]}

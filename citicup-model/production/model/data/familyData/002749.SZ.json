@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川国光农化股份有限公司\n002749.SZ", "value": 1124938000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏景宏生物科技有限公司", "value": 4598.44, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川国光农化股份有限公司", "target": "江苏景宏生物科技有限公司", "value": 4.087727501426745e-06}]}

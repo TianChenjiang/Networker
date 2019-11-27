@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海神开石油化工装备股份有限公司\n002278.SZ", "value": 1654785567.65, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中曼石油及其控股子公司", "value": 240.89, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中曼石油天然气集团股份有限公司及其控股子公司", "value": 4000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海神开石油化工装备股份有限公司", "target": "中曼石油及其控股子公司", "value": 1.4557173129210543e-07}, {"source": "上海神开石油化工装备股份有限公司", "target": "中曼石油天然气集团股份有限公司及其控股子公司", "value": 2.417231620940769e-06}]}

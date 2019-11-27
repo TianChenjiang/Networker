@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中捷资源投资股份有限公司\n002021.SZ", "value": 1346738731.69, "itemStyle": {"color": "red"}, "category": 0}, {"name": "玉环县艾捷尔精密仪器有限公司", "value": 2.11, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中捷资源投资股份有限公司", "target": "玉环县艾捷尔精密仪器有限公司", "value": 1.5667478408021992e-09}]}

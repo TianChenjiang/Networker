@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳拓邦股份有限公司\n002139.SZ", "value": 3950238272.48, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市吉之光电子有限公司", "value": 1184.76, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳拓邦股份有限公司", "target": "深圳市吉之光电子有限公司", "value": 2.9992114861876306e-07}]}

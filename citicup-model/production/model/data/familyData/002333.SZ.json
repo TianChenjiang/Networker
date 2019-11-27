@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州罗普斯金铝业股份有限公司\n002333.SZ", "value": 1827664900.01, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州特罗普企业管理有限公司", "value": 3264.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "罗普斯金控股有限公司旗下关联单位", "value": 4018.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州罗普斯金铝业股份有限公司", "target": "苏州特罗普企业管理有限公司", "value": 1.7860878107262109e-06}, {"source": "苏州罗普斯金铝业股份有限公司", "target": "罗普斯金控股有限公司旗下关联单位", "value": 2.1989260722674112e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳赫美集团股份有限公司\n002356.SZ", "value": 4542581600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津迪诺投资管理有限公司,华谊兄弟传媒股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天津迪诺投资管理有限公司,天津迪诺兄弟资产管理合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳赫美集团股份有限公司,天津迪诺投资管理有限公司,天津迪诺兄弟资产管理合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳赫美集团股份有限公司", "target": "天津迪诺投资管理有限公司,华谊兄弟传媒股份有限公司", "value": 0.0}, {"source": "深圳赫美集团股份有限公司", "target": "天津迪诺投资管理有限公司,天津迪诺兄弟资产管理合伙企业(有限合伙)", "value": 0.0}, {"source": "深圳赫美集团股份有限公司", "target": "深圳赫美集团股份有限公司,天津迪诺投资管理有限公司,天津迪诺兄弟资产管理合伙企业(有限合伙)", "value": 0.0}]}

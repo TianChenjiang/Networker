@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "河南四方达超硬材料股份有限公司\n300179.SZ", "value": 1086165323.42, "itemStyle": {"color": "red"}, "category": 0}, {"name": "方海江", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "河南四方达超硬材料股份有限公司", "target": "方海江", "value": 0.0}]}

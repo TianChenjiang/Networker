@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳长城开发科技股份有限公司\n002855.SZ", "value": 15539378900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "东莞捷荣技术股份有限公司", "value": 60.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国电子信息产业集团有限公司,中国长城计算深圳股份有限公司", "value": 90.73, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳长城开发科技股份有限公司", "value": 8.03, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "重庆四联光电科技有限公司", "value": 231.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳长城开发科技股份有限公司", "target": "东莞捷荣技术股份有限公司", "value": 3.879820447649938e-09}, {"source": "东莞捷荣技术股份有限公司", "target": "中国电子信息产业集团有限公司,中国长城计算深圳股份有限公司", "value": 5.838714699208474e-09}, {"source": "东莞捷荣技术股份有限公司", "target": "深圳长城开发科技股份有限公司", "value": 5.167516701713219e-10}, {"source": "东莞捷荣技术股份有限公司", "target": "重庆四联光电科技有限公司", "value": 1.491050585039792e-08}]}

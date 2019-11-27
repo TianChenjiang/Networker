@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宇环数控机床股份有限公司\n002903.SZ", "value": 720003824.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张梦蝶", "value": 83.4, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宇环数控机床股份有限公司", "target": "张梦蝶", "value": 1.1583271810072144e-07}]}

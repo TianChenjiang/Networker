@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中嘉博创信息技术股份有限公司\n000889.SZ", "value": 5336237709.77, "itemStyle": {"color": "red"}, "category": 0}, {"name": "刘英魁,宁波保税区嘉语春华投资合伙企业(有限合伙),宁波保税区嘉惠秋实投资合伙企业(有限合伙)", "value": 148000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "联动优势科技有限公司", "value": 3201.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中嘉博创信息技术股份有限公司", "target": "刘英魁,宁波保税区嘉语春华投资合伙企业(有限合伙),宁波保税区嘉惠秋实投资合伙企业(有限合伙)", "value": 2.7734896391333924e-05}, {"source": "中嘉博创信息技术股份有限公司", "target": "联动优势科技有限公司", "value": 5.999076829240387e-07}]}

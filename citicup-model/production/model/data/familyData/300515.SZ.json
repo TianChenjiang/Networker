@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南三德科技股份有限公司\n300515.SZ", "value": 609039314.35, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南三德盈泰环保科技有限公司", "value": 0.76, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南三德共创企业管理咨询合伙企业(有限合伙)", "value": 0.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南三德科技股份有限公司", "target": "湖南三德盈泰环保科技有限公司", "value": 1.2478668980689915e-09}, {"source": "湖南三德科技股份有限公司", "target": "湖南三德共创企业管理咨询合伙企业(有限合伙)", "value": 9.85158077422888e-10}]}

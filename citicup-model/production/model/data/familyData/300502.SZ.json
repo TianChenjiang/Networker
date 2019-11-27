@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都新易盛通信技术股份有限公司\n300502.SZ", "value": 1380651400.85, "itemStyle": {"color": "red"}, "category": 0}, {"name": "Alpine Optoelectronics Inc.", "value": 131.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "TC TEK,INC.", "value": 1509.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都新易盛通信技术股份有限公司", "target": "Alpine Optoelectronics Inc.", "value": 9.499863609253658e-08}, {"source": "成都新易盛通信技术股份有限公司", "target": "TC TEK,INC.", "value": 1.0936142164998552e-06}]}

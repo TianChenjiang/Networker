@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "欧浦智网股份有限公司\n002711.SZ", "value": 842300277.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中山市嘉信化工仓储物流有限公司", "value": 57.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东银通融资担保有限公司", "value": 0.57, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "欧浦智网股份有限公司", "target": "中山市嘉信化工仓储物流有限公司", "value": 6.862160867262524e-08}, {"source": "欧浦智网股份有限公司", "target": "广东银通融资担保有限公司", "value": 6.767182862179304e-10}]}

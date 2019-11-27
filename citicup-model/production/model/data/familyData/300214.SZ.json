@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东日科化学股份有限公司\n300214.SZ", "value": 1815185252.91, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东宏旭化学股份有限公司", "value": 1447.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东日科化学股份有限公司", "target": "山东宏旭化学股份有限公司", "value": 7.973235776788007e-07}]}

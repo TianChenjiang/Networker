@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市佳创视讯技术股份有限公司\n300264.SZ", "value": 805057324.37, "itemStyle": {"color": "red"}, "category": 0}, {"name": "陈坤江的配偶,陈坤江的次子,陈旭昇", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陈坤江", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市佳创视讯技术股份有限公司", "target": "陈坤江的配偶,陈坤江的次子,陈旭昇", "value": 0.0}, {"source": "深圳市佳创视讯技术股份有限公司", "target": "陈坤江", "value": 1.2421475710224151e-05}]}

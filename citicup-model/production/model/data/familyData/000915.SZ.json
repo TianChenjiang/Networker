@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东山大华特科技股份有限公司\n000915.SZ", "value": 2935845502.04, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东华特知新化工有限公司", "value": 2000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东山大华特科技股份有限公司", "target": "山东华特知新化工有限公司", "value": 6.812347579633469e-07}]}

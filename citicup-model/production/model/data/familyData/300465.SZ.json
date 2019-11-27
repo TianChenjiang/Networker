@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "高伟达软件股份有限公司\n300465.SZ", "value": 2419906100.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "高伟达软件股份有限公司", "value": 6320.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "鹰潭市鹰高投资咨询有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "高伟达软件股份有限公司", "target": "高伟达软件股份有限公司", "value": 2.6116715851081992e-06}, {"source": "高伟达软件股份有限公司", "target": "鹰潭市鹰高投资咨询有限公司", "value": 2.066195874294461e-06}]}

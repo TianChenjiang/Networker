@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "辽宁大金重工股份有限公司\n002487.SZ", "value": 2965599990.04, "itemStyle": {"color": "red"}, "category": 0}, {"name": "前海众诚国际融资租赁(深圳)有限公司", "value": 30000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "辽宁大金重工股份有限公司", "target": "前海众诚国际融资租赁(深圳)有限公司", "value": 1.0115996796855722e-05}]}

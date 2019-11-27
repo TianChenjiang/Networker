@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "科大国创软件股份有限公司\n300520.SZ", "value": 2131922137.67, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杜江峰", "value": 1499.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中电科(上海)公共设施运营管理有限公司", "value": 930.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "史兴领,孙路", "value": 41321.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "科大国创软件股份有限公司", "target": "杜江峰", "value": 7.035247551954278e-07}, {"source": "科大国创软件股份有限公司", "target": "中电科(上海)公共设施运营管理有限公司", "value": 4.362260626536796e-07}, {"source": "科大国创软件股份有限公司", "target": "史兴领,孙路", "value": 1.938241517823959e-05}]}

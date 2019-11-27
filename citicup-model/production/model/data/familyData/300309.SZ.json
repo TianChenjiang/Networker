@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "吉艾科技集团股份公司\n300309.SZ", "value": 6828242429.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "姚庆", "value": 30000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吉艾(天津)石油工程有限公司", "value": 45.94, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "GITECHNOLOGIESPAKISTAN(PRIVATE)LIMITED", "value": 48.43, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郭仁祥", "value": 21715.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "黄文帜", "value": 28070.68, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "吉艾科技集团股份公司", "target": "姚庆", "value": 4.393517118303297e-06}, {"source": "吉艾科技集团股份公司", "target": "吉艾(天津)石油工程有限公司", "value": 6.7279392138284485e-09}, {"source": "吉艾科技集团股份公司", "target": "GITECHNOLOGIESPAKISTAN(PRIVATE)LIMITED", "value": 7.092601134647623e-09}, {"source": "吉艾科技集团股份公司", "target": "郭仁祥", "value": 3.1801741407985368e-06}, {"source": "吉艾科技集团股份公司", "target": "黄文帜", "value": 4.1109671034138e-06}]}

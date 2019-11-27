@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州滨江房产集团股份有限公司\n002244.SZ", "value": 87974770454.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州滨江餐饮管理有限公司", "value": 58.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州滨江物业管理有限公司", "value": 184.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州滨宁房地产开发有限公司", "value": 140000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州滨江房产集团股份有限公司", "target": "杭州滨江餐饮管理有限公司", "value": 6.683734404350779e-10}, {"source": "杭州滨江房产集团股份有限公司", "target": "杭州滨江物业管理有限公司", "value": 2.0936684352676364e-09}, {"source": "杭州滨江房产集团股份有限公司", "target": "杭州滨宁房地产开发有限公司", "value": 1.5913653343692333e-06}]}

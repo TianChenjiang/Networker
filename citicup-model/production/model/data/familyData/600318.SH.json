@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "安徽新力金融股份有限公司\n600318.SH", "value": 5644903614.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "安徽新力科创集团有限公司", "value": 79564.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "安徽省供销商业总公司及其控股子公司,安徽新力科创集团有限公司及其控股子公司", "value": 5890.74, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "王剑,深圳市软银奥津科技有限公司,陈大庆,焦峰等75名关联方", "value": 40288.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "安徽新力金融股份有限公司", "target": "安徽新力科创集团有限公司", "value": 1.4094990001719452e-05}, {"source": "安徽新力金融股份有限公司", "target": "安徽省供销商业总公司及其控股子公司,安徽新力科创集团有限公司及其控股子公司", "value": 1.043550147674851e-06}, {"source": "安徽新力金融股份有限公司", "target": "王剑,深圳市软银奥津科技有限公司,陈大庆,焦峰等75名关联方", "value": 7.137060746277606e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "海宁中国皮革城股份有限公司\n002344.SZ", "value": 11035611800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "海宁市资产经营公司", "value": 76269.4143, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "海宁中国皮革城股份有限公司", "target": "海宁市资产经营公司", "value": 6.911208520401198e-06}]}

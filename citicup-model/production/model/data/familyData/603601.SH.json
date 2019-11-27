@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "重庆再升科技股份有限公司\n603601.SH", "value": 2284801100.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "松下真空节能新材料(重庆)有限公司", "value": 123.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中山市鑫创保温材料有限公司", "value": 409.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "意大利法比里奥有限责任公司", "value": 3409.41, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳中纺滤材科技有限公司及其控股公司", "value": 313.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郭思含,刘秀琴,杨金明", "value": 765.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "重庆再升科技股份有限公司", "target": "松下真空节能新材料(重庆)有限公司", "value": 5.396093340466267e-08}, {"source": "重庆再升科技股份有限公司", "target": "中山市鑫创保温材料有限公司", "value": 1.7911843617372209e-07}, {"source": "重庆再升科技股份有限公司", "target": "意大利法比里奥有限责任公司", "value": 1.4922130420893092e-06}, {"source": "重庆再升科技股份有限公司", "target": "深圳中纺滤材科技有限公司及其控股公司", "value": 1.3732048710935932e-07}, {"source": "重庆再升科技股份有限公司", "target": "郭思含,刘秀琴,杨金明", "value": 3.348212673742148e-07}]}

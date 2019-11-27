@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "红宝丽集团股份有限公司\n002165.SZ", "value": 3798795500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏宝源投资管理有限公司", "value": 300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "红宝丽集团股份有限公司", "target": "江苏宝源投资管理有限公司", "value": 8.252097848314999e-08}]}

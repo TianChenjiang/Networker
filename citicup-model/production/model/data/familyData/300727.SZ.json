@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波润禾高新材料科技股份有限公司\n300727.SZ", "value": 687766300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东东岳有机硅材料股份有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖北兴瑞硅材料有限公司", "value": 432.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "叶剑平,俞彩娟", "value": 36.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波润禾高新材料科技股份有限公司", "target": "山东东岳有机硅材料股份有限公司", "value": 0.0}, {"source": "宁波润禾高新材料科技股份有限公司", "target": "湖北兴瑞硅材料有限公司", "value": 6.282366553871569e-07}, {"source": "宁波润禾高新材料科技股份有限公司", "target": "叶剑平,俞彩娟", "value": 5.234336140052224e-08}]}

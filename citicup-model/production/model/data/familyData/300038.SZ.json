@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京数知科技股份有限公司\n300038.SZ", "value": 13422983952.62, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海驰骛信息科技有限公司", "value": 1200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京数知科技股份有限公司", "target": "上海驰骛信息科技有限公司", "value": 8.93988999939e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "启明星辰信息技术集团股份有限公司\n002439.SZ", "value": 4922454635.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京网御星云信息技术有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京启明星辰信息安全技术有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "启明星辰信息技术集团股份有限公司", "target": "北京网御星云信息技术有限公司", "value": 0.0}, {"source": "启明星辰信息技术集团股份有限公司", "target": "北京启明星辰信息安全技术有限公司", "value": 0.0}]}

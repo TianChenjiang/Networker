@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "搜于特集团股份有限公司\n002503.SZ", "value": 10202473258.41, "itemStyle": {"color": "red"}, "category": 0}, {"name": "绍兴市兴联供应链管理有限公司", "value": 17015.57, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "搜于特集团股份有限公司", "target": "绍兴市兴联供应链管理有限公司", "value": 1.6677887379880066e-06}]}

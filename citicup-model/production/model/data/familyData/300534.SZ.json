@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "甘肃陇神戎发药业股份有限公司\n300534.SZ", "value": 778514484.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "西北永新集团有限公司", "value": 90.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "兰州永新大贸贸易有限责任公司", "value": 0.95, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西北永新集团甘肃管业有限公司", "value": 0.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西北永新涂料有限公司", "value": 7.23, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "甘肃陇神戎发药业股份有限公司", "target": "西北永新集团有限公司", "value": 1.1608004969016247e-07}, {"source": "甘肃陇神戎发药业股份有限公司", "target": "兰州永新大贸贸易有限责任公司", "value": 1.2202727365901774e-09}, {"source": "甘肃陇神戎发药业股份有限公司", "target": "西北永新集团甘肃管业有限公司", "value": 3.7250430906436993e-10}, {"source": "甘肃陇神戎发药业股份有限公司", "target": "西北永新涂料有限公司", "value": 9.286917774259983e-09}]}

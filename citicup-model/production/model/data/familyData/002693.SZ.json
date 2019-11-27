@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "海南双成药业股份有限公司\n002693.SZ", "value": 959779612.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波守正药物研究有限公司", "value": 880.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京清普生物科技有限公司", "value": 18.95, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海星可高纯溶剂有限公司", "value": 14.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "海南双成药业股份有限公司", "target": "宁波守正药物研究有限公司", "value": 7.650856833341332e-07}, {"source": "海南双成药业股份有限公司", "target": "南京清普生物科技有限公司", "value": 1.6475424658161163e-08}, {"source": "海南双成药业股份有限公司", "target": "上海星可高纯溶剂有限公司", "value": 1.2171817689406665e-08}]}

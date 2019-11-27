@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "恒为科技(上海)股份有限公司\n603496.SH", "value": 976063470.81, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海圣铭电子有限公司", "value": 651.4325, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海睿索电子有限公司", "value": 392.7986, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "恒为科技(上海)股份有限公司", "target": "上海圣铭电子有限公司", "value": 7.152772163445605e-07}, {"source": "恒为科技(上海)股份有限公司", "target": "上海睿索电子有限公司", "value": 4.3129547449972254e-07}]}

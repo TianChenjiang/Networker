@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江晶盛机电股份有限公司\n300316.SZ", "value": 6344179500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中环领先半导体材料有限公司", "value": 914.24, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州大音超声科技有限公司", "value": 3.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江晶盛机电股份有限公司", "target": "中环领先半导体材料有限公司", "value": 1.4410689357071313e-07}, {"source": "浙江晶盛机电股份有限公司", "target": "杭州大音超声科技有限公司", "value": 5.50110538328873e-10}]}

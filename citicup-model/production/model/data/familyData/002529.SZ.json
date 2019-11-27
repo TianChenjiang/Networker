@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建海源复合材料科技股份有限公司\n002529.SZ", "value": 1929979416.96, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张伟", "value": 144.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建易安特新型建材有限公司", "value": 4159.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建海源三维高科技有限公司", "value": 1915.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建海源复合材料科技股份有限公司", "target": "张伟", "value": 7.497489285555369e-08}, {"source": "福建海源复合材料科技股份有限公司", "target": "福建易安特新型建材有限公司", "value": 2.155225057556253e-06}, {"source": "福建海源复合材料科技股份有限公司", "target": "福建海源三维高科技有限公司", "value": 9.926841618952392e-07}]}

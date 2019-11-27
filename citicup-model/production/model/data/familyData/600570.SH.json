@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华数传媒控股股份有限公司\n600570.SH", "value": 15467794300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "恒生电子股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江鲸腾网络科技有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "廖章勇,沈志伟", "value": 691.0163, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宁波恒星汇股权投资合伙企业(有限合伙)", "value": 18000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华数传媒控股股份有限公司", "target": "恒生电子股份有限公司", "value": 0.0}, {"source": "恒生电子股份有限公司", "target": "浙江鲸腾网络科技有限公司", "value": 2.0332905097500653e-07}, {"source": "恒生电子股份有限公司", "target": "廖章勇,沈志伟", "value": 4.6834562829086796e-08}, {"source": "恒生电子股份有限公司", "target": "宁波恒星汇股权投资合伙企业(有限合伙)", "value": 1.219974305850039e-06}]}

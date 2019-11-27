@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州晶瑞化学股份有限公司\n300655.SZ", "value": 1189501008.58, "itemStyle": {"color": "red"}, "category": 0}, {"name": "丸红株式会社及其下属的控股子公司", "value": 42.35, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "李虎林,徐萍", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "日本瑞翁及其下属所有控股子公司", "value": 17251.94, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "丸红株式会社及其旗下所有控股子公司", "value": 7590.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州晶瑞化学股份有限公司", "target": "丸红株式会社及其下属的控股子公司", "value": 3.5603164431576645e-08}, {"source": "苏州晶瑞化学股份有限公司", "target": "李虎林,徐萍", "value": 0.0}, {"source": "苏州晶瑞化学股份有限公司", "target": "日本瑞翁及其下属所有控股子公司", "value": 1.4503510190878261e-05}, {"source": "苏州晶瑞化学股份有限公司", "target": "丸红株式会社及其旗下所有控股子公司", "value": 6.381583491939909e-06}]}

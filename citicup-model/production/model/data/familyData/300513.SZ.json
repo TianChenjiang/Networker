@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京恒泰实达科技股份有限公司\n300513.SZ", "value": 3149651986.53, "itemStyle": {"color": "red"}, "category": 0}, {"name": "钱苏晋", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京恒泰实达科技股份有限公司", "target": "钱苏晋", "value": 6.349907889993326e-06}]}

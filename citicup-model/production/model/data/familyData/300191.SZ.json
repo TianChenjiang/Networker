@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "潜能恒信能源技术股份有限公司\n300191.SZ", "value": 1400044667.6, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏尼特右旗维光科技有限公司", "value": 1181.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "潜能恒信能源技术股份有限公司", "target": "苏尼特右旗维光科技有限公司", "value": 8.435445149221609e-07}]}

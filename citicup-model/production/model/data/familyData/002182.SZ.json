@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南京云海特种金属股份有限公司\n002182.SZ", "value": 4520292733.94, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宝钢金属有限公司", "value": 3199.84, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "巢湖宜安云海科技有限公司", "value": 1861.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏珀然股份有限公司", "value": 4593.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏珀然股份有限公司及子公司", "value": 4593.8642, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南京云海特种金属股份有限公司", "target": "宝钢金属有限公司", "value": 7.07883358078657e-07}, {"source": "南京云海特种金属股份有限公司", "target": "巢湖宜安云海科技有限公司", "value": 4.1187598007114217e-07}, {"source": "南京云海特种金属股份有限公司", "target": "江苏珀然股份有限公司", "value": 1.0162748897892454e-06}, {"source": "南京云海特种金属股份有限公司", "target": "江苏珀然股份有限公司及子公司", "value": 1.01627581893261e-06}]}

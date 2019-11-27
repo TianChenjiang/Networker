@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京赛升药业股份有限公司\n300485.SZ", "value": 2774528390.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京亦庄生物医药并购投资中心(有限合伙)", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "荷塘创业投资管理(北京)有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京亦庄投资控股有限公司,北京屹唐赛盈基金管理有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京绿竹生物技术股份有限公司", "value": 25000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京赛升药业股份有限公司", "target": "北京亦庄生物医药并购投资中心(有限合伙)", "value": 1.8021080691849645e-06}, {"source": "北京赛升药业股份有限公司", "target": "荷塘创业投资管理(北京)有限公司", "value": 3.604216138369929e-06}, {"source": "北京赛升药业股份有限公司", "target": "北京亦庄投资控股有限公司,北京屹唐赛盈基金管理有限公司", "value": 1.8021080691849645e-06}, {"source": "北京赛升药业股份有限公司", "target": "北京绿竹生物技术股份有限公司", "value": 9.010540345924822e-06}]}

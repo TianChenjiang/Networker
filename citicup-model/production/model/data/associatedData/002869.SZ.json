@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市金溢科技股份有限公司", "value": 1382423570.08, "category": 534}, {"name": "山东高速信威信息科技有限公司", "value": 802.81, "category": 534}, {"name": "WeiLong Electronics Engineering  Pte Ltd.", "value": 350.0, "category": 534}],
+"links":
+[{"source": "深圳市金溢科技股份有限公司", "target": "山东高速信威信息科技有限公司", "value": 5.807264990089412e-07}, {"source": "深圳市金溢科技股份有限公司", "target": "WeiLong Electronics Engineering  Pte Ltd.", "value": 2.5317855364672764e-07}]}

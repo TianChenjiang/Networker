@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厦门万里石股份有限公司\n002785.SZ", "value": 1333004283.95, "itemStyle": {"color": "red"}, "category": 0}, {"name": "厦门石材商品运营中心有限公司", "value": 1861.39, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门东方万里原石有限公司", "value": 412.76, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "FINSTONEAG", "value": 453.79, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厦门万里石股份有限公司", "target": "厦门石材商品运营中心有限公司", "value": 1.3963871102381388e-06}, {"source": "厦门万里石股份有限公司", "target": "厦门东方万里原石有限公司", "value": 3.0964641672185523e-07}, {"source": "厦门万里石股份有限公司", "target": "FINSTONEAG", "value": 3.4042651285059285e-07}]}

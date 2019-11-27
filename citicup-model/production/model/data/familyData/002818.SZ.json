@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都富森美家居股份有限公司\n002818.SZ", "value": 5771394500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都禾润世家家居有限公司", "value": 4.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "何涛", "value": 669.71, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郫县富森木业有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都富森美家居股份有限公司", "target": "成都禾润世家家居有限公司", "value": 7.95811388618039e-10}, {"source": "成都富森美家居股份有限公司", "target": "何涛", "value": 1.1586148805899717e-07}, {"source": "成都富森美家居股份有限公司", "target": "郫县富森木业有限公司", "value": 0.0}]}

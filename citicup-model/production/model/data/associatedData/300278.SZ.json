@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华昌达智能装备集团股份有限公司", "value": 4548848000.0, "category": 114}, {"name": "陈泽", "value": 0, "category": 114}],
+"links":
+[{"source": "华昌达智能装备集团股份有限公司", "target": "陈泽", "value": 0.0}]}

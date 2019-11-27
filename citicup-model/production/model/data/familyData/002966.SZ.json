@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏银行股份有限公司\n002966.SZ", "value": 2047010000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州银行股份有限公司", "value": 900000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏银行股份有限公司", "target": "苏州银行股份有限公司", "value": 4.673326676439112e-07}]}

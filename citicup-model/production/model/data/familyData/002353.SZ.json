@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "烟台杰瑞石油服务集团股份有限公司\n002353.SZ", "value": 11938136800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "烟台德美动力有限公司", "value": 504.39, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "烟台杰瑞石油服务集团股份有限公司", "target": "烟台德美动力有限公司", "value": 4.225031162316719e-08}]}

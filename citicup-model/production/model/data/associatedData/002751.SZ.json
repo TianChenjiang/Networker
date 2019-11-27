@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市易尚展示股份有限公司", "value": 3030058050.78, "category": 972}, {"name": "GebruderVieler GmbH及其关联方", "value": 63.18, "category": 972}, {"name": "广东盛迪嘉集团有限公司及其关联方", "value": 0.0, "category": 972}, {"name": "HABRUSTA-Verwaltungs-GmbH及其关联方", "value": 179.32, "category": 972}],
+"links":
+[{"source": "深圳市易尚展示股份有限公司", "target": "GebruderVieler GmbH及其关联方", "value": 2.0851085669377243e-08}, {"source": "深圳市易尚展示股份有限公司", "target": "广东盛迪嘉集团有限公司及其关联方", "value": 0.0}, {"source": "深圳市易尚展示股份有限公司", "target": "HABRUSTA-Verwaltungs-GmbH及其关联方", "value": 5.918038433416788e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州恒铭达电子科技股份有限公司\n002947.SZ", "value": 1198084200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "恒铭达包装材料(惠州)有限公司", "value": 2339.69, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州恒铭达电子科技股份有限公司", "target": "恒铭达包装材料(惠州)有限公司", "value": 3.607963491207277e-06}]}

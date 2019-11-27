@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京同有飞骥科技股份有限公司\n300302.SZ", "value": 903299137.14, "itemStyle": {"color": "red"}, "category": 0}, {"name": "周泽湘", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京同有飞骥科技股份有限公司", "target": "周泽湘", "value": 5.535264891131035e-06}]}

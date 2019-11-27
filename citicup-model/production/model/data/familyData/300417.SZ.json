@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "佛山市南华仪器股份有限公司\n300417.SZ", "value": 468041692.3, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东嘉得力清洁科技股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "佛山市南华仪器股份有限公司", "target": "广东嘉得力清洁科技股份有限公司", "value": 0.0}]}

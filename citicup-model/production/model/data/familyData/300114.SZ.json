@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中航电测仪器股份有限公司\n300114.SZ", "value": 2063903000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "航空工业或其控股的下属单位", "value": 23454.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中航电测仪器股份有限公司", "target": "航空工业或其控股的下属单位", "value": 1.1364342219571366e-05}]}

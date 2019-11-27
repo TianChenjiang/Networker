@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "青岛中资中程集团股份有限公司\n300208.SZ", "value": 5088741700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "PT.Metal Smeltindo Selaras", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南远海滨江恒顺股权投资基金(有限合伙),青岛中资中程进出口有限公司", "value": 1350.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中交(青岛)开发建设有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南远海中原物流产业发展基金(有限合伙)", "value": 100000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "青岛中资中程集团股份有限公司", "target": "PT.Metal Smeltindo Selaras", "value": 0.0}, {"source": "青岛中资中程集团股份有限公司", "target": "河南远海滨江恒顺股权投资基金(有限合伙),青岛中资中程进出口有限公司", "value": 2.65291515975354e-07}, {"source": "青岛中资中程集团股份有限公司", "target": "中交(青岛)开发建设有限公司", "value": 0.0}, {"source": "青岛中资中程集团股份有限公司", "target": "河南远海中原物流产业发展基金(有限合伙)", "value": 1.9651223405581776e-05}]}

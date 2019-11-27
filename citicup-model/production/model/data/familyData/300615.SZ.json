@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市欣天科技股份有限公司\n300615.SZ", "value": 547204319.52, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州正北连接技术有限公司", "value": 45.936, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "苏州正北工业智能科技有限公司", "value": 5.3035, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "薛枫", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市欣天科技股份有限公司", "target": "苏州正北连接技术有限公司", "value": 8.394670575753938e-08}, {"source": "深圳市欣天科技股份有限公司", "target": "苏州正北工业智能科技有限公司", "value": 9.691992206224097e-09}, {"source": "深圳市欣天科技股份有限公司", "target": "薛枫", "value": 0.0}]}

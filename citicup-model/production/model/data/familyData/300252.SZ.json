@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳金信诺高新技术股份有限公司\n300252.SZ", "value": 5077875824.84, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中航信诺(营口)高新技术有限公司", "value": 623.43, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳金信诺高新技术股份有限公司", "target": "中航信诺(营口)高新技术有限公司", "value": 1.2277377815154505e-07}]}

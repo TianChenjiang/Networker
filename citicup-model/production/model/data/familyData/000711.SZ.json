@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "京蓝科技股份有限公司\n000711.SZ", "value": 10997838272.93, "itemStyle": {"color": "red"}, "category": 0}, {"name": "京蓝若水产业投资有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杨树常青投资管理有限公司", "value": 0.0001, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "京蓝控股有限公司", "value": 24100.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "殷晓东,王海东,赵铎,金增伟,李万斌,杨勇,陈恺,王宁,宁翔", "value": 87619.61, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "殷晓东等37名关联方", "value": 87619.61, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "京蓝科技股份有限公司", "target": "京蓝若水产业投资有限公司", "value": 0.0}, {"source": "京蓝科技股份有限公司", "target": "杨树常青投资管理有限公司", "value": 9.092695993369832e-15}, {"source": "京蓝科技股份有限公司", "target": "京蓝控股有限公司", "value": 2.1913397344021293e-06}, {"source": "京蓝科技股份有限公司", "target": "殷晓东,王海东,赵铎,金增伟,李万斌,杨勇,陈恺,王宁,宁翔", "value": 7.966984767876273e-06}, {"source": "京蓝科技股份有限公司", "target": "殷晓东等37名关联方", "value": 7.966984767876273e-06}]}

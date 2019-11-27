@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "沪士电子股份有限公司", "value": 6599238157.0, "category": 684}, {"name": "昆山先创电子有限公司", "value": 16.82, "category": 684}, {"name": "沪照能源(昆山)科技有限公司", "value": 17.59, "category": 684}, {"name": "楠梓电子股份有限公司", "value": 686.22, "category": 684}, {"name": "新士电子私人有限公司", "value": 69.21, "category": 684}, {"name": "Schweizer Electronic Singapore Pte. Ltd.", "value": 881.97, "category": 684}],
+"links":
+[{"source": "沪士电子股份有限公司", "target": "昆山先创电子有限公司", "value": 2.5487790559821736e-09}, {"source": "沪士电子股份有限公司", "target": "沪照能源(昆山)科技有限公司", "value": 2.665459191125234e-09}, {"source": "沪士电子股份有限公司", "target": "楠梓电子股份有限公司", "value": 1.0398473030892315e-07}, {"source": "沪士电子股份有限公司", "target": "新士电子私人有限公司", "value": 1.048757422500156e-08}, {"source": "沪士电子股份有限公司", "target": "Schweizer Electronic Singapore Pte. Ltd.", "value": 1.3364724518457776e-07}]}

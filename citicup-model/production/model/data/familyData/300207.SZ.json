@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "欣旺达电子股份有限公司\n300207.SZ", "value": 19013235487.47, "itemStyle": {"color": "red"}, "category": 0}, {"name": "东莞市美盈森环保科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "行之有道汽车服务(深圳)有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京军上电子科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市欣美达科技有限公司", "value": 466.48, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "东莞市弘观精密塑胶有限公司", "value": 5035.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "欣旺达电子股份有限公司", "target": "东莞市美盈森环保科技有限公司", "value": 0.0}, {"source": "欣旺达电子股份有限公司", "target": "行之有道汽车服务(深圳)有限公司", "value": 0.0}, {"source": "欣旺达电子股份有限公司", "target": "南京军上电子科技有限公司", "value": 0.0}, {"source": "欣旺达电子股份有限公司", "target": "深圳市欣美达科技有限公司", "value": 2.453448811000196e-08}, {"source": "欣旺达电子股份有限公司", "target": "东莞市弘观精密塑胶有限公司", "value": 2.6486707132611825e-07}]}

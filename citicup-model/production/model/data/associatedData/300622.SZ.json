@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "博士眼镜连锁股份有限公司", "value": 587663091.39, "category": 614}, {"name": "ALEXANDER LIU", "value": 0, "category": 614}],
+"links":
+[{"source": "博士眼镜连锁股份有限公司", "target": "ALEXANDER LIU", "value": 0.0}]}

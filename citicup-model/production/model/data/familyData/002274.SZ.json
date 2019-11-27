@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏华昌化工股份有限公司\n002274.SZ", "value": 6558751370.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张家港市江南锅炉压力容器有限公司", "value": 364.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "张家港市华昌建筑工程有限公司", "value": 103.59, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏华昌化工股份有限公司", "value": 9438.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏华昌化工股份有限公司", "target": "张家港市江南锅炉压力容器有限公司", "value": 5.553648544455289e-08}, {"source": "江苏华昌化工股份有限公司", "target": "张家港市华昌建筑工程有限公司", "value": 1.5794164796708948e-08}, {"source": "江苏苏盐井神股份有限公司", "target": "江苏华昌化工股份有限公司", "value": 1.439115384527236e-06}]}

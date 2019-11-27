@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州毅昌科技股份有限公司\n002420.SZ", "value": 2240929830.38, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州高金富恒集团有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "金发科技股份有限公司", "value": 7690.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州毅昌科技股份有限公司", "value": 1092.27, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州毅昌科技股份有限公司", "target": "广州高金富恒集团有限公司", "value": 7.270581479233128e-06}, {"source": "广州毅昌科技股份有限公司", "target": "金发科技股份有限公司", "value": 2.795865754931703e-06}, {"source": "金发科技股份有限公司", "target": "广州毅昌科技股份有限公司", "value": 3.970719016160984e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "方正证券股份有限公司\n601901.SH", "value": 155098207600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北大方正集团有限公司", "value": 2543.28, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海京慧诚国际贸易有限公司", "value": 918.9485, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北大方正集团财务有限公司", "value": 240.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "方正证券股份有限公司", "target": "北大方正集团有限公司", "value": 1.71586139383547e-08}, {"source": "方正证券股份有限公司", "target": "上海京慧诚国际贸易有限公司", "value": 6.199821702970236e-09}, {"source": "方正证券股份有限公司", "target": "北大方正集团财务有限公司", "value": 1.6191954268523828e-09}]}

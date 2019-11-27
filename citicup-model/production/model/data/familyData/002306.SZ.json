@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中科云网科技集团股份有限公司\n002306.SZ", "value": 91276494.25, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海臻禧企业管理咨询合伙企业(有限合伙)", "value": 1500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中科云网科技集团股份有限公司", "target": "上海臻禧企业管理咨询合伙企业(有限合伙)", "value": 1.6433584706831574e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江京新药业股份有限公司\n002020.SZ", "value": 5281427499.4, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江元金印刷有限公司", "value": 669.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "京新控股集团有限公司", "value": 1418.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江京新药业股份有限公司", "target": "浙江元金印刷有限公司", "value": 1.3410516433247227e-07}, {"source": "浙江京新药业股份有限公司", "target": "京新控股集团有限公司", "value": 2.842128340758141e-07}]}

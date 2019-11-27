@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厦门合兴包装印刷股份有限公司\n002228.SZ", "value": 7013603538.62, "itemStyle": {"color": "red"}, "category": 0}, {"name": "厦门架桥合兴股权投资合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厦门合兴包装印刷股份有限公司", "target": "厦门架桥合兴股权投资合伙企业(有限合伙)", "value": 0.0}]}

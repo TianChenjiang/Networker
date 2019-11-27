@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "大禹节水集团股份有限公司\n300021.SZ", "value": 3980966845.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "云南农田水利投资基金合伙企业(有限合伙)", "value": 3136.4819, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天津绿境水务有限责任公司", "value": 70596.56, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "大禹节水集团股份有限公司", "target": "云南农田水利投资基金合伙企业(有限合伙)", "value": 7.878693848373128e-07}, {"source": "大禹节水集团股份有限公司", "target": "天津绿境水务有限责任公司", "value": 1.7733521210127322e-05}]}

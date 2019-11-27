@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海古鳌电子科技股份有限公司\n300551.SZ", "value": 770384190.62, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杨子晋等45名交易对象", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海古鳌电子科技股份有限公司", "target": "杨子晋等45名交易对象", "value": 0.0}]}

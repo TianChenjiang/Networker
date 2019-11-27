@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "西藏易明西雅医药科技股份有限公司\n002826.SZ", "value": 758041917.68, "itemStyle": {"color": "red"}, "category": 0}, {"name": "周战", "value": 1376.81, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "西藏易明西雅医药科技股份有限公司", "target": "周战", "value": 1.8162715911723592e-06}]}

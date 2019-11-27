@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "德艺文化创意集团股份有限公司", "value": 399291235.84, "category": 1515}, {"name": "许美珍", "value": 257.8368, "category": 1515}, {"name": "吴体芳", "value": 0, "category": 1515}],
+"links":
+[{"source": "德艺文化创意集团股份有限公司", "target": "许美珍", "value": 6.457361866648077e-07}, {"source": "德艺文化创意集团股份有限公司", "target": "吴体芳", "value": 0.0}]}

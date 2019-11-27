@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新洋丰农业科技股份有限公司\n000902.SZ", "value": 8912320021.59, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杨华锋", "value": 1600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "荆门市放马山中磷矿业有限公司", "value": 790.62, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "雷波新洋丰矿业投资有限公司", "value": 3767.28, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新洋丰农业科技股份有限公司", "target": "杨华锋", "value": 1.7952676700612378e-07}, {"source": "新洋丰农业科技股份有限公司", "target": "荆门市放马山中磷矿业有限公司", "value": 8.871090783148849e-08}, {"source": "新洋丰农业科技股份有限公司", "target": "雷波新洋丰矿业投资有限公司", "value": 4.2270474925426877e-07}]}

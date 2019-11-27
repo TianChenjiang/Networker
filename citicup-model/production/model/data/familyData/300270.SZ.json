@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州中威电子股份有限公司\n300270.SZ", "value": 1488834832.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州中威慧云医疗科技有限公司", "value": 4765.4, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州中威电子股份有限公司", "target": "杭州中威慧云医疗科技有限公司", "value": 3.2007580002990666e-06}]}

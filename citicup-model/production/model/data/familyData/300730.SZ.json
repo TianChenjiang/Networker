@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南科创信息技术股份有限公司\n300730.SZ", "value": 618301132.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中南大学", "value": 283.67, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "费耀平", "value": 5500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南科创信息技术股份有限公司", "target": "中南大学", "value": 4.58789391167154e-07}, {"source": "湖南科创信息技术股份有限公司", "target": "费耀平", "value": 8.895341951631638e-06}]}

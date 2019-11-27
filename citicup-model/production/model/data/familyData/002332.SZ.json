@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东赛托生物科技股份有限公司\n002332.SZ", "value": 2603219746.12, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江仙琚制药股份有限公司", "value": 6815.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东赛托生物科技股份有限公司", "target": "浙江仙琚制药股份有限公司", "value": 2.6179503325286494e-06}]}

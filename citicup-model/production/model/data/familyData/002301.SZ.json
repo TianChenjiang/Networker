@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳齐心集团股份有限公司\n002301.SZ", "value": 7003293211.81, "itemStyle": {"color": "red"}, "category": 0}, {"name": "济南新海诺科贸有限公司", "value": 13567.18, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳齐心乐购科技有限公司", "value": 2300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳齐采科技有限公司", "value": 1027.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳齐心集团股份有限公司", "target": "济南新海诺科贸有限公司", "value": 1.9372571716861706e-06}, {"source": "深圳齐心集团股份有限公司", "target": "深圳齐心乐购科技有限公司", "value": 3.284169219305849e-07}, {"source": "深圳齐心集团股份有限公司", "target": "深圳齐采科技有限公司", "value": 1.4673953651790648e-07}]}

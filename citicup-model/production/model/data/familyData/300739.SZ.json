@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳明阳电路科技股份有限公司\n300739.SZ", "value": 1756370047.21, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张佩珂", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳明阳电路科技股份有限公司", "target": "张佩珂", "value": 0.0}]}

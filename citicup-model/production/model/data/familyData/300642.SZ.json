@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海透景生命科技股份有限公司\n300642.SZ", "value": 1102834742.03, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海祥闰医疗科技有限公司", "value": 32.63, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "生工生物工程(上海)股份有限公司", "value": 161.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海透景生命科技股份有限公司", "target": "上海祥闰医疗科技有限公司", "value": 2.958738853287992e-08}, {"source": "上海透景生命科技股份有限公司", "target": "生工生物工程(上海)股份有限公司", "value": 1.4605089399298093e-07}]}

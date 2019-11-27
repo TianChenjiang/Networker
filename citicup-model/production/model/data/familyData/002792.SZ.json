@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东通宇通讯股份有限公司\n002792.SZ", "value": 2901569490.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吴中林,时桂清", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东通宇通讯股份有限公司", "target": "吴中林,时桂清", "value": 0.0}]}
