@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华联控股股份有限公司\n000036.SZ", "value": 10857102382.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "华联发展集团有限公司", "value": 37.65, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市华联置业集团有限公司", "value": 373.31, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "华联发展集团有限公司,浙江华联杭州湾创业有限公司,杭州华联千岛湖创业有限公司", "value": 1183.96, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华联控股股份有限公司", "target": "华联发展集团有限公司", "value": 3.3870785423097906e-09}, {"source": "华联控股股份有限公司", "target": "深圳市华联置业集团有限公司", "value": 3.358380586001774e-08}, {"source": "华联控股股份有限公司", "target": "华联发展集团有限公司,浙江华联杭州湾创业有限公司,杭州华联千岛湖创业有限公司", "value": 1.0651170015811686e-07}]}

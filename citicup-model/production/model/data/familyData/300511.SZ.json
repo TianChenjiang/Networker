@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海雪榕生物科技股份有限公司\n300511.SZ", "value": 3896857336.71, "itemStyle": {"color": "red"}, "category": 0}, {"name": "威宁雪榕生物科技有限公司,成都雪国高榕生物科技有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海雪榕生物科技股份有限公司", "target": "威宁雪榕生物科技有限公司,成都雪国高榕生物科技有限公司", "value": 0.0}]}

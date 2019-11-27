@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华灿光电股份有限公司\n300323.SZ", "value": 12879654812.78, "itemStyle": {"color": "red"}, "category": 0}, {"name": "玉溪市晶圆设备有限公司", "value": 9340.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新纳传感系统有限公司", "value": 168.15, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "ACEINNA,Inc.", "value": 134.32, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "ACEINNA, Inc.", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "Aceinna,Inc.", "value": 787.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华灿光电股份有限公司", "target": "玉溪市晶圆设备有限公司", "value": 7.251762672033917e-07}, {"source": "华灿光电股份有限公司", "target": "新纳传感系统有限公司", "value": 1.3055474113572597e-08}, {"source": "华灿光电股份有限公司", "target": "ACEINNA,Inc.", "value": 1.0428850924383414e-08}, {"source": "华灿光电股份有限公司", "target": "ACEINNA, Inc.", "value": 0.0}, {"source": "华灿光电股份有限公司", "target": "Aceinna,Inc.", "value": 6.114449583063152e-08}]}

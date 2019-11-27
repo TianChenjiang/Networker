@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南京银行股份有限公司\n600901.SH", "value": 1348326000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏金融租赁股份有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南京银行股份有限公司", "target": "江苏金融租赁股份有限公司", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "吉林华微电子股份有限公司\n600360.SH", "value": 4382691409.49, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳稳先微电子有限公司", "value": 425.2248, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳吉华微特电子有限公司", "value": 47.619, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "吉林华微电子股份有限公司", "target": "深圳稳先微电子有限公司", "value": 9.702366885317215e-08}, {"source": "吉林华微电子股份有限公司", "target": "深圳吉华微特电子有限公司", "value": 1.0865241366729326e-08}]}

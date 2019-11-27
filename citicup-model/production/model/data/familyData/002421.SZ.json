@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳达实智能股份有限公司\n002421.SZ", "value": 6899371068.28, "itemStyle": {"color": "red"}, "category": 0}, {"name": "拉萨市达实投资发展有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海臻龙投资管理合伙企业(有限合伙)", "value": 12240.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳达实智能股份有限公司", "target": "拉萨市达实投资发展有限公司", "value": 0.0}, {"source": "深圳达实智能股份有限公司", "target": "上海臻龙投资管理合伙企业(有限合伙)", "value": 1.774074749548354e-06}]}

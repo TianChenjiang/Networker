@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "汉王科技股份有限公司\n002362.SZ", "value": 1165829450.58, "itemStyle": {"color": "red"}, "category": 0}, {"name": "刘秋童", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京汉王清风科技有限公司", "value": 9.24, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南汉王智远科技有限公司", "value": 28.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "汉王科技股份有限公司", "target": "刘秋童", "value": 0.0}, {"source": "汉王科技股份有限公司", "target": "北京汉王清风科技有限公司", "value": 7.925687582693251e-09}, {"source": "汉王科技股份有限公司", "target": "河南汉王智远科技有限公司", "value": 2.4446114297268144e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州航新航空科技股份有限公司\n300424.SZ", "value": 2171823440.75, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东翔宇航空技术服务有限公司", "value": 88.97, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天弘航空科技有限公司", "value": 28.23, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "Magnetic Parts Trading Ltd", "value": 796.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京德风新征程科技有限公司", "value": 253.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州航新航空科技股份有限公司", "target": "山东翔宇航空技术服务有限公司", "value": 4.096557681929974e-08}, {"source": "广州航新航空科技股份有限公司", "target": "天弘航空科技有限公司", "value": 1.2998294184655857e-08}, {"source": "广州航新航空科技股份有限公司", "target": "Magnetic Parts Trading Ltd", "value": 3.665307156483687e-07}, {"source": "广州航新航空科技股份有限公司", "target": "北京德风新征程科技有限公司", "value": 1.1688335029312396e-07}]}

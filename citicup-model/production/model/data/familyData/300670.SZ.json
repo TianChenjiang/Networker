@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏大烨智能电气股份有限公司\n300670.SZ", "value": 787956286.72, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吴国栋", "value": 20332.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏大烨智能电气股份有限公司", "target": "吴国栋", "value": 2.5803461870499637e-05}]}

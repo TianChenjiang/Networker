@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波慈星股份有限公司\n300307.SZ", "value": 5533826081.02, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波裕人投资有限公司", "value": 17657.3932, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波慈星股份有限公司", "target": "宁波裕人投资有限公司", "value": 3.190811012395491e-06}]}

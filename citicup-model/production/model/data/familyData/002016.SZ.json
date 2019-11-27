@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东世荣兆业股份有限公司\n002016.SZ", "value": 7315911600.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "珠海市兆丰混凝土有限公司", "value": 2659.48, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东世荣兆业股份有限公司", "target": "珠海市兆丰混凝土有限公司", "value": 3.635199746869208e-07}]}

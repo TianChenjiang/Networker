@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波激智科技股份有限公司\n300566.SZ", "value": 1865643200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波勤邦新材料科技有限公司", "value": 3411.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "张彦", "value": 150000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波激智科技股份有限公司", "target": "宁波勤邦新材料科技有限公司", "value": 1.8283613930037642e-06}, {"source": "宁波激智科技股份有限公司", "target": "张彦", "value": 8.040122570060556e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市芭田生态工程股份有限公司\n002170.SZ", "value": 3584564473.42, "itemStyle": {"color": "red"}, "category": 0}, {"name": "黄培钊", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东晟典律师事务所", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "鲁化好阳光生态肥业有限公司", "value": 178.79, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州农财大数据科技股份有限公司", "value": 28.82, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市芭田生态工程股份有限公司", "target": "黄培钊", "value": 5.579478385255039e-06}, {"source": "深圳市芭田生态工程股份有限公司", "target": "广东晟典律师事务所", "value": 0.0}, {"source": "深圳市芭田生态工程股份有限公司", "target": "鲁化好阳光生态肥业有限公司", "value": 4.987774702498741e-08}, {"source": "深圳市芭田生态工程股份有限公司", "target": "广州农财大数据科技股份有限公司", "value": 8.04002835315251e-09}]}

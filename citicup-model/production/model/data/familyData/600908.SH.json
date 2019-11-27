@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏银行股份有限公司\n600908.SH", "value": 2047010000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "无锡农村商业银行股份有限公司", "value": 500000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "红豆集团有限公司", "value": 45100.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏银行股份有限公司", "target": "无锡农村商业银行股份有限公司", "value": 2.596292598021729e-07}, {"source": "无锡农村商业银行股份有限公司", "target": "红豆集团有限公司", "value": 2.3418559234155996e-08}]}

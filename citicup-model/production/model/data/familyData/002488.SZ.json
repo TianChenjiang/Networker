@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江金固股份有限公司\n002488.SZ", "value": 7456529125.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "鞍钢金固(杭州)金属材料有限公司", "value": 41512.51, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏康众汽配有限公司", "value": 2279.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "金磁融资租赁有限公司", "value": 40000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江金固股份有限公司", "target": "鞍钢金固(杭州)金属材料有限公司", "value": 5.567269878813372e-06}, {"source": "浙江金固股份有限公司", "target": "江苏康众汽配有限公司", "value": 3.056770732986401e-07}, {"source": "浙江金固股份有限公司", "target": "金磁融资租赁有限公司", "value": 5.364426173038799e-06}]}

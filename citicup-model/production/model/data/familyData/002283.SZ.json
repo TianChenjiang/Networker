@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天润曲轴股份有限公司\n002283.SZ", "value": 6431781964.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天润联合集团有限公司", "value": 12187.84, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天润曲轴股份有限公司", "target": "天润联合集团有限公司", "value": 1.8949398574704172e-06}]}

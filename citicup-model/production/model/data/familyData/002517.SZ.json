@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "恺英网络股份有限公司\n002517.SZ", "value": 6116740100.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京天马时空网络技术有限公司", "value": 851.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郑州百易科技有限公司", "value": 8.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海友齐信息技术有限公司", "value": 165.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海幻宝网络科技有限公司", "value": 6.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州藤木网络科技有限公司", "value": 2583.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "恺英网络股份有限公司", "target": "北京天马时空网络技术有限公司", "value": 1.3912639512017193e-07}, {"source": "恺英网络股份有限公司", "target": "郑州百易科技有限公司", "value": 1.3078862055950358e-09}, {"source": "恺英网络股份有限公司", "target": "上海友齐信息技术有限公司", "value": 2.6975152990397615e-08}, {"source": "恺英网络股份有限公司", "target": "上海幻宝网络科技有限公司", "value": 9.809146541962768e-10}, {"source": "恺英网络股份有限公司", "target": "杭州藤木网络科技有限公司", "value": 4.222837586314972e-07}]}

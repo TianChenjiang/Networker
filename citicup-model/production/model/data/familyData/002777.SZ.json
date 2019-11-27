@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川久远银海软件股份有限公司\n002777.SZ", "value": 1974278300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中国工程物理研究院", "value": 45.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国工程物理研究院及其下属单位", "value": 54.38, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川久远银海软件股份有限公司", "target": "中国工程物理研究院", "value": 2.3223676216265964e-08}, {"source": "四川久远银海软件股份有限公司", "target": "中国工程物理研究院及其下属单位", "value": 2.7544242369477495e-08}]}

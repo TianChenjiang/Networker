@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建元力活性炭股份有限公司\n300174.SZ", "value": 1608805864.22, "itemStyle": {"color": "red"}, "category": 0}, {"name": "赢创嘉联白炭黑(南平)有限公司", "value": 482.11, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建省三明同晟化工有限公司", "value": 272.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建元力活性炭股份有限公司", "target": "赢创嘉联白炭黑(南平)有限公司", "value": 2.996694695874584e-07}, {"source": "福建元力活性炭股份有限公司", "target": "福建省三明同晟化工有限公司", "value": 1.6953568237534852e-07}]}

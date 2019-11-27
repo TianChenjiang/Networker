@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京真视通科技股份有限公司\n002771.SZ", "value": 1220137784.4, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京紫荆视通科技有限公司", "value": 146.67, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京联坤软件技术有限公司", "value": 86.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京真视通科技股份有限公司", "target": "北京紫荆视通科技有限公司", "value": 1.202077354502423e-07}, {"source": "北京真视通科技股份有限公司", "target": "南京联坤软件技术有限公司", "value": 7.059858411184204e-08}]}

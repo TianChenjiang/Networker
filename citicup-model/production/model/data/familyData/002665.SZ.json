@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京首航艾启威节能技术股份有限公司\n002665.SZ", "value": 8630734500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张家口达华太阳能发电股份有限公司", "value": 149600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京首航艾启威节能技术股份有限公司", "target": "张家口达华太阳能发电股份有限公司", "value": 1.733340308405965e-05}]}

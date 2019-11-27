@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华帝股份有限公司", "value": 5310471432.42, "category": 5}, {"name": "潘浩标", "value": 480.0001, "category": 5}],
+"links":
+[{"source": "华帝股份有限公司", "target": "潘浩标", "value": 9.03874742776391e-08}]}

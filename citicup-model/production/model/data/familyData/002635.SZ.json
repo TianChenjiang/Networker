@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州安洁科技股份有限公司\n002635.SZ", "value": 8880090816.43, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州安洁资本管理合伙企业(有限合伙)", "value": 75.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "苏州安洁新材料有限公司", "value": 126.3362, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "苏州鸿硕精密模具有限公司", "value": 46.5915, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "昆山威斯泰电子技术有限公司", "value": 53.8517, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "安捷利实业有限公司", "value": 13.5547, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州安洁科技股份有限公司", "target": "苏州安洁资本管理合伙企业(有限合伙)", "value": 8.445859569502885e-09}, {"source": "苏州安洁科技股份有限公司", "target": "苏州安洁新材料有限公司", "value": 1.4226904049928405e-08}, {"source": "苏州安洁科技股份有限公司", "target": "苏州鸿硕精密模具有限公司", "value": 5.246736881766582e-09}, {"source": "苏州安洁科技股份有限公司", "target": "昆山威斯泰电子技术有限公司", "value": 6.064318610386647e-09}, {"source": "苏州安洁科技股份有限公司", "target": "安捷利实业有限公司", "value": 1.52641456942321e-09}]}

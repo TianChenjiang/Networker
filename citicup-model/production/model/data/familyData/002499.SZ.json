@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "科林环保装备股份有限公司\n002499.SZ", "value": 1257571255.18, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宋七棣,吴如英", "value": 71695.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "科林环保装备股份有限公司", "target": "宋七棣,吴如英", "value": 5.701098025633388e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京金一文化发展股份有限公司\n002867.SZ", "value": 13990001900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "周大生珠宝股份有限公司", "value": 5.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京金一文化发展股份有限公司", "target": "周大生珠宝股份有限公司", "value": 3.688348319666776e-10}]}

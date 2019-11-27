@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁夏中银绒业股份有限公司\n000982.SZ", "value": 8235249027.13, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁夏中银绒业国际集团有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宁夏中银大唐饭店有限公司", "value": 81.73, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁夏中银绒业股份有限公司", "target": "宁夏中银绒业国际集团有限公司", "value": 0.0}, {"source": "宁夏中银绒业股份有限公司", "target": "宁夏中银大唐饭店有限公司", "value": 9.924411481759776e-09}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市尚荣医疗股份有限公司\n002551.SZ", "value": 4120007938.16, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东尚荣工程总承包有限公司", "value": 4000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市尚荣医用工程有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市尚荣医疗股份有限公司", "target": "广东尚荣工程总承包有限公司", "value": 9.708719157920857e-07}, {"source": "深圳市尚荣医疗股份有限公司", "target": "深圳市尚荣医用工程有限公司", "value": 7.281539368440643e-07}]}

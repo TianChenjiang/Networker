@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "安徽富煌钢构股份有限公司\n002743.SZ", "value": 6819858225.96, "itemStyle": {"color": "red"}, "category": 0}, {"name": "安徽富煌电力装备科技有限公司", "value": 1178.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "安徽富煌建设有限责任公司", "value": 6955.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "安徽富煌钢构股份有限公司", "target": "安徽富煌电力装备科技有限公司", "value": 1.7273086345342295e-07}, {"source": "安徽富煌钢构股份有限公司", "target": "安徽富煌建设有限责任公司", "value": 1.019815921323053e-06}]}

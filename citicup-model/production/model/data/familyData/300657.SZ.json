@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厦门弘信电子科技股份有限公司\n300657.SZ", "value": 2413611914.44, "itemStyle": {"color": "red"}, "category": 0}, {"name": "镇江华印电路板有限公司", "value": 68.46, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "弘信创业工场投资集团股份有限公司", "value": 42.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "弘信创业工场投资集团股份有限公司,李奎", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门弘信产业地产开发有限公司", "value": 99.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厦门弘信电子科技股份有限公司", "target": "镇江华印电路板有限公司", "value": 2.8364129125491124e-08}, {"source": "厦门弘信电子科技股份有限公司", "target": "弘信创业工场投资集团股份有限公司", "value": 1.7401306211957746e-08}, {"source": "厦门弘信电子科技股份有限公司", "target": "弘信创业工场投资集团股份有限公司,李奎", "value": 0.0}, {"source": "厦门弘信电子科技股份有限公司", "target": "厦门弘信产业地产开发有限公司", "value": 4.101736464247183e-08}]}

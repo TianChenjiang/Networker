@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "大连电瓷集团股份有限公司\n002606.SZ", "value": 1335721733.23, "itemStyle": {"color": "red"}, "category": 0}, {"name": "大连电瓷集团输变电材料有限公司", "value": 6500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "大连电瓷集团股份有限公司", "target": "大连电瓷集团输变电材料有限公司", "value": 4.866283027589815e-06}]}

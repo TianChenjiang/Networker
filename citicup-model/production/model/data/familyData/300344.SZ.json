@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "太空智造股份有限公司\n300344.SZ", "value": 1067886918.17, "itemStyle": {"color": "red"}, "category": 0}, {"name": "恒元建筑板业有限公司", "value": 1067.09, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "樊立", "value": 17000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京华信恒毅管理咨询合伙企业(有限合伙)", "value": 27480.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "太空智造股份有限公司", "target": "恒元建筑板业有限公司", "value": 9.992537429231124e-07}, {"source": "太空智造股份有限公司", "target": "樊立", "value": 1.591928856018978e-05}, {"source": "太空智造股份有限公司", "target": "北京华信恒毅管理咨询合伙企业(有限合伙)", "value": 2.5733061743177363e-05}]}

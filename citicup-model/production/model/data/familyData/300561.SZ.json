@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "珠海汇金科技股份有限公司\n300561.SZ", "value": 765142430.88, "itemStyle": {"color": "red"}, "category": 0}, {"name": "彭澎", "value": 59400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "珠海汇金科技股份有限公司", "target": "彭澎", "value": 7.763260486244804e-05}]}

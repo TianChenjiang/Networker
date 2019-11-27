@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山西仟源医药集团股份有限公司\n300254.SZ", "value": 1503085256.59, "itemStyle": {"color": "red"}, "category": 0}, {"name": "台州保灵药业有限公司", "value": 1395.94, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山西仟源医药集团股份有限公司", "target": "台州保灵药业有限公司", "value": 9.287164476397854e-07}]}

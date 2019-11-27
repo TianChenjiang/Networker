@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "德艺文化创意集团股份有限公司\n300640.SZ", "value": 399291235.84, "itemStyle": {"color": "red"}, "category": 0}, {"name": "许美珍", "value": 257.8368, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吴体芳", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "德艺文化创意集团股份有限公司", "target": "许美珍", "value": 6.457361866648077e-07}, {"source": "德艺文化创意集团股份有限公司", "target": "吴体芳", "value": 0.0}]}

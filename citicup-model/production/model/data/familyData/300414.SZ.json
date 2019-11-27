@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川中光防雷科技股份有限公司\n300414.SZ", "value": 987494100.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "四川商投资本股权投资基金管理有限公司,四川川商股权投资基金管理有限公司,黄谦,叶平,吴婕,陈英,肖鲲", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川中光防雷科技股份有限公司", "target": "四川商投资本股权投资基金管理有限公司,四川川商股权投资基金管理有限公司,黄谦,叶平,吴婕,陈英,肖鲲", "value": 0.0}]}

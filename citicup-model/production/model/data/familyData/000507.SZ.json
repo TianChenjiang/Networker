@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "珠海港股份有限公司\n000507.SZ", "value": 6841222452.37, "itemStyle": {"color": "red"}, "category": 0}, {"name": "珠海港控股集团有限公司", "value": 11933.53, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "珠海港股份有限公司", "target": "珠海港控股集团有限公司", "value": 1.7443563753530446e-06}]}

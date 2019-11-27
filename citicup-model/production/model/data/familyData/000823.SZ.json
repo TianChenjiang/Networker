@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东汕头超声电子股份有限公司\n000823.SZ", "value": 5431682311.37, "itemStyle": {"color": "red"}, "category": 0}, {"name": "汕头超声电路板公司", "value": 0.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "汕头超声电子(集团)公司", "value": 24.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东汕头超声电子股份有限公司", "target": "汕头超声电路板公司", "value": 9.94167127318238e-11}, {"source": "广东汕头超声电子股份有限公司", "target": "汕头超声电子(集团)公司", "value": 4.418520565858836e-09}]}

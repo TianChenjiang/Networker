@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "海南普利制药股份有限公司\n300630.SZ", "value": 1100747700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州必益泰得医学科技有限公司", "value": 27.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "海南普利制药股份有限公司", "target": "杭州必益泰得医学科技有限公司", "value": 2.452878166359103e-08}]}

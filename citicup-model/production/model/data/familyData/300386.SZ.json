@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "飞天诚信科技股份有限公司\n300386.SZ", "value": 2015356900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "黄建良", "value": 1450.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "飞天诚信科技股份有限公司", "target": "黄建良", "value": 7.194755430167232e-07}]}

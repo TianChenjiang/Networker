@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市富满电子集团股份有限公司", "value": 874550860.03, "category": 309}, {"name": "刘景裕", "value": 0, "category": 309}],
+"links":
+[{"source": "深圳市富满电子集团股份有限公司", "target": "刘景裕", "value": 0.0}]}

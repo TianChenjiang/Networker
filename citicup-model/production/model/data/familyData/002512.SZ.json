@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福州达华智能科技股份有限公司\n002512.SZ", "value": 5888946075.05, "itemStyle": {"color": "red"}, "category": 0}, {"name": "蔡小如", "value": 271055.42, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "珠海晟则投资管理中心(有限合伙)", "value": 124000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东南方爱视娱乐科技有限公司", "value": 1357.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "蔡小如,陈融圣", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福州达华智能科技股份有限公司", "target": "蔡小如", "value": 4.6027831898205756e-05}, {"source": "福州达华智能科技股份有限公司", "target": "珠海晟则投资管理中心(有限合伙)", "value": 2.1056399297890867e-05}, {"source": "福州达华智能科技股份有限公司", "target": "广东南方爱视娱乐科技有限公司", "value": 2.3049455415304937e-07}, {"source": "福州达华智能科技股份有限公司", "target": "蔡小如,陈融圣", "value": 0.0}]}

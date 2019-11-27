@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京万向新元科技股份有限公司\n300472.SZ", "value": 1559945637.07, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津万向新元科技有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "朱业胜,曾维斌,王展,张玉生", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京万向新元科技股份有限公司", "target": "天津万向新元科技有限公司", "value": 3.2052399014310225e-06}, {"source": "北京万向新元科技股份有限公司", "target": "朱业胜,曾维斌,王展,张玉生", "value": 6.410479802862045e-07}]}

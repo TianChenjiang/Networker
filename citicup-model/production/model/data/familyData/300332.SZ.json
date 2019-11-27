@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天壕环境股份有限公司\n300332.SZ", "value": 8054905390.92, "itemStyle": {"color": "red"}, "category": 0}, {"name": "公司常宁分公司,霸州分公司,延川天壕力拓新能源有限公司,中卫天壕力拓新能源有限公司,天壕投资集团有限公司,陈作涛先生及其配偶", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "Scinor Water America,LLC", "value": 568.09, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "兴县华盛燃气有限责任公司", "value": 4000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天壕环境股份有限公司", "target": "公司常宁分公司,霸州分公司,延川天壕力拓新能源有限公司,中卫天壕力拓新能源有限公司,天壕投资集团有限公司,陈作涛先生及其配偶", "value": 0.0}, {"source": "天壕环境股份有限公司", "target": "Scinor Water America,LLC", "value": 7.052720949899511e-08}, {"source": "天壕环境股份有限公司", "target": "兴县华盛燃气有限责任公司", "value": 4.965918041084695e-07}]}

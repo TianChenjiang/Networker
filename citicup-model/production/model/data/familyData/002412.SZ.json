@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南汉森制药股份有限公司\n002412.SZ", "value": 1800068145.89, "itemStyle": {"color": "red"}, "category": 0}, {"name": "楚天科技股份有限公司", "value": 1276.38, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "益丰大药房连锁股份有限公司", "value": 615.62, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南汉森制药股份有限公司", "value": 19.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南汉森制药股份有限公司", "target": "楚天科技股份有限公司", "value": 7.090731553215309e-07}, {"source": "湖南汉森制药股份有限公司", "target": "益丰大药房连锁股份有限公司", "value": 3.419981634615403e-07}, {"source": "楚天科技股份有限公司", "target": "湖南汉森制药股份有限公司", "value": 1.056626664019768e-08}]}

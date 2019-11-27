@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江向日葵光能科技股份有限公司\n300111.SZ", "value": 1473228511.72, "itemStyle": {"color": "red"}, "category": 0}, {"name": "绍兴向日葵投资有限公司", "value": 35500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江贝得药业有限公司", "value": 35527.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江优创创业投资有限公司", "value": 54446.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江优创光能科技有限公司", "value": 2203.304, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江向日葵光能科技股份有限公司", "value": 75000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江向日葵光能科技股份有限公司", "target": "绍兴向日葵投资有限公司", "value": 2.409673700826874e-05}, {"source": "浙江向日葵光能科技股份有限公司", "target": "浙江贝得药业有限公司", "value": 2.41151116187142e-05}, {"source": "浙江向日葵光能科技股份有限公司", "target": "浙江优创创业投资有限公司", "value": 3.69569279761183e-05}, {"source": "浙江向日葵光能科技股份有限公司", "target": "浙江优创光能科技有限公司", "value": 1.4955616066835647e-06}, {"source": "浙江向日葵光能科技股份有限公司", "target": "浙江向日葵光能科技股份有限公司", "value": 5.0908599313243815e-05}]}

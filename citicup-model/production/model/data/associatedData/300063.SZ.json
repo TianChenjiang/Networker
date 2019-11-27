@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东天龙油墨集团股份有限公司", "value": 2542502500.0, "category": 530}, {"name": "冯毅", "value": 0, "category": 530}],
+"links":
+[{"source": "广东天龙油墨集团股份有限公司", "target": "冯毅", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州星帅尔电器股份有限公司\n002860.SZ", "value": 896821230.31, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州富阳星帅尔投资有限公司,楼月根", "value": 28000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "嵊州市大宇信息咨询有限公司,吕仲维,嵊州市明宇信息咨询有限公司,范秋敏,嵊州市乐宇信息咨询有限公司,金纪陆", "value": 19725.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吕仲维,范秋敏,金纪陆,袁英永,邢一均,孔逸明", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吕仲维,范秋敏", "value": 4272.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州星帅尔电器股份有限公司", "target": "杭州富阳星帅尔投资有限公司,楼月根", "value": 3.1221383987889504e-05}, {"source": "杭州星帅尔电器股份有限公司", "target": "嵊州市大宇信息咨询有限公司,吕仲维,嵊州市明宇信息咨询有限公司,范秋敏,嵊州市乐宇信息咨询有限公司,金纪陆", "value": 2.1995442718479595e-05}, {"source": "杭州星帅尔电器股份有限公司", "target": "吕仲维,范秋敏,金纪陆,袁英永,邢一均,孔逸明", "value": 0.0}, {"source": "杭州星帅尔电器股份有限公司", "target": "吕仲维,范秋敏", "value": 4.763535758986553e-06}]}

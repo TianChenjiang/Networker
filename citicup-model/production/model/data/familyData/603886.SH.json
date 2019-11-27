@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海元祖梦果子股份有限公司\n603886.SH", "value": 2299726100.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海元祖梦世界置业有限公司", "value": 11.2, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上腾煜制衣(上海)有限公司", "value": 713.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海梦世界商业管理有限公司", "value": 1.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海元祖梦果子股份有限公司", "target": "上海元祖梦世界置业有限公司", "value": 4.870145188159581e-09}, {"source": "上海元祖梦果子股份有限公司", "target": "上腾煜制衣(上海)有限公司", "value": 3.102543385492733e-07}, {"source": "上海元祖梦果子股份有限公司", "target": "上海梦世界商业管理有限公司", "value": 4.348343917999626e-10}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳万讯自控股份有限公司\n300112.SZ", "value": 1213249453.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "PS MAXONIC HONG KONG LIMITED", "value": 10.27, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "无锡凯尔克仪表阀门有限公司", "value": 0.43, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "济南德尔姆仪器有限公司", "value": 355.81, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳万讯自控股份有限公司", "target": "PS MAXONIC HONG KONG LIMITED", "value": 8.464870907276172e-09}, {"source": "深圳万讯自控股份有限公司", "target": "无锡凯尔克仪表阀门有限公司", "value": 3.544201061469089e-10}, {"source": "深圳万讯自控股份有限公司", "target": "济南德尔姆仪器有限公司", "value": 2.9327027434449224e-07}]}

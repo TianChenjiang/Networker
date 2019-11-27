@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中国国际贸易中心股份有限公司\n600007.SH", "value": 11326330000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中国国际贸易中心有限公司", "value": 75.0268, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中国国际贸易中心股份有限公司", "target": "中国国际贸易中心有限公司", "value": 6.763601025175948e-09}]}

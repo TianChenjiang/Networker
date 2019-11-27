@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中信建投证券股份有限公司\n601398.SH", "value": 248210420000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中国工商银行股份有限公司", "value": 29229.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中信建投证券股份有限公司", "target": "中国工商银行股份有限公司", "value": 1.4983162748072853e-07}]}

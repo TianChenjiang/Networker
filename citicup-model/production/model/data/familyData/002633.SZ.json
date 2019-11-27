@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "申科滑动轴承股份有限公司\n002633.SZ", "value": 619795576.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "诸暨凯顺铸造有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "申科滑动轴承股份有限公司", "target": "诸暨凯顺铸造有限公司", "value": 0.0}]}

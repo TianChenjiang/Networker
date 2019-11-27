@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "东华能源股份有限公司\n002221.SZ", "value": 26685615470.66, "itemStyle": {"color": "red"}, "category": 0}, {"name": "昆山东华大宇汽车能源有限公司", "value": 3082.78, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "张家港市洁能燃气有限公司", "value": 10628.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "海安联华燃气有限公司", "value": 1350.43, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海石化爱使东方加气站有限公司", "value": 4.3, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "东华能源股份有限公司", "target": "昆山东华大宇汽车能源有限公司", "value": 1.1552216224465276e-07}, {"source": "东华能源股份有限公司", "target": "张家港市洁能燃气有限公司", "value": 3.9829885174228375e-07}, {"source": "东华能源股份有限公司", "target": "海安联华燃气有限公司", "value": 5.0605165973584366e-08}, {"source": "东华能源股份有限公司", "target": "上海石化爱使东方加气站有限公司", "value": 1.6113550031205821e-10}]}

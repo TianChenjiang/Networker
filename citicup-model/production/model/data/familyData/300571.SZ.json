@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州平治信息技术股份有限公司\n300571.SZ", "value": 878020634.91, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张晖", "value": 11122.4, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州平治信息技术股份有限公司", "target": "张晖", "value": 1.2667583833197818e-05}]}

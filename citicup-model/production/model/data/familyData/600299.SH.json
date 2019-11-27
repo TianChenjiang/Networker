@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "蓝星安迪苏股份有限公司\n600299.SH", "value": 21500000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中国蓝星(集团)股份有限公司", "value": 361425.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "蓝星安迪苏股份有限公司", "target": "中国蓝星(集团)股份有限公司", "value": 1.6810490232558137e-05}]}

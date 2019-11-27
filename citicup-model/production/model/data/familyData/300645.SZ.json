@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江正元智慧科技股份有限公司\n300645.SZ", "value": 1013057222.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州卓然实业有限公司", "value": 2000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江正元智慧科技股份有限公司", "target": "杭州卓然实业有限公司", "value": 1.9742221430820094e-06}]}

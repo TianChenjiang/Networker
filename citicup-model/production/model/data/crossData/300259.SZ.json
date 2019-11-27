@@ -1,0 +1,1 @@
+{"node": [{"name": "新天科技股份有限公司", "value": 1, "category": 1080}, {"name": "中原期货股份有限公司", "value": 5468573112.73, "category": 1080}, {"name": "信诚基金", "value": 5468573112.73, "category": 1080}], "link": [{"source": "新天科技股份有限公司", "target": "中原期货股份有限公司", "value": 0.76}, {"source": "新天科技股份有限公司", "target": "信诚基金", "value": 0.45}]}

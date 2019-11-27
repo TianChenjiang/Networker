@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "鸿博股份有限公司", "value": 2072267519.16, "category": 797}, {"name": "福建鸿博光电科技有限公司", "value": 0, "category": 797}],
+"links":
+[{"source": "鸿博股份有限公司", "target": "福建鸿博光电科技有限公司", "value": 0.0}]}

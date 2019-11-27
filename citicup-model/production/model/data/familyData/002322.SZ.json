@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波理工环境能源科技股份有限公司\n002322.SZ", "value": 3525958102.5, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波天一世纪投资有限责任公司", "value": 3.51, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波理工环境能源科技股份有限公司", "target": "宁波天一世纪投资有限责任公司", "value": 9.89354101456965e-10}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东超华科技股份有限公司\n002288.SZ", "value": 2730586591.84, "itemStyle": {"color": "red"}, "category": 0}, {"name": "梅州客商银行股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "梅州市富华投资控股有限公司", "value": 177.4426, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "梁健锋", "value": 228.564, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "梁俊丰", "value": 247.4955, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东超华科技股份有限公司", "target": "梅州客商银行股份有限公司", "value": 0.0}, {"source": "广东超华科技股份有限公司", "target": "梅州市富华投资控股有限公司", "value": 6.408253478707863e-08}, {"source": "广东超华科技股份有限公司", "target": "梁健锋", "value": 8.254478057171074e-08}, {"source": "广东超华科技股份有限公司", "target": "梁俊丰", "value": 8.938180002093871e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳中国农大科技股份有限公司\n000004.SZ", "value": 351177470.17, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市睿鸿置业发展有限公司,珠海横琴普源科技合伙企业(有限合伙),彭瀛,北京中关村并购母基金投资中心(有限合伙),郭训平,郑州众合网安信息科技有限公司", "value": 99840.9102, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市睿鸿置业发展有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "珠海横琴普源科技合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳中国农大科技股份有限公司", "target": "深圳市睿鸿置业发展有限公司,珠海横琴普源科技合伙企业(有限合伙),彭瀛,北京中关村并购母基金投资中心(有限合伙),郭训平,郑州众合网安信息科技有限公司", "value": 0.00028430329016171916}, {"source": "深圳中国农大科技股份有限公司", "target": "深圳市睿鸿置业发展有限公司", "value": 0.0}, {"source": "深圳中国农大科技股份有限公司", "target": "珠海横琴普源科技合伙企业(有限合伙)", "value": 0.0}]}

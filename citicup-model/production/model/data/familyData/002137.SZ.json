@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市麦达数字股份有限公司\n002137.SZ", "value": 1641874112.94, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市六度人和科技有限公司", "value": 415.09, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "乔昕", "value": 4422.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市麦达数字股份有限公司", "target": "深圳市六度人和科技有限公司", "value": 2.5281475402320864e-07}, {"source": "深圳市麦达数字股份有限公司", "target": "乔昕", "value": 2.693263731457343e-06}]}

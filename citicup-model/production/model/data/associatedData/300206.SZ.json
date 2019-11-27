@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市理邦精密仪器股份有限公司", "value": 1460764986.34, "category": 1153}, {"name": "Edan-Messer Diagnostics Limited", "value": 250.0, "category": 1153}, {"name": "深圳理邦梅塞尔诊断有限公司", "value": 17.58, "category": 1153}],
+"links":
+[{"source": "深圳市理邦精密仪器股份有限公司", "target": "Edan-Messer Diagnostics Limited", "value": 1.7114320396355073e-07}, {"source": "深圳市理邦精密仪器股份有限公司", "target": "深圳理邦梅塞尔诊断有限公司", "value": 1.2034790102716885e-08}]}

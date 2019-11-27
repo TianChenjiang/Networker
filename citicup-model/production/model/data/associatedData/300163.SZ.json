@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波先锋新材料股份有限公司", "value": 826346600.0, "category": 525}, {"name": "Kresta Holdings Liminted", "value": 246.7015, "category": 525}, {"name": "先锋乳业集团有限公司", "value": 0.0001, "category": 525}, {"name": "宁波开心投资有限公司,宁波先锋弘业投资控股有限公司", "value": 67000.0, "category": 525}],
+"links":
+[{"source": "宁波先锋新材料股份有限公司", "target": "Kresta Holdings Liminted", "value": 2.98544823685364e-07}, {"source": "宁波先锋新材料股份有限公司", "target": "先锋乳业集团有限公司", "value": 1.2101459605448852e-13}, {"source": "宁波先锋新材料股份有限公司", "target": "宁波开心投资有限公司,宁波先锋弘业投资控股有限公司", "value": 8.107977935650731e-05}]}

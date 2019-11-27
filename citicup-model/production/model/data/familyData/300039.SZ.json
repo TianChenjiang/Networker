@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海凯宝药业股份有限公司\n300039.SZ", "value": 2748538247.57, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河南省联谊制药有限公司", "value": 1126.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海凯宝药业股份有限公司", "target": "河南省联谊制药有限公司", "value": 4.0970141164874614e-07}]}

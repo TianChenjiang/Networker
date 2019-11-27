@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "旷达科技集团股份有限公司\n002516.SZ", "value": 4342793996.69, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏旷达塑业科技有限公司", "value": 121.41, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏旷吉汽车附件有限公司", "value": 1520.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "旷达控股集团有限公司", "value": 701.59, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏良骅车用饰件科技有限公司", "value": 7.61, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "常州朗月行贸易有限公司", "value": 431.47, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "旷达科技集团股份有限公司", "target": "江苏旷达塑业科技有限公司", "value": 2.7956656496379184e-08}, {"source": "旷达科技集团股份有限公司", "target": "江苏旷吉汽车附件有限公司", "value": 3.500718664432939e-07}, {"source": "旷达科技集团股份有限公司", "target": "旷达控股集团有限公司", "value": 1.6155267796140906e-07}, {"source": "旷达科技集团股份有限公司", "target": "江苏良骅车用饰件科技有限公司", "value": 1.7523281108429752e-09}, {"source": "旷达科技集团股份有限公司", "target": "常州朗月行贸易有限公司", "value": 9.935308935419429e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "镇江东方电热科技股份有限公司\n300217.SZ", "value": 3738612660.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "镇江东方山源电热有限公司", "value": 6474.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "镇江东方电热科技股份有限公司", "target": "镇江东方山源电热有限公司", "value": 1.731679793597882e-06}]}

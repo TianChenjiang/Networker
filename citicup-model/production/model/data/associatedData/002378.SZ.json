@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "崇义章源钨业股份有限公司", "value": 4004797920.51, "category": 1380}, {"name": "西安华山钨制品有限公司", "value": 6535.53, "category": 1380}, {"name": "KBM Corporation", "value": 10918.82, "category": 1380}],
+"links":
+[{"source": "崇义章源钨业股份有限公司", "target": "西安华山钨制品有限公司", "value": 1.631925038346933e-06}, {"source": "崇义章源钨业股份有限公司", "target": "KBM Corporation", "value": 2.726434695763505e-06}]}

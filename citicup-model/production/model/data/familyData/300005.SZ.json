@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "探路者控股集团股份有限公司\n300005.SZ", "value": 2802626300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京亚丁科技开发有限公司", "value": 549.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "张成,蒋中富", "value": 1400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "甄浩", "value": 1557.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "探路者控股集团股份有限公司", "target": "北京亚丁科技开发有限公司", "value": 1.960197119394762e-07}, {"source": "探路者控股集团股份有限公司", "target": "张成,蒋中富", "value": 4.995314573334304e-07}, {"source": "探路者控股集团股份有限公司", "target": "甄浩", "value": 5.558714695569652e-07}]}

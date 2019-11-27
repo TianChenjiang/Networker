@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "孚日集团股份有限公司\n002083.SZ", "value": 8073785643.41, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东孚日电机有限公司", "value": 928.3, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东高密高源化工有限公司", "value": 91.88, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "孚日控股集团股份有限公司", "value": 267.87, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "孚日集团股份有限公司", "target": "山东孚日电机有限公司", "value": 1.1497704311207452e-07}, {"source": "孚日集团股份有限公司", "target": "山东高密高源化工有限公司", "value": 1.1380039557403219e-08}, {"source": "孚日集团股份有限公司", "target": "孚日控股集团股份有限公司", "value": 3.3177744843726606e-08}]}

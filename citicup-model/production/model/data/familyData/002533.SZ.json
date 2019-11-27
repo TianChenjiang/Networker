@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "金杯电工股份有限公司\n002533.SZ", "value": 4193626540.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南惟楚线缆高分子材料有限公司", "value": 3924.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "武汉第二电线电缆有限公司", "value": 793.12, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "长沙共举企业管理合伙企业(有限合伙),湖南省资产管理有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "长沙共举企业管理合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "金杯电工股份有限公司", "target": "湖南惟楚线缆高分子材料有限公司", "value": 9.359393265888698e-07}, {"source": "金杯电工股份有限公司", "target": "武汉第二电线电缆有限公司", "value": 1.8912509075311582e-07}, {"source": "金杯电工股份有限公司", "target": "长沙共举企业管理合伙企业(有限合伙),湖南省资产管理有限公司", "value": 0.0}, {"source": "金杯电工股份有限公司", "target": "长沙共举企业管理合伙企业(有限合伙)", "value": 0.0}]}

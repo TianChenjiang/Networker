@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中科创达软件股份有限公司\n300496.SZ", "value": 2615855300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "柚子(北京)移动技术有限公司及其关联方", "value": 651.92, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中天智慧科技有限公司", "value": 834.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中科创达软件股份有限公司", "target": "柚子(北京)移动技术有限公司及其关联方", "value": 2.4921867811266166e-07}, {"source": "中科创达软件股份有限公司", "target": "中天智慧科技有限公司", "value": 3.189664198933328e-07}]}

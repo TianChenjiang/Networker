@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "金字火腿股份有限公司\n002515.SZ", "value": 1426956958.21, "itemStyle": {"color": "red"}, "category": 0}, {"name": "施雄飚", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "娄底中钰资产管理有限公司,禹勃,马贤明,金涛,王波宇,王徽,中钰资本管理(北京)有限公司", "value": 73727.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "娄底中钰资产管理有限公司,禹勃,中钰资本管理(北京)有限公司,王徽,金涛,王波宇,马贤明", "value": 42520.22, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "娄底中钰资产管理有限公司,禹勃,禹勃,王徽,金涛,王波宇", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "金字火腿股份有限公司", "target": "施雄飚", "value": 0.0}, {"source": "金字火腿股份有限公司", "target": "娄底中钰资产管理有限公司,禹勃,马贤明,金涛,王波宇,王徽,中钰资本管理(北京)有限公司", "value": 5.1667304732501865e-05}, {"source": "金字火腿股份有限公司", "target": "娄底中钰资产管理有限公司,禹勃,中钰资本管理(北京)有限公司,王徽,金涛,王波宇,马贤明", "value": 2.979782939867935e-05}, {"source": "金字火腿股份有限公司", "target": "娄底中钰资产管理有限公司,禹勃,禹勃,王徽,金涛,王波宇", "value": 0.0}]}

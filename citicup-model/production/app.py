@@ -8,6 +8,7 @@ from flask_cors import CORS
 from flask_apscheduler import APScheduler
 
 from resources.predict_risk import api as ns_predict
+from resources.graph import api as ns_graph
 
 scheduler = APScheduler()
 APP_ENV = getenv('APP_ENV', 'dev')
@@ -20,10 +21,11 @@ scheduler.start()
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.WARN)
 
-api = Api(app, version='1.0', title='Predict Risk', prefix='/api')
+api = Api(app, version='2.0', title='Risk Graph', prefix='/api')
 
 
 api.add_namespace(ns_predict)
+api.add_namespace(ns_graph)
 
 
 if __name__ == '__main__':

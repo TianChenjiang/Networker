@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "亚光科技集团股份有限公司\n300123.SZ", "value": 7296091700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南太阳鸟控股有限公司,李跃先", "value": 254800.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "亚光科技集团股份有限公司", "target": "湖南太阳鸟控股有限公司,李跃先", "value": 3.4922806685667066e-05}]}

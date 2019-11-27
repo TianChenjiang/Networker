@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州中恒电气股份有限公司\n002364.SZ", "value": 2551097148.49, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州中恒派威电源有限公司", "value": 8.71, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州中恒电气股份有限公司", "target": "杭州中恒派威电源有限公司", "value": 3.414217292804968e-09}]}

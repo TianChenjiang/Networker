@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市新国都股份有限公司\n300130.SZ", "value": 4183116181.64, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市泰德信实业有限公司,陈文辉,刘丹", "value": 94.0661, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "刘祥", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江汉", "value": 5760.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市新国都股份有限公司", "target": "深圳市泰德信实业有限公司,陈文辉,刘丹", "value": 2.2487087595812646e-08}, {"source": "深圳市新国都股份有限公司", "target": "刘祥", "value": 0.0}, {"source": "深圳市新国都股份有限公司", "target": "江汉", "value": 1.3769639067834304e-06}]}

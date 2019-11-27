@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州锦富技术股份有限公司\n300128.SZ", "value": 3063566800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张家港康得新光电材料有限公司", "value": 2172.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "康得投资集团有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州锦富技术股份有限公司", "target": "张家港康得新光电材料有限公司", "value": 7.089775225400667e-07}, {"source": "苏州锦富技术股份有限公司", "target": "康得投资集团有限公司", "value": 0.0}]}

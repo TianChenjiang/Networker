@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华仁药业股份有限公司\n300110.SZ", "value": 3155667400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "王国安,广东永裕恒丰投资有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华仁药业股份有限公司", "target": "王国安,广东永裕恒丰投资有限公司", "value": 0.0}]}

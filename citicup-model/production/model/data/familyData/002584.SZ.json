@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "西陇科学股份有限公司\n002584.SZ", "value": 3509208885.6, "itemStyle": {"color": "red"}, "category": 0}, {"name": "汕头市佳禾生物科技有限公司", "value": 465.03, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新泰市佳禾生物科技有限公司", "value": 54.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "西陇科学股份有限公司", "target": "汕头市佳禾生物科技有限公司", "value": 1.3251704733458459e-07}, {"source": "西陇科学股份有限公司", "target": "新泰市佳禾生物科技有限公司", "value": 1.553626523166581e-08}]}

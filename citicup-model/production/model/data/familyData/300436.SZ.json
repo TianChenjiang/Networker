@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建广生堂药业股份有限公司\n300436.SZ", "value": 854359015.02, "itemStyle": {"color": "red"}, "category": 0}, {"name": "李国平", "value": 6000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "章之俊", "value": 1468.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建奥华兴业健康产业投资合伙企业(有限合伙)", "value": 8225.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建广生堂药业股份有限公司", "target": "李国平", "value": 7.022808789416875e-06}, {"source": "福建广生堂药业股份有限公司", "target": "章之俊", "value": 1.7191250682426727e-06}, {"source": "福建广生堂药业股份有限公司", "target": "福建奥华兴业健康产业投资合伙企业(有限合伙)", "value": 9.627100382158967e-06}]}

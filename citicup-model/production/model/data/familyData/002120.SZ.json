@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "韵达控股股份有限公司\n002120.SZ", "value": 18119267000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波梅山保税港区聚鑫投资有限公司", "value": 1855.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "韵达控股股份有限公司", "target": "宁波梅山保税港区聚鑫投资有限公司", "value": 1.0237720985070754e-07}]}

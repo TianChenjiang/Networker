@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东联泰环保股份有限公司\n603797.SH", "value": 3783239200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东省联泰集团有限公司", "value": 189000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "黄建勲", "value": 138500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东省联泰集团有限公司,黄建勲", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "达濠市政建设有限公司,湖南省建筑设计院有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "达濠市政建设有限公司", "value": 29081.32, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东联泰环保股份有限公司", "target": "广东省联泰集团有限公司", "value": 4.995719012427234e-05}, {"source": "广东联泰环保股份有限公司", "target": "黄建勲", "value": 3.660884038207259e-05}, {"source": "广东联泰环保股份有限公司", "target": "广东省联泰集团有限公司,黄建勲", "value": 1.3216187863564113e-06}, {"source": "广东联泰环保股份有限公司", "target": "达濠市政建设有限公司,湖南省建筑设计院有限公司", "value": 0.0}, {"source": "广东联泰环保股份有限公司", "target": "达濠市政建设有限公司", "value": 7.686883768808485e-06}]}

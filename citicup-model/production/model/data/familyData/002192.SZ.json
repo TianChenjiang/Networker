@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "融捷股份有限公司\n002192.SZ", "value": 1167894721.44, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州德瑞企业管理合伙企业(有限合伙)", "value": 1600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "芜湖市融捷信息电子科技有限公司", "value": 2389.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "融捷投资控股集团有限公司", "value": 1550.0001, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "合肥融捷能源材料有限公司", "value": 4800.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "芜湖天弋能源科技有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "融捷股份有限公司", "target": "广州德瑞企业管理合伙企业(有限合伙)", "value": 1.484476899889409e-06}, {"source": "融捷股份有限公司", "target": "芜湖市融捷信息电子科技有限公司", "value": 2.2170105821010868e-06}, {"source": "融捷股份有限公司", "target": "融捷投资控股集团有限公司", "value": 1.4380870895476713e-06}, {"source": "融捷股份有限公司", "target": "合肥融捷能源材料有限公司", "value": 4.453430699668228e-06}, {"source": "融捷股份有限公司", "target": "芜湖天弋能源科技有限公司", "value": 9.277980624308807e-06}]}

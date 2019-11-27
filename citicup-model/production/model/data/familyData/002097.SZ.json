@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山河智能装备股份有限公司\n002097.SZ", "value": 14326376170.97, "itemStyle": {"color": "red"}, "category": 0}, {"name": "长沙威沃机械制造有限公司", "value": 6000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山河智能装备股份有限公司", "target": "长沙威沃机械制造有限公司", "value": 4.188079335902121e-07}]}

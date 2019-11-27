@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波GQY视讯股份有限公司\n300076.SZ", "value": 1119345549.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "郭启寅", "value": 975.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海新世纪机器人有限公司", "value": 15.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陈养彬", "value": 200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳蓝普视讯科技有限公司", "value": 1620.17, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波GQY视讯股份有限公司", "target": "郭启寅", "value": 8.71848734097048e-07}, {"source": "宁波GQY视讯股份有限公司", "target": "上海新世纪机器人有限公司", "value": 1.3865244751702209e-08}, {"source": "宁波GQY视讯股份有限公司", "target": "陈养彬", "value": 1.7867583442915217e-07}, {"source": "宁波GQY视讯股份有限公司", "target": "深圳蓝普视讯科技有限公司", "value": 1.4474261333353975e-06}]}

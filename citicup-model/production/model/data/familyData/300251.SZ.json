@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京光线传媒股份有限公司\n300251.SZ", "value": 11076799674.19, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津猫眼微影科技有限公司", "value": 139.77, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新丽传媒集团有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天津猫眼微影文化传媒有限公司及其相关子公司", "value": 11090.88, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海光线投资控股有限公司", "value": 41300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "猫眼娱乐", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京光线传媒股份有限公司", "target": "天津猫眼微影科技有限公司", "value": 1.2618265574096951e-08}, {"source": "北京光线传媒股份有限公司", "target": "新丽传媒集团有限公司", "value": 0.0}, {"source": "北京光线传媒股份有限公司", "target": "天津猫眼微影文化传媒有限公司及其相关子公司", "value": 1.0012711546858437e-06}, {"source": "北京光线传媒股份有限公司", "target": "上海光线投资控股有限公司", "value": 3.7285137598211637e-06}, {"source": "北京光线传媒股份有限公司", "target": "猫眼娱乐", "value": 0.0}]}

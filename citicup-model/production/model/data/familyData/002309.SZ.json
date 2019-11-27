@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏中利集团股份有限公司\n002309.SZ", "value": 25574723180.59, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州科宝光电科技有限公司", "value": 212.89, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏长飞中利光纤光缆有限公司", "value": 961.93, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏中鼎房地产开发有限责任公司", "value": 0.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏中翼汽车新材料科技有限公司", "value": 26.26, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏中利能源控股有限公司", "value": 1.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏中利集团股份有限公司", "target": "苏州科宝光电科技有限公司", "value": 8.324234772620076e-09}, {"source": "江苏中利集团股份有限公司", "target": "江苏长飞中利光纤光缆有限公司", "value": 3.761252832367152e-08}, {"source": "江苏中利集团股份有限公司", "target": "江苏中鼎房地产开发有限责任公司", "value": 5.474155047991032e-12}, {"source": "江苏中利集团股份有限公司", "target": "江苏中翼汽车新材料科技有限公司", "value": 1.026795082573175e-09}, {"source": "江苏中利集团股份有限公司", "target": "江苏中利能源控股有限公司", "value": 4.3011218234215254e-11}]}

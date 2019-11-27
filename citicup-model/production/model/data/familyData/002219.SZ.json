@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "恒康医疗集团股份有限公司\n002219.SZ", "value": 8842831652.75, "itemStyle": {"color": "red"}, "category": 0}, {"name": "四川赛卓药业股份有限公司", "value": 34.44, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "四川纵享航空服务有限公司", "value": 42.92, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都优他制药有限责任公司", "value": 19.74, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "四川恒康发展有限责任公司", "value": 202.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "恒康医疗集团股份有限公司", "target": "四川赛卓药业股份有限公司", "value": 3.894680047345425e-09}, {"source": "恒康医疗集团股份有限公司", "target": "四川纵享航空服务有限公司", "value": 4.853648885948481e-09}, {"source": "恒康医疗集团股份有限公司", "target": "成都优他制药有限责任公司", "value": 2.2323166125028657e-09}, {"source": "恒康医疗集团股份有限公司", "target": "四川恒康发展有限责任公司", "value": 2.2915736492278658e-08}]}

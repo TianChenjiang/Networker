@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "徐工集团工程机械股份有限公司\n000338.SZ", "value": 61244865000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "潍柴动力股份有限公司", "value": 26432.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北汽福田汽车股份有限公司", "value": 37082.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山推工程机械股份有限公司", "value": 29702.03, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东重工集团财务有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "徐工集团工程机械股份有限公司", "target": "潍柴动力股份有限公司", "value": 4.315790393202761e-07}, {"source": "潍柴动力股份有限公司", "target": "北汽福田汽车股份有限公司", "value": 6.054799859547409e-07}, {"source": "潍柴动力股份有限公司", "target": "山推工程机械股份有限公司", "value": 4.849717604896344e-07}, {"source": "潍柴动力股份有限公司", "target": "山东重工集团财务有限公司", "value": 0.0}]}

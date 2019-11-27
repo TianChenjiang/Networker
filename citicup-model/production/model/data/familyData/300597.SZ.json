@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "吉林吉大通信设计院股份有限公司\n300597.SZ", "value": 1016570000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吉林大学", "value": 35.3288, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "吉林吉大通信设计院股份有限公司", "target": "吉林大学", "value": 3.475294372251788e-08}]}

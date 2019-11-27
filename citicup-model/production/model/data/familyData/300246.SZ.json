@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东宝莱特医用科技股份有限公司\n300246.SZ", "value": 915212800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "清远康华医院有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新余渝州医院", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "珠海市申宝医疗器械有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东宝莱特医用科技股份有限公司", "target": "清远康华医院有限公司", "value": 0.0}, {"source": "广东宝莱特医用科技股份有限公司", "target": "新余渝州医院", "value": 0.0}, {"source": "广东宝莱特医用科技股份有限公司", "target": "珠海市申宝医疗器械有限公司", "value": 3.2779261828505895e-06}]}

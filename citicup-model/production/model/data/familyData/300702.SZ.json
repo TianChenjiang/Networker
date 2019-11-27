@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江天宇药业股份有限公司\n300702.SZ", "value": 2635743700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江西如益科技发展有限公司", "value": 550.31, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江天宇药业股份有限公司", "value": 136.35, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海迪赛诺化学制药有限公司", "value": 20.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海迪赛诺药业股份有限公司", "value": 1716.93, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海星可高纯溶剂有限公司", "value": 25.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江天宇药业股份有限公司", "target": "江西如益科技发展有限公司", "value": 2.0878737185258186e-07}, {"source": "江西富祥药业股份有限公司", "target": "浙江天宇药业股份有限公司", "value": 5.173113000327004e-08}, {"source": "浙江天宇药业股份有限公司", "target": "上海迪赛诺化学制药有限公司", "value": 7.830806917986753e-09}, {"source": "浙江天宇药业股份有限公司", "target": "上海迪赛诺药业股份有限公司", "value": 6.514024865164242e-07}, {"source": "浙江天宇药业股份有限公司", "target": "上海星可高纯溶剂有限公司", "value": 9.682276770689046e-09}]}

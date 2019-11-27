@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "獐子岛集团股份有限公司\n002069.SZ", "value": 3551939784.9, "itemStyle": {"color": "red"}, "category": 0}, {"name": "云南阿穆尔鲟鱼集团有限公司", "value": 0.27, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "大连长山群岛客运有限公司", "value": 2.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "大连京樽獐子岛餐饮有限公司", "value": 24.88, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "獐子岛集团股份有限公司", "target": "云南阿穆尔鲟鱼集团有限公司", "value": 7.601480215059487e-11}, {"source": "獐子岛集团股份有限公司", "target": "大连长山群岛客运有限公司", "value": 5.912262389490712e-10}, {"source": "獐子岛集团股份有限公司", "target": "大连京樽獐子岛餐饮有限公司", "value": 7.004623250025186e-09}]}

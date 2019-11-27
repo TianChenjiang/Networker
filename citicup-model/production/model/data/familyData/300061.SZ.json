@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海康耐特旗计智能科技集团股份有限公司\n300061.SZ", "value": 2977463719.67, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海敬之网络科技有限公司", "value": 19.51, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海林梧实业有限公司", "value": 76067.35, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海旗沃信息技术有限公司", "value": 8.3, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "张莉", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏康耐特光学有限公司", "value": 242.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海康耐特旗计智能科技集团股份有限公司", "target": "上海敬之网络科技有限公司", "value": 6.552556751946702e-09}, {"source": "上海康耐特旗计智能科技集团股份有限公司", "target": "上海林梧实业有限公司", "value": 2.554770004332101e-05}, {"source": "上海康耐特旗计智能科技集团股份有限公司", "target": "上海旗沃信息技术有限公司", "value": 2.7876074341956755e-09}, {"source": "上海康耐特旗计智能科技集团股份有限公司", "target": "张莉", "value": 0.0}, {"source": "上海康耐特旗计智能科技集团股份有限公司", "target": "江苏康耐特光学有限公司", "value": 8.151232822642052e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波康强电子股份有限公司\n002119.SZ", "value": 1697092057.72, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波司麦司电子科技有限公司", "value": 351.31, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "华茂教育投资有限公司", "value": 8000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波康强电子股份有限公司", "target": "宁波司麦司电子科技有限公司", "value": 2.092687606627196e-07}, {"source": "宁波康强电子股份有限公司", "target": "华茂教育投资有限公司", "value": 4.765449561076419e-06}]}

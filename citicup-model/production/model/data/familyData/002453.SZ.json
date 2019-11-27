@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "金陵华软科技股份有限公司\n002453.SZ", "value": 2651136900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "华软投资控股有限公司,江苏正济药业股份有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "金陵华软科技股份有限公司", "target": "华软投资控股有限公司,江苏正济药业股份有限公司", "value": 7.543933321587429e-06}]}

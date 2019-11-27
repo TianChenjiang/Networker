@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建省永安林业(集团)股份有限公司\n000663.SZ", "value": 2814352100.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江艾玛家居有限公司", "value": 169.06, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建省永安林业(集团)股份有限公司", "target": "浙江艾玛家居有限公司", "value": 6.007066422143839e-08}]}

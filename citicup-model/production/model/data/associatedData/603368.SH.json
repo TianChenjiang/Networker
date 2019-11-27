@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广西柳州医药股份有限公司", "value": 11974858500.0, "category": 1407}, {"name": "朱朝阳", "value": 0, "category": 1407}],
+"links":
+[{"source": "广西柳州医药股份有限公司", "target": "朱朝阳", "value": 0.0}]}

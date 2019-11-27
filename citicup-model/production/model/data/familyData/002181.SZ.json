@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东广州日报传媒股份有限公司\n002181.SZ", "value": 4405939885.59, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州日报社", "value": 4804.15, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州传媒控股有限公司", "value": 188.68, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东广州日报传媒股份有限公司", "target": "广州日报社", "value": 1.090380287691255e-06}, {"source": "广东广州日报传媒股份有限公司", "target": "广州传媒控股有限公司", "value": 4.282400688604353e-08}]}

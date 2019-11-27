@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "融钰集团股份有限公司\n002622.SZ", "value": 1871262948.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吉林永大电气开关有限公司,北京融钰科技有限公司,尹宏伟", "value": 13000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吉林永大电气开关有限公司,北京融钰科技有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "樟树市思图投资管理中心(有限合伙)", "value": 26271.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "融钰集团股份有限公司", "target": "吉林永大电气开关有限公司,北京融钰科技有限公司,尹宏伟", "value": 6.947179717063451e-06}, {"source": "融钰集团股份有限公司", "target": "吉林永大电气开关有限公司,北京融钰科技有限公司", "value": 1.0687968795482233e-05}, {"source": "融钰集团股份有限公司", "target": "樟树市思图投资管理中心(有限合伙)", "value": 1.4039181411305686e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市拓日新能源科技股份有限公司\n002218.SZ", "value": 6342385900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "汉中市科瑞思矿业有限公司", "value": 0.76, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市拓日新能源科技股份有限公司", "target": "汉中市科瑞思矿业有限公司", "value": 1.1982872250015565e-10}]}

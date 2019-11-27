@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "辽宁科隆精细化工股份有限公司\n300405.SZ", "value": 1752966114.77, "itemStyle": {"color": "red"}, "category": 0}, {"name": "姜艳", "value": 6000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "辽宁科隆精细化工股份有限公司", "target": "姜艳", "value": 3.4227700977478606e-06}]}

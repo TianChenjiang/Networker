@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "德力西新疆交通运输集团股份有限公司\n603032.SH", "value": 798486214.65, "itemStyle": {"color": "red"}, "category": 0}, {"name": "马跃进,黄宏,张明", "value": 42.7885, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新疆锦绣山河房地产开发有限责任公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "德力西新疆交通运输集团股份有限公司", "target": "马跃进,黄宏,张明", "value": 5.358702406497457e-08}, {"source": "德力西新疆交通运输集团股份有限公司", "target": "新疆锦绣山河房地产开发有限责任公司", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市广聚能源股份有限公司\n000096.SZ", "value": 2648848000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "李洪生,嵇元弘", "value": 20.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市广聚能源股份有限公司", "target": "李洪生,嵇元弘", "value": 7.7769656847052e-09}]}

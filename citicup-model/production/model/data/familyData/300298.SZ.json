@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "三诺生物传感股份有限公司\n300298.SZ", "value": 3004094186.04, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市心诺健康产业投资有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "三诺生物传感股份有限公司", "target": "深圳市心诺健康产业投资有限公司", "value": 0.0}]}

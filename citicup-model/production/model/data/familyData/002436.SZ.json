@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市兴森快捷电路科技股份有限公司\n002436.SZ", "value": 4744284878.92, "itemStyle": {"color": "red"}, "category": 0}, {"name": "华进半导体封装先导技术研发中心有限公司", "value": 3.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "Aviv C&EMS", "value": 45.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州铭泽丰电子有限公司", "value": 27.44, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东铭泽丰电子有限公司", "value": 14.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市兴森快捷电路科技股份有限公司", "target": "华进半导体封装先导技术研发中心有限公司", "value": 6.723879533823818e-10}, {"source": "深圳市兴森快捷电路科技股份有限公司", "target": "Aviv C&EMS", "value": 9.556761694782819e-09}, {"source": "深圳市兴森快捷电路科技股份有限公司", "target": "广州铭泽丰电子有限公司", "value": 5.783801078624627e-09}, {"source": "深圳市兴森快捷电路科技股份有限公司", "target": "广东铭泽丰电子有限公司", "value": 3.022584091380362e-09}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳文科园林股份有限公司\n002775.SZ", "value": 3801324606.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市泽广投资有限公司", "value": 9.36, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳研源环境科技有限公司", "value": 809.9858, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市文科控股有限公司", "value": 75000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "李从文,赵文凤", "value": 68.5872, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳文科园林股份有限公司", "target": "深圳市泽广投资有限公司", "value": 2.462299584986763e-09}, {"source": "深圳文科园林股份有限公司", "target": "深圳研源环境科技有限公司", "value": 2.1307988239157814e-07}, {"source": "深圳文科园林股份有限公司", "target": "深圳市文科控股有限公司", "value": 1.972996462329137e-05}, {"source": "深圳文科园林股份有限公司", "target": "李从文,赵文凤", "value": 1.8042973728141463e-08}]}

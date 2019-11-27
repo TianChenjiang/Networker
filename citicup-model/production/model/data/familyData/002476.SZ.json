@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东宝莫生物化工股份有限公司\n002476.SZ", "value": 1053176427.54, "itemStyle": {"color": "red"}, "category": 0}, {"name": "胜利油田长安控股集团有限公司", "value": 8724.21, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "胜利油田长安特易节能设备有限责任公司", "value": 150.67, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "胜利油田长安控股集团有限公司长安酒店", "value": 32.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "东营长安物业管理有限公司", "value": 11.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东宝莫生物化工股份有限公司", "target": "胜利油田长安控股集团有限公司", "value": 8.283711799719948e-06}, {"source": "山东宝莫生物化工股份有限公司", "target": "胜利油田长安特易节能设备有限责任公司", "value": 1.4306244999418912e-07}, {"source": "山东宝莫生物化工股份有限公司", "target": "胜利油田长安控股集团有限公司长安酒店", "value": 3.08780173479195e-08}, {"source": "山东宝莫生物化工股份有限公司", "target": "东营长安物业管理有限公司", "value": 1.0520554496154613e-08}]}

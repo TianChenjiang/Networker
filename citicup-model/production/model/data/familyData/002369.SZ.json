@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市卓翼科技股份有限公司\n002369.SZ", "value": 3628991529.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京朝歌数码科技股份有限公司", "value": 0.09, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市深创谷技术服务有限公司", "value": 284.56, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市格兰莫尔科技有限公司", "value": 226.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "王跃杰", "value": 36540.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市卓翼科技股份有限公司", "target": "北京朝歌数码科技股份有限公司", "value": 2.5939959312484852e-11}, {"source": "深圳市卓翼科技股份有限公司", "target": "深圳市深创谷技术服务有限公司", "value": 8.201638691067434e-08}, {"source": "深圳市卓翼科技股份有限公司", "target": "深圳市格兰莫尔科技有限公司", "value": 6.524476210630218e-08}, {"source": "深圳市卓翼科技股份有限公司", "target": "王跃杰", "value": 1.0531623480868851e-05}]}

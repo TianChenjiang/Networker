@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "云南沃森生物技术股份有限公司\n300142.SZ", "value": 7235948081.54, "itemStyle": {"color": "red"}, "category": 0}, {"name": "HH CT Holdings Limited", "value": 51082.96, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "珠海横琴金晟硕业投资管理有限公司,玉溪沃谷投资管理有限公司,玉溪沃福生物医药高科技产业控股合伙企业(有限合伙),玉溪金正企业管理合伙企业(有限合伙),苏州沃晟企业管理合伙企业(有限合伙)", "value": 15000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "云南沃森生物技术股份有限公司", "target": "HH CT Holdings Limited", "value": 7.059608419568456e-06}, {"source": "云南沃森生物技术股份有限公司", "target": "珠海横琴金晟硕业投资管理有限公司,玉溪沃谷投资管理有限公司,玉溪沃福生物医药高科技产业控股合伙企业(有限合伙),玉溪金正企业管理合伙企业(有限合伙),苏州沃晟企业管理合伙企业(有限合伙)", "value": 2.0729833645804167e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "常州亚玛顿股份有限公司\n002623.SZ", "value": 4229468091.4, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏中弘光伏工程技术有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "常州亚玛顿科技集团有限公司", "value": 120.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海中肇科技发展有限公司", "value": 9713.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海鸿竞电力科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "贵州弘浩新能源发展有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "常州亚玛顿股份有限公司", "target": "江苏中弘光伏工程技术有限公司", "value": 0.0}, {"source": "常州亚玛顿股份有限公司", "target": "常州亚玛顿科技集团有限公司", "value": 2.837236205753681e-08}, {"source": "常州亚玛顿股份有限公司", "target": "上海中肇科技发展有限公司", "value": 2.296719064922557e-06}, {"source": "常州亚玛顿股份有限公司", "target": "上海鸿竞电力科技有限公司", "value": 0.0}, {"source": "常州亚玛顿股份有限公司", "target": "贵州弘浩新能源发展有限公司", "value": 0.0}]}

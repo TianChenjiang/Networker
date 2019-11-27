@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏裕兴薄膜科技股份有限公司\n300305.SZ", "value": 1639115000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "常州依索沃尔塔合成材料有限公司", "value": 95.44, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏裕兴薄膜科技股份有限公司", "target": "常州依索沃尔塔合成材料有限公司", "value": 5.822654298203604e-08}]}

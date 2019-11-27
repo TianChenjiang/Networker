@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏亚太轻合金科技股份有限公司\n002540.SZ", "value": 5463365419.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "无锡海太散热管有限公司", "value": 271.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏亚太轻合金科技股份有限公司", "target": "无锡海太散热管有限公司", "value": 4.96653581044433e-08}]}

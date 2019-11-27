@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "沈阳兴齐眼药股份有限公司\n300573.SZ", "value": 709005300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波梅山保税港区甄胜投资中心(有限合伙)", "value": 790.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "沈阳兴齐眼药股份有限公司", "target": "宁波梅山保税港区甄胜投资中心(有限合伙)", "value": 1.1142370868031593e-06}]}

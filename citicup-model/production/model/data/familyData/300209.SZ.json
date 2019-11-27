@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天泽信息产业股份有限公司\n300209.SZ", "value": 2660785700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市有棵树科技有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天泽信息产业股份有限公司", "target": "深圳市有棵树科技有限公司", "value": 7.5165767765513776e-06}]}

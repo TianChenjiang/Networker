@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中富通集团股份有限公司", "value": 1049376819.41, "category": 257}, {"name": "陈融洁", "value": 0, "category": 257}],
+"links":
+[{"source": "中富通集团股份有限公司", "target": "陈融洁", "value": 0.0}]}

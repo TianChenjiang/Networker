@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天水华天科技股份有限公司\n002185.SZ", "value": 12442553402.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州士兰微电子股份有限公司", "value": 1871.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州友旺电子有限公司", "value": 293.37, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏华海诚科新材料股份有限公司", "value": 208.2, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天水华天电子集团股份有限公司及其子公司", "value": 612.12, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天水华天电子集团股份有限公司", "value": 299200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天水华天科技股份有限公司", "target": "杭州士兰微电子股份有限公司", "value": 1.5037267187160838e-07}, {"source": "天水华天科技股份有限公司", "target": "杭州友旺电子有限公司", "value": 2.3577957876972856e-08}, {"source": "天水华天科技股份有限公司", "target": "江苏华海诚科新材料股份有限公司", "value": 1.673289985337883e-08}, {"source": "天水华天科技股份有限公司", "target": "天水华天电子集团股份有限公司及其子公司", "value": 4.919569000120198e-08}, {"source": "天水华天科技股份有限公司", "target": "天水华天电子集团股份有限公司", "value": 2.4046511220609736e-05}]}

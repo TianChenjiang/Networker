@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "摩登大道时尚集团股份有限公司\n002656.SZ", "value": 3365353814.8, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州多维魔镜高新科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州瑞丰集团股份有限公司", "value": 3.2682, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州花园里发展有限公司", "value": 100.7858, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江卡奴迪路服饰有限公司", "value": 146.91, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "摩登大道时尚集团股份有限公司", "target": "广州多维魔镜高新科技有限公司", "value": 0.0}, {"source": "摩登大道时尚集团股份有限公司", "target": "广州瑞丰集团股份有限公司", "value": 9.711311736754867e-10}, {"source": "摩登大道时尚集团股份有限公司", "target": "广州花园里发展有限公司", "value": 2.994805466122723e-08}, {"source": "摩登大道时尚集团股份有限公司", "target": "浙江卡奴迪路服饰有限公司", "value": 4.365365666870623e-08}]}

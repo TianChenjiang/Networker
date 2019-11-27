@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "荣科科技股份有限公司\n300290.SZ", "value": 1469740000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "付艳杰,崔万涛,上海米健信息技术有限公司", "value": 7900.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "荣科科技股份有限公司", "target": "付艳杰,崔万涛,上海米健信息技术有限公司", "value": 5.375100357886429e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "瑞康医药集团股份有限公司\n002589.SZ", "value": 35138996200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "荣成市眼科医院管理有限公司", "value": 642.56, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "威海泰和中医院", "value": 329.87, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "瑞康医药集团股份有限公司", "target": "荣成市眼科医院管理有限公司", "value": 1.828623664554197e-08}, {"source": "瑞康医药集团股份有限公司", "target": "威海泰和中医院", "value": 9.387576074241984e-09}]}

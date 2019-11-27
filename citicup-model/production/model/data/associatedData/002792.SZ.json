@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东通宇通讯股份有限公司", "value": 2901569490.11, "category": 1344}, {"name": "吴中林,时桂清", "value": 0, "category": 1344}],
+"links":
+[{"source": "广东通宇通讯股份有限公司", "target": "吴中林,时桂清", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁德时代新能源科技股份有限公司\n300750.SZ", "value": 73854395200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上汽时代动力电池系统有限公司", "value": 18433.43, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "晋江闽投电力储能科技有限公司", "value": 17.38, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "North American Lithium Inc.", "value": 41879.2, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宁德时代新能源科技股份有限公司", "value": 299294.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁德时代新能源科技股份有限公司", "target": "上汽时代动力电池系统有限公司", "value": 2.4959150975485884e-07}, {"source": "宁德时代新能源科技股份有限公司", "target": "晋江闽投电力储能科技有限公司", "value": 2.3532790368040273e-10}, {"source": "宁德时代新能源科技股份有限公司", "target": "North American Lithium Inc.", "value": 5.670508828430565e-07}, {"source": "广东东方精工科技股份有限公司", "target": "宁德时代新能源科技股份有限公司", "value": 4.052495443087726e-06}]}

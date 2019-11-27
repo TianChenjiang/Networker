@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北讯集团股份有限公司\n002359.SZ", "value": 17187399431.41, "itemStyle": {"color": "red"}, "category": 0}, {"name": "青岛齐星车库有限公司", "value": 260.36, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北讯集团股份有限公司", "target": "青岛齐星车库有限公司", "value": 1.514830681855172e-08}]}

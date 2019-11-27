@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "陕西煤业股份有限公司\n600180.SH", "value": 120398690700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "瑞茂通供应链管理股份有限公司", "value": 204000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陕西煤业股份有限公司", "value": 196000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郑州瑞茂通供应链有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "承德中惠盛大能源科技有限公司", "value": 29775.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "陕西煤业股份有限公司", "target": "瑞茂通供应链管理股份有限公司", "value": 1.6943705850449086e-06}, {"source": "瑞茂通供应链管理股份有限公司", "target": "陕西煤业股份有限公司", "value": 1.62792467974903e-06}, {"source": "瑞茂通供应链管理股份有限公司", "target": "郑州瑞茂通供应链有限公司", "value": 8.305738161984846e-08}, {"source": "瑞茂通供应链管理股份有限公司", "target": "承德中惠盛大能源科技有限公司", "value": 2.473033537730988e-07}]}

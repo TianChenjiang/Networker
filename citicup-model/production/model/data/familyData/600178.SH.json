@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "云南西仪工业股份有限公司\n600178.SH", "value": 1395518712.93, "itemStyle": {"color": "red"}, "category": 0}, {"name": "哈尔滨东安汽车动力股份有限公司", "value": 1612.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "重庆长安汽车股份有限公司", "value": 34743.1299, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "哈飞汽车股份有限公司", "value": 0.7113, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "保定长安客车制造有限公司", "value": 36736.8259, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "云南西仪工业股份有限公司", "target": "哈尔滨东安汽车动力股份有限公司", "value": 1.1551260366946142e-06}, {"source": "哈尔滨东安汽车动力股份有限公司", "target": "重庆长安汽车股份有限公司", "value": 2.4896212123916343e-05}, {"source": "哈尔滨东安汽车动力股份有限公司", "target": "哈飞汽车股份有限公司", "value": 5.097029465886347e-10}, {"source": "哈尔滨东安汽车动力股份有限公司", "target": "保定长安客车制造有限公司", "value": 2.632485366166691e-05}]}

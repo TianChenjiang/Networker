@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳美丽生态股份有限公司\n000010.SZ", "value": 3273278297.36, "itemStyle": {"color": "red"}, "category": 0}, {"name": "红信鼎通资本管理有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "香港佳源集团有限公司", "value": 5600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "贵州港源房地产开发有限公司", "value": 12000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳美丽生态股份有限公司", "target": "红信鼎通资本管理有限公司", "value": 6.110082364866628e-06}, {"source": "深圳美丽生态股份有限公司", "target": "香港佳源集团有限公司", "value": 1.710823062162656e-06}, {"source": "深圳美丽生态股份有限公司", "target": "贵州港源房地产开发有限公司", "value": 3.666049418919977e-06}]}

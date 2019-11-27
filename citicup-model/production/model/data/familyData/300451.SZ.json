@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "创业慧康科技股份有限公司\n300451.SZ", "value": 3069421000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州雅戈尔置业有限公司", "value": 4600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江美康网新云健康科技股份有限公司", "value": 500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "实际控制人控制的其他企业及其联营企业", "value": 7.8721, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京童康医疗信息技术有限公司", "value": 665.4961, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "创业慧康科技股份有限公司", "target": "苏州雅戈尔置业有限公司", "value": 1.4986539806693183e-06}, {"source": "创业慧康科技股份有限公司", "target": "浙江美康网新云健康科技股份有限公司", "value": 1.6289717181188245e-07}, {"source": "创业慧康科技股份有限公司", "target": "实际控制人控制的其他企业及其联营企业", "value": 2.5646856524406394e-09}, {"source": "创业慧康科技股份有限公司", "target": "北京童康医疗信息技术有限公司", "value": 2.1681486508367538e-07}]}

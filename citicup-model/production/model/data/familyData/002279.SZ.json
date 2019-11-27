@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京久其软件股份有限公司\n002279.SZ", "value": 3351027935.16, "itemStyle": {"color": "red"}, "category": 0}, {"name": "王新,李勇", "value": 1388.6135, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京久其科技投资有限公司", "value": 50900.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京久其软件股份有限公司", "target": "王新,李勇", "value": 4.143843402289329e-07}, {"source": "北京久其软件股份有限公司", "target": "北京久其科技投资有限公司", "value": 1.5189369048804931e-05}]}

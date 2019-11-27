@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "冀凯装备制造股份有限公司", "value": 1074649985.17, "category": 473}, {"name": "RUS Mining Services Pty Ltd", "value": 730.0, "category": 473}, {"name": "河北金泰金刚石工具有限公司", "value": 4.0, "category": 473}],
+"links":
+[{"source": "冀凯装备制造股份有限公司", "target": "RUS Mining Services Pty Ltd", "value": 6.79290941305434e-07}, {"source": "冀凯装备制造股份有限公司", "target": "河北金泰金刚石工具有限公司", "value": 3.722142144139364e-09}]}

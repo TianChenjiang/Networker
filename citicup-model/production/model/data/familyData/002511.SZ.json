@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中顺洁柔纸业股份有限公司\n002511.SZ", "value": 5152920387.64, "itemStyle": {"color": "red"}, "category": 0}, {"name": "邓颖忠,邓冠彪,邓冠杰", "value": 59.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中顺洁柔纸业股份有限公司", "target": "邓颖忠,邓冠彪,邓冠杰", "value": 1.151579988356414e-08}]}

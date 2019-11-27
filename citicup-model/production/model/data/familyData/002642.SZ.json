@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "紫光股份有限公司\n002642.SZ", "value": 48551000329.25, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京荣之联科技股份有限公司", "value": 1332.57, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "紫光股份有限公司", "target": "北京荣之联科技股份有限公司", "value": 2.7446808324506977e-08}]}

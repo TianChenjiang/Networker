@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市中新赛克科技股份有限公司\n002912.SZ", "value": 2036963000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州迈科网络安全技术股份有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏金陵科技集团有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陈立", "value": 1072.0812, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市中新赛克科技股份有限公司", "target": "苏州迈科网络安全技术股份有限公司", "value": 0.0}, {"source": "深圳市中新赛克科技股份有限公司", "target": "江苏金陵科技集团有限公司", "value": 0.0}, {"source": "深圳市中新赛克科技股份有限公司", "target": "陈立", "value": 5.023522549596969e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "美盛文化创意股份有限公司\n002699.SZ", "value": 4463139487.52, "itemStyle": {"color": "red"}, "category": 0}, {"name": "JAKKS Pacific, Inc.", "value": 230.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "美盛控股集团有限公司", "value": 21750.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "美盛文化创意股份有限公司", "target": "JAKKS Pacific, Inc.", "value": 5.5775240993447944e-08}, {"source": "美盛文化创意股份有限公司", "target": "美盛控股集团有限公司", "value": 5.274397789597795e-06}]}

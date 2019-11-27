@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川金石东方新材料设备股份有限公司\n300434.SZ", "value": 3207656200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "高雅萍", "value": 15000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川金石东方新材料设备股份有限公司", "target": "高雅萍", "value": 4.676311632150603e-06}]}

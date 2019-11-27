@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江三星新材股份有限公司\n603578.SH", "value": 635250240.16, "itemStyle": {"color": "red"}, "category": 0}, {"name": "青岛伟胜电子塑胶有限公司", "value": 69313.4, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江三星新材股份有限公司", "target": "青岛伟胜电子塑胶有限公司", "value": 0.00010911196189794762}]}

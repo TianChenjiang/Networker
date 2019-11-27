@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江康隆达特种防护科技股份有限公司\n603665.SH", "value": 1340445487.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海济裕国际贸易有限公司", "value": 1883.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "Full Chance International Limited", "value": 792.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "Flylight Industrial Limited", "value": 750.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "STABLE GROWTH HOLDINGS LIMITED", "value": 581.11, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江康隆达特种防护科技股份有限公司", "target": "上海济裕国际贸易有限公司", "value": 1.40514479544416e-06}, {"source": "浙江康隆达特种防护科技股份有限公司", "target": "Full Chance International Limited", "value": 5.908781875337626e-07}, {"source": "浙江康隆达特种防护科技股份有限公司", "target": "Flylight Industrial Limited", "value": 5.599183309827662e-07}, {"source": "浙江康隆达特种防护科技股份有限公司", "target": "STABLE GROWTH HOLDINGS LIMITED", "value": 4.33520053984325e-07}]}

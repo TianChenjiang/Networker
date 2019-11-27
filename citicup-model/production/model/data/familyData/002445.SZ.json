@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中南红文化集团股份有限公司\n002445.SZ", "value": 4749358094.81, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏中南影业有限公司", "value": 4603.68, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中南红文化集团股份有限公司", "target": "江苏中南影业有限公司", "value": 9.693267822931284e-07}]}

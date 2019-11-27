@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京捷成世纪科技股份有限公司\n300182.SZ", "value": 15391433628.65, "itemStyle": {"color": "red"}, "category": 0}, {"name": "徐子泉,北京捷成世纪数字技术有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "徐可心", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "徐子泉", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京捷成世纪科技股份有限公司", "target": "徐子泉,北京捷成世纪数字技术有限公司", "value": 1.299424113603784e-06}, {"source": "北京捷成世纪科技股份有限公司", "target": "徐可心", "value": 0.0}, {"source": "北京捷成世纪科技股份有限公司", "target": "徐子泉", "value": 3.24856028400946e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中远海运科技股份有限公司\n002401.SZ", "value": 2162147907.57, "itemStyle": {"color": "red"}, "category": 0}, {"name": "Gold Talent (HK) Limited", "value": 1323.435, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国远洋海运集团有限公司及下属公司(上海船研所及其下属子公司除外)", "value": 3418.96, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海船舶运输科学研究所及其下属公司", "value": 203.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "华东电脑及其下属公司", "value": 584.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中远海运科技股份有限公司", "target": "Gold Talent (HK) Limited", "value": 6.120927228736101e-07}, {"source": "中远海运科技股份有限公司", "target": "中国远洋海运集团有限公司及下属公司(上海船研所及其下属子公司除外)", "value": 1.58127942497815e-06}, {"source": "中远海运科技股份有限公司", "target": "上海船舶运输科学研究所及其下属公司", "value": 9.412862056635734e-08}, {"source": "中远海运科技股份有限公司", "target": "华东电脑及其下属公司", "value": 2.7039778266467743e-07}]}

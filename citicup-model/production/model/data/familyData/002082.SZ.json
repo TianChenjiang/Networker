@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "万邦德新材股份有限公司\n002082.SZ", "value": 2855366201.61, "itemStyle": {"color": "red"}, "category": 0}, {"name": "万邦德集团有限公司,赵守明,庄惠,温岭惠邦投资咨询有限公司,温岭富邦投资咨询有限公司", "value": 273000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "万邦德新材股份有限公司", "target": "万邦德集团有限公司,赵守明,庄惠,温岭惠邦投资咨询有限公司,温岭富邦投资咨询有限公司", "value": 9.560945277214137e-05}]}

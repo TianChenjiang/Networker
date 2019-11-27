@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江龙船艇科技股份有限公司\n300589.SZ", "value": 926276300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "澳龙船艇科技有限公司", "value": 22.35, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江龙船艇科技股份有限公司", "target": "澳龙船艇科技有限公司", "value": 2.4128869539250872e-08}]}

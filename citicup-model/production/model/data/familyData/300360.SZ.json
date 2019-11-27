@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州炬华科技股份有限公司\n300360.SZ", "value": 2603127333.69, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州炬华集团有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州炬华科技股份有限公司", "target": "杭州炬华集团有限公司", "value": 0.0}]}

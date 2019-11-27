@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京佳讯飞鸿电气股份有限公司\n300213.SZ", "value": 3060113222.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京飞鸿云际科技有限公司", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京海金商业保理有限公司", "value": 8200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京佳讯飞鸿电气股份有限公司", "target": "北京飞鸿云际科技有限公司", "value": 3.2678529432260595e-07}, {"source": "北京佳讯飞鸿电气股份有限公司", "target": "北京海金商业保理有限公司", "value": 2.6796394134453685e-06}]}

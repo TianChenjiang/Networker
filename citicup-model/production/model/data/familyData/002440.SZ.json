@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江闰土股份有限公司\n002440.SZ", "value": 9844151274.32, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江巍华新材料股份有限公司", "value": 916.27, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "绍兴市上虞华闰小额贷款股份有限公司", "value": 18.18, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "绍兴市上虞众联环保有限公司", "value": 251.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "绍兴市上虞区闰土宾馆", "value": 82.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江闰土股份有限公司", "target": "浙江巍华新材料股份有限公司", "value": 9.307760257506738e-08}, {"source": "浙江闰土股份有限公司", "target": "绍兴市上虞华闰小额贷款股份有限公司", "value": 1.8467818599481866e-09}, {"source": "浙江闰土股份有限公司", "target": "绍兴市上虞众联环保有限公司", "value": 2.5573560684376016e-08}, {"source": "浙江闰土股份有限公司", "target": "绍兴市上虞区闰土宾馆", "value": 8.344040812769199e-09}]}

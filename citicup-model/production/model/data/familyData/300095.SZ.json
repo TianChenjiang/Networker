@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江西华伍制动器股份有限公司\n300095.SZ", "value": 2420181247.92, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海振华重工(集团)股份有限公司", "value": 7462.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海华伍行力流体控制有限公司", "value": 102.72, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳勒迈科技有限公司", "value": 301.87, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "芜湖市金贸流体科技股份有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江西华伍制动器股份有限公司", "target": "上海振华重工(集团)股份有限公司", "value": 3.0834426167104468e-06}, {"source": "江西华伍制动器股份有限公司", "target": "上海华伍行力流体控制有限公司", "value": 4.244310218017004e-08}, {"source": "江西华伍制动器股份有限公司", "target": "深圳勒迈科技有限公司", "value": 1.2473032763948529e-07}, {"source": "江西华伍制动器股份有限公司", "target": "芜湖市金贸流体科技股份有限公司", "value": 1.2395765823647791e-06}]}

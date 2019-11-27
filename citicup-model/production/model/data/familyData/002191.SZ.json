@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳劲嘉集团股份有限公司\n002191.SZ", "value": 7860071800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "青岛嘉泽包装有限公司", "value": 40000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海仁彩印务有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "贵州省仁怀市申仁包装印务有限责任公司", "value": 25000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "重庆宏声印务有限责任公司,公司重庆宏劲印务有限责任公司", "value": 12000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳劲嘉集团股份有限公司", "target": "青岛嘉泽包装有限公司", "value": 4.823270078718662e-06}, {"source": "深圳劲嘉集团股份有限公司", "target": "上海仁彩印务有限公司", "value": 6.029087598398327e-07}, {"source": "深圳劲嘉集团股份有限公司", "target": "贵州省仁怀市申仁包装印务有限责任公司", "value": 3.0145437991991636e-06}, {"source": "深圳劲嘉集团股份有限公司", "target": "重庆宏声印务有限责任公司,公司重庆宏劲印务有限责任公司", "value": 1.4469810236155985e-06}]}

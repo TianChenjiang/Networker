@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "珠海和佳医疗设备股份有限公司\n300273.SZ", "value": 5877298219.28, "itemStyle": {"color": "red"}, "category": 0}, {"name": "珠海瑞源和创管理咨询合伙企业(有限合伙),蔡镇宇", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郝镇熙,蔡孟珂", "value": 2000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "珠海和佳医疗设备股份有限公司", "target": "珠海瑞源和创管理咨询合伙企业(有限合伙),蔡镇宇", "value": 0.0}, {"source": "珠海和佳医疗设备股份有限公司", "target": "郝镇熙,蔡孟珂", "value": 3.402924141979324e-07}]}

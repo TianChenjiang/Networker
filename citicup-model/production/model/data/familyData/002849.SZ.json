@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江威星智能仪表股份有限公司\n002849.SZ", "value": 1263801597.7, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河北华通燃气设备有限公司", "value": 1766.65, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市中燃科技有限公司", "value": 1910.55, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国燃气控股有限公司下属的燃气运营公司", "value": 11652.95, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳中燃哈工大燃气技术研究院有限公司", "value": 97.09, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江威星智能仪表股份有限公司", "target": "河北华通燃气设备有限公司", "value": 1.3978855567322726e-06}, {"source": "浙江威星智能仪表股份有限公司", "target": "深圳市中燃科技有限公司", "value": 1.5117483657854374e-06}, {"source": "浙江威星智能仪表股份有限公司", "target": "中国燃气控股有限公司下属的燃气运营公司", "value": 9.220553306157607e-06}, {"source": "浙江威星智能仪表股份有限公司", "target": "深圳中燃哈工大燃气技术研究院有限公司", "value": 7.682376741467542e-08}]}

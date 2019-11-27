@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "奥维通信股份有限公司\n002231.SZ", "value": 775632566.23, "itemStyle": {"color": "red"}, "category": 0}, {"name": "瑞丽市瑞丽湾旅游开发有限公司", "value": 30000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "奥维通信股份有限公司", "target": "瑞丽市瑞丽湾旅游开发有限公司", "value": 3.867810778732057e-05}]}

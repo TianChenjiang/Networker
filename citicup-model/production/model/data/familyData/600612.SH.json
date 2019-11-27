@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "老凤祥股份有限公司\n600612.SH", "value": 15486205804.07, "itemStyle": {"color": "red"}, "category": 0}, {"name": "石力华等7名自然人", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "老凤祥股份有限公司", "target": "石力华等7名自然人", "value": 0.0}]}

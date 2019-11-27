@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江双环传动机械股份有限公司\n002472.SZ", "value": 7951303020.55, "itemStyle": {"color": "red"}, "category": 0}, {"name": "重庆世玛德智能制造有限公司", "value": 39.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江双环实业股份有限公司", "value": 296.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江双环传动机械股份有限公司", "target": "重庆世玛德智能制造有限公司", "value": 4.987861724990161e-09}, {"source": "浙江双环传动机械股份有限公司", "target": "浙江双环实业股份有限公司", "value": 3.725049834404528e-08}]}

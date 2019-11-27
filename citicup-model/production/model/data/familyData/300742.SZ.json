@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南京越博动力系统股份有限公司\n300742.SZ", "value": 2580936301.73, "itemStyle": {"color": "red"}, "category": 0}, {"name": "李占江", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "李占江,李莹", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京邦盛投资管理合伙企业(有限合伙),南京邦盛投资管理有限公司", "value": 2000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南京越博动力系统股份有限公司", "target": "李占江", "value": 3.874562883747656e-06}, {"source": "南京越博动力系统股份有限公司", "target": "李占江,李莹", "value": 0.0}, {"source": "南京越博动力系统股份有限公司", "target": "南京邦盛投资管理合伙企业(有限合伙),南京邦盛投资管理有限公司", "value": 7.749125767495313e-07}]}

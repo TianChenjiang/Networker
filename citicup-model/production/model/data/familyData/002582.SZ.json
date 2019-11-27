@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "好想你健康食品股份有限公司\n002582.SZ", "value": 5134603901.95, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河南新郑农村商业银行股份有限公司", "value": 152100.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "好想你健康食品股份有限公司", "target": "河南新郑农村商业银行股份有限公司", "value": 2.7494137860018734e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建博思软件股份有限公司\n300525.SZ", "value": 1088310600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建省财政信息中心", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京大数元科技发展有限公司", "value": 141.51, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建博思软件股份有限公司", "target": "福建省财政信息中心", "value": 0.0}, {"source": "福建博思软件股份有限公司", "target": "北京大数元科技发展有限公司", "value": 1.3002721833270758e-07}]}

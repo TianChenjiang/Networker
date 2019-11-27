@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宏达高科控股股份有限公司\n002144.SZ", "value": 1942544907.38, "itemStyle": {"color": "red"}, "category": 0}, {"name": "海宁宏达小额贷款股份有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江门市江海区外经企业有限公司", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宏达高科控股股份有限公司", "target": "海宁宏达小额贷款股份有限公司", "value": 5.147886137411084e-06}, {"source": "宏达高科控股股份有限公司", "target": "江门市江海区外经企业有限公司", "value": 5.147886137411083e-07}]}

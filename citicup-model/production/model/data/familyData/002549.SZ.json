@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南凯美特气体股份有限公司\n002549.SZ", "value": 1413350700.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "四川开元科技有限责任公司", "value": 17.522, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "海南凯美特气体有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "首虹有限公司", "value": 95.254, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "岳阳凯美特电子特种稀有气体有限公司", "value": 7400.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南凯美特气体股份有限公司", "target": "四川开元科技有限责任公司", "value": 1.2397489163765552e-08}, {"source": "湖南凯美特气体股份有限公司", "target": "海南凯美特气体有限公司", "value": 7.07538475274829e-06}, {"source": "湖南凯美特气体股份有限公司", "target": "首虹有限公司", "value": 6.739586992382857e-08}, {"source": "湖南凯美特气体股份有限公司", "target": "岳阳凯美特电子特种稀有气体有限公司", "value": 5.235784717033735e-06}]}

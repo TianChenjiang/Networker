@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖北鼎龙控股股份有限公司\n300054.SZ", "value": 3965634884.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖北高投产控投资股份有限公司", "value": 6977.3, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "高翼联汇投资基金管理(武汉)有限公司,湖北高投产控投资股份有限公司", "value": 37500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖北鼎龙控股股份有限公司", "target": "湖北高投产控投资股份有限公司", "value": 1.7594408472023114e-06}, {"source": "湖北鼎龙控股股份有限公司", "target": "高翼联汇投资基金管理(武汉)有限公司,湖北高投产控投资股份有限公司", "value": 9.456241206496307e-06}]}

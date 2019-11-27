@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "河南清水源科技股份有限公司\n300437.SZ", "value": 4040380800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河南济源农村商业银行股份有限公司", "value": 1009.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东东岳高分子材料有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "河南清水源科技股份有限公司", "target": "河南济源农村商业银行股份有限公司", "value": 2.4972893644084243e-07}, {"source": "河南清水源科技股份有限公司", "target": "山东东岳高分子材料有限公司", "value": 0.0}]}

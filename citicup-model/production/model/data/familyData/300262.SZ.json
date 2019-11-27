@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海巴安水务股份有限公司\n300262.SZ", "value": 5229653135.81, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张春霖", "value": 50000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海巴安水务股份有限公司", "target": "张春霖", "value": 9.56086354133613e-06}]}

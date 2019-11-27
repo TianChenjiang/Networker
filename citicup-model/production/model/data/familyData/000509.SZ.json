@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华塑控股股份有限公司\n000509.SZ", "value": 206943839.63, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张子若", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "李雪峰", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华塑控股股份有限公司", "target": "张子若", "value": 0.0}, {"source": "华塑控股股份有限公司", "target": "李雪峰", "value": 0.0}]}

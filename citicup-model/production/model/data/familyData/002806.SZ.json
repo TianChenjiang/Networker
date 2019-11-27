@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东华锋新能源科技股份有限公司\n002806.SZ", "value": 1764290744.29, "itemStyle": {"color": "red"}, "category": 0}, {"name": "谭帼英", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "谭帼英,林程", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "林程等30位", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东华锋新能源科技股份有限公司", "target": "谭帼英", "value": 2.834000017390637e-06}, {"source": "广东华锋新能源科技股份有限公司", "target": "谭帼英,林程", "value": 0.0}, {"source": "广东华锋新能源科技股份有限公司", "target": "林程等30位", "value": 0.0}]}

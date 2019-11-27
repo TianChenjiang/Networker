@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华西证券股份有限公司\n600383.SH", "value": 64621759400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "金地(集团)股份有限公司", "value": 210.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华西证券股份有限公司", "target": "金地(集团)股份有限公司", "value": 4.487194444494302e-09}]}

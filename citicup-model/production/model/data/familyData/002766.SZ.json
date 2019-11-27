@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市索菱实业股份有限公司\n002766.SZ", "value": 3245115494.25, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南索菱电子科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市华通微计算机有限公司", "value": 224.1295, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江索菱新能源汽车科技有限公司", "value": 2566.1283, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "建华建材(中国)有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市索菱实业股份有限公司", "target": "湖南索菱电子科技有限公司", "value": 0.0}, {"source": "深圳市索菱实业股份有限公司", "target": "深圳市华通微计算机有限公司", "value": 6.906672517422991e-08}, {"source": "深圳市索菱实业股份有限公司", "target": "浙江索菱新能源汽车科技有限公司", "value": 7.907664009330042e-07}, {"source": "深圳市索菱实业股份有限公司", "target": "建华建材(中国)有限公司", "value": 6.163108843256234e-06}]}

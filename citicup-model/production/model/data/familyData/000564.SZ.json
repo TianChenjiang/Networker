@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "供销大集集团股份有限公司\n000564.SZ", "value": 55887919400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "四川远成物流发展有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "海航商业控股有限公司", "value": 8480.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "海航资产管理集团有限公司", "value": 6360.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "海航实业集团有限公司", "value": 6360.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "供销大集集团股份有限公司", "target": "四川远成物流发展有限公司", "value": 0.0}, {"source": "供销大集集团股份有限公司", "target": "海航商业控股有限公司", "value": 1.5173225432328404e-07}, {"source": "供销大集集团股份有限公司", "target": "海航资产管理集团有限公司", "value": 1.1379919074246302e-07}, {"source": "供销大集集团股份有限公司", "target": "海航实业集团有限公司", "value": 1.1379919074246302e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "哈尔滨博实自动化股份有限公司\n002698.SZ", "value": 3442838433.68, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海博隆粉体工程有限公司", "value": 474.55, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "哈尔滨博实自动化股份有限公司", "target": "上海博隆粉体工程有限公司", "value": 1.378368486181794e-07}]}

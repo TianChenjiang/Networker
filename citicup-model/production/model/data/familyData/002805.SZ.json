@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东丰元化学股份有限公司\n002805.SZ", "value": 774812587.22, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东联合丰元化工有限公司", "value": 3565.54, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东丰元化学股份有限公司", "target": "山东联合丰元化工有限公司", "value": 4.651521541186127e-06}]}

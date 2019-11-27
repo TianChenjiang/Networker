@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江东晶电子股份有限公司\n002199.SZ", "value": 480074607.66, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津迪诺投资管理有限公司,华谊兄弟传媒股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江东晶电子股份有限公司", "target": "天津迪诺投资管理有限公司,华谊兄弟传媒股份有限公司", "value": 0.0}]}

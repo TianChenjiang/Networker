@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海康达化工新材料股份有限公司\n002669.SZ", "value": 2325739727.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海大洋新材料科技有限公司", "value": 18.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海康达化工新材料股份有限公司", "target": "上海大洋新材料科技有限公司", "value": 8.086084401807463e-09}]}

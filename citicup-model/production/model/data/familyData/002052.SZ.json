@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市同洲电子股份有限公司\n002052.SZ", "value": 1529355100.01, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市电明科技股份有限公司", "value": 18.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市同洲电子股份有限公司", "target": "深圳市电明科技股份有限公司", "value": 1.2096602025179786e-08}]}

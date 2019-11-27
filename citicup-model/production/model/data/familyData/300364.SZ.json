@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中文在线数字出版集团股份有限公司\n300364.SZ", "value": 2644532851.61, "itemStyle": {"color": "red"}, "category": 0}, {"name": "童之磊", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中文在线数字出版集团股份有限公司", "target": "童之磊", "value": 7.562772376914862e-06}]}

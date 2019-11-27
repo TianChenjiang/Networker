@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳新宙邦科技股份有限公司\n300037.SZ", "value": 4473469527.9, "itemStyle": {"color": "red"}, "category": 0}, {"name": "长沙鑫联华源新能源合伙企业(有限合伙),衡阳爱立孚新能源合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "邵武泓伟投资中心,邵武志伟投资中心(有限合伙),邵武红达投资中心(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "邵武红达投资中心(有限合伙)", "value": 2600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建海德福新材料有限公司", "value": 13500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳新宙邦科技股份有限公司", "target": "长沙鑫联华源新能源合伙企业(有限合伙),衡阳爱立孚新能源合伙企业(有限合伙)", "value": 0.0}, {"source": "深圳新宙邦科技股份有限公司", "target": "邵武泓伟投资中心,邵武志伟投资中心(有限合伙),邵武红达投资中心(有限合伙)", "value": 0.0}, {"source": "深圳新宙邦科技股份有限公司", "target": "邵武红达投资中心(有限合伙)", "value": 5.812043613540673e-07}, {"source": "深圳新宙邦科技股份有限公司", "target": "福建海德福新材料有限公司", "value": 3.017791876261503e-06}]}

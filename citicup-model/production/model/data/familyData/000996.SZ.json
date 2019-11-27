@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中国中期投资股份有限公司\n000996.SZ", "value": 626142000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中期集团有限公司,中期移动通信股份有限公司,中期医疗服务股份有限公司,中期彩移动互联网有限公司", "value": 350099.48, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中期集团有限公司", "value": 19000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国国际期货股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中期集团有限公司,中期移动通信股份有限公司,中期医疗服务股份有限公司,中期彩移动互联网有限公司,南通综艺投资有限公司,深圳韦仕登投资控股有限公司,四川隆宝商贸有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中国中期投资股份有限公司", "target": "中期集团有限公司,中期移动通信股份有限公司,中期医疗服务股份有限公司,中期彩移动互联网有限公司", "value": 0.0005591375119381865}, {"source": "中国中期投资股份有限公司", "target": "中期集团有限公司", "value": 3.034455443014524e-05}, {"source": "中国中期投资股份有限公司", "target": "中国国际期货股份有限公司", "value": 0.0}, {"source": "中国中期投资股份有限公司", "target": "中期集团有限公司,中期移动通信股份有限公司,中期医疗服务股份有限公司,中期彩移动互联网有限公司,南通综艺投资有限公司,深圳韦仕登投资控股有限公司,四川隆宝商贸有限公司", "value": 0.0}]}

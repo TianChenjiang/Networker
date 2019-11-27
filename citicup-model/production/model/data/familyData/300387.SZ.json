@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖北富邦科技股份有限公司\n300387.SZ", "value": 1476698521.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "武汉禾大科技有限公司", "value": 165.71, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖北富邦科技股份有限公司", "target": "武汉禾大科技有限公司", "value": 1.1221654089462158e-07}]}

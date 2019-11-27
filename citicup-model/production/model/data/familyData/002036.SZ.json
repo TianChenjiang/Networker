@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "联创电子科技股份有限公司\n002036.SZ", "value": 6865147342.7, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江西联智集成电路有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江西联创宏声电子股份有限公司", "value": 78.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "联创电子科技股份有限公司", "target": "江西联智集成电路有限公司", "value": 0.0}, {"source": "联创电子科技股份有限公司", "target": "江西联创宏声电子股份有限公司", "value": 1.1385043335320517e-08}]}

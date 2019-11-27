@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "无锡隆盛科技股份有限公司\n300680.SZ", "value": 880009622.65, "itemStyle": {"color": "red"}, "category": 0}, {"name": "无锡市实达精密机械制造有限公司", "value": 39.4631, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "谈渊智,秦春森,王泳,姚邦豪无锡凯利投资有限公司", "value": 15228.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "无锡微研精密冲压件股份有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "无锡隆盛科技股份有限公司", "target": "无锡市实达精密机械制造有限公司", "value": 4.484394145732583e-08}, {"source": "无锡隆盛科技股份有限公司", "target": "谈渊智,秦春森,王泳,姚邦豪无锡凯利投资有限公司", "value": 1.730435623435964e-05}, {"source": "无锡隆盛科技股份有限公司", "target": "无锡微研精密冲压件股份有限公司", "value": 3.4090536316705356e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南兴装备股份有限公司\n002757.SZ", "value": 1949385234.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东唯一网络科技有限公司", "value": 4230.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南兴装备股份有限公司", "target": "广东唯一网络科技有限公司", "value": 2.1699148663394566e-06}]}

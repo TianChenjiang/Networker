@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厦门艾德生物医药科技股份有限公司\n300685.SZ", "value": 816941700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "生工生物工程(上海)股份有限公司", "value": 325.18, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门探理创业投资合伙企业(有限合伙)", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厦门艾德生物医药科技股份有限公司", "target": "生工生物工程(上海)股份有限公司", "value": 3.9804553984696827e-07}, {"source": "厦门艾德生物医药科技股份有限公司", "target": "厦门探理创业投资合伙企业(有限合伙)", "value": 3.6722326697241674e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "荣盛房地产发展股份有限公司\n002146.SZ", "value": 227581174285.51, "itemStyle": {"color": "red"}, "category": 0}, {"name": "荣盛建设工程有限公司", "value": 84266.22, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "荣盛房地产发展股份有限公司", "target": "荣盛建设工程有限公司", "value": 3.7026885138699803e-07}]}

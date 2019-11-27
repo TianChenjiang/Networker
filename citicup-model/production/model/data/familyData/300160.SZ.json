@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏秀强玻璃工艺股份有限公司\n300160.SZ", "value": 1715824666.12, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宿迁市新星投资有限公司", "value": 28050.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新余祥翼儿童教育服务咨询合伙企业(有限合伙)", "value": 3500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京安氏领信教育科技有限公司", "value": 15000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "卢秀强,陆秀珍", "value": 7000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏秀强玻璃工艺股份有限公司", "target": "宿迁市新星投资有限公司", "value": 1.634782420014369e-05}, {"source": "江苏秀强玻璃工艺股份有限公司", "target": "新余祥翼儿童教育服务咨询合伙企业(有限合伙)", "value": 2.0398354616935084e-06}, {"source": "江苏秀强玻璃工艺股份有限公司", "target": "北京安氏领信教育科技有限公司", "value": 8.742151978686465e-06}, {"source": "江苏秀强玻璃工艺股份有限公司", "target": "卢秀强,陆秀珍", "value": 4.079670923387017e-06}]}

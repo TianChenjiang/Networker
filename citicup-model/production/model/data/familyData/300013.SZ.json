@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏新宁现代物流股份有限公司\n300013.SZ", "value": 2733616215.6, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江特勤卫星导航科技有限公司", "value": 39.6013, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "合肥新宁供应链管理有限公司", "value": 479.5809, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新宁物流(盱眙)有限公司", "value": 63.764, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏新宁现代物流股份有限公司", "target": "浙江特勤卫星导航科技有限公司", "value": 1.4486781199938096e-08}, {"source": "江苏新宁现代物流股份有限公司", "target": "合肥新宁供应链管理有限公司", "value": 1.7543827010652153e-07}, {"source": "江苏新宁现代物流股份有限公司", "target": "新宁物流(盱眙)有限公司", "value": 2.3325878605824878e-08}]}

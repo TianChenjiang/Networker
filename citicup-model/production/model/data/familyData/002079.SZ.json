@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州固锝电子股份有限公司\n002079.SZ", "value": 2054960586.22, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏明伦源文化传播有限公司", "value": 80.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州固锝电子股份有限公司", "target": "江苏明伦源文化传播有限公司", "value": 3.893018704906458e-08}]}

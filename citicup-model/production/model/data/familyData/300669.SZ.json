@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州沪宁电梯部件股份有限公司\n300669.SZ", "value": 519787702.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "三六零安全科技股份有限公司", "value": 3.96, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州沪宁电梯部件股份有限公司", "target": "三六零安全科技股份有限公司", "value": 7.618494982289692e-09}]}

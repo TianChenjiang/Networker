@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新疆机械研究院股份有限公司\n300159.SZ", "value": 9792462649.03, "itemStyle": {"color": "red"}, "category": 0}, {"name": "嘉兴华控腾汇股权投资合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京华控产业投资基金(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新疆机械研究院股份有限公司", "target": "嘉兴华控腾汇股权投资合伙企业(有限合伙)", "value": 0.0}, {"source": "新疆机械研究院股份有限公司", "target": "北京华控产业投资基金(有限合伙)", "value": 0.0}]}

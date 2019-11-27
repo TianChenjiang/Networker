@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市东方嘉盛供应链股份有限公司\n002889.SZ", "value": 7722845400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "孙卫平", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市东方嘉盛供应链股份有限公司", "target": "孙卫平", "value": 2.589719069088189e-06}]}

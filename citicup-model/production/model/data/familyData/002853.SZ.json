@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东皮阿诺科学艺术家居股份有限公司\n002853.SZ", "value": 1735730077.5, "itemStyle": {"color": "red"}, "category": 0}, {"name": "高琪,曹晓清", "value": 730.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东皮阿诺科学艺术家居股份有限公司", "target": "高琪,曹晓清", "value": 4.601133597030262e-07}]}

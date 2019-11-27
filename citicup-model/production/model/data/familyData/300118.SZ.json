@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "东方日升新能源股份有限公司\n300118.SZ", "value": 18383859600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "延安必康制药股份有限公司", "value": 35000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "东方日升新能源股份有限公司", "target": "延安必康制药股份有限公司", "value": 1.9038439566846996e-06}]}

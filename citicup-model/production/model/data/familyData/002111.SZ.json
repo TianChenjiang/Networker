@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "威海广泰空港设备股份有限公司\n002111.SZ", "value": 4689202098.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东广大航空地面服务股份有限公司", "value": 233.35, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东广大航空地面服务股份有限公司及其合并报表范围内的子公司", "value": 947.59, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "威海广泰空港设备股份有限公司", "target": "山东广大航空地面服务股份有限公司", "value": 4.976326358306048e-08}, {"source": "威海广泰空港设备股份有限公司", "target": "山东广大航空地面服务股份有限公司及其合并报表范围内的子公司", "value": 2.020791555117732e-07}]}

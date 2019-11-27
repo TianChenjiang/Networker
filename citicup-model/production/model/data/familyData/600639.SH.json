@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海金桥出口加工区开发股份有限公司\n600639.SH", "value": 20346942067.33, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海金桥(集团)有限公司", "value": 50000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海市民办平和学校,上海浦东新区格霖教育培训中心", "value": 15959.5576, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海金桥出口加工区开发股份有限公司", "target": "上海金桥(集团)有限公司", "value": 2.457371718784334e-06}, {"source": "上海金桥出口加工区开发股份有限公司", "target": "上海市民办平和学校,上海浦东新区格霖教育培训中心", "value": 7.843713098109917e-07}]}
