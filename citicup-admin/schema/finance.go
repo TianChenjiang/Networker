@@ -3,7 +3,6 @@ package schema
 //财务信息
 
 type Finance struct {
-
 	Ar_to_or           string `json:"ar_to_or"`
 	Ar_turn            string `json:"ar_turn"`
 	Arturn_days        string `json:"arturn_days"`
