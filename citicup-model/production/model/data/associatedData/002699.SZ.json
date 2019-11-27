@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "美盛文化创意股份有限公司", "value": 4463139487.52, "category": 237}, {"name": "JAKKS Pacific, Inc.", "value": 230.0, "category": 237}, {"name": "美盛控股集团有限公司", "value": 21750.0, "category": 237}],
+"links":
+[{"source": "美盛文化创意股份有限公司", "target": "JAKKS Pacific, Inc.", "value": 5.5775240993447944e-08}, {"source": "美盛文化创意股份有限公司", "target": "美盛控股集团有限公司", "value": 5.274397789597795e-06}]}

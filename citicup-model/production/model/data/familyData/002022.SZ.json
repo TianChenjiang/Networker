@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海科华生物工程股份有限公司\n002022.SZ", "value": 3577110749.55, "itemStyle": {"color": "red"}, "category": 0}, {"name": "西安天博诊断技术有限公司", "value": 483.11, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海科华生物工程股份有限公司", "target": "西安天博诊断技术有限公司", "value": 1.3505592469027555e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新开普电子股份有限公司\n300248.SZ", "value": 2114418866.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海序新企业管理合伙企业(有限合伙)", "value": 300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吴凤辉,王权汉,王爱娟,陈军方,叶泽泉", "value": 3432.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海天维恒瑞企业管理合伙企业(有限合伙)", "value": 285.7143, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南科瑞特科技有限公司", "value": 223.97, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南佳弘信诚企业管理咨询中心(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新开普电子股份有限公司", "target": "上海序新企业管理合伙企业(有限合伙)", "value": 1.4188295648781427e-07}, {"source": "新开普电子股份有限公司", "target": "吴凤辉,王权汉,王爱娟,陈军方,叶泽泉", "value": 1.6231410222205952e-06}, {"source": "新开普电子股份有限公司", "target": "上海天维恒瑞企业管理合伙企业(有限合伙)", "value": 1.3512663198282104e-07}, {"source": "新开普电子股份有限公司", "target": "湖南科瑞特科技有限公司", "value": 1.0592508588191921e-07}, {"source": "新开普电子股份有限公司", "target": "河南佳弘信诚企业管理咨询中心(有限合伙)", "value": 0.0}]}

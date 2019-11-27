@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "万向德农股份有限公司\n600371.SH", "value": 788405711.75, "itemStyle": {"color": "red"}, "category": 0}, {"name": "万向财务有限公司", "value": 25000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "万向德农股份有限公司", "target": "万向财务有限公司", "value": 3.1709562256351826e-05}]}

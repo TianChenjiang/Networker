@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "阳光城集团股份有限公司\n000671.SZ", "value": 289242543300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建三木集团股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "阳光城集团股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福州安景房地产有限公司", "value": 7750.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "阳光城集团股份有限公司", "target": "福建三木集团股份有限公司", "value": 0.0}, {"source": "福建三木集团股份有限公司", "target": "阳光城集团股份有限公司", "value": 0.0}, {"source": "阳光城集团股份有限公司", "target": "福州安景房地产有限公司", "value": 2.6794122024994656e-08}]}

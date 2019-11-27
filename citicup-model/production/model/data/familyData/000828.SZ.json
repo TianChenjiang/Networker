@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "东莞发展控股股份有限公司\n000828.SZ", "value": 11007962522.96, "itemStyle": {"color": "red"}, "category": 0}, {"name": "东莞巴士有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "东莞发展控股股份有限公司", "target": "东莞巴士有限公司", "value": 0.0}]}

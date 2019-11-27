@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "桂林莱茵生物科技股份有限公司\n002166.SZ", "value": 2441204993.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "桂林莱茵康尔生物技术有限公司", "value": 144.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广西桂林锐德检测认证技术有限公司", "value": 518.58, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江锐德检测认证技术有限公司", "value": 17.4, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "桂林莱茵生物科技股份有限公司", "target": "桂林莱茵康尔生物技术有限公司", "value": 6.809046521539967e-08}, {"source": "桂林莱茵生物科技股份有限公司", "target": "广西桂林锐德检测认证技术有限公司", "value": 2.443792196788841e-07}, {"source": "桂林莱茵生物科技股份有限公司", "target": "浙江锐德检测认证技术有限公司", "value": 8.199696136396665e-09}]}

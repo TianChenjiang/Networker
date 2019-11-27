@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南梦洁家纺股份有限公司\n002397.SZ", "value": 3469375867.57, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南友谊阿波罗商业股份有限公司", "value": 4803.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南梦洁家纺股份有限公司", "target": "湖南友谊阿波罗商业股份有限公司", "value": 1.3844536260535591e-06}]}

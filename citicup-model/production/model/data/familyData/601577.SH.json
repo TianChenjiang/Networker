@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "长沙银行股份有限公司\n601577.SH", "value": 578105849000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南新华联建设工程有限公司", "value": 172080.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南省通信产业服务有限公司", "value": 90000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "长沙市轨道交通集团有限公司", "value": 50000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "长沙银行股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "长沙通程控股股份有限公司", "value": 30600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "长沙银行股份有限公司", "target": "湖南新华联建设工程有限公司", "value": 3.2675712156256443e-07}, {"source": "长沙银行股份有限公司", "target": "湖南省通信产业服务有限公司", "value": 1.7089807613104832e-07}, {"source": "长沙银行股份有限公司", "target": "长沙市轨道交通集团有限公司", "value": 9.494337562836018e-08}, {"source": "长沙通程控股股份有限公司", "target": "长沙银行股份有限公司", "value": 0.0}, {"source": "长沙银行股份有限公司", "target": "长沙通程控股股份有限公司", "value": 5.810534588455643e-08}]}

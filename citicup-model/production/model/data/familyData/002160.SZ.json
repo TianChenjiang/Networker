@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏常铝铝业集团股份有限公司\n002160.SZ", "value": 6411556191.8, "itemStyle": {"color": "red"}, "category": 0}, {"name": "常熟市铝箔厂有限责任公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "罗伯泰克自动化科技(苏州)有限公司", "value": 200.81, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏常铝铝业集团股份有限公司", "target": "常熟市铝箔厂有限责任公司", "value": 0.0}, {"source": "江苏常铝铝业集团股份有限公司", "target": "罗伯泰克自动化科技(苏州)有限公司", "value": 3.1320009369460735e-08}]}

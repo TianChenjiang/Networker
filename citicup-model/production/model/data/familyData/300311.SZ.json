@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "任子行网络技术股份有限公司\n300311.SZ", "value": 2450632224.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京亚鸿世纪科技发展有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "任子行网络技术股份有限公司", "target": "北京亚鸿世纪科技发展有限公司", "value": 4.08057965688252e-06}]}

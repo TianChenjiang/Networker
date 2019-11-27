@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "茂硕电源科技股份有限公司\n002660.SZ", "value": 1714644404.87, "itemStyle": {"color": "red"}, "category": 0}, {"name": "义乌市亚杰网络科技有限公司", "value": 1421.0526, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "茂硕电源科技股份有限公司", "target": "义乌市亚杰网络科技有限公司", "value": 8.287739405114384e-07}]}

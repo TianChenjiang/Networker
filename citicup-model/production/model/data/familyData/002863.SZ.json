@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江今飞凯达轮毂股份有限公司\n002863.SZ", "value": 4127958900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "今飞控股集团有限公司", "value": 91.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "金华市正元商贸有限公司", "value": 493.32, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江今飞凯达轮毂股份有限公司", "target": "今飞控股集团有限公司", "value": 2.2165918367065137e-08}, {"source": "浙江今飞凯达轮毂股份有限公司", "target": "金华市正元商贸有限公司", "value": 1.195070038124653e-07}]}

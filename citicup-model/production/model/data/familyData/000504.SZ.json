@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南华生物医药股份有限公司\n000504.SZ", "value": 342705700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南财信金融控股集团有限公司", "value": 4000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南华生物医药股份有限公司", "target": "湖南财信金融控股集团有限公司", "value": 1.1671822207801037e-05}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建永福电力设计股份有限公司\n300712.SZ", "value": 1421649218.64, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建省新能海上风电研发中心有限公司", "value": 116.31, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建永福电力设计股份有限公司", "target": "福建省新能海上风电研发中心有限公司", "value": 8.181343082034417e-08}]}

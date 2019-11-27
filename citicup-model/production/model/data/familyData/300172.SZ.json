@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中电环保股份有限公司\n300172.SZ", "value": 2297516212.79, "itemStyle": {"color": "red"}, "category": 0}, {"name": "王政福", "value": 19000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中电环保股份有限公司", "target": "王政福", "value": 8.269800184316113e-06}]}

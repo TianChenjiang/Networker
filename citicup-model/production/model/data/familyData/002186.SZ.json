@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中国全聚德(集团)股份有限公司\n002186.SZ", "value": 1952375791.02, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京首都旅游集团财务有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中国全聚德(集团)股份有限公司", "target": "北京首都旅游集团财务有限公司", "value": 0.0}]}

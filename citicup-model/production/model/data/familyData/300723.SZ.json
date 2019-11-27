@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "一品红药业股份有限公司\n300723.SZ", "value": 1781120456.37, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州云润生物科技有限公司", "value": 950.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吴美容", "value": 50.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "一品红药业股份有限公司", "target": "广州云润生物科技有限公司", "value": 5.33372123486887e-07}, {"source": "一品红药业股份有限公司", "target": "吴美容", "value": 2.807221702562563e-08}]}

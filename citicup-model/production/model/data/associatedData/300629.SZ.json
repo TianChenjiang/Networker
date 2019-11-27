@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东新劲刚新材料科技股份有限公司", "value": 482789251.7, "category": 995}, {"name": "王刚,BING XIU LEI", "value": 3500.0, "category": 995}, {"name": "王刚", "value": 2500.0, "category": 995}],
+"links":
+[{"source": "广东新劲刚新材料科技股份有限公司", "target": "王刚,BING XIU LEI", "value": 7.249540017048396e-06}, {"source": "广东新劲刚新材料科技股份有限公司", "target": "王刚", "value": 5.178242869320283e-06}]}

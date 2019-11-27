@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "康欣新材料股份有限公司\n600076.SH", "value": 5794907000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖北汉川农村商业银行股份有限公司", "value": 4000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "康欣新材料股份有限公司", "target": "湖北汉川农村商业银行股份有限公司", "value": 6.902612932355947e-07}]}

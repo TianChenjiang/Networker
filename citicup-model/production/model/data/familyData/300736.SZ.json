@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京百华悦邦科技股份有限公司\n300736.SZ", "value": 483743838.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "刘铁峰", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京百华悦邦科技股份有限公司", "target": "刘铁峰", "value": 2.0672097943622125e-06}]}

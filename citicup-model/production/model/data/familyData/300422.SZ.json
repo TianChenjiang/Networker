@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广西博世科环保科技股份有限公司\n300422.SZ", "value": 6438509831.61, "itemStyle": {"color": "red"}, "category": 0}, {"name": "王双飞", "value": 3273.7672, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广西南宁北投心圩江环境治理有限公司", "value": 5450.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "玉溪中车环保工程有限公司", "value": 3053.33, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南泛航智能装备有限公司", "value": 93.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西藏广博环保投资有限责任公司", "value": 815.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广西博世科环保科技股份有限公司", "target": "王双飞", "value": 5.084665995114849e-07}, {"source": "广西博世科环保科技股份有限公司", "target": "广西南宁北投心圩江环境治理有限公司", "value": 8.46480030711884e-07}, {"source": "广西博世科环保科技股份有限公司", "target": "玉溪中车环保工程有限公司", "value": 4.742292983711249e-07}, {"source": "广西博世科环保科技股份有限公司", "target": "湖南泛航智能装备有限公司", "value": 1.4459867645603891e-08}, {"source": "广西博世科环保科技股份有限公司", "target": "西藏广博环保投资有限责任公司", "value": 1.2658208518976553e-07}]}

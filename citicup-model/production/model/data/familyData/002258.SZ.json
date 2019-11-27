@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "利尔化学股份有限公司\n002258.SZ", "value": 7026347000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "四川久远化工技术有限公司", "value": 1407.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "利尔化学股份有限公司", "target": "四川久远化工技术有限公司", "value": 2.1388191706744426e-07}]}

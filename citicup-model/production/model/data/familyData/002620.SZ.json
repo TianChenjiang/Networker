@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳瑞和建筑装饰股份有限公司\n002620.SZ", "value": 5247509800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "嘉裕集团", "value": 1802.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳瑞和建筑装饰股份有限公司", "target": "嘉裕集团", "value": 3.435629600920421e-07}]}

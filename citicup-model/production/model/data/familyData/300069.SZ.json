@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江金利华电气股份有限公司\n300069.SZ", "value": 592706405.89, "itemStyle": {"color": "red"}, "category": 0}, {"name": "赵坚", "value": 505.3167, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "赵慧", "value": 1888.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江金利华电气股份有限公司", "target": "赵坚", "value": 8.525581889759117e-07}, {"source": "浙江金利华电气股份有限公司", "target": "赵慧", "value": 3.186214930753564e-06}]}

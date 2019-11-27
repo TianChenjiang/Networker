@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "温州意华接插件股份有限公司\n002897.SZ", "value": 1795563535.14, "itemStyle": {"color": "red"}, "category": 0}, {"name": "意华控股集团有限公司", "value": 4.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "东莞市意获电子有限公司", "value": 24.47, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "乐清意华新能源科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "温州意华接插件股份有限公司", "target": "意华控股集团有限公司", "value": 2.475848951327236e-09}, {"source": "温州意华接插件股份有限公司", "target": "东莞市意获电子有限公司", "value": 1.3959452497460246e-08}, {"source": "温州意华接插件股份有限公司", "target": "乐清意华新能源科技有限公司", "value": 0.0}]}

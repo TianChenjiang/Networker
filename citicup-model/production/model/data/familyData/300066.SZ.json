@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "三川智慧科技股份有限公司\n300066.SZ", "value": 1896915060.82, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江西三川埃尔斯特水表有限公司", "value": 0.0128, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "鹰潭市信江水务工程有限公司", "value": 0.1737, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "三川智慧科技股份有限公司", "target": "江西三川埃尔斯特水表有限公司", "value": 6.747798182627538e-12}, {"source": "三川智慧科技股份有限公司", "target": "鹰潭市信江水务工程有限公司", "value": 9.156973002518775e-11}]}

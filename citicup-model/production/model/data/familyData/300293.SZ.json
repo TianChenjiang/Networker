@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "沈阳蓝英工业自动化装备股份有限公司\n300293.SZ", "value": 2383562130.89, "itemStyle": {"color": "red"}, "category": 0}, {"name": "沈阳蓝英自动控制有限公司", "value": 85000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "沈阳蓝英工业自动化装备股份有限公司", "target": "沈阳蓝英自动控制有限公司", "value": 3.566091225331802e-05}]}

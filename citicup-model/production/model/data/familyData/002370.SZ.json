@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江昂利康制药股份有限公司\n002370.SZ", "value": 1464596465.58, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江亚太药业股份有限公司", "value": 666.97, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江昂利康制药股份有限公司", "target": "浙江亚太药业股份有限公司", "value": 4.5539506319638083e-07}]}

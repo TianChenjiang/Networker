@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市漫步者科技股份有限公司", "value": 1989105871.48, "category": 701}, {"name": "北京爱迪发科技有限公司", "value": 40.64, "category": 701}, {"name": "AUDEZE LLC", "value": 2.01, "category": 701}, {"name": "Ventmere Limited", "value": 1071.44, "category": 701}, {"name": "Lifa Air Limited", "value": 163.88, "category": 701}],
+"links":
+[{"source": "深圳市漫步者科技股份有限公司", "target": "北京爱迪发科技有限公司", "value": 2.0431290552554494e-08}, {"source": "深圳市漫步者科技股份有限公司", "target": "AUDEZE LLC", "value": 1.0105042817577394e-09}, {"source": "深圳市漫步者科技股份有限公司", "target": "Ventmere Limited", "value": 5.386540834062252e-07}, {"source": "深圳市漫步者科技股份有限公司", "target": "Lifa Air Limited", "value": 8.238877696241709e-08}]}

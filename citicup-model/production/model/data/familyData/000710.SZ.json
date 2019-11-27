@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都市贝瑞和康基因技术股份有限公司\n000710.SZ", "value": 2176979876.93, "itemStyle": {"color": "red"}, "category": 0}, {"name": "周大岳,北京瑞生汇智管理咨询有限公司", "value": 210.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宏瓴思齐(珠海)并购股权投资企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建和瑞基因科技有限公司", "value": 14640.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "珠海夏尔巴一期股权投资合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都市贝瑞和康基因技术股份有限公司", "target": "周大岳,北京瑞生汇智管理咨询有限公司", "value": 9.646391417092208e-08}, {"source": "成都市贝瑞和康基因技术股份有限公司", "target": "宏瓴思齐(珠海)并购股权投资企业(有限合伙)", "value": 0.0}, {"source": "成都市贝瑞和康基因技术股份有限公司", "target": "福建和瑞基因科技有限公司", "value": 6.725206858892231e-06}, {"source": "成都市贝瑞和康基因技术股份有限公司", "target": "珠海夏尔巴一期股权投资合伙企业(有限合伙)", "value": 0.0}]}

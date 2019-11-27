@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "神雾节能股份有限公司\n000820.SZ", "value": 1866299044.63, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖北神雾热能技术有限公司", "value": 362.46, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "神雾节能股份有限公司", "target": "湖北神雾热能技术有限公司", "value": 1.9421324843032261e-07}]}

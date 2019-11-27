@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏双星彩塑新材料股份有限公司\n002585.SZ", "value": 9304052177.38, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宿迁市双星国际酒店有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏双星彩塑新材料股份有限公司", "value": 299.88, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏双星彩塑新材料股份有限公司", "target": "宿迁市双星国际酒店有限公司", "value": 0.0}, {"source": "珠海市乐通化工股份有限公司", "target": "江苏双星彩塑新材料股份有限公司", "value": 3.223111761228811e-08}]}

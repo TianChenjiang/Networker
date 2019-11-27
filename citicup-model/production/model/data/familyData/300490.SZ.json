@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华自科技股份有限公司\n300490.SZ", "value": 2791484542.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "长沙华源智慧生活服务有限责任公司", "value": 40.96, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华自科技股份有限公司", "target": "长沙华源智慧生活服务有限责任公司", "value": 1.4673196065483597e-08}]}

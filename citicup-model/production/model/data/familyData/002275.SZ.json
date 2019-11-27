@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "桂林三金药业股份有限公司\n002275.SZ", "value": 3389668528.82, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广西医保贸易有限责任公司", "value": 555.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "桂林三金集团股份有限公司", "value": 2.48, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "桂林金地房地产开发有限责任公司", "value": 9.81, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "华能桂林燃气分布式能源有限责任公司", "value": 378.68, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "桂林三金药业股份有限公司", "target": "广西医保贸易有限责任公司", "value": 1.6377412578251521e-07}, {"source": "桂林三金药业股份有限公司", "target": "桂林三金集团股份有限公司", "value": 7.316349604435597e-10}, {"source": "桂林三金药业股份有限公司", "target": "桂林金地房地产开发有限责任公司", "value": 2.894088291109404e-09}, {"source": "桂林三金药业股份有限公司", "target": "华能桂林燃气分布式能源有限责任公司", "value": 1.1171593823418032e-07}]}

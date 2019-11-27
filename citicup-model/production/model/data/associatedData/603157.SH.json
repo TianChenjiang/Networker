@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海拉夏贝尔服饰股份有限公司", "value": 8694498000.0, "category": 1021}, {"name": "杭州雁儿企业管理咨询有限公司", "value": 20000.0, "category": 1021}, {"name": "泓澈实业(上海)有限公司", "value": 0.0, "category": 1021}, {"name": "Naf Naf SAS", "value": 379.7, "category": 1021}],
+"links":
+[{"source": "上海拉夏贝尔服饰股份有限公司", "target": "杭州雁儿企业管理咨询有限公司", "value": 2.3003053195250606e-06}, {"source": "上海拉夏贝尔服饰股份有限公司", "target": "泓澈实业(上海)有限公司", "value": 0.0}, {"source": "上海拉夏贝尔服饰股份有限公司", "target": "Naf Naf SAS", "value": 4.367129649118327e-08}]}

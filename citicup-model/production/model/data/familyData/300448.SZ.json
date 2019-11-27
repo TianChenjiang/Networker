@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浩云科技股份有限公司\n300448.SZ", "value": 1610396300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "雷洪文", "value": 1455.32, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浩云科技股份有限公司", "target": "雷洪文", "value": 9.037030201820507e-07}]}

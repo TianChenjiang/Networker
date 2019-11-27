@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东隆基机械股份有限公司\n002363.SZ", "value": 3444637706.81, "itemStyle": {"color": "red"}, "category": 0}, {"name": "龙口隆基三泵有限公司", "value": 1195.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东隆基机械股份有限公司", "target": "龙口隆基三泵有限公司", "value": 3.4716277930646273e-07}]}

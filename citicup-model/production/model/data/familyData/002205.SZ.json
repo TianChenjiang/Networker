@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新疆国统管道股份有限公司\n002205.SZ", "value": 3285350566.81, "itemStyle": {"color": "red"}, "category": 0}, {"name": "新疆天山建材(集团)有限责任公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新疆国统管道股份有限公司", "target": "新疆天山建材(集团)有限责任公司", "value": 1.5219076011285107e-06}]}

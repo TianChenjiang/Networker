@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏精研科技股份有限公司\n300709.SZ", "value": 1652164079.22, "itemStyle": {"color": "red"}, "category": 0}, {"name": "常州克迈特数控科技有限公司", "value": 4.3987, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "常州微亿智造科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏精研科技股份有限公司", "target": "常州克迈特数控科技有限公司", "value": 2.6623868992943254e-09}, {"source": "江苏精研科技股份有限公司", "target": "常州微亿智造科技有限公司", "value": 0.0}]}

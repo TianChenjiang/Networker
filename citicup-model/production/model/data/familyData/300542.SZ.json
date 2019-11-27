@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新晨科技股份有限公司\n300542.SZ", "value": 1222425297.41, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京清林软件科技有限公司", "value": 235.5, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "康路", "value": 6000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新晨科技股份有限公司", "target": "北京清林软件科技有限公司", "value": 1.9264980894862286e-07}, {"source": "新晨科技股份有限公司", "target": "康路", "value": 4.90827538722606e-06}]}

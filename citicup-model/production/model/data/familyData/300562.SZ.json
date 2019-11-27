@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东乐心医疗电子股份有限公司\n300562.SZ", "value": 877655700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "麦炯章", "value": 3300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "潘伟潮", "value": 3300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "瑜宏股权投资管理(广州)有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东乐心医疗电子股份有限公司", "target": "麦炯章", "value": 3.760016598764185e-06}, {"source": "广东乐心医疗电子股份有限公司", "target": "潘伟潮", "value": 3.760016598764185e-06}, {"source": "广东乐心医疗电子股份有限公司", "target": "瑜宏股权投资管理(广州)有限公司", "value": 0.0}]}

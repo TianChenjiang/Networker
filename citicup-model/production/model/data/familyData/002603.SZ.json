@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "石家庄以岭药业股份有限公司\n002603.SZ", "value": 8514089648.84, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河北以岭医院", "value": 672.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河北以岭国医堂健康医疗管理有限公司(含分公司)", "value": 28.56, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "石家庄以岭药业股份有限公司", "target": "河北以岭医院", "value": 7.900551059990851e-08}, {"source": "石家庄以岭药业股份有限公司", "target": "河北以岭国医堂健康医疗管理有限公司(含分公司)", "value": 3.354439661542811e-09}]}

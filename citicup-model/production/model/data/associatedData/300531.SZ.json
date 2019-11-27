@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市优博讯科技股份有限公司", "value": 1198106111.09, "category": 466}, {"name": "GUO SONG,CHEN YIHAN,LIU DAN", "value": 83000.0, "category": 466}, {"name": "四川铁慧科技有限公司", "value": 0.0, "category": 466}, {"name": "深圳市天眼智通科技有限公司", "value": 0.38, "category": 466}, {"name": "上海芝柯智能科技有限公司", "value": 24.24, "category": 466}, {"name": "北京易路易通科技有限公司", "value": 21.23, "category": 466}, {"name": "王洪莉", "value": 29.4, "category": 466}, {"name": "深圳市博通思创咨询有限公司", "value": 35000.0, "category": 466}],
+"links":
+[{"source": "深圳市优博讯科技股份有限公司", "target": "GUO SONG,CHEN YIHAN,LIU DAN", "value": 6.927600087482165e-05}, {"source": "深圳市优博讯科技股份有限公司", "target": "四川铁慧科技有限公司", "value": 0.0}, {"source": "深圳市优博讯科技股份有限公司", "target": "深圳市天眼智通科技有限公司", "value": 3.171672329208702e-10}, {"source": "深圳市优博讯科技股份有限公司", "target": "上海芝柯智能科技有限公司", "value": 2.0231930857899718e-08}, {"source": "深圳市优博讯科技股份有限公司", "target": "北京易路易通科技有限公司", "value": 1.771963251292125e-08}, {"source": "深圳市优博讯科技股份有限公司", "target": "王洪莉", "value": 2.4538728020719956e-08}, {"source": "深圳市优博讯科技股份有限公司", "target": "深圳市博通思创咨询有限公司", "value": 2.9212771453238046e-05}]}

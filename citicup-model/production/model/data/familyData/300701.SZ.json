@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "森霸传感科技股份有限公司\n300701.SZ", "value": 503888500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "徐波", "value": 2000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "森霸传感科技股份有限公司", "target": "徐波", "value": 3.969132059969617e-06}]}

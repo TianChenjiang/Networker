@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中航光电科技股份有限公司\n002179.SZ", "value": 13285987801.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中航海信光电技术有限公司", "value": 12226.44, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国航空工业集团有限公司下属单位", "value": 112528.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "航空工业所属企业及受托管理的科研院所", "value": 11.2528, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国航空工业集团有限公司所属企业及受托管理的科研院所", "value": 55444.51, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中航光电科技股份有限公司", "target": "中航海信光电技术有限公司", "value": 9.202507320453583e-07}, {"source": "中航光电科技股份有限公司", "target": "中国航空工业集团有限公司下属单位", "value": 8.469680364288486e-06}, {"source": "中航光电科技股份有限公司", "target": "航空工业所属企业及受托管理的科研院所", "value": 8.469675095579749e-10}, {"source": "中航光电科技股份有限公司", "target": "中国航空工业集团有限公司所属企业及受托管理的科研院所", "value": 4.17315677461274e-06}]}

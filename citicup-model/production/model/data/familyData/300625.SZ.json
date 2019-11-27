@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东三雄极光照明股份有限公司\n300625.SZ", "value": 2756568122.57, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州市番禺区钟村盛凯服装厂", "value": 113.13, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东三雄极光照明股份有限公司", "target": "广州市番禺区钟村盛凯服装厂", "value": 4.104016116043843e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京凯文德信教育科技股份有限公司\n002659.SZ", "value": 3808388169.93, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津泰达建设集团格调中天地产开发有限公司", "value": 435.74, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京国科新业投资有限公司", "value": 476.19, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京万佳鑫物业管理有限责任公司", "value": 575.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京凯文德信教育科技股份有限公司", "target": "天津泰达建设集团格调中天地产开发有限公司", "value": 1.1441585798435277e-07}, {"source": "北京凯文德信教育科技股份有限公司", "target": "北京国科新业投资有限公司", "value": 1.2503714924856324e-07}, {"source": "北京凯文德信教育科技股份有限公司", "target": "北京万佳鑫物业管理有限责任公司", "value": 1.5115581036230898e-07}]}

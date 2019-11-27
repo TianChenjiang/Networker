@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "西部证券股份有限公司\n002673.SZ", "value": 52273554900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "陕西投资集团有限公司", "value": 283.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陕西省华秦投资集团有限公司", "value": 67.05, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陕西金信物业管理发展有限公司", "value": 4.62, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "西安人民大厦有限公司索菲特酒店", "value": 3238.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陕西金泰恒业房地产有限公司", "value": 13000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "西部证券股份有限公司", "target": "陕西投资集团有限公司", "value": 5.414209929694297e-09}, {"source": "西部证券股份有限公司", "target": "陕西省华秦投资集团有限公司", "value": 1.282675343742501e-09}, {"source": "西部证券股份有限公司", "target": "陕西金信物业管理发展有限公司", "value": 8.838120936749224e-11}, {"source": "西部证券股份有限公司", "target": "西安人民大厦有限公司索菲特酒店", "value": 6.194528009802524e-08}, {"source": "西部证券股份有限公司", "target": "陕西金泰恒业房地产有限公司", "value": 2.4869171467043273e-07}]}

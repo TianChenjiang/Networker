@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海普利特复合材料股份有限公司\n002324.SZ", "value": 3897326306.56, "itemStyle": {"color": "red"}, "category": 0}, {"name": "WPR Holdings LLC", "value": 1251.5948, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海普利特复合材料股份有限公司", "target": "WPR Holdings LLC", "value": 3.2114190641243184e-07}]}

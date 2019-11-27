@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳信隆健康产业发展股份有限公司", "value": 1673034919.74, "category": 520}, {"name": "YVOLVE SPORTS LTD", "value": 502.47, "category": 520}, {"name": "Best Motion Limited", "value": 313.3, "category": 520}, {"name": "信友实业(越南)责任有限公司", "value": 1525.31, "category": 520}],
+"links":
+[{"source": "深圳信隆健康产业发展股份有限公司", "target": "YVOLVE SPORTS LTD", "value": 3.0033443658073017e-07}, {"source": "深圳信隆健康产业发展股份有限公司", "target": "Best Motion Limited", "value": 1.872644714724118e-07}, {"source": "深圳信隆健康产业发展股份有限公司", "target": "信友实业(越南)责任有限公司", "value": 9.117024289230273e-07}]}

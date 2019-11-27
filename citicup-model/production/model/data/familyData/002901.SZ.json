@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "大博医疗科技股份有限公司\n002901.SZ", "value": 1676575653.49, "itemStyle": {"color": "red"}, "category": 0}, {"name": "漳州市第三医院", "value": 13.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "厦门医疗器械研发检测中心有限公司", "value": 0.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "大博医疗科技股份有限公司", "target": "漳州市第三医院", "value": 7.777758178019359e-09}, {"source": "大博医疗科技股份有限公司", "target": "厦门医疗器械研发检测中心有限公司", "value": 3.8173046272487657e-10}]}

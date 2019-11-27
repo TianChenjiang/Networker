@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳万润科技股份有限公司\n002654.SZ", "value": 4591006681.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖北省宏泰国有资本投资运营集团有限公司", "value": 25000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "唐伟", "value": 17014.5339, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳万润科技股份有限公司", "target": "湖北省宏泰国有资本投资运营集团有限公司", "value": 5.481481221422797e-06}, {"source": "深圳万润科技股份有限公司", "target": "唐伟", "value": 3.7305939225644633e-06}]}

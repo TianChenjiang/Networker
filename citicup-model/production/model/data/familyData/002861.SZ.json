@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "瀛通通讯股份有限公司\n002861.SZ", "value": 1420405444.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖北瀛通电子有限公司,湖北瀛新精密电子有限公司,东莞市瀛通电线有限公司", "value": 31000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "瀛通通讯股份有限公司", "target": "湖北瀛通电子有限公司,湖北瀛新精密电子有限公司,东莞市瀛通电线有限公司", "value": 2.182475442139133e-05}]}

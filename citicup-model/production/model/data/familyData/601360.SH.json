@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "杭州沪宁电梯部件股份有限公司\n601360.SH", "value": 519787702.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "三六零安全科技股份有限公司", "value": 3.96, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天津奇信志成科技有限公司及其控制的公司", "value": 13397.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "周鸿祎及其家庭成员控制,任董事或高级管理人员的公司", "value": 10708.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "杭州沪宁电梯部件股份有限公司", "target": "三六零安全科技股份有限公司", "value": 7.618494982289692e-09}, {"source": "三六零安全科技股份有限公司", "target": "天津奇信志成科技有限公司及其控制的公司", "value": 2.5773984161044196e-05}, {"source": "三六零安全科技股份有限公司", "target": "周鸿祎及其家庭成员控制,任董事或高级管理人员的公司", "value": 2.060071825009041e-05}]}

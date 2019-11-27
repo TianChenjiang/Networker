@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "鸿博股份有限公司\n002229.SZ", "value": 2072267519.16, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建鸿博光电科技有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "鸿博股份有限公司", "target": "福建鸿博光电科技有限公司", "value": 0.0}]}

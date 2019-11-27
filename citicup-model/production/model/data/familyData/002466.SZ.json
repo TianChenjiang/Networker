@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天齐锂业股份有限公司\n002466.SZ", "value": 46738888175.68, "itemStyle": {"color": "red"}, "category": 0}, {"name": "四川天齐矿业有限责任公司", "value": 84.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都天齐实业(集团)有限公司", "value": 5.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天齐锂业股份有限公司", "target": "四川天齐矿业有限责任公司", "value": 1.885550244096835e-09}, {"source": "天齐锂业股份有限公司", "target": "成都天齐实业(集团)有限公司", "value": 1.1291793286891695e-10}]}

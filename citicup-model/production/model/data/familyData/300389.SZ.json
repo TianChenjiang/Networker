@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市艾比森光电股份有限公司\n300389.SZ", "value": 2116508810.1, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市坤元工程有限公司", "value": 24.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市艾比森光电股份有限公司", "target": "深圳市坤元工程有限公司", "value": 1.1339428347981249e-08}]}

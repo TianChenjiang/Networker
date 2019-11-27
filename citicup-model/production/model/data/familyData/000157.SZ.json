@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "盈峰环境科技集团股份有限公司\n000157.SZ", "value": 24464090000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中联重科股份有限公司", "value": 12461.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "长沙中联重科环境产业有限公司", "value": 98028.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "盈峰环境科技集团股份有限公司", "target": "中联重科股份有限公司", "value": 5.093588193961026e-07}, {"source": "中联重科股份有限公司", "target": "长沙中联重科环境产业有限公司", "value": 4.00701681525861e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京神州泰岳软件股份有限公司\n300002.SZ", "value": 6638509700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京云中融信网络科技有限公司", "value": 102.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京诚行天下投资咨询有限公司", "value": 14.45, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京国信安石科技有限责任公司", "value": 117.89, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京神州泰岳软件股份有限公司", "target": "北京云中融信网络科技有限公司", "value": 1.541611063700035e-08}, {"source": "北京神州泰岳软件股份有限公司", "target": "北京诚行天下投资咨询有限公司", "value": 2.176693362367159e-09}, {"source": "北京神州泰岳软件股份有限公司", "target": "北京国信安石科技有限责任公司", "value": 1.775850384010134e-08}]}

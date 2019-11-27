@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "惠州中京电子科技股份有限公司\n002579.SZ", "value": 2810481991.22, "itemStyle": {"color": "red"}, "category": 0}, {"name": "惠州市京港投资发展有限公司", "value": 8100.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "惠州中盛科技企业孵化器有限公司", "value": 680.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "惠州中京电子科技股份有限公司", "target": "惠州市京港投资发展有限公司", "value": 2.8820679247561654e-06}, {"source": "惠州中京电子科技股份有限公司", "target": "惠州中盛科技企业孵化器有限公司", "value": 2.419513813375546e-07}]}

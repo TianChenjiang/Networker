@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "长江证券股份有限公司\n000883.SZ", "value": 121253702300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖北能源集团股份有限公司", "value": 392000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "三峡财务有限责任公司", "value": 82500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "长江证券股份有限公司", "target": "湖北能源集团股份有限公司", "value": 3.9413480317784175e-06}, {"source": "湖北能源集团股份有限公司", "target": "三峡财务有限责任公司", "value": 8.29492889341121e-07}]}

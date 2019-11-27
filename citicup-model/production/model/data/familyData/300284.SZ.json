@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏交科集团股份有限公司\n300284.SZ", "value": 12396494274.62, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中电建路桥集团南京工程勘察设计有限公司", "value": 195.13, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏交科集团股份有限公司", "target": "中电建路桥集团南京工程勘察设计有限公司", "value": 1.574074054142065e-08}]}

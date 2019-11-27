@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福安药业(集团)股份有限公司\n300194.SZ", "value": 4293869550.19, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福安药业集团庆余堂制药有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福安药业(集团)股份有限公司", "target": "福安药业集团庆余堂制药有限公司", "value": 0.0}]}

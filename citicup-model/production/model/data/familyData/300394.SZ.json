@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州天孚光通信股份有限公司\n300394.SZ", "value": 1194463339.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "苏州天孚精密光学有限公司", "value": 137.53, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "TFC株式会社", "value": 402.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "TFC株式会社,苏州天孚精密光学有限公司", "value": 4356.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州天孚光通信股份有限公司", "target": "苏州天孚精密光学有限公司", "value": 1.1513957396759124e-07}, {"source": "苏州天孚光通信股份有限公司", "target": "TFC株式会社", "value": 3.371807126841225e-07}, {"source": "苏州天孚光通信股份有限公司", "target": "TFC株式会社,苏州天孚精密光学有限公司", "value": 3.647412069400165e-06}]}

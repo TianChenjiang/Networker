@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东天龙油墨集团股份有限公司\n300063.SZ", "value": 2542502500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "冯毅", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东天龙油墨集团股份有限公司", "target": "冯毅", "value": 0.0}]}

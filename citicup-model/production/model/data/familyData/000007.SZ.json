@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市全新好股份有限公司\n000007.SZ", "value": 385709995.47, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京泓钧资产管理有限公司", "value": 2900.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市全新好股份有限公司", "target": "北京泓钧资产管理有限公司", "value": 7.518602146844177e-06}]}

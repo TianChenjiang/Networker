@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏久吾高科技股份有限公司\n300631.SZ", "value": 933385512.44, "itemStyle": {"color": "red"}, "category": 0}, {"name": "连云港久洋环境科技有限公司", "value": 17316.95, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京工业大学", "value": 410.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河北首朗新能源科技有限公司", "value": 765.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏久吾高科技股份有限公司", "target": "连云港久洋环境科技有限公司", "value": 1.8552837781605453e-05}, {"source": "江苏久吾高科技股份有限公司", "target": "南京工业大学", "value": 4.3926115686990124e-07}, {"source": "江苏久吾高科技股份有限公司", "target": "河北首朗新能源科技有限公司", "value": 8.195970365987181e-07}]}

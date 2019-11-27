@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东英联包装股份有限公司\n002495.SZ", "value": 1124170383.84, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东佳隆食品股份有限公司", "value": 148.96, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东英联包装股份有限公司", "value": 204.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东英联包装股份有限公司", "target": "广东佳隆食品股份有限公司", "value": 1.3250660410673216e-07}, {"source": "广东佳隆食品股份有限公司", "target": "广东英联包装股份有限公司", "value": 1.8150273564673488e-07}]}

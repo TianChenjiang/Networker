@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北海银河生物产业投资股份有限公司\n600112.SH", "value": 2490315103.49, "itemStyle": {"color": "red"}, "category": 0}, {"name": "贵州长征天成控股股份有限公司", "value": 5.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东电工配网科技发展有限公司", "value": 1581.15, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北海银河生物产业投资股份有限公司", "value": 667.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北海银河生物产业投资股份有限公司", "target": "贵州长征天成控股股份有限公司", "value": 2.4013025466614465e-09}, {"source": "贵州长征天成控股股份有限公司", "target": "山东电工配网科技发展有限公司", "value": 6.349196524504592e-07}, {"source": "贵州长征天成控股股份有限公司", "target": "北海银河生物产业投资股份有限公司", "value": 2.6789380952838085e-07}]}

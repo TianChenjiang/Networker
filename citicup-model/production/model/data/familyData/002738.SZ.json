@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中矿资源集团股份有限公司\n002738.SZ", "value": 3258360209.95, "itemStyle": {"color": "red"}, "category": 0}, {"name": "孙梅春,钟海华", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "孙梅春,钟海华等", "value": 180000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中矿资源集团股份有限公司", "target": "孙梅春,钟海华", "value": 0.0}, {"source": "中矿资源集团股份有限公司", "target": "孙梅春,钟海华等", "value": 5.524251107975632e-05}]}

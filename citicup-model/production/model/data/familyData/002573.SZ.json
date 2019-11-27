@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京清新环境技术股份有限公司\n002573.SZ", "value": 10557382783.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京铝能清新环境技术有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京清新环境技术股份有限公司", "target": "北京铝能清新环境技术有限公司", "value": 2.8416133634583604e-07}]}

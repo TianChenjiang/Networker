@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "三江购物俱乐部股份有限公司\n601116.SH", "value": 4331085589.75, "itemStyle": {"color": "red"}, "category": 0}, {"name": "阿里巴巴集团控股有限公司", "value": 9063.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宁波士倍贸易有限公司", "value": 287.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "三江购物俱乐部股份有限公司", "target": "阿里巴巴集团控股有限公司", "value": 2.042996340671684e-06}, {"source": "三江购物俱乐部股份有限公司", "target": "宁波士倍贸易有限公司", "value": 6.48837885253784e-08}]}

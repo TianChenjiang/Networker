@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市蓝海华腾技术股份有限公司\n300484.SZ", "value": 1063394167.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市云威新材料有限公司,深圳市云威新材料实业合伙企业(有限合伙),上海撷珍资产管理中心(有限合伙),徐平", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海撷珍资产管理中心(有限合伙)", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市蓝海华腾技术股份有限公司", "target": "深圳市云威新材料有限公司,深圳市云威新材料实业合伙企业(有限合伙),上海撷珍资产管理中心(有限合伙),徐平", "value": 0.0}, {"source": "深圳市蓝海华腾技术股份有限公司", "target": "上海撷珍资产管理中心(有限合伙)", "value": 9.403850717191304e-07}]}

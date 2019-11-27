@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州市嘉诚国际物流股份有限公司\n603535.SH", "value": 2105792466.21, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州市浪奇实业股份有限公司", "value": 1290.2047, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州港天国际物流有限公司", "value": 48.8094, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州市嘉诚国际物流股份有限公司", "target": "广州市浪奇实业股份有限公司", "value": 6.856632368584838e-07}, {"source": "广州市嘉诚国际物流股份有限公司", "target": "广州港天国际物流有限公司", "value": 2.5939148410419275e-08}]}

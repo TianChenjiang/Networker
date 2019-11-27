@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "利民化工股份有限公司\n002734.SZ", "value": 2737452535.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏新河农用化工有限公司", "value": 3459.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新疆欣荣仁和股权投资有限合伙企业", "value": 75855.78, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "利民化工股份有限公司", "target": "江苏新河农用化工有限公司", "value": 1.2638173468315423e-06}, {"source": "利民化工股份有限公司", "target": "新疆欣荣仁和股权投资有限合伙企业", "value": 2.7710354436137047e-05}]}

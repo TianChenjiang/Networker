@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都运达科技股份有限公司\n300440.SZ", "value": 1871781501.3, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都运达创新科技集团有限公司", "value": 33367.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都运达科技股份有限公司", "target": "成都运达创新科技集团有限公司", "value": 1.782633281546258e-05}]}

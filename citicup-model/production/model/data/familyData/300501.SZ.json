@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海海顺新型药用包装材料股份有限公司\n300501.SZ", "value": 942481268.99, "itemStyle": {"color": "red"}, "category": 0}, {"name": "林武辉", "value": 55.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海海顺新型药用包装材料股份有限公司", "target": "林武辉", "value": 5.835659743024937e-08}]}

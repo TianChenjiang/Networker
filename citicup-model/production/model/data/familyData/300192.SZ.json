@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "苏州科斯伍德油墨股份有限公司\n300192.SZ", "value": 1620366618.87, "itemStyle": {"color": "red"}, "category": 0}, {"name": "马良铭,方锐铭", "value": 46285.1051, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "马良铭", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "苏州科斯伍德油墨股份有限公司", "target": "马良铭,方锐铭", "value": 2.8564588137638868e-05}, {"source": "苏州科斯伍德油墨股份有限公司", "target": "马良铭", "value": 0.0}]}

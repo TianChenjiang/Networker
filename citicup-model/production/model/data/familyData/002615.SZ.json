@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江哈尔斯真空器皿股份有限公司\n002615.SZ", "value": 1802992980.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁波玉晟贸易有限公司", "value": 18.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东哈尔斯营销管理有限公司", "value": 770.99, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江哈尔斯真空器皿股份有限公司", "target": "宁波玉晟贸易有限公司", "value": 1.0005585263118732e-08}, {"source": "浙江哈尔斯真空器皿股份有限公司", "target": "广东哈尔斯营销管理有限公司", "value": 4.276167506658487e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "志邦家居股份有限公司", "value": 2784576400.0, "category": 987}, {"name": "安徽共邦投资有限公司", "value": 0.44, "category": 987}, {"name": "安徽元邦投资有限公司", "value": 0.44, "category": 987}, {"name": "孙志勇,许帮顺", "value": 6.17, "category": 987}, {"name": "IJF Australia Pty Ltd", "value": 3552.0, "category": 987}],
+"links":
+[{"source": "志邦家居股份有限公司", "target": "安徽共邦投资有限公司", "value": 1.5801326190942363e-10}, {"source": "志邦家居股份有限公司", "target": "安徽元邦投资有限公司", "value": 1.5801326190942363e-10}, {"source": "志邦家居股份有限公司", "target": "孙志勇,许帮顺", "value": 2.2157768772298724e-09}, {"source": "志邦家居股份有限公司", "target": "IJF Australia Pty Ltd", "value": 1.2755979688688016e-06}]}

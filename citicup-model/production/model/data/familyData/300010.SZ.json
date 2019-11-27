@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京立思辰科技股份有限公司\n300010.SZ", "value": 7274655800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "彭雷,宁波梅山保税港区启志企业管理合伙企业(有限合伙)", "value": 10200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京辰光融信企业管理中心(有限合伙)", "value": 51000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宁波梅山保税港区立思辰投资管理有限公司,宁波梅山保税港区佳辰投资有限公司", "value": 20000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京立思辰科技股份有限公司", "target": "彭雷,宁波梅山保税港区启志企业管理合伙企业(有限合伙)", "value": 1.4021281941614338e-06}, {"source": "北京立思辰科技股份有限公司", "target": "北京辰光融信企业管理中心(有限合伙)", "value": 7.010640970807169e-06}, {"source": "北京立思辰科技股份有限公司", "target": "宁波梅山保税港区立思辰投资管理有限公司,宁波梅山保税港区佳辰投资有限公司", "value": 2.7492709689439875e-06}]}

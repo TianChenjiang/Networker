@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天顺风能(苏州)股份有限公司\n002531.SZ", "value": 12977573530.22, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海安顺船务代理有限公司", "value": 1045.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "太仓安顺船务代理有限公司", "value": 473.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海安顺船务代理有限公司,上海安顺船务物流有限公司,太仓安顺船务代理有限公司", "value": 370.03, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海安顺船务代理有限公司,太仓安顺船务代理有限公司", "value": 2904.78, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天顺风能(苏州)股份有限公司", "target": "上海安顺船务代理有限公司", "value": 8.052352757367e-08}, {"source": "天顺风能(苏州)股份有限公司", "target": "太仓安顺船务代理有限公司", "value": 3.644749142808221e-08}, {"source": "天顺风能(苏州)股份有限公司", "target": "上海安顺船务代理有限公司,上海安顺船务物流有限公司,太仓安顺船务代理有限公司", "value": 2.851303436180393e-08}, {"source": "天顺风能(苏州)股份有限公司", "target": "上海安顺船务代理有限公司,太仓安顺船务代理有限公司", "value": 2.238307487324834e-07}]}

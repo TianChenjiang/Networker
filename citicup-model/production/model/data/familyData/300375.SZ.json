@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天津鹏翎集团股份有限公司\n300375.SZ", "value": 2747849000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津翰承物流有限公司", "value": 140.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河北新华欧亚汽配集团有限公司,宋金花,解东林,解东泰,清河县新欧企业管理服务中心(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天津鹏翎集团股份有限公司", "target": "天津翰承物流有限公司", "value": 5.1203686956597684e-08}, {"source": "天津鹏翎集团股份有限公司", "target": "河北新华欧亚汽配集团有限公司,宋金花,解东林,解东泰,清河县新欧企业管理服务中心(有限合伙)", "value": 0.0}]}

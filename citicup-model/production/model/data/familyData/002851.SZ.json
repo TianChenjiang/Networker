@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳麦格米特电气股份有限公司\n002851.SZ", "value": 3220528900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "东莞市国研电热材料有限公司", "value": 268.23, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "唐山惠米智能家居科技有限公司", "value": 1582.12, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "沈阳晶格自动化技术有限公司", "value": 0.67, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖北东格新能源汽车科技有限公司", "value": 920.32, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳麦格米特电气股份有限公司", "target": "东莞市国研电热材料有限公司", "value": 8.328756186600283e-08}, {"source": "深圳麦格米特电气股份有限公司", "target": "唐山惠米智能家居科技有限公司", "value": 4.91260923011745e-07}, {"source": "深圳麦格米特电气股份有限公司", "target": "沈阳晶格自动化技术有限公司", "value": 2.0804036256280764e-10}, {"source": "深圳麦格米特电气股份有限公司", "target": "湖北东格新能源汽车科技有限公司", "value": 2.8576672608030315e-07}]}

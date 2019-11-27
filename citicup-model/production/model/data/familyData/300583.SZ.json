@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东赛托生物科技股份有限公司\n300583.SZ", "value": 2603219746.12, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津市津津药业有限公司", "value": 2393.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "菏泽润鑫生物科技有限公司", "value": 16.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江仙琚制药股份有限公司", "value": 6815.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "菏泽德昱信包装制品有限公司", "value": 10.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东润鑫投资有限公司", "value": 11460.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东赛托生物科技股份有限公司", "target": "天津市津津药业有限公司", "value": 9.192462540155036e-07}, {"source": "山东赛托生物科技股份有限公司", "target": "菏泽润鑫生物科技有限公司", "value": 6.476595003218299e-09}, {"source": "山东赛托生物科技股份有限公司", "target": "浙江仙琚制药股份有限公司", "value": 2.6179503325286494e-06}, {"source": "山东赛托生物科技股份有限公司", "target": "菏泽德昱信包装制品有限公司", "value": 3.8798107670524804e-09}, {"source": "山东赛托生物科技股份有限公司", "target": "山东润鑫投资有限公司", "value": 4.402240731724894e-06}]}

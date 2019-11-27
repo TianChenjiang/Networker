@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海力盛赛车文化股份有限公司\n002858.SZ", "value": 587138696.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "央视IMG(北京)体育赛事管理有限责任公司", "value": 7.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州睿速体育文化传播有限公司", "value": 91.51, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州睿基营销策划有限公司", "value": 4854.11, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "株洲高科汽车园经营管理有限公司", "value": 30.44, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "国家体育总局汽车摩托车运动管理中心", "value": 96.61, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海力盛赛车文化股份有限公司", "target": "央视IMG(北京)体育赛事管理有限责任公司", "value": 1.2058479614950802e-08}, {"source": "上海力盛赛车文化股份有限公司", "target": "广州睿速体育文化传播有限公司", "value": 1.5585755219832597e-07}, {"source": "上海力盛赛车文化股份有限公司", "target": "广州睿基营销策划有限公司", "value": 8.267399220865654e-06}, {"source": "上海力盛赛车文化股份有限公司", "target": "株洲高科汽车园经营管理有限公司", "value": 5.184464964394102e-08}, {"source": "上海力盛赛车文化股份有限公司", "target": "国家体育总局汽车摩托车运动管理中心", "value": 1.64543745141299e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "贝达药业股份有限公司\n300558.SZ", "value": 3468644800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州瑞普基因科技有限公司", "value": 1197.06, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "贝达药业股份有限公司", "target": "杭州瑞普基因科技有限公司", "value": 3.451088448145512e-07}]}

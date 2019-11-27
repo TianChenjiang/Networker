@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "国脉科技股份有限公司\n002093.SZ", "value": 4516933025.14, "itemStyle": {"color": "red"}, "category": 0}, {"name": "陈国鹰", "value": 6000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建国脉集团有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "慧翰微电子股份有限公司", "value": 0.06, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "福建国脉生物科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "国脉科技股份有限公司", "target": "陈国鹰", "value": 1.3283349490917088e-06}, {"source": "国脉科技股份有限公司", "target": "福建国脉集团有限公司", "value": 0.0}, {"source": "国脉科技股份有限公司", "target": "慧翰微电子股份有限公司", "value": 1.3283349490917086e-11}, {"source": "国脉科技股份有限公司", "target": "福建国脉生物科技有限公司", "value": 0.0}]}

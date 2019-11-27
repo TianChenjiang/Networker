@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都天翔环境股份有限公司\n300362.SZ", "value": 5184371783.07, "itemStyle": {"color": "red"}, "category": 0}, {"name": "意大利安德里茨", "value": 235.51, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "安德里茨(中国)有限公司", "value": 352.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "欧盛腾水处理技术(杭州)有限公司", "value": 6.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京格林雷斯环保科技有限公司", "value": 47.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都天翔环境股份有限公司", "target": "意大利安德里茨", "value": 4.542691185247895e-08}, {"source": "成都天翔环境股份有限公司", "target": "安德里茨(中国)有限公司", "value": 6.806996387728683e-08}, {"source": "成都天翔环境股份有限公司", "target": "欧盛腾水处理技术(杭州)有限公司", "value": 1.1766131472129488e-09}, {"source": "成都天翔环境股份有限公司", "target": "北京格林雷斯环保科技有限公司", "value": 9.231591020592087e-09}]}

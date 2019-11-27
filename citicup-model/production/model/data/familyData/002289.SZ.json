@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市宇顺电子股份有限公司\n002289.SZ", "value": 605781768.35, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中植产业投资有限公司", "value": 1149.65, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "珠海中植产投清云投资合伙企业(有限合伙)", "value": 1910.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市宇顺电子股份有限公司", "value": 4435.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天津经纬辉开光电股份有限公司", "value": 4435.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市宇顺电子股份有限公司", "target": "中植产业投资有限公司", "value": 1.8977956420368393e-06}, {"source": "深圳市宇顺电子股份有限公司", "target": "珠海中植产投清云投资合伙企业(有限合伙)", "value": 3.1529506165270846e-06}, {"source": "天津经纬辉开光电股份有限公司", "target": "深圳市宇顺电子股份有限公司", "value": 7.322174802456648e-06}, {"source": "深圳市宇顺电子股份有限公司", "target": "天津经纬辉开光电股份有限公司", "value": 7.322174802456648e-06}]}

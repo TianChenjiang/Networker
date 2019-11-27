@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波创源文化发展股份有限公司\n300703.SZ", "value": 945681200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "王桂强", "value": 120.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江天堂硅谷朝阳创业投资有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波创源文化发展股份有限公司", "target": "王桂强", "value": 1.2689265684884083e-07}, {"source": "宁波创源文化发展股份有限公司", "target": "浙江天堂硅谷朝阳创业投资有限公司", "value": 0.0}]}

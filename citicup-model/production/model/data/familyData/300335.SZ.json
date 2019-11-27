@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州迪森热能技术股份有限公司\n300335.SZ", "value": 3463865779.76, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州忠丸宝金属材料有限公司", "value": 2900.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州迪森热能技术股份有限公司", "target": "广州忠丸宝金属材料有限公司", "value": 8.372148877549555e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "贵州川恒化工股份有限公司\n002895.SZ", "value": 2620568718.64, "itemStyle": {"color": "red"}, "category": 0}, {"name": "贵州省福泉磷矿有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "贵州福泉市兴福磷化有限公司", "value": 1979.1004, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "贵州川恒化工股份有限公司", "target": "贵州省福泉磷矿有限公司", "value": 1.1447896705249974e-06}, {"source": "贵州川恒化工股份有限公司", "target": "贵州福泉市兴福磷化有限公司", "value": 7.552178982839636e-07}]}

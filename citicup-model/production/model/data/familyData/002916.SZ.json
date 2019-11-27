@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深南电路股份有限公司\n002916.SZ", "value": 8525409856.54, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中航证券有限公司", "value": 700.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深南电路股份有限公司", "value": 588.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国航空技术深圳有限公司", "value": 50000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国航空工业集团有限公司及下属企业", "value": 1143.9, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深南电路股份有限公司", "target": "中航证券有限公司", "value": 8.21074894672679e-08}, {"source": "飞亚达(集团)股份有限公司", "target": "深南电路股份有限公司", "value": 6.897029115250504e-08}, {"source": "深南电路股份有限公司", "target": "中国航空技术深圳有限公司", "value": 5.864820676233421e-06}, {"source": "深南电路股份有限公司", "target": "中国航空工业集团有限公司及下属企业", "value": 1.3417536743086822e-07}]}

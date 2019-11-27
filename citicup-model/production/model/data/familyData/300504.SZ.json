@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川天邑康和通信股份有限公司\n300504.SZ", "value": 2951337900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "李世宏", "value": 6750.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "四川天邑国际酒店有限责任公司", "value": 23.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都天邑泰安物业管理有限责任公司", "value": 8.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都天邑房地产开发有限责任公司", "value": 110.2, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川天邑康和通信股份有限公司", "target": "李世宏", "value": 2.287098335978405e-06}, {"source": "四川天邑康和通信股份有限公司", "target": "四川天邑国际酒店有限责任公司", "value": 8.03025637965751e-09}, {"source": "四川天邑康和通信股份有限公司", "target": "成都天邑泰安物业管理有限责任公司", "value": 2.7377414155119275e-09}, {"source": "四川天邑康和通信股份有限公司", "target": "成都天邑房地产开发有限责任公司", "value": 3.733899801849189e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "雅本化学股份有限公司\n300261.SZ", "value": 3643333870.83, "itemStyle": {"color": "red"}, "category": 0}, {"name": "益方生物科技(上海)有限公司", "value": 21.01, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "雅本化学股份有限公司", "target": "益方生物科技(上海)有限公司", "value": 5.766696313015542e-09}]}

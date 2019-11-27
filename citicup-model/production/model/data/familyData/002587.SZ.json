@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市奥拓电子股份有限公司\n002587.SZ", "value": 2280387885.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吴涵渠,杨四化", "value": 100.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市奥拓电子股份有限公司", "target": "吴涵渠,杨四化", "value": 4.385218876707734e-08}]}

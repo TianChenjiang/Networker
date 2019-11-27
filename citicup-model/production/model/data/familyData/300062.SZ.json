@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中能电气股份有限公司\n300062.SZ", "value": 2173461000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建中能发展有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中能电气股份有限公司", "target": "福建中能发展有限公司", "value": 0.0}]}

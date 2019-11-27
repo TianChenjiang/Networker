@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "丽江玉龙旅游股份有限公司\n002033.SZ", "value": 2686731069.08, "itemStyle": {"color": "red"}, "category": 0}, {"name": "云南丽江白鹿国际旅行社有限公司", "value": 3723.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "丽江玉龙旅游股份有限公司", "target": "云南丽江白鹿国际旅行社有限公司", "value": 1.3715536076824264e-06}]}

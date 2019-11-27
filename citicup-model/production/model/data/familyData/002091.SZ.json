@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏国泰国际集团股份有限公司\n002091.SZ", "value": 21310140335.23, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张家港国泰物业管理有限公司", "value": 865.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏国泰国际贸易有限公司", "value": 77.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏国泰国际集团实业管理有限公司", "value": 262.32, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏国泰国际集团有限公司等其他业绩承诺方", "value": 0.0001, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏国泰国际集团股份有限公司", "target": "张家港国泰物业管理有限公司", "value": 4.0595696996411314e-08}, {"source": "江苏国泰国际集团股份有限公司", "target": "江苏国泰国际贸易有限公司", "value": 3.6133032813821188e-09}, {"source": "江苏国泰国际集团股份有限公司", "target": "江苏国泰国际集团实业管理有限公司", "value": 1.2309632685352692e-08}, {"source": "江苏国泰国际集团股份有限公司", "target": "江苏国泰国际集团有限公司等其他业绩承诺方", "value": 4.692601664132622e-15}]}

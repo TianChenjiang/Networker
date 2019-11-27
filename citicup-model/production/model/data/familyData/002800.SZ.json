@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新疆天顺供应链股份有限公司\n002800.SZ", "value": 1001933083.15, "itemStyle": {"color": "red"}, "category": 0}, {"name": "王普宇,胡晓玲,新疆天顺投资集团有限公司", "value": 42000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新疆天顺投资集团有限公司", "value": 3.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "乌鲁木齐天恒祥物业服务有限公司", "value": 37.64, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新疆天顺供应链股份有限公司", "target": "王普宇,胡晓玲,新疆天顺投资集团有限公司", "value": 4.1918967150935124e-05}, {"source": "新疆天顺供应链股份有限公司", "target": "新疆天顺投资集团有限公司", "value": 3.4832665561134188e-09}, {"source": "新疆天顺供应链股份有限公司", "target": "乌鲁木齐天恒祥物业服务有限公司", "value": 3.756737913240948e-08}]}

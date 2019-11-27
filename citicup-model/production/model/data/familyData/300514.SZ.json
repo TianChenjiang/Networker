@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳友讯达科技股份有限公司\n300514.SZ", "value": 892714500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "海南开维海棠度假投资有限公司", "value": 108.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "磐安翡翠湖度假酒店有限公司", "value": 8.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浙江海德酒店有限公司", "value": 0.65, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "扬州海德建国商务酒店有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳友讯达科技股份有限公司", "target": "海南开维海棠度假投资有限公司", "value": 1.2105774018457187e-07}, {"source": "深圳友讯达科技股份有限公司", "target": "磐安翡翠湖度假酒店有限公司", "value": 9.74555695017836e-09}, {"source": "深圳友讯达科技股份有限公司", "target": "浙江海德酒店有限公司", "value": 7.281163238639005e-10}, {"source": "深圳友讯达科技股份有限公司", "target": "扬州海德建国商务酒店有限公司", "value": 0.0}]}

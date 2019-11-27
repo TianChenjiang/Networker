@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "盐津铺子食品股份有限公司\n002847.SZ", "value": 1158629200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "长沙市博特食品贸易有限公司", "value": 29.49, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "浏阳市彭记轩食品厂", "value": 13.36, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "恒远食品有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "曼谷王食品有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "盐津铺子食品股份有限公司", "target": "长沙市博特食品贸易有限公司", "value": 2.5452491616817528e-08}, {"source": "盐津铺子食品股份有限公司", "target": "浏阳市彭记轩食品厂", "value": 1.1530867683983796e-08}, {"source": "盐津铺子食品股份有限公司", "target": "恒远食品有限公司", "value": 0.0}, {"source": "盐津铺子食品股份有限公司", "target": "曼谷王食品有限公司", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "武汉农尚环境股份有限公司\n300536.SZ", "value": 1215753400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吴亮,刘莉", "value": 50000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "武汉农尚环境股份有限公司", "target": "吴亮,刘莉", "value": 4.1126761397500515e-05}]}

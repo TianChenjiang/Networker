@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华林证券股份有限公司\n002945.SZ", "value": 11870748300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市怡景食品饮料有限公司", "value": 5.7425, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市立业集团有限公司", "value": 2830.1887, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天津市立德汇业科技有限公司", "value": 1.28, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "林潜等六人", "value": 0.04, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华林证券股份有限公司", "target": "深圳市怡景食品饮料有限公司", "value": 4.837521489694124e-10}, {"source": "华林证券股份有限公司", "target": "深圳市立业集团有限公司", "value": 2.3841704233590736e-07}, {"source": "华林证券股份有限公司", "target": "天津市立德汇业科技有限公司", "value": 1.078280802230471e-10}, {"source": "华林证券股份有限公司", "target": "林潜等六人", "value": 3.369627506970222e-12}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南国科微电子股份有限公司\n300672.SZ", "value": 1609245100.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "国家集成电路产业投资基金股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏芯盛智能科技有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中科威发半导体(苏州)有限公司", "value": 550.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "国家集成电路产业投资基金股份有限公司,深圳鸿泰基金投资管理有限公司", "value": 10300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南国科微电子股份有限公司", "target": "国家集成电路产业投资基金股份有限公司", "value": 0.0}, {"source": "湖南国科微电子股份有限公司", "target": "江苏芯盛智能科技有限公司", "value": 0.0}, {"source": "湖南国科微电子股份有限公司", "target": "中科威发半导体(苏州)有限公司", "value": 3.417751590481773e-07}, {"source": "湖南国科微电子股份有限公司", "target": "国家集成电路产业投资基金股份有限公司,深圳鸿泰基金投资管理有限公司", "value": 6.400516614902229e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广西柳州医药股份有限公司\n603368.SH", "value": 11974858500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "朱朝阳", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广西柳州医药股份有限公司", "target": "朱朝阳", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳英飞拓科技股份有限公司\n002528.SZ", "value": 5459713250.65, "itemStyle": {"color": "red"}, "category": 0}, {"name": "怀化市智慧中方建设运营发展有限责任公司", "value": 2788.91, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "国任财产保险股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳英飞拓科技股份有限公司", "target": "怀化市智慧中方建设运营发展有限责任公司", "value": 5.108162044349068e-07}, {"source": "深圳英飞拓科技股份有限公司", "target": "国任财产保险股份有限公司", "value": 0.0}]}

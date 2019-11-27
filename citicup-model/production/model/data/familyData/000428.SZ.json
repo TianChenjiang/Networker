@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华天酒店集团股份有限公司\n000428.SZ", "value": 7196445970.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "华天实业控股集团有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南华天国际旅行社有限公司", "value": 214.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南华天装饰有限公司", "value": 28.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南华天物业管理有限公司", "value": 47.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "华天实业控股集团有限公司,银河(长沙)高科技实业有限公司", "value": 304.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华天酒店集团股份有限公司", "target": "华天实业控股集团有限公司", "value": 1.3895748042206378e-06}, {"source": "华天酒店集团股份有限公司", "target": "湖南华天国际旅行社有限公司", "value": 2.9736900810321647e-08}, {"source": "华天酒店集团股份有限公司", "target": "湖南华天装饰有限公司", "value": 3.890809451817785e-09}, {"source": "华天酒店集团股份有限公司", "target": "湖南华天物业管理有限公司", "value": 6.531001579836997e-09}, {"source": "华天酒店集团股份有限公司", "target": "华天实业控股集团有限公司,银河(长沙)高科技实业有限公司", "value": 4.224307404830739e-08}]}

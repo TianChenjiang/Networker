@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "沈阳商业城股份有限公司\n600306.SH", "value": 1544398800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "茂业商业股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "沈阳商业城股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳茂业商厦有限公司", "value": 14000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "沈阳商业城股份有限公司", "target": "茂业商业股份有限公司", "value": 0.0}, {"source": "茂业商业股份有限公司", "target": "沈阳商业城股份有限公司", "value": 0.0}, {"source": "沈阳商业城股份有限公司", "target": "深圳茂业商厦有限公司", "value": 9.065016108533626e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宋城演艺发展股份有限公司", "value": 10820594000.0, "category": 1449}, {"name": "杭州第一世界大酒店有限公司", "value": 75.6, "category": 1449}, {"name": "杭州世界休闲博览园有限公司", "value": 30.0, "category": 1449}, {"name": "杭州宋城实业有限公司", "value": 402.59, "category": 1449}, {"name": "北京北特圣迪科技发展有限公司", "value": 1284.41, "category": 1449}, {"name": "SABH'sBigAdventureInc.", "value": 1761.85, "category": 1449}, {"name": "SABH's Big Adventure Inc", "value": 634.06, "category": 1449}],
+"links":
+[{"source": "宋城演艺发展股份有限公司", "target": "杭州第一世界大酒店有限公司", "value": 6.986677441182988e-09}, {"source": "宋城演艺发展股份有限公司", "target": "杭州世界休闲博览园有限公司", "value": 2.7724910480884875e-09}, {"source": "宋城演艺发展股份有限公司", "target": "杭州宋城实业有限公司", "value": 3.7205905701664804e-08}, {"source": "宋城演艺发展股份有限公司", "target": "北京北特圣迪科技发展有限公司", "value": 1.1870050756917781e-07}, {"source": "宋城演艺发展股份有限公司", "target": "SABH'sBigAdventureInc.", "value": 1.6282377843582338e-07}, {"source": "宋城演艺发展股份有限公司", "target": "SABH's Big Adventure Inc", "value": 5.859752246503287e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "众业达电气股份有限公司\n002441.SZ", "value": 5310856062.73, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东依力得北美电气有限公司", "value": 0.9513, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "工控速派(北京)科技服务有限公司", "value": 2.0459, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "众业达电气股份有限公司", "target": "广东依力得北美电气有限公司", "value": 1.791236645775319e-10}, {"source": "众业达电气股份有限公司", "target": "工控速派(北京)科技服务有限公司", "value": 3.852297964460974e-10}]}

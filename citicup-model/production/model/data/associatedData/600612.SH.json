@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "老凤祥股份有限公司", "value": 15486205804.07, "category": 336}, {"name": "石力华等7名自然人", "value": 0, "category": 336}],
+"links":
+[{"source": "老凤祥股份有限公司", "target": "石力华等7名自然人", "value": 0.0}]}

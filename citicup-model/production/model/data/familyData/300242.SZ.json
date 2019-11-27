@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东佳兆业佳云科技股份有限公司\n300242.SZ", "value": 2113393802.32, "itemStyle": {"color": "red"}, "category": 0}, {"name": "佳兆业集团(深圳)有限公司", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市云时空科技有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京微赢互动科技有限公司,佳兆业集团控股有限公司", "value": 8000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "佳兆业集团控股有限公司", "value": 11220.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东佳兆业佳云科技股份有限公司", "target": "佳兆业集团(深圳)有限公司", "value": 4.7317258094645665e-07}, {"source": "广东佳兆业佳云科技股份有限公司", "target": "深圳市云时空科技有限公司", "value": 2.3658629047322835e-06}, {"source": "广东佳兆业佳云科技股份有限公司", "target": "北京微赢互动科技有限公司,佳兆业集团控股有限公司", "value": 3.7853806475716532e-06}, {"source": "广东佳兆业佳云科技股份有限公司", "target": "佳兆业集团控股有限公司", "value": 5.3089963582192435e-06}]}

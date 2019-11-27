@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市康达尔(集团)股份有限公司\n000048.SZ", "value": 5182504077.75, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市京基房地产股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市水务(集团)有限公司", "value": 3126.24, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市京基物业管理有限公司京基一百物业服务中心", "value": 8.93, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市康达尔(集团)股份有限公司", "target": "深圳市京基房地产股份有限公司", "value": 0.0}, {"source": "深圳市康达尔(集团)股份有限公司", "target": "深圳市水务(集团)有限公司", "value": 6.032296266628827e-07}, {"source": "深圳市康达尔(集团)股份有限公司", "target": "深圳市京基物业管理有限公司京基一百物业服务中心", "value": 1.7231052529874682e-09}]}

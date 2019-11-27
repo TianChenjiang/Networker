@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天水华天科技股份有限公司\n600460.SH", "value": 12442553402.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州士兰微电子股份有限公司", "value": 1871.02, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州友旺电子有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天水华天科技股份有限公司", "target": "杭州士兰微电子股份有限公司", "value": 1.5037267187160838e-07}, {"source": "杭州士兰微电子股份有限公司", "target": "杭州友旺电子有限公司", "value": 0.0}]}

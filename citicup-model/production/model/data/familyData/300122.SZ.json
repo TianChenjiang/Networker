@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "重庆智飞生物制品股份有限公司\n300122.SZ", "value": 6812269688.36, "itemStyle": {"color": "red"}, "category": 0}, {"name": "重庆智睿投资有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "蒋仁生", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "重庆智飞生物制品股份有限公司", "target": "重庆智睿投资有限公司", "value": 7.339697676008641e-07}, {"source": "重庆智飞生物制品股份有限公司", "target": "蒋仁生", "value": 0.0}]}

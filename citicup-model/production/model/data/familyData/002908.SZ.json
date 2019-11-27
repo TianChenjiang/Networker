@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东德生科技股份有限公司\n002908.SZ", "value": 813524609.45, "itemStyle": {"color": "red"}, "category": 0}, {"name": "凌琳", "value": 3.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东德生科技股份有限公司", "target": "凌琳", "value": 4.255774593834151e-09}]}

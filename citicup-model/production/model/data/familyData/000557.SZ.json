@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁夏西部创业实业股份有限公司\n000557.SZ", "value": 5772924011.99, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宁夏中宁发电有限责任公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "华电宁夏灵武发电有限公司", "value": 1291.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宁夏宝丰能源集团股份有限公司", "value": 390.56, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁夏西部创业实业股份有限公司", "target": "宁夏中宁发电有限责任公司", "value": 0.0}, {"source": "宁夏西部创业实业股份有限公司", "target": "华电宁夏灵武发电有限公司", "value": 2.2374450058883566e-07}, {"source": "宁夏西部创业实业股份有限公司", "target": "宁夏宝丰能源集团股份有限公司", "value": 6.765375729679301e-08}]}

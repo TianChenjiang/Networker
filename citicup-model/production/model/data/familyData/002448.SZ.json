@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中原内配集团股份有限公司\n002448.SZ", "value": 4270726683.36, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河南中原吉凯恩气缸套有限公司", "value": 5149.63, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南省中原活塞股份有限公司", "value": 6.03, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京飞燕活塞环股份有限公司", "value": 405.56, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中原内配集团股份有限公司", "target": "河南中原吉凯恩气缸套有限公司", "value": 1.2057971351958588e-06}, {"source": "中原内配集团股份有限公司", "target": "河南省中原活塞股份有限公司", "value": 1.4119376975105063e-09}, {"source": "中原内配集团股份有限公司", "target": "南京飞燕活塞环股份有限公司", "value": 9.496276162559884e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "贵州百灵企业集团制药股份有限公司\n002424.SZ", "value": 5980226726.75, "itemStyle": {"color": "red"}, "category": 0}, {"name": "重庆海扶医疗科技股份有限公司", "value": 25000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "贵州百灵企业集团制药股份有限公司", "target": "重庆海扶医疗科技股份有限公司", "value": 4.180443508633734e-06}]}

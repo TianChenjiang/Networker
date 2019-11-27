@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市洲明科技股份有限公司\n300232.SZ", "value": 6427405757.71, "itemStyle": {"color": "red"}, "category": 0}, {"name": "惠州市卓创伟业实业有限公司", "value": 45.97, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宏升富电子(深圳)有限公司", "value": 110.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市卓迅辉塑胶制品有限公司", "value": 700.28, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "陆晨", "value": 21500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市洲明科技股份有限公司", "target": "惠州市卓创伟业实业有限公司", "value": 7.15218577026301e-09}, {"source": "深圳市洲明科技股份有限公司", "target": "宏升富电子(深圳)有限公司", "value": 1.7216899659284417e-08}, {"source": "深圳市洲明科技股份有限公司", "target": "深圳市卓迅辉塑胶制品有限公司", "value": 1.0895220037415227e-07}, {"source": "深圳市洲明科技股份有限公司", "target": "陆晨", "value": 3.345050991095382e-06}]}

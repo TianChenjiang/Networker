@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "欧派家居集团股份有限公司\n603833.SH", "value": 12466166637.62, "itemStyle": {"color": "red"}, "category": 0}, {"name": "姚良柏", "value": 2139.83, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "欧派家居集团股份有限公司", "target": "姚良柏", "value": 1.7165100244549027e-07}]}

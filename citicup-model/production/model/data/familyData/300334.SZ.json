@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "天津膜天膜科技股份有限公司\n300334.SZ", "value": 2947078621.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "青岛青水津膜高新科技有限公司", "value": 1489.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "天津膜天膜科技股份有限公司", "target": "青岛青水津膜高新科技有限公司", "value": 5.054700574369713e-07}]}

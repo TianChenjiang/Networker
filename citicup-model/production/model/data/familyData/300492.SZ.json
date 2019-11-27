@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山鼎设计股份有限公司\n300492.SZ", "value": 402273895.18, "itemStyle": {"color": "red"}, "category": 0}, {"name": "淮安市远瞩投资管理中心(有限合伙),陈瑞展", "value": 162788.93, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "袁歆", "value": 57.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "车璐", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山鼎设计股份有限公司", "target": "淮安市远瞩投资管理中心(有限合伙),陈瑞展", "value": 0.000404671871455042}, {"source": "山鼎设计股份有限公司", "target": "袁歆", "value": 1.416945038765068e-07}, {"source": "山鼎设计股份有限公司", "target": "车璐", "value": 7.4576054671845685e-06}]}

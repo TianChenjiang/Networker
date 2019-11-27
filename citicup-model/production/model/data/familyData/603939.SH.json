@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南汉森制药股份有限公司\n603939.SH", "value": 1800068145.89, "itemStyle": {"color": "red"}, "category": 0}, {"name": "益丰大药房连锁股份有限公司", "value": 615.62, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "高毅", "value": 255000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南汉森制药股份有限公司", "target": "益丰大药房连锁股份有限公司", "value": 3.419981634615403e-07}, {"source": "益丰大药房连锁股份有限公司", "target": "高毅", "value": 0.00014166130353577332}]}

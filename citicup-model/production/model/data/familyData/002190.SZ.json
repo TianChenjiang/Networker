@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川成飞集成科技股份有限公司\n002190.SZ", "value": 9302533600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中航锂电(美国)有限公司", "value": 10238.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川成飞集成科技股份有限公司", "target": "中航锂电(美国)有限公司", "value": 1.1005603892685752e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东金莱特电器股份有限公司\n002723.SZ", "value": 989368739.34, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江门市蓬江区金信科技小额贷款有限公司", "value": 2.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东熊猫国际旅游有限公司", "value": 12.22, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东金莱特电器股份有限公司", "target": "江门市蓬江区金信科技小额贷款有限公司", "value": 2.183210277536077e-09}, {"source": "广东金莱特电器股份有限公司", "target": "广东熊猫国际旅游有限公司", "value": 1.2351309996060584e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江南都电源动力股份有限公司\n300068.SZ", "value": 12757987073.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京智行鸿远汽车有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京昆兰新能源技术有限公司", "value": 189.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "安徽骏马新材料科技股份有限公司", "value": 13930.61, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州九丰贸易有限公司", "value": 26659.25, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江南都电源动力股份有限公司", "target": "北京智行鸿远汽车有限公司", "value": 0.0}, {"source": "浙江南都电源动力股份有限公司", "target": "北京昆兰新能源技术有限公司", "value": 1.4814249215337956e-08}, {"source": "浙江南都电源动力股份有限公司", "target": "安徽骏马新材料科技股份有限公司", "value": 1.091912847945392e-06}, {"source": "浙江南都电源动力股份有限公司", "target": "杭州九丰贸易有限公司", "value": 2.089612557640203e-06}]}

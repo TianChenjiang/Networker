@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市远望谷信息技术股份有限公司\n603508.SH", "value": 2165405525.82, "itemStyle": {"color": "red"}, "category": 0}, {"name": "河南思维自动化设备股份有限公司", "value": 427.94, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市远望谷信息技术股份有限公司", "value": 418.09, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "河南蓝信科技有限责任公司", "value": 1173.18, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "赵建州", "value": 129000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市远望谷信息技术股份有限公司", "target": "河南思维自动化设备股份有限公司", "value": 1.9762580029343317e-07}, {"source": "河南思维自动化设备股份有限公司", "target": "深圳市远望谷信息技术股份有限公司", "value": 1.930769987490804e-07}, {"source": "河南思维自动化设备股份有限公司", "target": "河南蓝信科技有限责任公司", "value": 5.417830452592652e-07}, {"source": "河南思维自动化设备股份有限公司", "target": "赵建州", "value": 5.957313697680254e-05}]}

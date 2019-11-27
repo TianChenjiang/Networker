@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "合肥城建发展股份有限公司\n002208.SZ", "value": 12788418837.66, "itemStyle": {"color": "red"}, "category": 0}, {"name": "合肥市工业投资控股有限公司", "value": 128622.89, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "合肥兴泰金融控股(集团)有限公司", "value": 200000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "合肥城建发展股份有限公司", "target": "合肥市工业投资控股有限公司", "value": 1.0057763327333683e-05}, {"source": "合肥城建发展股份有限公司", "target": "合肥兴泰金融控股(集团)有限公司", "value": 1.563914996363973e-05}]}

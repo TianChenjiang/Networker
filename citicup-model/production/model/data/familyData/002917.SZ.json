@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川雅化实业集团股份有限公司\n002917.SZ", "value": 4733667098.82, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市金奥博科技股份有限公司", "value": 20.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖北凯龙化工集团股份有限公司", "value": 60.77, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "四川雅化实业集团股份有限公司", "value": 753.21, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新疆雪峰科技(集团)股份有限公司", "value": 1601.62, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东银光枣庄化工有限公司", "value": 47.7, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川雅化实业集团股份有限公司", "target": "深圳市金奥博科技股份有限公司", "value": 4.351805813538331e-09}, {"source": "深圳市金奥博科技股份有限公司", "target": "湖北凯龙化工集团股份有限公司", "value": 1.2837827149938076e-08}, {"source": "深圳市金奥博科技股份有限公司", "target": "四川雅化实业集团股份有限公司", "value": 1.591176532434566e-07}, {"source": "深圳市金奥博科技股份有限公司", "target": "新疆雪峰科技(集团)股份有限公司", "value": 3.383465644213234e-07}, {"source": "深圳市金奥博科技股份有限公司", "target": "山东银光枣庄化工有限公司", "value": 1.0076754238144583e-08}]}

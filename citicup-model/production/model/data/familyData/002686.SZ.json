@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江亿利达风机股份有限公司\n002686.SZ", "value": 3686213514.12, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天津天加环境设备有限公司", "value": 479.73, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京天加环境科技有限公司", "value": 671.99, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都天加环境设备有限公司", "value": 50.28, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州天加空调设备有限公司", "value": 169.98, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州天加环境控制设备有限公司", "value": 174.39, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江亿利达风机股份有限公司", "target": "天津天加环境设备有限公司", "value": 1.301416746920382e-07}, {"source": "浙江亿利达风机股份有限公司", "target": "南京天加环境科技有限公司", "value": 1.8229817600796855e-07}, {"source": "浙江亿利达风机股份有限公司", "target": "成都天加环境设备有限公司", "value": 1.3640012931264839e-08}, {"source": "浙江亿利达风机股份有限公司", "target": "广州天加空调设备有限公司", "value": 4.6112358752116094e-08}, {"source": "浙江亿利达风机股份有限公司", "target": "广州天加环境控制设备有限公司", "value": 4.7308708334989556e-08}]}

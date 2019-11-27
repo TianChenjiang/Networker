@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "永兴特种材料科技股份有限公司\n002756.SZ", "value": 4343584961.06, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖州久立永兴特种合金材料有限公司", "value": 904.27, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "永兴特种材料科技股份有限公司", "target": "湖州久立永兴特种合金材料有限公司", "value": 2.081851760945695e-07}]}

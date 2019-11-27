@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "珠海世纪鼎利科技股份有限公司\n300050.SZ", "value": 3646051771.43, "itemStyle": {"color": "red"}, "category": 0}, {"name": "AmanziTel LTD", "value": 55.3, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "珠海世纪鼎利科技股份有限公司", "target": "AmanziTel LTD", "value": 1.5167091272077867e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "中化岩土集团股份有限公司\n002542.SZ", "value": 8541034828.94, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都兴城投资集团有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都兴城人居地产投资集团有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中化岩土集团股份有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "中化岩土集团股份有限公司", "target": "成都兴城投资集团有限公司", "value": 0.0}, {"source": "中化岩土集团股份有限公司", "target": "成都兴城人居地产投资集团有限公司", "value": 0.0}, {"source": "东方时尚驾驶学校股份有限公司", "target": "中化岩土集团股份有限公司", "value": 0.0}]}

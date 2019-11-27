@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江万里扬股份有限公司\n002434.SZ", "value": 9848540597.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "金华市清华实业有限公司", "value": 328.41, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "奇瑞汽车股份有限公司及关联公司", "value": 12515.86, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "万汇通能源科技有限公司及关联公司", "value": 61.36, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "万里扬集团有限公司", "value": 60000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "富源飞扬汽车零部件有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江万里扬股份有限公司", "target": "金华市清华实业有限公司", "value": 3.3346057393657716e-08}, {"source": "浙江万里扬股份有限公司", "target": "奇瑞汽车股份有限公司及关联公司", "value": 1.270833975490956e-06}, {"source": "浙江万里扬股份有限公司", "target": "万汇通能源科技有限公司及关联公司", "value": 6.2303647321178936e-09}, {"source": "浙江万里扬股份有限公司", "target": "万里扬集团有限公司", "value": 6.092273206112673e-06}, {"source": "浙江万里扬股份有限公司", "target": "富源飞扬汽车零部件有限公司", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "大连友谊(集团)股份有限公司\n000679.SZ", "value": 4940395000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "武汉信用投资集团股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "武信投资控股(深圳)股份有限公司", "value": 116000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "武汉有色金属投资有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "大连友谊集团有限公司", "value": 555.808, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "大连友谊(集团)股份有限公司", "target": "武汉信用投资集团股份有限公司", "value": 0.0}, {"source": "大连友谊(集团)股份有限公司", "target": "武信投资控股(深圳)股份有限公司", "value": 2.347990393480683e-05}, {"source": "大连友谊(集团)股份有限公司", "target": "武汉有色金属投资有限公司", "value": 0.0}, {"source": "大连友谊(集团)股份有限公司", "target": "大连友谊集团有限公司", "value": 1.1250274522583721e-07}]}

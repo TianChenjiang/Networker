@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东安居宝数码科技股份有限公司\n300155.SZ", "value": 1585719466.21, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州市隆晖电子实业有限公司", "value": 452.67, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州享拼科技有限公司", "value": 146.67, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东安居宝数码科技股份有限公司", "target": "广州市隆晖电子实业有限公司", "value": 2.8546663495398626e-07}, {"source": "广东安居宝数码科技股份有限公司", "target": "广州享拼科技有限公司", "value": 9.24942924176578e-08}]}

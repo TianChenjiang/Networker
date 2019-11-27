@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建省闽发铝业股份有限公司\n002578.SZ", "value": 1707420240.51, "itemStyle": {"color": "red"}, "category": 0}, {"name": "泉州市十上铝业发展有限公司", "value": 36.28, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建省闽发铝业股份有限公司", "target": "泉州市十上铝业发展有限公司", "value": 2.1248430315645843e-08}]}

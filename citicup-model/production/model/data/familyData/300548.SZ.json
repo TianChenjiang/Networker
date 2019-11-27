@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "博创科技股份有限公司\n300548.SZ", "value": 737404009.09, "itemStyle": {"color": "red"}, "category": 0}, {"name": "天通控股股份有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "天通精电新科技有限公司", "value": 0.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "博创科技股份有限公司", "value": 31.52, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "博创科技股份有限公司", "target": "天通控股股份有限公司", "value": 0.0}, {"source": "博创科技股份有限公司", "target": "天通精电新科技有限公司", "value": 1.1140999890070223e-09}, {"source": "天通控股股份有限公司", "target": "博创科技股份有限公司", "value": 4.3895539566876674e-08}]}

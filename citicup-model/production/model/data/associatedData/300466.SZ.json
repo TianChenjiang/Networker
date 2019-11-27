@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "赛摩电气股份有限公司", "value": 1641768758.07, "category": 694}, {"name": "Epistolio S.r.l.", "value": 140.98, "category": 694}],
+"links":
+[{"source": "赛摩电气股份有限公司", "target": "Epistolio S.r.l.", "value": 8.58708020280095e-08}]}

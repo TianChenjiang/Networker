@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "康跃科技股份有限公司\n300391.SZ", "value": 2086458200.46, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福建村宇数控科技有限公司", "value": 65000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "寿光市康跃投资有限公司", "value": 77.13, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "康跃科技股份有限公司", "target": "福建村宇数控科技有限公司", "value": 3.115327207881255e-05}, {"source": "康跃科技股份有限公司", "target": "寿光市康跃投资有限公司", "value": 3.6966951929827874e-08}]}

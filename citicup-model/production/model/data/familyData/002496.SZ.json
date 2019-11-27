@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏辉丰生物农业股份有限公司\n002496.SZ", "value": 6038092989.11, "itemStyle": {"color": "red"}, "category": 0}, {"name": "农一电子商务(北京)有限公司", "value": 4111.8, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏郁金香旅游开发有限公司", "value": 184.22, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏郁金香客栈管理有限公司", "value": 83.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏辉丰生物农业股份有限公司", "target": "农一电子商务(北京)有限公司", "value": 6.80976594334641e-07}, {"source": "江苏辉丰生物农业股份有限公司", "target": "江苏郁金香旅游开发有限公司", "value": 3.050963281490529e-08}, {"source": "江苏辉丰生物农业股份有限公司", "target": "江苏郁金香客栈管理有限公司", "value": 1.387027330500661e-08}]}

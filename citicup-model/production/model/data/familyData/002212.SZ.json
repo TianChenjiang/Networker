@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南洋天融信科技集团股份有限公司\n002212.SZ", "value": 10021495600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "明泰汇金资本投资有限公司,宁波中百华荣德恒股权投资合伙企业(有限合伙)", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南洋天融信科技集团股份有限公司", "target": "明泰汇金资本投资有限公司,宁波中百华荣德恒股权投资合伙企业(有限合伙)", "value": 0.0}]}

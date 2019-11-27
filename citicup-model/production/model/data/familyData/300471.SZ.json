@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厚普清洁能源股份有限公司\n300471.SZ", "value": 2105133400.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "液空厚普氢能源装备有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "华油天然气股份有限公司及其下属企业", "value": 71.77, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厚普清洁能源股份有限公司", "target": "液空厚普氢能源装备有限公司", "value": 0.0}, {"source": "厚普清洁能源股份有限公司", "target": "华油天然气股份有限公司及其下属企业", "value": 3.409285131289067e-08}]}

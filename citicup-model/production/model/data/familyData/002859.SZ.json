@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江洁美电子科技股份有限公司\n002859.SZ", "value": 2114290829.96, "itemStyle": {"color": "red"}, "category": 0}, {"name": "安吉临港热电有限公司", "value": 1210.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江洁美电子科技股份有限公司", "target": "安吉临港热电有限公司", "value": 5.723432097668861e-07}]}

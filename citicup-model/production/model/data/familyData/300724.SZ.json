@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市捷佳伟创新能源装备股份有限公司\n300724.SZ", "value": 4455495610.88, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖北天合光能有限公司", "value": 199.0399, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市捷佳伟创新能源装备股份有限公司", "target": "湖北天合光能有限公司", "value": 4.467289778357291e-08}]}

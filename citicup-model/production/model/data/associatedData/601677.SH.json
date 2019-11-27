@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "河南明泰铝业股份有限公司", "value": 9223393200.0, "category": 255}, {"name": "巩义市强发包装材料有限公司", "value": 609.77, "category": 255}, {"name": "郑州中车四方轨道车辆有限公司", "value": 323.72, "category": 255}, {"name": "MINGTAI KOREA CO., LTD.", "value": 2125.96, "category": 255}, {"name": "MK METAL VINA CO.,LTD.", "value": 25.47, "category": 255}],
+"links":
+[{"source": "河南明泰铝业股份有限公司", "target": "巩义市强发包装材料有限公司", "value": 6.611124417855242e-08}, {"source": "河南明泰铝业股份有限公司", "target": "郑州中车四方轨道车辆有限公司", "value": 3.5097712195550766e-08}, {"source": "河南明泰铝业股份有限公司", "target": "MINGTAI KOREA CO., LTD.", "value": 2.304965161845209e-07}, {"source": "河南明泰铝业股份有限公司", "target": "MK METAL VINA CO.,LTD.", "value": 2.761456597123063e-09}]}

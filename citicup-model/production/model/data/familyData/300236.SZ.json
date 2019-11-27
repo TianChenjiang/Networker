@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海新阳半导体材料股份有限公司\n300236.SZ", "value": 1532094601.26, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海新昇半导体科技有限公司", "value": 37.85, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新阳硅密(上海)半导体技术有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "新阳工业贸易有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "王福祥", "value": 12000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海燕归来健康科技集团有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海新阳半导体材料股份有限公司", "target": "上海新昇半导体科技有限公司", "value": 2.4704740796600958e-08}, {"source": "上海新阳半导体材料股份有限公司", "target": "新阳硅密(上海)半导体技术有限公司", "value": 0.0}, {"source": "上海新阳半导体材料股份有限公司", "target": "新阳工业贸易有限公司", "value": 0.0}, {"source": "上海新阳半导体材料股份有限公司", "target": "王福祥", "value": 7.832414519397926e-06}, {"source": "上海新阳半导体材料股份有限公司", "target": "上海燕归来健康科技集团有限公司", "value": 0.0}]}

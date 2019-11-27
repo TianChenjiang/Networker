@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "青岛伟隆阀门股份有限公司\n002871.SZ", "value": 767209483.87, "itemStyle": {"color": "red"}, "category": 0}, {"name": "范庆伟,李敏", "value": 50000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "青岛伟隆阀门股份有限公司", "target": "范庆伟,李敏", "value": 6.517124859795433e-05}]}

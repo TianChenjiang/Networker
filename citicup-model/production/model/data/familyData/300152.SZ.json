@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "雄安科融环境科技股份有限公司\n300152.SZ", "value": 2341885700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "徐州丰利科技发展投资有限公司及其关联方", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "蓝天环保设备工程股份有限公司", "value": 785.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "雄安科融环境科技股份有限公司", "target": "徐州丰利科技发展投资有限公司及其关联方", "value": 0.0}, {"source": "雄安科融环境科技股份有限公司", "target": "蓝天环保设备工程股份有限公司", "value": 3.352341235099561e-07}]}

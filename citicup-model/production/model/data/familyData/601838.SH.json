@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "成都银行股份有限公司\n601838.SH", "value": 534058000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都工投资产经营有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "成都金控集团有限公司,成都金融城投资发展有限责任公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "国浩集团有限公司及其关联企业", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "成都银行股份有限公司", "target": "成都工投资产经营有限公司", "value": 0.0}, {"source": "成都银行股份有限公司", "target": "成都金控集团有限公司,成都金融城投资发展有限责任公司", "value": 0.0}, {"source": "成都银行股份有限公司", "target": "国浩集团有限公司及其关联企业", "value": 0.0}]}

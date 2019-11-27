@@ -7,6 +7,9 @@ import numpy as np
 PATH = pathlib.Path(__file__).parent
 JSPATH = PATH.joinpath('prob.json')
 DATA_PATH = PATH.joinpath("data").resolve()
+ASSOCIATE_PATH = DATA_PATH.joinpath('associatedData').resolve()
+FAMILY_PATH = DATA_PATH.joinpath('familyData').resolve()
+CROSS_PATH = DATA_PATH.joinpath('crossData').resolve()
 INFO_SCALER_PATH = PATH.joinpath('info_scaler.pkl')
 PRICE_SCALER_PATH = PATH.joinpath('price_scaler.pkl')
 LGB_INFO_SCALER_PATH = PATH.joinpath('info_scaler_new.pkl')

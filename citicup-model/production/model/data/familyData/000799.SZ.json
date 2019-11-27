@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "酒鬼酒股份有限公司\n000799.SZ", "value": 2858896800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "中粮食品营销有限公司", "value": 1621.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "酒鬼酒湖南销售有限责任公司", "value": 18869.3, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中粮酒业投资有限公司", "value": 1621.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "酒鬼酒股份有限公司", "target": "中粮食品营销有限公司", "value": 5.661411331633763e-07}, {"source": "酒鬼酒股份有限公司", "target": "酒鬼酒湖南销售有限责任公司", "value": 6.587135430244919e-06}, {"source": "酒鬼酒股份有限公司", "target": "中粮酒业投资有限公司", "value": 5.661411331633763e-07}]}

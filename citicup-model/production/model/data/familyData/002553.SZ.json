@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏南方轴承股份有限公司\n002553.SZ", "value": 798236590.04, "itemStyle": {"color": "red"}, "category": 0}, {"name": "常州市泰博精创机械有限公司", "value": 7.99, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "常州克迈特数控科技有限公司", "value": 0.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "常州泰博滚针轴承有限公司", "value": 69.36, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏南方轴承股份有限公司", "target": "常州市泰博精创机械有限公司", "value": 1.0009563705416734e-08}, {"source": "江苏南方轴承股份有限公司", "target": "常州克迈特数控科技有限公司", "value": 1.0022091319566192e-10}, {"source": "江苏南方轴承股份有限公司", "target": "常州泰博滚针轴承有限公司", "value": 8.689153174063887e-08}]}

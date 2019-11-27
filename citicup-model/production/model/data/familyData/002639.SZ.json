@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "福建雪人股份有限公司\n002639.SZ", "value": 3947476300.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "福州市雪人新能源技术有限公司", "value": 150.1, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "福建雪人股份有限公司", "target": "福州市雪人新能源技术有限公司", "value": 3.8024294154723615e-08}]}

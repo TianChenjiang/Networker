@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "吉林省金冠电气股份有限公司\n300510.SZ", "value": 5375229900.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "吉林省金冠投资有限公司", "value": 2450.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "吉林省金冠电气股份有限公司", "target": "吉林省金冠投资有限公司", "value": 4.5579445820540624e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南天润数字娱乐文化传媒股份有限公司\n002113.SZ", "value": 2788077065.46, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东恒润华创实业发展有限公司", "value": 22817.8944, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南天润数字娱乐文化传媒股份有限公司", "target": "广东恒润华创实业发展有限公司", "value": 8.18409744934196e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "阜新德尔汽车部件股份有限公司\n300473.SZ", "value": 4861853281.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "阜新鼎宏实业有限公司", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "阜新德尔汽车部件股份有限公司", "target": "阜新鼎宏实业有限公司", "value": 2.056828830792653e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市天地(集团)股份有限公司\n000023.SZ", "value": 2320490000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市东部开发(集团)有限公司", "value": 314.9578, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "东部集团及所属的房地产开发机构", "value": 2962.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市鹏城建筑集团有限公司", "value": 1438.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市东部工程有限公司", "value": 307.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市天地(集团)股份有限公司", "target": "深圳市东部开发(集团)有限公司", "value": 1.3572900551176693e-07}, {"source": "深圳市天地(集团)股份有限公司", "target": "东部集团及所属的房地产开发机构", "value": 1.2764545419286443e-06}, {"source": "深圳市天地(集团)股份有限公司", "target": "深圳市鹏城建筑集团有限公司", "value": 6.19696701989666e-07}, {"source": "深圳市天地(集团)股份有限公司", "target": "深圳市东部工程有限公司", "value": 1.3229964360975484e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华新水泥股份有限公司\n600801.SH", "value": 33195090000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "Holcim Philippines, Inc.", "value": 24500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖北华新房地产有限公司", "value": 567.8829, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "LAFARGE CIMENTS DISTRIBUTION", "value": 147.4027, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "LafargeHolcim Energy Solutions S.A.S.", "value": 1030.4888, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华新水泥股份有限公司", "target": "Holcim Philippines, Inc.", "value": 7.380609602203218e-07}, {"source": "华新水泥股份有限公司", "target": "湖北华新房地产有限公司", "value": 1.710743667211024e-08}, {"source": "华新水泥股份有限公司", "target": "LAFARGE CIMENTS DISTRIBUTION", "value": 4.44049707351298e-09}, {"source": "华新水泥股份有限公司", "target": "LafargeHolcim Energy Solutions S.A.S.", "value": 3.104341033568519e-08}]}

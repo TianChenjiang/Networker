@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州市香雪制药股份有限公司\n300147.SZ", "value": 8722032065.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南春光九汇现代中药有限公司", "value": 0.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "吴江上海蔡同德堂中药饮片有限公司", "value": 9441.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "杭州康万达医药科技有限公司", "value": 391.53, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州市昆仑投资有限公司", "value": 162000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州市香雪制药股份有限公司", "target": "湖南春光九汇现代中药有限公司", "value": 0.0}, {"source": "广州市香雪制药股份有限公司", "target": "吴江上海蔡同德堂中药饮片有限公司", "value": 1.094547636380398e-06}, {"source": "广州市香雪制药股份有限公司", "target": "杭州康万达医药科技有限公司", "value": 4.539157729596396e-08}, {"source": "广州市香雪制药股份有限公司", "target": "广州市昆仑投资有限公司", "value": 1.8781282460976584e-05}]}

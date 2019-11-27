@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "德华兔宝宝装饰新材股份有限公司\n002043.SZ", "value": 2974301858.23, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州德华兔宝宝装饰材料有限公司", "value": 25756.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "德清洛舍漾生态旅游开发有限公司", "value": 125.75, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "德华兔宝宝装饰新材股份有限公司", "target": "杭州德华兔宝宝装饰材料有限公司", "value": 8.65953464969671e-06}, {"source": "德华兔宝宝装饰新材股份有限公司", "target": "德清洛舍漾生态旅游开发有限公司", "value": 4.2278829114820755e-08}]}

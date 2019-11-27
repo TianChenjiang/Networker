@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "聚龙股份有限公司\n300202.SZ", "value": 2351255805.2, "itemStyle": {"color": "red"}, "category": 0}, {"name": "集佳绿色建筑科技有限公司", "value": 1266.827, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "聚龙股份有限公司", "target": "集佳绿色建筑科技有限公司", "value": 5.387873991414739e-07}]}

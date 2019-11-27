@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南京新联电子股份有限公司\n002546.SZ", "value": 3402576908.35, "itemStyle": {"color": "red"}, "category": 0}, {"name": "南京新联电子股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南京新联电子股份有限公司", "target": "南京新联电子股份有限公司", "value": 0.0}]}

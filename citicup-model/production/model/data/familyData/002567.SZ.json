@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "唐人神集团股份有限公司\n002567.SZ", "value": 6418908636.25, "itemStyle": {"color": "red"}, "category": 0}, {"name": "陶一山,陶业,龙秋华,龙伟华", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "株洲龙华循环农业科技有限公司", "value": 20.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "株洲市九鼎饲料有限公司", "value": 14039.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "湖南唐人神控股投资股份有限公司", "value": 1681.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "李职", "value": 6300.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "唐人神集团股份有限公司", "target": "陶一山,陶业,龙秋华,龙伟华", "value": 1.5578972324868786e-07}, {"source": "唐人神集团股份有限公司", "target": "株洲龙华循环农业科技有限公司", "value": 3.1157944649737577e-09}, {"source": "唐人神集团股份有限公司", "target": "株洲市九鼎饲料有限公司", "value": 2.187131924688329e-06}, {"source": "唐人神集团股份有限公司", "target": "湖南唐人神控股投资股份有限公司", "value": 2.618825247810443e-07}, {"source": "唐人神集团股份有限公司", "target": "李职", "value": 9.814752564667337e-07}]}

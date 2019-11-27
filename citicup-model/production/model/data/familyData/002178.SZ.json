@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海延华智能科技(集团)股份有限公司\n002178.SZ", "value": 1912426079.39, "itemStyle": {"color": "red"}, "category": 0}, {"name": "成都延华医星智慧医疗信息中心(有限合伙)", "value": 2250.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海延华智能科技(集团)股份有限公司", "target": "成都延华医星智慧医疗信息中心(有限合伙)", "value": 1.1765160621097966e-06}]}

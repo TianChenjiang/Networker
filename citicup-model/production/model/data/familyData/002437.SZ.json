@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "哈尔滨誉衡药业股份有限公司\n002437.SZ", "value": 9472874851.89, "itemStyle": {"color": "red"}, "category": 0}, {"name": "贵州信邦制药股份有限公司及其下属公司", "value": 73.5717, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "信邦制药及其下属公司", "value": 4800.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "哈尔滨誉衡药业股份有限公司", "target": "贵州信邦制药股份有限公司及其下属公司", "value": 7.766565182197165e-09}, {"source": "哈尔滨誉衡药业股份有限公司", "target": "信邦制药及其下属公司", "value": 5.067099560638995e-07}]}

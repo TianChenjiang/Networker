@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江华峰氨纶股份有限公司\n002064.SZ", "value": 5757231692.76, "itemStyle": {"color": "red"}, "category": 0}, {"name": "华峰集团有限公司,尤小平,尤金焕,尤小华", "value": 1200000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "重庆华峰化工有限公司", "value": 861.61, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江华峰氨纶股份有限公司", "target": "华峰集团有限公司,尤小平,尤金焕,尤小华", "value": 0.00020843350833162725}, {"source": "浙江华峰氨纶股份有限公司", "target": "重庆华峰化工有限公司", "value": 1.4965699592801113e-07}]}

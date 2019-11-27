@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "湖南大康国际农业食品股份有限公司\n002505.SZ", "value": 14091385239.12, "itemStyle": {"color": "red"}, "category": 0}, {"name": "上海鹏欣农业投资(集团)有限公司", "value": 288000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "湖南大康国际农业食品股份有限公司", "target": "上海鹏欣农业投资(集团)有限公司", "value": 2.0438019052978884e-05}]}

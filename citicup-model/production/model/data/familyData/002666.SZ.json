@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东德联集团股份有限公司\n002666.SZ", "value": 3815997320.52, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广东时利和汽车实业集团有限公司及其下属公司", "value": 10323.46, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广东时利和汽车事业集团有限公司及其下属公司", "value": 137.57, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东德联集团股份有限公司", "target": "广东时利和汽车实业集团有限公司及其下属公司", "value": 2.7053111239064595e-06}, {"source": "广东德联集团股份有限公司", "target": "广东时利和汽车事业集团有限公司及其下属公司", "value": 3.605086388825177e-08}]}

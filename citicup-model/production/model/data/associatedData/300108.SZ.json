@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "吉药控股集团股份有限公司", "value": 4792555952.13, "category": 391}, {"name": "通化双龙硅材料科技有限公司", "value": 0, "category": 391}, {"name": "吉林海通制药有限公司", "value": 0, "category": 391}, {"name": "吉林利君康源药业有限公司", "value": 0, "category": 391}, {"name": "长春普华制药股份有限公司", "value": 0, "category": 391}, {"name": "孙军", "value": 43000.0, "category": 391}, {"name": "吉林金宝药业股份有限公司", "value": 0, "category": 391}],
+"links":
+[{"source": "吉药控股集团股份有限公司", "target": "通化双龙硅材料科技有限公司", "value": 0.0}, {"source": "吉药控股集团股份有限公司", "target": "吉林海通制药有限公司", "value": 0.0}, {"source": "吉药控股集团股份有限公司", "target": "吉林利君康源药业有限公司", "value": 0.0}, {"source": "吉药控股集团股份有限公司", "target": "长春普华制药股份有限公司", "value": 0.0}, {"source": "吉药控股集团股份有限公司", "target": "孙军", "value": 8.972247883906105e-06}, {"source": "吉药控股集团股份有限公司", "target": "吉林金宝药业股份有限公司", "value": 0.0}]}

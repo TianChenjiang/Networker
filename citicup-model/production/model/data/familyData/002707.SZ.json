@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "众信旅游集团股份有限公司\n002707.SZ", "value": 5339832000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "冯滨", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "郭洪斌,张一满", "value": 35820.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "众信旅游集团股份有限公司", "target": "冯滨", "value": 0.0}, {"source": "众信旅游集团股份有限公司", "target": "郭洪斌,张一满", "value": 6.708076209139164e-06}]}

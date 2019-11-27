@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏亚威机床股份有限公司\n002559.SZ", "value": 2389722080.27, "itemStyle": {"color": "red"}, "category": 0}, {"name": "江苏亚威精密激光科技有限公司", "value": 15000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏亚威机床股份有限公司", "target": "江苏亚威精密激光科技有限公司", "value": 6.276880530938243e-06}]}

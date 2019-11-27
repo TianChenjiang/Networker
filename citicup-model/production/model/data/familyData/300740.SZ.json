@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "御家汇股份有限公司\n300740.SZ", "value": 1902889894.64, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖南友阿云商网络有限公司", "value": 200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "诗丹生化国际有限公司", "value": 7.55, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "戴跃锋", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "御家汇股份有限公司", "target": "湖南友阿云商网络有限公司", "value": 1.0510329607790428e-07}, {"source": "御家汇股份有限公司", "target": "诗丹生化国际有限公司", "value": 3.9676494269408865e-09}, {"source": "御家汇股份有限公司", "target": "戴跃锋", "value": 0.0}]}

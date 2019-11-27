@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东东方精工科技股份有限公司\n002611.SZ", "value": 9632471141.08, "itemStyle": {"color": "red"}, "category": 0}, {"name": "北京新能源汽车股份有限公司", "value": 398323.81, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宁德时代新能源科技股份有限公司", "value": 299294.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东东方精工科技股份有限公司", "target": "北京新能源汽车股份有限公司", "value": 4.13521934471469e-05}, {"source": "广东东方精工科技股份有限公司", "target": "宁德时代新能源科技股份有限公司", "value": 3.1071424519881075e-05}]}

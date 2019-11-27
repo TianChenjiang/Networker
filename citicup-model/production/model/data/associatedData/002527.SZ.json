@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海新时达电气股份有限公司", "value": 6528035601.29, "category": 1291}, {"name": "上海北科良辰自动化设备有限公司", "value": 5.13, "category": 1291}, {"name": "SIGRINER AUTOMATION (MFG) SDN. BHD", "value": 757.92, "category": 1291}, {"name": "辛格林纳自动化马来西亚有限公司", "value": 143.37, "category": 1291}],
+"links":
+[{"source": "上海新时达电气股份有限公司", "target": "上海北科良辰自动化设备有限公司", "value": 7.858413025483906e-10}, {"source": "上海新时达电气股份有限公司", "target": "SIGRINER AUTOMATION (MFG) SDN. BHD", "value": 1.1610230799755871e-07}, {"source": "上海新时达电气股份有限公司", "target": "辛格林纳自动化马来西亚有限公司", "value": 2.196219640279976e-08}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "南京宝色股份公司\n300402.SZ", "value": 1498911844.07, "itemStyle": {"color": "red"}, "category": 0}, {"name": "宝鸡钛业股份有限公司", "value": 1336.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宝钛集团有限公司", "value": 3047.68, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "宝钛集团有限公司,宝鸡钛业股份有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南京宝色股份公司", "value": 5642.2255, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山西宝太新金属开发有限公司", "value": 1653.29, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "南京宝色股份公司", "target": "宝鸡钛业股份有限公司", "value": 8.913599590834941e-07}, {"source": "南京宝色股份公司", "target": "宝钛集团有限公司", "value": 2.0332616704959947e-06}, {"source": "南京宝色股份公司", "target": "宝钛集团有限公司,宝鸡钛业股份有限公司", "value": 0.0}, {"source": "宝鸡钛业股份有限公司", "target": "南京宝色股份公司", "value": 3.7642143681243105e-06}, {"source": "南京宝色股份公司", "target": "山西宝太新金属开发有限公司", "value": 1.102993485934981e-06}]}

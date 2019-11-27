@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "华致酒行连锁管理股份有限公司\n300755.SZ", "value": 2673535600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "华泽集团有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "华致酒行连锁管理股份有限公司", "target": "华泽集团有限公司", "value": 0.0}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "上海沃施园艺股份有限公司\n300483.SZ", "value": 6403471040.86, "itemStyle": {"color": "red"}, "category": 0}, {"name": "浙江扬百利生物科技有限公司", "value": 1.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "上海瑞驰曼投资有限公司", "value": 329.16, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "上海沃施园艺股份有限公司", "target": "浙江扬百利生物科技有限公司", "value": 1.561653037265392e-10}, {"source": "上海沃施园艺股份有限公司", "target": "上海瑞驰曼投资有限公司", "value": 5.140337137462765e-08}]}

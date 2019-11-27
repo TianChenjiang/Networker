@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "宁波中大力德智能传动股份有限公司\n002896.SZ", "value": 936657191.88, "itemStyle": {"color": "red"}, "category": 0}, {"name": "那步马达株式会社", "value": 228.97, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "岑国建,周国英", "value": 500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "宁波中大力德智能传动股份有限公司", "target": "那步马达株式会社", "value": 2.44454430057197e-07}, {"source": "宁波中大力德智能传动股份有限公司", "target": "岑国建,周国英", "value": 5.338132289321679e-07}]}

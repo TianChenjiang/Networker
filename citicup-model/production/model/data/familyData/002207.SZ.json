@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "新疆准东石油技术股份有限公司\n002207.SZ", "value": 405167835.67, "itemStyle": {"color": "red"}, "category": 0}, {"name": "湖州燕润投资管理合伙企业(有限合伙)", "value": 30000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "新疆准东石油技术股份有限公司", "target": "湖州燕润投资管理合伙企业(有限合伙)", "value": 7.404338982237059e-05}]}

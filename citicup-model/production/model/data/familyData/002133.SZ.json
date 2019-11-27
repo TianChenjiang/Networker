@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广宇集团股份有限公司\n002133.SZ", "value": 11795694535.56, "itemStyle": {"color": "red"}, "category": 0}, {"name": "杭州广宇久熙进出口有限公司", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "白琳", "value": 181.87, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广宇集团股份有限公司", "target": "杭州广宇久熙进出口有限公司", "value": 8.477669517342457e-08}, {"source": "广宇集团股份有限公司", "target": "白琳", "value": 1.5418337551190727e-08}]}

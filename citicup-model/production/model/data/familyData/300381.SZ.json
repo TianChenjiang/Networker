@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东溢多利生物科技股份有限公司\n300381.SZ", "value": 4780566600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "珠海市金大地投资有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东溢多利生物科技股份有限公司", "target": "珠海市金大地投资有限公司", "value": 1.0459011281215076e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广西绿城水务股份有限公司\n601368.SH", "value": 9299494600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "南宁建宁水务投资集团有限责任公司", "value": 4033.47, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南宁市流量仪表检测有限责任公司", "value": 438.46, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广西金水建设开发有限公司", "value": 476.43, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "南宁市武鸣供水有限责任公司", "value": 48.66, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广西绿城水务股份有限公司", "target": "南宁建宁水务投资集团有限责任公司", "value": 4.337300222745438e-07}, {"source": "广西绿城水务股份有限公司", "target": "南宁市流量仪表检测有限责任公司", "value": 4.714879881751853e-08}, {"source": "广西绿城水务股份有限公司", "target": "广西金水建设开发有限公司", "value": 5.123181640430223e-08}, {"source": "广西绿城水务股份有限公司", "target": "南宁市武鸣供水有限责任公司", "value": 5.232542422251635e-09}]}

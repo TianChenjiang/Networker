@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "厦门钨业股份有限公司\n002334.SZ", "value": 23554954600.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市英威腾电气股份有限公司", "value": 3500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "深圳市英威腾能源管理有限公司", "value": 0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "厦门钨业股份有限公司", "target": "深圳市英威腾电气股份有限公司", "value": 1.5560010559467737e-07}, {"source": "深圳市英威腾电气股份有限公司", "target": "深圳市英威腾能源管理有限公司", "value": 0.0}]}

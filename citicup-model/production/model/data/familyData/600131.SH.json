@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "四川岷江水利电力股份有限公司\n600131.SH", "value": 2442009800.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "国网信息通信产业集团有限公司", "value": 104438.6, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "中国电力财务有限公司", "value": 5000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "国网四川省电力公司", "value": 8600.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "四川岷江水利电力股份有限公司", "target": "国网信息通信产业集团有限公司", "value": 4.356298069717804e-05}, {"source": "四川岷江水利电力股份有限公司", "target": "中国电力财务有限公司", "value": 2.0855785455367097e-06}, {"source": "四川岷江水利电力股份有限公司", "target": "国网四川省电力公司", "value": 3.5871950983231405e-06}]}

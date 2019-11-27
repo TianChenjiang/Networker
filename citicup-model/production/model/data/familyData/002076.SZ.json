@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东雪莱特光电科技股份有限公司\n002076.SZ", "value": 1615507534.25, "itemStyle": {"color": "red"}, "category": 0}, {"name": "富顺光电科技股份有限公司", "value": 2200.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东雪莱特光电科技股份有限公司", "target": "富顺光电科技股份有限公司", "value": 1.361801138873271e-06}]}

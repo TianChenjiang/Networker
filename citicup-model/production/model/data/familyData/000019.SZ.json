@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳市深粮控股股份有限公司\n000019.SZ", "value": 6474830000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市福德国有资本运营有限公司", "value": 2843.42, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳市深粮控股股份有限公司", "target": "深圳市福德国有资本运营有限公司", "value": 4.391497537387082e-07}]}

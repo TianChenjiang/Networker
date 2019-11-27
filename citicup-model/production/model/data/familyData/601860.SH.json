@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏紫金农村商业银行股份有限公司\n601860.SH", "value": 193164000000.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "鑫元基金管理有限公司", "value": 3000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "江苏紫金农村商业银行股份有限公司", "value": 400000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏紫金农村商业银行股份有限公司", "target": "鑫元基金管理有限公司", "value": 1.5530844256693793e-08}, {"source": "江苏银行股份有限公司", "target": "江苏紫金农村商业银行股份有限公司", "value": 2.0707792342258393e-06}]}

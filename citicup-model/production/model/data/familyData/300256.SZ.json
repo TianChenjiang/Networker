@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "浙江星星科技股份有限公司\n300256.SZ", "value": 8143622194.24, "itemStyle": {"color": "red"}, "category": 0}, {"name": "星星集团有限公司", "value": 53.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "台州星星置业有限公司", "value": 13.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "萍乡经济技术开发区管理委员会", "value": 600000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "浙江星星科技股份有限公司", "target": "星星集团有限公司", "value": 6.517984102644593e-09}, {"source": "浙江星星科技股份有限公司", "target": "台州星星置业有限公司", "value": 1.6380917092931213e-09}, {"source": "浙江星星科技股份有限公司", "target": "萍乡经济技术开发区管理委员会", "value": 7.367728827405342e-05}]}

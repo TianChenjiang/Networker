@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "深圳可立克科技股份有限公司\n002782.SZ", "value": 1092251185.41, "itemStyle": {"color": "red"}, "category": 0}, {"name": "深圳市盛弘电气股份有限公司", "value": 594.18, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "深圳可立克科技股份有限公司", "target": "深圳市盛弘电气股份有限公司", "value": 5.439957474406051e-07}]}

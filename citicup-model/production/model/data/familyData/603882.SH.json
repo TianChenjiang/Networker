@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广州阳普医疗科技股份有限公司\n603882.SH", "value": 1518918378.52, "itemStyle": {"color": "red"}, "category": 0}, {"name": "广州金域医学检验集团股份有限公司", "value": 62.1217, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "DRA COMPANY LIMITED", "value": 1000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "广州佳鉴生物技术有限公司", "value": 2900.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广州阳普医疗科技股份有限公司", "target": "广州金域医学检验集团股份有限公司", "value": 4.089864266474278e-08}, {"source": "广州金域医学检验集团股份有限公司", "target": "DRA COMPANY LIMITED", "value": 6.583632235554208e-07}, {"source": "广州金域医学检验集团股份有限公司", "target": "广州佳鉴生物技术有限公司", "value": 1.9092533483107203e-06}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏五洋停车产业集团股份有限公司\n300420.SZ", "value": 2202258305.43, "itemStyle": {"color": "red"}, "category": 0}, {"name": "徐州苏兴金属材料有限公司", "value": 296.61, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "侯友夫,姚昕,林伟通", "value": 72.76, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏五洋停车产业集团股份有限公司", "target": "徐州苏兴金属材料有限公司", "value": 1.346844733284299e-07}, {"source": "江苏五洋停车产业集团股份有限公司", "target": "侯友夫,姚昕,林伟通", "value": 3.303881284979117e-08}]}

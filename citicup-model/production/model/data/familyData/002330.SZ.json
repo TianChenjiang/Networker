@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "山东得利斯食品股份有限公司\n002330.SZ", "value": 1791091936.98, "itemStyle": {"color": "red"}, "category": 0}, {"name": "山东得利斯生物科技有限公司", "value": 68.24, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "山东得利斯农业科技股份有限公司", "value": 13.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "得利斯集团有限公司及附属单位", "value": 130.62, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "得利斯集团有限公司及附属公司", "value": 1417.14, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "山东得利斯食品股份有限公司", "target": "山东得利斯生物科技有限公司", "value": 3.809966344612158e-08}, {"source": "山东得利斯食品股份有限公司", "target": "山东得利斯农业科技股份有限公司", "value": 7.258142215703114e-09}, {"source": "山东得利斯食品股份有限公司", "target": "得利斯集团有限公司及附属单位", "value": 7.292757970885699e-08}, {"source": "山东得利斯食品股份有限公司", "target": "得利斯集团有限公司及附属公司", "value": 7.912156661201163e-07}]}

@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "北京光环新网科技股份有限公司\n300383.SZ", "value": 11428236500.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "耿殿根", "value": 10000.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "北京光环新网科技股份有限公司", "target": "耿殿根", "value": 8.750256437202712e-07}]}

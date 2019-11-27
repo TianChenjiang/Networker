@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "广东塔牌集团股份有限公司\n002233.SZ", "value": 10485032366.23, "itemStyle": {"color": "red"}, "category": 0}, {"name": "梅州客商银行股份有限公司", "value": 53785.47, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "广东塔牌集团股份有限公司", "target": "梅州客商银行股份有限公司", "value": 4.916177229259191e-06}]}

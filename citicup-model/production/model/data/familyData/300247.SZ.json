@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "融捷健康科技股份有限公司\n300247.SZ", "value": 2075858444.4, "itemStyle": {"color": "red"}, "category": 0}, {"name": "金道明", "value": 5446.475, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "融捷健康科技股份有限公司", "target": "金道明", "value": 2.623721773848714e-06}]}

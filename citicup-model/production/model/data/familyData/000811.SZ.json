@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "万华化学集团股份有限公司\n000811.SZ", "value": 76912659200.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "冰轮环境技术股份有限公司", "value": 125.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "万华化学集团股份有限公司", "value": 4.34, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "万华化学集团股份有限公司", "target": "冰轮环境技术股份有限公司", "value": 1.625220104208801e-09}, {"source": "冰轮环境技术股份有限公司", "target": "万华化学集团股份有限公司", "value": 5.642764201812957e-11}]}

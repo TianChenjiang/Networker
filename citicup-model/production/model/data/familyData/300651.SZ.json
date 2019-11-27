@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "江苏金陵体育器材股份有限公司\n300651.SZ", "value": 895493700.0, "itemStyle": {"color": "red"}, "category": 0}, {"name": "张家港市紫京城美食汇馆", "value": 42.08, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "北京华亿创新信息技术有限公司", "value": 1054.95, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "张家港市南丰华毅大酒店", "value": 9.24, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "苏州金陵国际货运代理有限公司", "value": 2.07, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "江苏金陵体育器材股份有限公司", "target": "张家港市紫京城美食汇馆", "value": 4.69908386848506e-08}, {"source": "江苏金陵体育器材股份有限公司", "target": "北京华亿创新信息技术有限公司", "value": 1.1780652393199417e-06}, {"source": "江苏金陵体育器材股份有限公司", "target": "张家港市南丰华毅大酒店", "value": 1.0318330547719096e-08}, {"source": "江苏金陵体育器材股份有限公司", "target": "苏州金陵国际货运代理有限公司", "value": 2.3115740512747322e-09}]}

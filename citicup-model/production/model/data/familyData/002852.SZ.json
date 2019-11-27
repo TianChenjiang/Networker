@@ -1,0 +1,5 @@
+{
+"nodes":
+[{"name": "道道全粮油股份有限公司\n002852.SZ", "value": 2753163578.46, "itemStyle": {"color": "red"}, "category": 0}, {"name": "绵阳菜籽王粮油有限公司", "value": 9500.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}, {"name": "岳阳市中创商贸合伙企业(有限合伙),岳阳市鑫创商贸合伙企业(有限合伙),岳阳市君创商贸合伙企业(有限合伙),陈前忠,陈前林,吴伟斌,吴定华", "value": 3700.0, "itemStyle": {"color": "blue", "borderType": "dotted"}, "category": 1}],
+"links":
+[{"source": "道道全粮油股份有限公司", "target": "绵阳菜籽王粮油有限公司", "value": 3.4505759390126345e-06}, {"source": "道道全粮油股份有限公司", "target": "岳阳市中创商贸合伙企业(有限合伙),岳阳市鑫创商贸合伙企业(有限合伙),岳阳市君创商贸合伙企业(有限合伙),陈前忠,陈前林,吴伟斌,吴定华", "value": 1.3439085236154472e-06}]}
