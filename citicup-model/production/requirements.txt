@@ -15,4 +15,5 @@ bs4
 gevent
 lightgbm == 2.2.3
 flask-cors
+tushare
 flask_apscheduler == 1.11.0
