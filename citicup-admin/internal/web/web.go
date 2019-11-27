@@ -22,7 +22,6 @@ func New(c *config.Config, s *service.Service) (httpSrv *http.Server) {
 	gin.SetMode(gin.DebugMode)
 	engine := gin.New()
 
-	//todo 加入跨域中间件
 	allowedHeaders := []string{"Accept", "Content-Type", "Content-Length", "Accept-Encoding", "Authorization", "X-CSRF-Token"}
 	config := cors.DefaultConfig()
 	config.AllowAllOrigins = true
@@ -100,6 +99,13 @@ func routeSetUp(e *gin.Engine) {
 			marketRouter.GET("/all", GetAllMarketCondition)
 			marketRouter.POST("/insert", InsertMarket)
 			marketRouter.GET("/symbol", GetMarketConditionBySymbol)
+		}
+
+		detailRouter := g.Group("/detail")
+		{
+			detailRouter.GET("/finance", GetFinanceBySymbol)
+			detailRouter.GET("/pledge", GetPledgeBySymbol)
+			detailRouter.GET("/candle", GetCandleBySymbol)
 		}
 	}
 }
