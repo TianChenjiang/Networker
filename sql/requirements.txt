@@ -1,13 +1,2 @@
-flask
 pandas
-numpy
-keras
-keras-tcn
 tushare
-lxml
-requests
-bs4
-gevent
-lightgbm
-flask-cors
-sqlalchemy

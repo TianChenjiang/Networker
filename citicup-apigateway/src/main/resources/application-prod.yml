@@ -20,7 +20,12 @@ spring:
         - id: citicup-model
           uri: http://${model}:5000/
           predicates:
-            - Path=/api/PredictRisk/predict/**
+            - Path=/api/PredictRisk/**
+        
+        - id: citicup-net
+          uri: http://${model}:5000/
+          predicates:
+            - Path=/api/Graph/**
 
         - id: citicup-plus
           uri: http://${plus}:8080/
