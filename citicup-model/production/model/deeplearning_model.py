@@ -17,6 +17,7 @@ graph = tf.get_default_graph()
 set_session(sess)
 deep_model = load_model(DEEP_MODEL_PATH)
 
+
 def transform_price(price_df, forecast_close_line):
     price_df = price_df.drop(['ts_code', 'trade_date', 'pre_close'], axis=1)
     price_df['delta'] = price_df.apply(lambda x: x['close'] - forecast_close_line, axis=1)

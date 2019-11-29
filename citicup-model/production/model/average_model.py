@@ -42,6 +42,7 @@ def predict_given_forecast_close_line(code, forecast_close_line):
 
 # Schedule task
 def predict_all_init():
+    forecast_line_df = pd.read_csv('forecast.csv', index_col=0)
     today = datetime.datetime.now()
     appended_data = []
     for i in range(100):  # 不在工作日时可能没有股价
@@ -57,7 +58,12 @@ def predict_all_init():
             continue
         price_df = price_df.sort_values(by='trade_date', ascending=False)
         price_df = price_df.reset_index(drop=True)
-        forecast_close_line = price_df.iloc[0]['close'] * 0.7
+        try:
+            forecast_close_line = forecast_line_df.loc[code][0]
+        except KeyError:
+            print(code)
+            continue
+        forecast_close_line = float(forecast_close_line)
 
         prob = get_result(code, forecast_close_line, price_df)
         prob_dict[code] = prob
@@ -68,4 +74,3 @@ def predict_all_init():
 
 if __name__ == '__main__':
     predict_all_init()
-
