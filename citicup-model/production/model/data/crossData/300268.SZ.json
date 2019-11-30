@@ -1,1 +1,1 @@
-{"node": [{"name": "佳沃农业开发股份有限公司", "value": 1, "category": 1080}, {"name": "佳沃集团有限公司", "value": 2774528390.11, "category": 1080}], "link": [{"source": "佳沃农业开发股份有限公司", "target": "佳沃集团有限公司", "value": 29.9}]}
+{"nodes": [{"name": "佳沃农业开发股份有限公司", "value": 1, "category": 1080}, {"name": "佳沃集团有限公司", "value": 2774528390.11, "category": 1080}], "links": [{"source": "佳沃农业开发股份有限公司", "target": "佳沃集团有限公司", "value": 29.9}]}

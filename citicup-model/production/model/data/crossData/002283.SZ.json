@@ -1,1 +1,1 @@
-{"node": [{"name": "天润曲轴股份有限公司", "value": 1, "category": 1080}, {"name": "天润联合集团有限公司", "value": 3525500712.13, "category": 1080}], "link": [{"source": "天润曲轴股份有限公司", "target": "天润联合集团有限公司", "value": 15.52}]}
+{"nodes": [{"name": "天润曲轴股份有限公司", "value": 1, "category": 1080}, {"name": "天润联合集团有限公司", "value": 3525500712.13, "category": 1080}], "links": [{"source": "天润曲轴股份有限公司", "target": "天润联合集团有限公司", "value": 15.52}]}

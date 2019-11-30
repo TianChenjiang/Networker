@@ -1,1 +1,1 @@
-{"node": [{"name": "广东佳隆食品股份有限公司", "value": 1, "category": 1080}, {"name": "上海富诚海富通资产", "value": 769197914.17, "category": 1080}], "link": [{"source": "广东佳隆食品股份有限公司", "target": "上海富诚海富通资产", "value": 1.77}]}
+{"nodes": [{"name": "广东佳隆食品股份有限公司", "value": 1, "category": 1080}, {"name": "上海富诚海富通资产", "value": 769197914.17, "category": 1080}], "links": [{"source": "广东佳隆食品股份有限公司", "target": "上海富诚海富通资产", "value": 1.77}]}
