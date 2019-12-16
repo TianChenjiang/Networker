@@ -10,7 +10,7 @@ scikit-learn == 0.21.2
 tushare
 lxml
 requests
-tensorflow == 1.14
+tensorflow == 1.15.0
 bs4
 gevent
 lightgbm == 2.2.3
